@@ -81,6 +81,10 @@ When you hit with both attacks of your Twin Strike, you can spend a Manouver Poi
 
 ## Sorcerer
 
+__Skill Proficiency:__ Choose three skills from the following: Arcane, History, Heal, Streetwise  
+__Weapon Proficiency:__ Sorcerers are proficient with Light Weapons
+__Armor Proficiency:__ Sorcerers are proficient with Cloth Armor.
+
 ### Power Source
 Every Sorcerer obtained their magical powers through a different source, from ancient tomes to pacts with otherwordly beings.
 
@@ -88,12 +92,12 @@ Every Sorcerer obtained their magical powers through a different source, from an
 You aquired your knowledge of the arcane by studying ancient books and scrolls. Maybe you formally enrolled in a magic academy or found them in decript ruines.
 
 #### Eldrich Pact
-You forged a terrible pact with a powerful creature. It gave you fantastic powers, but they come with a price which could be horrible indeed. You cast your spells according to formal teachings and traditions.
+You forged a terrible pact with a powerful being. It gave you fantastic powers, but they come with a price which could be horrible indeed. You cast your spells according to formal teachings and traditions.
 
 ## Disciplines:
 ### Fire
 
-#### Lvl 3: Burning Hand
+#### Lvl 3: Burning Hands
 Close blast 5  
 2d8 fire damage
 
@@ -145,45 +149,45 @@ Ice Grip is a close burst 1 instead of melee 1
 #### Lvl 6: Wider Blast
 Attack becomes Close Blast 5
 
-*Concentrated Blast*
+#### Lvl6: Concentrated Blast
 * Close blast 1
 * 6d8 + Wis Damage 
 
-Feats:
- 
-*Ride the Lightning*
-* After you hit a target wich Lightning Bolt, you can teleport adjacent to the target
-
 ### Lightning Bolt
-
 #### Lvl 1:
 * Ranged 15
 * 1d8 + Wis damage
 * target takes -2 to AC and REF
 
-Lvl 2:
-*Lightning strikes twice:* Attack an additional target
+#### Lvl 2: Lightning strikes twice
+Attack an additional target
 
-*Thunderclap:* On Hit: The target is knocked prone
+#### Lvl 2: Thunderclap
+On Hit: The target is knocked prone
 
-Lvl 3:
-*Lightning strikes thrice:* Add a third target
+#### Lvl 3: Lightning strikes thrice
+Add a third target
 
-*Thunder burst:*
+#### Lvl 3: Thunder burst:
 * On Hit you can perform a secondary attack
 * burst 1 centered on the target
 * 1d6 + Wis Damage
 * The target is knocked prone
 
-Lvl 4:
-*Lightning Storm*
+#### Lvl 4: Lightning Storm
 * Range Burst 2 in 10
 * 2d10 + Wis Damage
 
-Lvl 5:
-*Raging Storm:*
-* As a minorAction you can sustain the effect and attack 1 target in the area
+#### Lvl 5: Raging Storm:
+As a minor Action you can sustain the effect and attack 1 target in the area
 
-Lvl 6:
-*Destruction:* Squares Hit become difficult terrain
+#### Lvl 6: Destruction
+Squares within the target area become difficult terrain.
 
+### Feats
+
+#### Battle Mage
+You gain proficency with Mail Armor, Leather Armor and Light shields.
+
+#### Ride the Lightning
+After you hit a target with a lightning power like *Lightning Bolt*, you can immediatly teleport adjacent to the target as a free action.
