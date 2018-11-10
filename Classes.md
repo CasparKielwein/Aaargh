@@ -51,7 +51,7 @@ Throwing all caution into the wind you attack your chosen foe disregarding your 
 #### Lvl 1: Brash Strike
 Melee Attack: 1[W] + Tough + Tough Damage.  
 Until the beginning of your next turn enemie attacks against you gain advantage.
-#### Lvl 2:Inspiring Recklessness
+#### Lvl 2: Inspiring Recklessness
 Inspired by your charge, your allies find new Strength. When hitting with Brash Strike you can give an Ally of your choice Wit temporary hit points.
 #### Lv2: Acrobatic Charge
 Your Brash Strike deals an additional Dex damage.
@@ -78,3 +78,112 @@ Perform Two attacks
 When you hit with both attacks of your Twin Strike you can spend a Manouver Point to knock the target prone.
 #### Lvl 3: Third Strike
 When you hit with both attacks of your Twin Strike, you can spend a Manouver Point to perform a third attack.
+
+## Sorcerer
+
+### Power Source
+Every Sorcerer obtained their magical powers through a different source, from ancient tomes to pacts with otherwordly beings.
+
+#### Ancient Lore
+You aquired your knowledge of the arcane by studying ancient books and scrolls. Maybe you formally enrolled in a magic academy or found them in decript ruines.
+
+#### Eldrich Pact
+You forged a terrible pact with a powerful creature. It gave you fantastic powers, but they come with a price which could be horrible indeed. You cast your spells according to formal teachings and traditions.
+
+## Disciplines:
+### Fire
+
+#### Lvl 3: Burning Hand
+Close blast 5  
+2d8 fire damage
+
+### Ice Grip
+####  Lvl 1: Touch of Cold
+* melee 1
+* Target is imobilized
+
+#### Lvl 2: 
+Target is restrained instead of imobilized
+
+#### lvl 3:
+Ice Grip is a close burst 1 instead of melee 1
+
+#### Lvl 4: Blizzard
+* Area burst 1
+* Target is slowed
+* 2d4 + Wis Damage
+
+#### Lvl 5: Ongoing Hale
+* As a minor action you can sustain the effect for another round
+
+#### Lvl 5: Storm
+2d10 + wis damage instead of 2d4
+
+#### Lvl 6:
+* Area Bust 2
+
+### Magic Missile
+#### Lvl 1:Magic Missile
+* Range 10
+* 1d8 + Wis Damage
+
+#### Lvl 2: Stronger Missile
+2d8 + Wis Damage
+
+#### Lvl 3: Combustion
+* If Target is killed by magic missile, you can perform a secondary attack:
+  * close burst 1 centered on target
+  *  2d8 + Wis Damage
+
+#### Lvl 4: Arcane Blast
+* close blast 3
+* 2d8 + Wis Damage
+
+#### Lvl 5: Stronger Blast
+4d8 + Wis Damage
+
+#### Lvl 6: Wider Blast
+Attack becomes Close Blast 5
+
+*Concentrated Blast*
+* Close blast 1
+* 6d8 + Wis Damage 
+
+Feats:
+ 
+*Ride the Lightning*
+* After you hit a target wich Lightning Bolt, you can teleport adjacent to the target
+
+### Lightning Bolt
+
+#### Lvl 1:
+* Ranged 15
+* 1d8 + Wis damage
+* target takes -2 to AC and REF
+
+Lvl 2:
+*Lightning strikes twice:* Attack an additional target
+
+*Thunderclap:* On Hit: The target is knocked prone
+
+Lvl 3:
+*Lightning strikes thrice:* Add a third target
+
+*Thunder burst:*
+* On Hit you can perform a secondary attack
+* burst 1 centered on the target
+* 1d6 + Wis Damage
+* The target is knocked prone
+
+Lvl 4:
+*Lightning Storm*
+* Range Burst 2 in 10
+* 2d10 + Wis Damage
+
+Lvl 5:
+*Raging Storm:*
+* As a minorAction you can sustain the effect and attack 1 target in the area
+
+Lvl 6:
+*Destruction:* Squares Hit become difficult terrain
+
