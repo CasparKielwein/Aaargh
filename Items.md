@@ -35,3 +35,25 @@
 | Falchion | Blade, Axe | 1d10 | 2H |
 | Warbow | Bow | 1d10 | 2H |
 | Heavy Crossbow | Bow | 1d12 | 2H, Load minor |
+
+## Armor
+
+### Light Armor
+| Name | Defense | 
+|------|---------|
+| Cloth Armor | 10 + Dex |
+| Leather Armor | 12 + Dex |
+| Brigandine | 14 + Dex |
+
+### Heavy Armor
+| Name | Defense | 
+|------|---------|
+| Mail Armor | 14 |
+| Lamellar Armor | 16 |
+| Full Plate | 18 |
+
+### Shields
+| Name | Defense | |
+|------|---------|-|
+| Light Shield | +1 | An Item can be hold but not used in the same hand. |
+| Heavy Shield | +2 | |
