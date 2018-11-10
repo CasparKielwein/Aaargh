@@ -6,16 +6,16 @@ Each *Class* provides several *Disciplines* to choose from.
 
 Base Mechanic: Rage, builds up through attacks
 
-Skill Proficiency: Choose three Skills from the following: Athletics, Endurance, Intimidate, Heal, Streetwise
-Weapon Proficiency: Fighers are Proficient with both light and heavy melee and ranged weapons.
-
+__Skill Proficiency:__ Choose three skills from the following: Athletics, Endurance, Intimidate, Heal, Streetwise  
+__Weapon Proficiency:__ Fighers are proficient with both light and heavy melee and ranged weapons.  
+__Armor Proficiency:__ Fighters are proficient with all light armor, mail and lamellar armor.
 
 Choose a fighting style for your fighter:
 #### agile fighter
 * todo
 
 #### Armored Fighter
-Gain proficiency with heavy armor
+Gain proficiency with plate armor
 
 ### Fighting Style
 Choose a fighting style for your fighter:
@@ -35,7 +35,7 @@ Todo!
 Every time you attack an enemy, you can choose to mark that target. The mark 
 lasts until the end of your next turn.
 
-#### Lvl 1: Watchfull Strike:
+#### Lvl 1: Watchful Strike:
 Whenever a marked enemy that is adjacent to you shifts or makes an attack that does not 
 include you, you can make a melee basic attack against that enemy as an opportunity reaction.
 #### Lvl 2: Vigilance
