@@ -6,10 +6,10 @@ Your hero also has made some allies and enemies.
 
 ### Commoner
 Your character lived a simple life among the countless farmers that populate rural areas of the known world
-until he became an unlikely hero.
+until they became an unlikely hero.
 
 *Tool Proficiencies:* One Tool of your choice  
-*Skill Proficiencies:* Survival, Athletics or Streetwise
+*Skill Proficiencies:* Survival, and Athletics or Streetwise
 
 #### Feature: One of the Smallfolk
 You still consider yourself to be one of the common people and they consider you to be one of them. You can expect simple help, food, and a place to rest for a night.
@@ -18,8 +18,7 @@ They will help you in your quests, possibly hide you and your group from authori
 An Event that transformed your life from the ordinary.
 * 1: Hero of the Rebellion
 Your people rose up against unjust rule and you became their unlikely leader.
-You are now a hero to the oppressed and a foe of the powers that were.
-Ally:  
+You are now a hero to the oppressed and an enemy of the powers that were.  
 Enemy: You freed the people from a tyrant but he still holds a grudge. A powerful and cruel man wants to see you suffer.
 * 2: Last Survivor
 A terrible catastrophe; war, disease, or natural disaster claimed every life in your community but yours.
@@ -29,4 +28,16 @@ Ally: Either your mentor is still alive or their principal friends have become y
 Enemy: Powerful people have powerful enemies. An enemy of your mentor has turned her ire towards you.
 * 5: Pulled into the War
 A lord recruited you into his army. You rose through the ranks and were recommended for your unexpected heroism.
-* 6: TODO
+* 6: Frontier of Civilization
+
+### Criminal
+
+You have lived a life of vice and breaking the law. You have spent a lot of time among
+other criminals and still have contacts within the criminal underworld. 
+
+*Skill Proficiencies:* Thievery, Stealth
+*Tool Proficiencies:* Thieves' tools
+
+#### Feature: Underworld Contact
+You have a trusted contact within the criminal underworld.
+You know how to get messages to and from your contact, even over great distances.
