@@ -10,9 +10,17 @@ __Skill Proficiency:__ Choose three skills from the following: Athletics, Endura
 __Weapon Proficiency:__ Fighers are proficient with both light and heavy melee and ranged weapons.  
 __Armor Proficiency:__ Fighters are proficient with all light armor, mail and lamellar armor.
 
+__Starting Hit Points:__ 10 + Tough  
+__Hit Points per Level:__ 4
+
+__Heals:__ 6
+
+### Equipment
+
+* Two weapons or shields of your choice.
+* An armor you are proficient with.
+
 Choose a fighting style for your fighter:
-#### agile fighter
-* todo
 
 #### Armored Fighter
 Gain proficiency with plate armor
@@ -25,9 +33,6 @@ Choose a fighting style for your fighter:
 * Increase Rage when you are hit
 * Increase Rage when an enemy you mark hits an ally
 * Increase Rage if Rage ends at end of your turn
-#### Focus:
-Instead of Rage gain "points" by spending an action on your turn
-Todo!
 
 ## Disciplines:
 
@@ -84,6 +89,11 @@ When you hit with both attacks of your Twin Strike, you can spend a Manouver Poi
 __Skill Proficiency:__ Choose three skills from the following: Arcane, History, Heal, Streetwise  
 __Weapon Proficiency:__ Sorcerers are proficient with Light Weapons
 __Armor Proficiency:__ Sorcerers are proficient with Cloth Armor.
+
+__Starting Hit Points:__ 4 + Tough  
+__Hit Points per Level:__ 2
+
+__Heals:__ 4
 
 ### Power Source
 Every Sorcerer obtained their magical powers through a different source, from ancient tomes to pacts with otherwordly beings.
