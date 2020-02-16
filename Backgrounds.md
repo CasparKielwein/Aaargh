@@ -1,5 +1,4 @@
 ## Backgrounds
-
 Every Hero has a history. Your heroes background describes what they did before picking up a life of adventuring.
 Each background provides a set of skills and tool proficiencies. 
 Your hero also has made some allies and enemies.
@@ -8,12 +7,18 @@ Your hero also has made some allies and enemies.
 Your character lived a simple life among the countless farmers that populate rural areas of the known world
 until they became an unlikely hero.
 
-*Tool Proficiencies:* One Tool of your choice  
-*Skill Proficiencies:* Survival, and Athletics or Streetwise
+__Tool Proficiencies:__ One Tool of your choice  
+__Skill Proficiencies:__ Survival, and Athletics or Streetwise  
+__Equipment:__ 
+* Simple clothes
+* A riding horse or a cart and a mule
+* A set of tools you are proficient with
+* A memento of your past
 
 #### Feature: One of the Smallfolk
 You still consider yourself to be one of the common people and they consider you to be one of them. You can expect simple help, food, and a place to rest for a night.
 They will help you in your quests, possibly hide you and your group from authorities but not risk their live.
+
 #### Birth of a Hero
 An Event that transformed your life from the ordinary.
 * 1: Hero of the Rebellion
@@ -31,12 +36,15 @@ A lord recruited you into his army. You rose through the ranks and were recommen
 * 6: Frontier of Civilization
 
 ### Criminal
-
 You have lived a life of vice and breaking the law. You have spent a lot of time among
 other criminals and still have contacts within the criminal underworld. 
 
-*Skill Proficiencies:* Thievery, Stealth
-*Tool Proficiencies:* Thieves' tools
+__Skill Proficiencies:__ Thievery, Stealth  
+__Tool Proficiencies:__ Thieves' tools  
+__Equipment:__ 
+* Inconspicuous clothing
+* Thieves Tools
+* Trophy from a heist
 
 #### Feature: Underworld Contact
 You have a trusted contact within the criminal underworld.
