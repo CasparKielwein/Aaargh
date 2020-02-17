@@ -1,0 +1,45 @@
+# Example Characters
+
+## Example fighter
+
+### Race: Dwarf
+
+Speed: 5
+Language: Common, Dwarven
+Skills: Endurance, Woodworking Tools
+
+### Background: Commoner
+* Feature: One of the Smallfolk
+* Tool Proficiencies: Blacksmith Tools
+* Skill Proficiencies: Survival, Streetwise
+* Hero of the Rebellion
+** Ally: People of Arn upon Firth
+** Enemy: Count Drago
+
+### Class: Fighter
+Skill Proficiency: Athletics, Heal, Intimidate
+
+__Armored Fighter__ Gain proficiency with plate armor  
+__Fighting Style:__ Rage
+
+### Maneuvers:
+* Lvl 1: Dwarven Resilience
+* Lvl 1: Watchful Strike
+* Lvl 1: Brash Strike
+* Lvl 1: Sure Strike
+
+### Feats: 
+TODO
+
+### Attributes:
+__Touchness:__ 4
+__Dexterity:__ 0
+__Mind:__ 0
+
+__Hit Points:__ 14
+__Heals:__ 6
+
+### Equipment:
+* Heavy Crossbow
+* Greataxe
+* Full Plate
