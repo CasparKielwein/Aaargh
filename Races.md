@@ -5,7 +5,7 @@
 Stout and stubborn, warriors and craftsmen, Kings and Queens of Mountain Halls.
 
 ### Traits
-Speed: 5  
+Speed: 25'  
 Language: Common, Dwarven  
 Skills: Endurance, One Tool of your choice
 
@@ -24,43 +24,47 @@ Gain Proficiency with all Hammers and Axes.
 ## Draken
 
 ### Traits
-Speed: 6  
+Speed: 30'  
 Language: Common, Draconic
 Skills: Intimidate or Religion
 
-Draconic Heritage
+#### Draconic Heritage
 * Choose dragon / element
 * Get resistance to that element
 
-##### Lvl 1: Dragonbreath
+#### Lvl 1: Dragonbreath
 * Close blast 3
 * Attack +Tough
 * 1d6 + Tough <element> damage
-  
-##### Lvl 2: wide breath
+
+#### Lvl 2: wide breath
 * Dragonbreath becomes a close blast 5
-##### Lvl 2: Focused breath
+
+#### Lvl 2: Focused breath
 * Dragonbreath becomes ranged 10
 * Damage becomes d10
 
-##### Lvl 3: Healing breath
+#### Lvl 3: Healing breath
 * Allies in blast heal (how much?)
-##### Lvl 3: explosive breath
+
+#### Lvl 3: explosive breath
 * Dragonbreath becomes range burst 1
 * Requires focused breath
-#### Lvl 4: Powerful breath
-Add one die to the damage dealt by Dragonbreath
-#### Lvl 4: Burning Breath
-Targets hit by Dragonbreath suffer 10 Ongoing Damage of the chosen elemental type.
 
-Feats:
-# Arcane breath
-* Dragonbreath counts as magic attack, can be used with magic implements.
+#### Lvl 4: Powerful breath
+* Add one die to the damage dealt by Dragonbreath
+
+#### Lvl 4: Burning Breath
+* Targets hit by Dragonbreath suffer 10 Ongoing Damage of the chosen elemental type.
+
+### Feats:
+#### Arcane breath
+* Dragonbreath counts as a magic attack.
 
 ## Minotaur
 
 ### Traits
-Speed: 6  
+Speed: 30'  
 Language: Common, Todo
 Skills: Nature or Intimidate
 
@@ -76,8 +80,10 @@ Lvl 2:
 Lvl 3:
 #### Piercing Charge
 * target is grappled on hit
+
 ### Bleeding Wound
 * Ongoing Damage on hit
+
 #### Terrifying Charge
 * on hit: scondary attack
 * Psychic attack (what debuff?)

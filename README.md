@@ -15,7 +15,7 @@ Aaargh continues where Dnd4 and 5 left off. It offers fast yet tactical combat w
 * No noob traps. There shall be now bad options during character creation. If any option is never taken because its alternatives are plain better, we will fix it.
 * The intuitive option has to work. When a total beginner builds a straight forward character and makes his choices based on what seems right, it should not be wrong. Less apparent ideas might require more consideration and insight into the system but everyone should be able to build a "Kill Stuff with a giant Axe" type of character that kicks ass.
 * Consistent Core Rules. Once a player gets a grasp how the rules work, it should be easy to guess how they apply to a specific situation.
-Never should anybody but the player of a character now the specific rules of that character.
+Never should anybody but the player of a character need to know the specific rules of that character.
 
 ## What Aargh is not
 * A Simulation, Aargh is focused on action and dangerous adventures in a fanstatic world. It does not simulate the reality.

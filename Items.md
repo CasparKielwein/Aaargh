@@ -6,7 +6,7 @@
 * 2H: The weapon can only be used with two hands.
 * Devastating: Critical hits with this weapon deal extra damage. A critical hit deals an extra 1[W] damage at levels 1-10, 2[W] at levels 11-20 and 3[W] at levels 21 to 25.
 * Sharp(x): When rolling the weapon’s damage results in a roll lower than the sharp value of the weapon for any die, the damage of that roll is considered the sharp value of the weapon instead.
-* Load: 
+* Load: TODO
 
 ### Light Weapons
 | Name | Type | Damage | Properties |

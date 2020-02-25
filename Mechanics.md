@@ -7,7 +7,7 @@ Very basic draft to give an idea how it is supposed to work.
 Prefer simple operations! We want to minimize the cognitive burden put on players. 
 Thus both the number of and the strength of calculations necessary during play should be low.
 Comparing to numbers is simpler than calculation. Addition is simpler than subtraction.
-Multiplication and division by any other number than 10 and 2 is to be avoided.
+Multiplication with and division by any other number than 10 and 2 is to be avoided.
 
 As a consequence we avoid bookkeeping as it usually requires more calculations. Hit Points might be an exception.
 
@@ -32,3 +32,31 @@ If you have a *disadvantage* you roll one more die and chose the lower result.
 1d20 is simpler but 2d10 makes extreme results less likely and the effects of advantage and disadvantage are less drastic.
 
 "Players roll all the dice" build into the core rules?
+
+### Actions
+On their turn a character can perform a Move and a Full Action.
+Each character can also perform one opportunity Action per Round.
+This opportunity Action can be taken on any turn, but only once per round.
+
+### Attacks and Defenses
+
+Each Attack is a die roll against one of four defenses.
+* Amor Class
+* Fortitude
+* Reflex
+* Will
+
+### Saves
+
+To save against a condition, roll a single d20. on a Roll of 11 or higher, you pass the saving throw.
+
+### Hitpoints and Heals
+
+
+
+### Conditions
+
+#### Prone
+#### Bloodied
+#### Unconscious
+#### Dead
