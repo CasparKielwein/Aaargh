@@ -107,13 +107,14 @@ You forged a terrible pact with a powerful being. It gave you fantastic powers, 
 ## Disciplines:
 ### Fire
 
-#### Lvl 3: Burning Hands
+#### Lvl 3: Fire Blast
 Close blast 5  
 2d8 fire damage
 
 ### Ice Grip
 ####  Lvl 1: Touch of Cold
-* melee 1
+* Melee attack with Mind using bare Hands.
+* 1d4 + Mind damage
 * Target is imobilized
 
 #### Lvl 2: 
@@ -125,7 +126,7 @@ Ice Grip is a close burst 1 instead of melee 1
 #### Lvl 4: Blizzard
 * Area burst 1
 * Target is slowed
-* 2d4 + Wis Damage
+* 2d4 + Mind Damage
 
 #### Lvl 5: Ongoing Hale
 * As a minor action you can sustain the effect for another round
@@ -139,29 +140,29 @@ Ice Grip is a close burst 1 instead of melee 1
 ### Magic Missile
 #### Lvl 1:Magic Missile
 * Range 10
-* 1d8 + Wis Damage
+* 1d8 + Mind Damage
 
 #### Lvl 2: Stronger Missile
-2d8 + Wis Damage
+2d8 + Mind Damage
 
 #### Lvl 3: Combustion
 * If Target is killed by magic missile, you can perform a secondary attack:
   * close burst 1 centered on target
-  *  2d8 + Wis Damage
+  *  2d8 + Mind Damage
 
 #### Lvl 4: Arcane Blast
 * close blast 3
-* 2d8 + Wis Damage
+* 2d8 + Mind Damage
 
 #### Lvl 5: Stronger Blast
-4d8 + Wis Damage
+4d8 + Mind Damage
 
 #### Lvl 6: Wider Blast
 Attack becomes Close Blast 5
 
 #### Lvl6: Concentrated Blast
 * Close blast 1
-* 6d8 + Wis Damage 
+* 6d8 + Mind Damage 
 
 ### Lightning Bolt
 #### Lvl 1:
@@ -181,12 +182,12 @@ Add a third target
 #### Lvl 3: Thunder burst:
 * On Hit you can perform a secondary attack
 * burst 1 centered on the target
-* 1d6 + Wis Damage
+* 1d6 + Mind Damage
 * The target is knocked prone
 
 #### Lvl 4: Lightning Storm
 * Range Burst 2 in 10
-* 2d10 + Wis Damage
+* 2d10 + Mind Damage
 
 #### Lvl 5: Raging Storm:
 As a minor Action you can sustain the effect and attack 1 target in the area
@@ -204,7 +205,7 @@ After you hit a target with a lightning power like *Lightning Bolt*, you can imm
 
 ## Druid
 
-__Skill Proficiency:__ Choose three skills from the following: Stealth, Nature, Survival, Heal
+__Skill Proficiency:__ Choose three skills from the following: Stealth, Nature, Heal, Perception
 __Weapon Proficiency:__ You are proficient with Light Weapons
 __Armor Proficiency:__ You are proficient with Cloth and Leather Armor.
 
@@ -229,7 +230,7 @@ Lvl 1:
 * Speed 8
 
 *Form of the Guardian*
-* Attack: Str, Melee, 1d8 damage
+* Attack: Tough, Melee, 1d8 damage
 * After you make a melee attack in your beast form you can choose to mark the target
 * Speed 6
 
@@ -264,7 +265,7 @@ Todo: combat oriented
 * Target is slowed
 
 #### Lvl2:
-* Target is restrained instead of slowed
+* Target is immobilized instead of slowed
 
 #### lvl3:
 * Attack is area burst 1
@@ -282,7 +283,7 @@ Todo: combat oriented
 #### Lvl 2: Ubiquitous Swarm
 The Attack changes to area burst 1 in 10.
 
-#### Lvl 2: Close Swarm
+#### Lvl 2: Thick Swarm
 The attack becomes close blast 3, Damage increases to 1d10.
 
 #### Lvl 3: Poisonous bites
@@ -298,19 +299,30 @@ You can repeat the attack next turn to targets in the same squares.
 The maslus also applys to saves.
 The malus stays as long as the ongoing damage.
 
-### Pounce
+### Pounce (Beast Form)
 #### Lvl 1: Pounce
-1d8 + Mind damage. The target grants advantage to the next creature that attacks it before the end of the round.
+Melee Atack  
+The target grants advantage to the next creature that attacks it before the end of the round.
 
-#### Lvl 2: Impact
+#### Lvl 2: Bite
 Pounce causes additional an 1d8 damage.
+
+### Rending Claws (Beast Form)
+
+#### Lvl 1:
+Melee Atack  
+Hit: The target is slowed
+
+#### Lvl2: Savage Rend
+Rending Claws target two enemies in melee range.
 
 ### Barkskin
 #### Lvl 1: Barkskin
-A target of your choice gains your Toughness as a Bonus to their AC until the end of the round.
+A target of your choice gains your *Mind* as a Bonus to their AC until the end of the round.
 
 #### Lvl 2: Flexible Rind
-The bonus of Barkskin also applies to the targets reflex resistance.
+The bonus of *Barkskin* also applies to the targets reflex resistance.
+
 ## Rogue
 
 __Skill Proficiency:__ Choose three skills from the following: Stealth, Thievery, Athletics, Streetwise  
