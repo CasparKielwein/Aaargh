@@ -234,21 +234,19 @@ Lvl 1:
 * Speed 6
 
 *Form of the Warden*
-* You can use your weapons and shields in beast form
+* You can use your weapons and shields in beast form.
 
-Lvl 2:
-*Mobile Form:* 
-* When shifting Back to humanoid form, you can shift as a free action.
+#### Lvl 2: Mobile Form:
+When shifting Back to humanoid form, you can shift as a free action.
 
-*Skittering Form:* 
-* After A melee attack you can shift 1 square after the attack.
+#### Lvl 2: Skittering Form
+After A melee attack you can shift 1 square after the attack.
 
-Lvl 3:
-*Flying Form*
-* You can fly as your move action. You must land at the end of your move.
+#### Lvl 3: Flying Form
+You can fly as your move action. You must land at the end of your move.
 
-*Form of the swarm*
-* In your beast Form you gain Resistance against Melee and Ranged Attacks 
+#### Lvl 3: Form of the swarm
+In your beast Form you gain Resistance against Melee and Ranged Attacks.
 
 ### Companion
 
@@ -260,50 +258,59 @@ Todo: combat oriented
 ## Disciplines:
 
 ### Grapsing Vines
-Lvl1:
+#### Lvl1:
 * Ranged 20
 * 1d4 + Mind Damage
 * Target is slowed
 
-Lvl2:
+#### Lvl2:
 * Target is restrained instead of slowed
 
-lvl3:
+#### lvl3:
 * Attack is area burst 1
 
-*Crusing Grasp*
+#### Lvl 3: Crusing Grasp
 * Attack becomes ranged 3
 * Damage becomes 1d10 + Wis
 
-### Swarm Call
-Lvl 1:
+### Call Swarm
+#### Lvl 1: Call Swarm
 * ranged 10
 * 1d6 damage
 * On Hit: The Target takes a -2 malus to Fort and Will Defense
 
-Lvl 2:
-*Ubiquitous Swarm* 
-* The Attack changes to area burst 1 in 10
+#### Lvl 2: Ubiquitous Swarm
+The Attack changes to area burst 1 in 10.
 
-*Close Swarm* 
-* The attack becomes close blast 3, Damage increases to 1d10
+#### Lvl 2: Close Swarm
+The attack becomes close blast 3, Damage increases to 1d10.
 
-Lvl 3:
-*Posion:* 
-* Add 10 ongoing damage
+#### Lvl 3: Poisonous bites
+Swarm call causes 10 ongoing poison damage.
 
-*Itching Bites:* 
-* The malus also applys to attacks of the targets.
+#### Lvl 3: Itching Bites
+The malus also applys to attacks of the targets.
 
+#### lvl 4: Feeding
+You can repeat the attack next turn to targets in the same squares.
 
-lvl 4:
-*Feeding:* 
-* You can repeat the attack next turn to targets in the same squares.
-
-*Aggresive swarm:* 
-* The maslus also applys to saves.
+#### Lvl 4: Aggresive swarm
+The maslus also applys to saves.
 The malus stays as long as the ongoing damage.
 
+### Pounce
+#### Lvl 1: Pounce
+1d8 + Mind damage. The target grants advantage to the next creature that attacks it before the end of the round.
+
+#### Lvl 2: Impact
+Pounce causes additional an 1d8 damage.
+
+### Barkskin
+#### Lvl 1: Barkskin
+A target of your choice gains your Toughness as a Bonus to their AC until the end of the round.
+
+#### Lvl 2: Flexible Rind
+The bonus of Barkskin also applies to the targets reflex resistance.
 ## Rogue
 
 __Skill Proficiency:__ Choose three skills from the following: Stealth, Thievery, Athletics, Streetwise  
