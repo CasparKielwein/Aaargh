@@ -44,6 +44,12 @@ Each Attack is a die roll against one of four defenses.
 
 To save against a condition, roll a single d20. on a Roll of 11 or higher, you pass the saving throw.
 
+### Comment
+Why four defenses and a single save (like dnd 4) and not AC + 3 saves like other editions?
+Based on the assumption, that player characters will cast more spells on more targets than NPCs, 
+binding spells to rolls made by the player gives them more todo instead of having the DM roll a lot of saves for a player action.
+This should increase the feeling of having the initiative for the players and makes larger numbers of enemies more manageable.
+
 ### Hitpoints and Heals
 
 TODO: How do hitpoints and heals increase with levels?
@@ -84,3 +90,4 @@ Standing up requires a move action.
 #### Shaken
 #### Stunned
 #### Bloodied
+A hero or monster is bloodied if their hitpoints fall below one half of their starting hit points.

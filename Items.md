@@ -6,7 +6,8 @@
 * 2H: The weapon can only be used with two hands.
 * Devastating: Critical hits with this weapon deal extra damage. A critical hit deals an extra 1[W] damage at levels 1-10, 2[W] at levels 11-20 and 3[W] at levels 21 to 25.
 * Sharp(x): When rolling the weapon’s damage results in a roll lower than the sharp value of the weapon for any die, the damage of that roll is considered the sharp value of the weapon instead.
-* Load: TODO
+* Load: After making an attack with the weapon, the user needs to spend an opportunity action to reload the wepon, before they can attack with it again.
+* Light: Attacks with this Weapon can be made with *Dexterity* or *Toughness*.
 
 ### Light Weapons
 | Name | Type | Damage | Properties |
@@ -17,7 +18,7 @@
 | Dagger | Blade | 1d4 | Throwing |
 | Shortsword | Blade | 1d6 | |
 | Shortbow | Bow | 1d6 | 2H |
-| Light Crossbow | Bow | 1d8 | 2H, Load minor |
+| Light Crossbow | Bow | 1d8 | 2H, Load |
 
 ### Heavy Weapons
 | Name | Type | Damage | Properties |
@@ -34,7 +35,7 @@
 | Maul | Hammer | 1d12 | 2H  Sharp 5 |
 | Falchion | Blade, Axe | 1d10 | 2H |
 | Warbow | Bow | 1d10 | 2H |
-| Heavy Crossbow | Bow | 1d12 | 2H, Load minor |
+| Heavy Crossbow | Bow | 1d12 | 2H, Load |
 
 ## Armor
 
@@ -57,3 +58,9 @@
 |------|---------|-|
 | Light Shield | +1 | An Item can be hold but not used in the same hand. |
 | Heavy Shield | +2 | |
+
+### Comment
+Blade Weapons have the greatest utility but generally do one die type less damage.
+Feats and Manouvers targetting blade Weapons are better than those for Axes and Hammers.
+Axes have the highest potential for damage having the *devastating* attribute and feats supporting conditionally damage boni.
+Hammers are have the highest average damage. Feats supporting hammres add debuffs that are usefeull for low damage builds.

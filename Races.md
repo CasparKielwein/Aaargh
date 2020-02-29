@@ -68,17 +68,14 @@ Speed: 30'
 Language: Common, Todo
 Skills: Nature or Intimidate
 
-Lvl 1:
-#### Gorge
+#### Lvl 1: Gorge
 * Tough Melee Attack
 * 1d8 + Tough
 
-Lvl 2:
-#### Trampling Charge
+#### Lvl 2: Trampling Charge
 * Tough Damage to passed enemies on charge
 
-Lvl 3:
-#### Piercing Charge
+#### Lvl 3: Piercing Charge
 * target is grappled on hit
 
 ### Bleeding Wound
@@ -88,3 +85,17 @@ Lvl 3:
 * on hit: scondary attack
 * Psychic attack (what debuff?)
 * close burst 3
+
+## Human
+
+### Traits
+
+### Traits
+Speed: 30'  
+Language: Common, once of your choice  
+Skills: Streetwise
+
+### Human Ambition
+#### Lvl 1: Ambition
+The hero may spend a *Power Point* on their turn to gain an additional Full Action.
+This ability may only be used once per turn.

@@ -30,3 +30,9 @@ Characters use *Thievery* to disarm traps.
 
 ### Charm (Mind)
 ### Intimidate (Mind)
+
+### Comment
+Nine Skills seems like a manageable number, which still covers the typical situations of a dungeon crawler.
+Since Backgrounds give one or two proficiencies and classes give three, a group of four heroes should be able to cover all skills.
+The Lore skills (Arcane, Religion, Nature, Streetwise) should allow nearly every character to be able to be the expert on a given eneemy type once in a while.
+Specialized knowledge is covered by tool/trade proficiencies.

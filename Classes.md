@@ -4,7 +4,14 @@ Each *Class* provides several *Disciplines* to choose from.
 
 ## Fighter
 
-Base Mechanic: Rage, builds up through attacks
+### Comment
+The fighter is intended to have a very "in your face" kind of playstile.
+Get into the thick of it and dish it out left, right, and center.
+Power Points are (re-)gained during the fight. The Fighter does not start with many and thus does not have the alpha strike of a sorcerer.
+The Fighters different fighting styles cover the fighter, barbarian, and ranger in some parts from dnd.
+I a player just wants to kill stuff, they should build a fighter, focus on damage abilites and enjoy the carnage.
+
+### Proficiencies
 
 __Skill Proficiency:__ Choose three skills from the following: Athletics, Endurance, Intimidate, Heal, Streetwise  
 __Weapon Proficiency:__ Fighers are proficient with both light and heavy melee and ranged weapons.  
@@ -325,6 +332,11 @@ The bonus of *Barkskin* also applies to the targets reflex resistance.
 
 ## Rogue
 
+Rogues specialize on exploiting every weakness they find in their enemies.
+On face value, they don't appear very threatening, haveing a low number of hit points and wielding small weapons.
+But once a rogue inevitably finds a weakness in their target, they show their true power using their *sneak attacks* for devastating effect.
+
+### Proficiencies
 __Skill Proficiency:__ Choose three skills from the following: Stealth, Thievery, Athletics, Streetwise  
 __Weapon Proficiency:__ You are proficient with Light Weapons
 __Armor Proficiency:__ You are proficient with Cloth and Leather Armor.
