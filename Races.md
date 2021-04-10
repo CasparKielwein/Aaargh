@@ -66,7 +66,7 @@ Skills: Intimidate or Religion
 
 ### Traits
 Speed: 30'  
-Language: Common, Todo
+Language: Common, Todo  
 Skills: Nature or Intimidate
 
 #### Lvl 1: Gorge
@@ -106,3 +106,13 @@ Skills: Arcane, Charm, or Nature
 
 ### Elven Grace
 TODO
+
+## Halfling
+
+### Traits
+Speed: 30'  
+Language: Common, once of your choice  
+Skills: Streetwise or Stealth
+
+### Halfling Luck
+#### Lvl 1: Luck
