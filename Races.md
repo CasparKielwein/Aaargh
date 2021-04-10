@@ -1,5 +1,4 @@
 # Races
-
 ## Dwarf
 
 Stout and stubborn, warriors and craftsmen, Kings and Queens of Mountain Halls.
@@ -23,9 +22,11 @@ Gain Proficiency with all Hammers and Axes.
 
 ## Draken
 
+Dragonborn, Half-Dragons; The ancient rulers of the skies.
+
 ### Traits
 Speed: 30'  
-Language: Common, Draconic
+Language: Common, Draconic  
 Skills: Intimidate or Religion
 
 #### Draconic Heritage
@@ -87,9 +88,6 @@ Skills: Nature or Intimidate
 * close burst 3
 
 ## Human
-
-### Traits
-
 ### Traits
 Speed: 30'  
 Language: Common, once of your choice  
@@ -99,3 +97,12 @@ Skills: Streetwise
 #### Lvl 1: Ambition
 The hero may spend a *Power Point* on their turn to gain an additional Full Action.
 This ability may only be used once per turn.
+
+## Elves
+### Traits
+Speed: 30'  
+Language: Common, Elven
+Skills: Arcane, Charm, or Nature
+
+### Elven Grace
+TODO
