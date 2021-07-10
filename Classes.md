@@ -5,16 +5,28 @@ Each *Class* provides several *Disciplines* to choose from.
 ## Fighter
 
 ### Comment
-The fighter is intended to have a very "in your face" kind of playstile.
+The fighter is intended to have a very "in your face" kind of playstyle.
 Get into the thick of it and dish it out left, right, and center.
 Power Points are (re-)gained during the fight. The Fighter does not start with many and thus does not have the alpha strike of a sorcerer.
-The Fighters different fighting styles cover the fighter, barbarian, and ranger in some parts from dnd.
-I a player just wants to kill stuff, they should build a fighter, focus on damage abilites and enjoy the carnage.
+The Fighters different fighting styles cover the Fighter, Barbarian, and Ranger from dnd.
+If a player just wants to kill stuff they should build a fighter, focus on damage abilites and enjoy the carnage.
+
+The fighter has multiple ways of diversification. Two are the main class features:
+
+The fighting style lets the player chose a combat situation the Fighter excels in.
+Fighting Style and Equipment determine if the Fighter is a Tank or a Striker.
+
+The Martial Discipline is a discipline tree which defines how the Fighter regains power points.
+Depending on the chosen discipline the fighter needs to act very differently
+during combat to maximise power points.
+The martial discipline does not make the fighter more or less able to take damage.
+
+Equipment, in particular choice of weapons and armor has a large influence on the combat style of the fighter. More so than for any other class.
 
 ### Proficiencies
 
 __Skill Proficiency:__ Choose three skills from the following: Athletics, Endurance, Intimidate, Heal, Streetwise  
-__Weapon Proficiency:__ Fighers are proficient with both light and heavy melee and ranged weapons.  
+__Weapon Proficiency:__ Fighers are proficient with both light and heavy melee as well as ranged weapons.  
 __Armor Proficiency:__ Fighters are proficient with all light armor, mail and lamellar armor.
 
 __Starting Hit Points:__ 10 + Tough  
@@ -24,22 +36,31 @@ __Heals:__ 6
 
 ### Equipment
 
-* Two weapons or shields of your choice.
+* Two weapons or or a Weapon and a shield of your choice.
 * An armor you are proficient with.
 
+### Fighting Style
 Choose a fighting style for your fighter:
 
 #### Armored Fighter
 Gain proficiency with plate armor
 
-### Fighting Style
-Choose a fighting style for your fighter:
+### Martial Discipline
+Choose a martial discipline for your fighter.
+This discipline will determine the way you fight.
+It serves as your main source of Manouver Points.
 
 #### Rage
-* Increase Rage when you crit an enemy
-* Increase Rage when you are hit
-* Increase Rage when an enemy you mark hits an ally
-* Increase Rage if Rage ends at end of your turn
+##### Comment
+The Rage discipline basically makes the fighter into a DnD Barbarian.
+It rewards the player for acting recklessly and taking risks.
+
+##### Lvl 1: Rage
+The first time you are bloodied during a fight, you enter a terrible rage.
+When you enter the rage you gain one Manouver Point.
+
+#### Focus
+##### TODO
 
 ## Disciplines:
 
@@ -55,7 +76,7 @@ Your watchfull Strike becomes an opportunity interrupt.
 #### Lvl 2: Manouvering Watch
 When you hit an enemy with your watchfull Strike you may push that enemy 1 square.
 #### Lvl 3: Eternal Watch
-When you mark an enemy you can spend one focus point to have the mark. last until the end of the encounter.
+When you mark an enemy you can spend one focus point to have the mark last until the end of the encounter.
 
 ### Brash Strike
 Throwing all caution into the wind you attack your chosen foe disregarding your own safety.
@@ -79,7 +100,7 @@ A target hit by your sure strike is slowed.
 #### Lvl 2: Bloodying thrust
 The target hit by your sure strike takes 10 ongoing damage until save.
 #### Lvl 3: Hindering Strike: 
-Spend a Manouver Point, the target is knocked prone
+When you hit a target with Sure Strike you can spend a Manouver Point. If you do so the target is knocked prone.
 
 ### Twin Strike
 Requirement: You must be wielding two melee weapons or a ranged weapon.
@@ -93,8 +114,20 @@ When you hit with both attacks of your Twin Strike, you can spend a Manouver Poi
 
 ## Sorcerer
 
+### Comment
+Sorcerers are the catchall spellcaster class.
+Of all classes, they have the largest number of active abilities available
+as many of their disciplines add new powers with higher ranks.
+Wizards have more utility, Warlocks deal more damage.
+
+Sorcerers have more diversity and utilities in their abilities than godsworn or druids.
+They are very much focussed on their spell abilities and lack the defining abilities
+of godsworn and druids which are not active spells.
+Higher level Abilities of Sorcerers are often new powerfull spells.
+
+### Proficiencies
 __Skill Proficiency:__ Choose three skills from the following: Arcane, History, Heal, Streetwise  
-__Weapon Proficiency:__ Sorcerers are proficient with Light Weapons
+__Weapon Proficiency:__ Sorcerers are proficient with Light Weapons  
 __Armor Proficiency:__ Sorcerers are proficient with Cloth Armor.
 
 __Starting Hit Points:__ 4 + Tough  
@@ -107,9 +140,18 @@ Every Sorcerer obtained their magical powers through a different source, from an
 
 #### Ancient Lore
 You aquired your knowledge of the arcane by studying ancient books and scrolls. Maybe you formally enrolled in a magic academy or found them in decript ruines.
+You gain an additional two power points after a rest.
 
 #### Eldrich Pact
-You forged a terrible pact with a powerful being. It gave you fantastic powers, but they come with a price which could be horrible indeed. You cast your spells according to formal teachings and traditions.
+You forged a terrible pact with a powerful being. It gave you fantastic powers, but they come with a price which could be horrible indeed.
+You gain the Warlocks Curce discipline.
+
+#### Warlocks Curse
+##### Lvl 1: Curse
+Cost: 1 Power Point  
+As a full action you can put your curse on an enemy.
+The curse lasts until the end of the encounter.
+Whenever you cast a spell to target the cursed enemy, the power point cost of that spell is reduced by one.
 
 ## Disciplines:
 ### Fire
@@ -212,6 +254,16 @@ After you hit a target with a lightning power like *Lightning Bolt*, you can imm
 
 ## Druid
 
+### Comment
+A druid first choses the Call of the Wild discipline which has the largest influence on its playstyle.
+It determines its role as striker, tank, healer, or controler.
+The circle then sets the relationship to the other heroes.
+Does the druid better fight alone, next to the others and does he help them, or benefit from them?
+
+Druids have less raw spell power than sorcerers but their Call of the Wild sets them apart.
+Their higher level spell abilities tend to be modifications of a common spell.
+
+### Proficiencies
 __Skill Proficiency:__ Choose three skills from the following: Stealth, Nature, Heal, Perception
 __Weapon Proficiency:__ You are proficient with Light Weapons
 __Armor Proficiency:__ You are proficient with Cloth and Leather Armor.
@@ -223,13 +275,13 @@ __Heals:__ 5
 
 
 ### Call of the Wild
+All druids share an intimate connection to nature.
+You can choose between the Beast Form and the Natures Companion Disciplines.
 
-All druids share an almost intimate connection to nature.
-
-#### Beast forma
+#### Beast form
 Many druids have learned to morph their form to an avatar of natures might.
 
-Lvl 1:
+##### Lvl 1:
 * Opportunity Action, shift to chosen Beast Form
 
 *Form of the Hunter*
@@ -244,24 +296,39 @@ Lvl 1:
 *Form of the Warden*
 * You can use your weapons and shields in beast form.
 
-#### Lvl 2: Mobile Form:
+##### Lvl 2: Mobile Form:
 When shifting Back to humanoid form, you can shift as a free action.
 
-#### Lvl 2: Skittering Form
+##### Lvl 2: Skittering Form
 After A melee attack you can shift 1 square after the attack.
 
-#### Lvl 3: Flying Form
+##### Lvl 3: Flying Form
 You can fly as your move action. You must land at the end of your move.
 
-#### Lvl 3: Form of the swarm
+##### Lvl 3: Form of the swarm
 In your beast Form you gain Resistance against Melee and Ranged Attacks.
 
-### Companion
+### Natures Companion
 
 ### Spirit Companion
 Todo: support, control oriented
 ### Beast Companion
 Todo: combat oriented
+
+
+### Druidic Circle
+Druids sometimes meet in druidic circles. The members of a circle share an idiology or common goal.
+
+#### Lone Rangers
+Lone Rangers are not a true circle, but druids which prefer to work alone.
+
+TODO: Power Point Regeneration mechanism
+
+#### Healing Cove
+Druids of the healing cove focus on healing nature and life itself.
+Their meetings are usually peaceful and serene affairs.
+
+TODO: Power Source, some interaction with HP
 
 ## Disciplines:
 
@@ -336,10 +403,17 @@ Rogues specialize on exploiting every weakness they find in their enemies.
 On face value, they don't appear very threatening, haveing a low number of hit points and wielding small weapons.
 But once a rogue inevitably finds a weakness in their target, they show their true power using their *sneak attacks* for devastating effect.
 
+### Comment
+The playstyle of the rogue is focues on exploiting opportunities.
+Without advantage they do less damage than Fighters and have a smaller selection of abilities than Sorcerers or Druids.
+Their combat abilities are built around the Sneak Attack discipline.
+They only have one static "dimension" of diversification in their Scum and Villainy feature
+but the Sneak Attack discipline has many more branching points where choices influence the character than disciplines of other classes.
+
 ### Proficiencies
-__Skill Proficiency:__ Choose three skills from the following: Stealth, Thievery, Athletics, Streetwise  
+__Skill Proficiency:__ Choose two skills from the following: Religion, Athletics, Heal, Charm
 __Weapon Proficiency:__ You are proficient with Light Weapons
-__Armor Proficiency:__ You are proficient with Cloth and Leather Armor.
+__Armor Proficiency:__ You are proficient with all Light Armor and Chain Armor.
 
 __Starting Hit Points:__ 4 + Tough  
 __Hit Points per Level:__ 2
@@ -347,13 +421,103 @@ __Hit Points per Level:__ 2
 __Heals:__ 4
 
 ### Sneak Attack
-
 Rogues specialize in dealing devastating attacks from the shadows.
+Once per round, when you hit a target with advantage you can chose do a `Sneak Attack`.
+If you do so, the attack deals an additional `1d6` damage.
 
-### Thief
+#### Lvl 1: Assassin
+Your Sneak Attack deals `d8` instead of `d6` damage.
 
-You use the advantage of your sneak attack to further hinder enemies.
+#### Lvl 1: Thief
+TODO
 
-### Asassin
+### Scum and Villainy
 
-### Bard
+#### Scoundrel
+If you start a fight while being hidden from all enemies, you gain a Power Point.
+
+#### Daredevil
+TODO: Gain Power Points for risky and dangerous actions
+
+
+### Nimble Attack
+Swiftly moving around your enemies, you leave them no chance for attack.
+
+#### Lvl 1: Nimble Attack
+Cost: 1 Power Point
+You make a standard Ranged or Melee Attack. After the attack has been resolved you can shift 5'.
+
+### Hobbling Strike
+Your strike weakens the enemy setting them up for further attack.
+
+#### Lvl1: Hobbling Strike
+You make a standard Ranged or Melee Attack.
+If the attack hits, you can spent 1 Power Point.
+If you do so, you gain advantage with your next attack against the target.
+
+## Godsworn
+As a Godsworn you have bound your service to a higher cause or a God from the spiritual realm.
+
+### Comment
+Godsworn are basically Clerics, Paladins and Dnd 4e Avangers rolled together.
+Their oath determines what they are good at and the domains of their gods specify how they regain power points and thus greatly influence playstyle.
+The domain has a smaller effect than the Oath. Some domains give access to abilities of other classes.
+These domains are intended for players who like to spend time tinkering.
+
+Weapon abilities of Godsworn are less straight forward than those of fighters.
+A damage dealer Godsworn depends more on secondary damage effects than the high damage dice of a Fighter or the large damage dice count of a Rogue.
+
+Abilities of Godsworn and Druids are similiar.
+Druids do more "nature" related damage like Poison and Lightning.
+Godsworn do more fire damage.
+The main difference between Godsworn and Druids are in their class features.
+
+### Proficiencies
+__Skill Proficiency:__ Choose three skills from the following: Stealth, Thievery, Athletics, Streetwise  
+__Weapon Proficiency:__ You are proficient with Light Weapons
+__Armor Proficiency:__ You are proficient with Cloth and Leather Armor.
+
+__Starting Hit Points:__ 8 + Tough  
+__Hit Points per Level:__ 3
+
+__Heals:__ 6
+
+
+### Equipment
+
+* Two weapons or or a weapon and a shields of your choice.
+* An armor you are proficient with.
+* A holy symbol of your religion
+
+### Domain
+#### Luck
+Every time you coll a critical hit, you gain a Power Point
+#### Nature
+TODO
+#### War
+TODO
+#### Arcana
+TODO
+#### Death
+You can sacrifice 1/4 of your full Hit Points to gain a Power Point as a free action.
+
+### Oath
+
+#### Oath of the Protector
+You gain Proficiency in all Heavy Armor and Shields.
+
+TODO: Paladin
+
+#### Oath of the Avenger
+TODO: Damage abilities
+
+#### Oath of the Shepherd
+TODO: Healer "Cleric", Spellcaster
+
+### Disciplines
+
+#### Smite
+
+#### Healing Word
+
+#### Bless

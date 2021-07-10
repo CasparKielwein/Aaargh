@@ -70,6 +70,38 @@ Players can also roll knowledge checks to see if their heroes have additional kn
 
 A combat encounter is separated into rounds. Each round is again split into turns, with one turn per combatant.
 
+Each combatant has the same set of actions available per round: One *Action*, one *Move*, and one *Reaction*.
+
+#### Actions
+* Attack
+* Charge
+* Shove
+* Grapple
+* Use Item
+* Assist
+
+#### Move Actions
+* Move your speed
+* Shift 5'
+* Hide
+You need to be concealed.
+Make a stealth check to become hidden.
+* Draw and ready items.
+You can generally draw and ready weapons and equipment for both hands with a single Move action.
+
+Movement through difficult terrain requires the character to spend two feet of speed to move one foot of distance.
+This means that shifting out of combat is usually not possible in difficult terrain.
+
+When using your Move you can spent your Standard Action instad.
+
+#### Reactions
+* Opportunity Attack:
+If an enemy moves out of an area within your melee reach, you can make a melee Attack against that enemy.
+
+When using your Reaction you can spent your Standard Action or Move instad.
+
+
+
 ### Damage and Damage types
 
 The different types of damage are:
@@ -91,3 +123,66 @@ Standing up requires a move action.
 #### Stunned
 #### Bloodied
 A hero or monster is bloodied if their hitpoints fall below one half of their starting hit points.
+
+### Player Characters
+
+Player Characters are called Heroes here, because that is what they will become.
+Each Hero consists of the following mechanical elements:
+
+#### Ancestry
+A heroes Ancestry gives some static boni as well as one discipline.
+This discipline emphasises the archetypes and strengths of the different races and peoples of the classic fantasy genre.  
+Ancestry does not have Attribute modifiers. These tend to limit class and ancestry combinations.
+
+#### Background
+Backgrounds generally do not directly influence combat abilities.
+They are meant to make characters well rounded and give everyone abilities outside of combat.
+
+#### Class
+The class has the largest direct effect on a heroes abilities.
+
+#### Attribtues
+#### Skills
+#### Disciplines
+How different do disciplines need to be?  
+Disciplines of a single class should be very different.
+It should be clear immediately how two disciplines are different and why a player should chose one over the other.
+
+It is ok if disciplines of two classes are similar.
+Two classes should either have different direct and attack abilities or different support abilities and secondary effects.
+
+#### Talents / Feats
+Talents are mostly static buffs and passive abilities which influence the way a hero is played.
+They can provide active abilities and but should be rare and there should be a good reason why that abilitiy is not Discipline Rank.
+A Talent is slightly stronger than a single rank in a Discipline.
+A Hero has a low number of Talents (3-4).
+
+What should a Talent provide:
+* Put Emphasis on a specific part of the game mechanics
+Examples are Two Weapon Fighting, Grappling.
+* Give a bonus to specific equipment.
+There should be multiple competing Talents for each group of Equipment to avoid making one Talent a must have choice for a given Weapon.
+* Give a bonus to a subset of discipline abilities.
+Examples are bonus to damage types, Bonus to Healing.
+* Modify the effects of a subset of discipline abilities.
+They could change the damage type of abilities.
+* Give a Hero access to abilities of another class.
+This should be limitied in some way. 
+An example is the Furymancer Talent which gives a fighter access to Sorcerer spells but only in combination with their Rage feature.
+* Put a twist on a concept. Make a class or ancestry feature work in a surprising way.
+* Make an exotic combination viable. Some combinations of class and equipment are weaker than others. A talent might give the equipment a bonus to make it a viable alternative to the obvious equipment options.
+* Make an Archetype viable. Generally archetypical Heroes should work without Talents.
+If it is not possible to enable that without breaking balancing, it is acceptable if a archetypical combination of ancestry, class, and equipment requires a Talent.
+
+What Talents should not do:
+* Be necessary to make a core feature viable.
+Every Weapon, Ancestry and Class feature should be a viable option without a Talent.
+* Make a combination of Ancestry and Class viable.
+Heroes of all Ancestries should be able to chose all classes.
+
+Questions:
+* Are general boni a good idea?
+For example extra HP to make the Character more robust independent of class.
+
+#### Equipment and Proficiencies
+

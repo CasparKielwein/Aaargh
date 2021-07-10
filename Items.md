@@ -1,12 +1,20 @@
 # Weapons
 
+### Comment
+The Equipment rules are not realistic.
+They are designed to be fun and enable strong visuals and action scenes.
+
+For Weapon focused Heros the choice of weapon is a choice of damage potential vs secondary effects and utility vs defense.
+The damage of spellcasters does not depend as much on the weapon.
+Thus it is a choice between different utilities and secondary effects and defense.
+
 ## Weapon Properties
 * Versatile: The weapon can be used one handed or two handed. If used two-handed the damage die increases by one type.
 * Reach: The weapon can be used to attack enemies up to 10ft away.
 * 2H: The weapon can only be used with two hands.
 * Devastating: Critical hits with this weapon deal extra damage. A critical hit deals an extra 1[W] damage at levels 1-10, 2[W] at levels 11-20 and 3[W] at levels 21 to 25.
 * Sharp(x): When rolling the weapon’s damage results in a roll lower than the sharp value of the weapon for any die, the damage of that roll is considered the sharp value of the weapon instead.
-* Load: After making an attack with the weapon, the user needs to spend an opportunity action to reload the wepon, before they can attack with it again.
+* Load: After making an attack with the weapon, the user needs to spend an opportunity action to reload the weapon, before they can attack with it again.
 * Light: Attacks with this Weapon can be made with *Dexterity* or *Toughness*.
 
 ### Light Weapons
@@ -14,10 +22,12 @@
 |------|------|--------|------------|
 | Spear | Polearm | 1d6 | Versatile |
 | Quarterstaff | Polearm | 1d6 | 2H |
+| Club | Hammer | 1d6 | |
+| Hammer | Hammer | 1d10 | 2H |
 | Hatchet | Axe | 1d6 | |
 | Dagger | Blade | 1d4 | Throwing |
 | Shortsword | Blade | 1d6 | |
-| Shortbow | Bow | 1d6 | 2H |
+| Hunting Bow | Bow | 1d6 | 2H |
 | Light Crossbow | Bow | 1d8 | 2H, Load |
 
 ### Heavy Weapons
@@ -63,4 +73,6 @@
 Blade Weapons have the greatest utility but generally do one die type less damage.
 Feats and Manouvers targetting blade Weapons are better than those for Axes and Hammers.
 Axes have the highest potential for damage having the *devastating* attribute and feats supporting conditionally damage boni.
-Hammers are have the highest average damage. Feats supporting hammres add debuffs that are usefeull for low damage builds.
+Hammers are have the highest average damage. Feats supporting hammers add debuffs that are useful for low damage builds.
+Crossbows do more damage than bows, but the `Load` Attribute limits them to one attack per round.
+Thrown Weapons do even less damage but provide versatility by being one handed and also usable as melee weapons.
