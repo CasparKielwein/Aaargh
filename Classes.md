@@ -26,8 +26,7 @@ Equipment, in particular choice of weapons and armor has a large influence on th
 ### Proficiencies
 
 __Skill Proficiency:__ Choose three skills from the following: Athletics, Endurance, Intimidate, Heal, Streetwise  
-__Weapon Proficiency:__ Fighers are proficient with both light and heavy melee as well as ranged weapons.  
-__Armor Proficiency:__ Fighters are proficient with all light armor, mail and lamellar armor.
+__Armor Proficiency:__ Fighters are proficient with all Light and Medium Armor.
 
 __Starting Hit Points:__ 10 + Tough  
 __Hit Points per Level:__ 4
@@ -43,7 +42,7 @@ __Heals:__ 6
 Choose a fighting style for your fighter:
 
 #### Armored Fighter
-Gain proficiency with plate armor
+Gain proficiency with heavy armor
 
 ### Martial Discipline
 Choose a martial discipline for your fighter.
@@ -123,12 +122,13 @@ Wizards have more utility, Warlocks deal more damage.
 Sorcerers have more diversity and utilities in their abilities than godsworn or druids.
 They are very much focussed on their spell abilities and lack the defining abilities
 of godsworn and druids which are not active spells.
+
 Higher level Abilities of Sorcerers are often new powerfull spells.
+This differantiates them from Godsworn Disciplines which mostly add effects and options to a base Manouver.
 
 ### Proficiencies
 __Skill Proficiency:__ Choose three skills from the following: Arcane, History, Heal, Streetwise  
-__Weapon Proficiency:__ Sorcerers are proficient with Light Weapons  
-__Armor Proficiency:__ Sorcerers are proficient with Cloth Armor.
+__Armor Proficiency:__ Sorcerers are proficient with Light Armor.
 
 __Starting Hit Points:__ 4 + Tough  
 __Hit Points per Level:__ 2
@@ -136,11 +136,13 @@ __Hit Points per Level:__ 2
 __Heals:__ 4
 
 ### Power Source
-Every Sorcerer obtained their magical powers through a different source, from ancient tomes to pacts with otherwordly beings.
+Every Sorcerer obtained their magical powers through a different source, from ancient tomes to pacts with otherworldly beings.
 
 #### Ancient Lore
 You aquired your knowledge of the arcane by studying ancient books and scrolls. Maybe you formally enrolled in a magic academy or found them in decript ruines.
 You gain an additional two power points after a rest.
+
+When gaining a new Discipline Level you can choose to gain an additional Manouver from the same Level of a Discipline you already own.
 
 #### Eldrich Pact
 You forged a terrible pact with a powerful being. It gave you fantastic powers, but they come with a price which could be horrible indeed.
@@ -244,13 +246,6 @@ As a minor Action you can sustain the effect and attack 1 target in the area
 #### Lvl 6: Destruction
 Squares within the target area become difficult terrain.
 
-### Feats
-
-#### Battle Mage
-You gain proficency with Mail Armor, Leather Armor and Light shields.
-
-#### Ride the Lightning
-After you hit a target with a lightning power like *Lightning Bolt*, you can immediatly teleport adjacent to the target as a free action.
 
 ## Druid
 
@@ -263,10 +258,14 @@ Does the druid better fight alone, next to the others and does he help them, or 
 Druids have less raw spell power than sorcerers but their Call of the Wild sets them apart.
 Their higher level spell abilities tend to be modifications of a common spell.
 
+Unlike Godsworn, duids don't have access to heavy armor proficiency.
+Druid have the strongest force movement disciplines of all caster classes.
+They focus on poison and storm damage, while Godsworn focus on fire damage-
+Druid spells do less damage than Godsworn spells on average.
+
 ### Proficiencies
 __Skill Proficiency:__ Choose three skills from the following: Stealth, Nature, Heal, Perception
-__Weapon Proficiency:__ You are proficient with Light Weapons
-__Armor Proficiency:__ You are proficient with Cloth and Leather Armor.
+__Armor Proficiency:__ Druids are proficient with Light Armor.
 
 __Starting Hit Points:__ 6 + Tough  
 __Hit Points per Level:__ 3
@@ -410,10 +409,15 @@ Their combat abilities are built around the Sneak Attack discipline.
 They only have one static "dimension" of diversification in their Scum and Villainy feature
 but the Sneak Attack discipline has many more branching points where choices influence the character than disciplines of other classes.
 
+Most Rogue Discipline cost power point.
+Unlike the Fighter (or Wizard Cantrips) there are very few free manouvers.
+
+Manouvers give mostly buffs and movement effects.
+Sneak Attack supports Debuffs on Enemies and additional damage.
+
 ### Proficiencies
 __Skill Proficiency:__ Choose two skills from the following: Religion, Athletics, Heal, Charm
-__Weapon Proficiency:__ You are proficient with Light Weapons
-__Armor Proficiency:__ You are proficient with all Light Armor and Chain Armor.
+__Armor Proficiency:__ You are proficient with all Light and Medium Armor.
 
 __Starting Hit Points:__ 4 + Tough  
 __Hit Points per Level:__ 2
@@ -429,7 +433,10 @@ If you do so, the attack deals an additional `1d6` damage.
 Your Sneak Attack deals `d8` instead of `d6` damage.
 
 #### Lvl 1: Thief
-TODO
+TODO: Ideas:
+Swap dice of sneak attack damage for effects.
+Knock enemy prone, Stun enemy, slow enemy
+
 
 ### Scum and Villainy
 
@@ -474,8 +481,7 @@ The main difference between Godsworn and Druids are in their class features.
 
 ### Proficiencies
 __Skill Proficiency:__ Choose three skills from the following: Stealth, Thievery, Athletics, Streetwise  
-__Weapon Proficiency:__ You are proficient with Light Weapons
-__Armor Proficiency:__ You are proficient with Cloth and Leather Armor.
+__Armor Proficiency:__ You are proficient with Light and Medium Armor.
 
 __Starting Hit Points:__ 8 + Tough  
 __Hit Points per Level:__ 3
@@ -504,7 +510,7 @@ You can sacrifice 1/4 of your full Hit Points to gain a Power Point as a free ac
 ### Oath
 
 #### Oath of the Protector
-You gain Proficiency in all Heavy Armor and Shields.
+You gain Proficiency with all Heavy Armor.
 
 TODO: Paladin
 

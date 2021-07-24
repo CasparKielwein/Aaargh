@@ -20,19 +20,18 @@ Thus it is a choice between different utilities and secondary effects and defens
 ### Light Weapons
 | Name | Type | Damage | Properties |
 |------|------|--------|------------|
-| Spear | Polearm | 1d6 | Versatile |
+| Unarmed | | 1d4 | light |
+| Improvised | | 1d6 | |
+| Large Improvised | | 1d8 | 2H |
+| Spear | Polearm | 1d6 | Versatile, Thrown |
 | Quarterstaff | Polearm | 1d6 | 2H |
-| Club | Hammer | 1d6 | |
-| Hammer | Hammer | 1d10 | 2H |
-| Hatchet | Axe | 1d6 | |
-| Dagger | Blade | 1d4 | Throwing |
-| Shortsword | Blade | 1d6 | |
-| Hunting Bow | Bow | 1d6 | 2H |
-| Light Crossbow | Bow | 1d8 | 2H, Load |
-
-### Heavy Weapons
-| Name | Type | Damage | Properties |
-|------|------|--------|------------|
+| Club | Hammer | 1d6 | light |
+| Hatchet | Axe | 1d6 | light |
+| Dagger | Blade | 1d4 | Thrown, light |
+| Shortsword | Blade | 1d6 | light |
+| Hunting Bow | Bow | 1d6 | 2H, light |
+| Sling | Bow | 1d4 | 2H, light |
+| Light Crossbow | Bow | 1d6 | Load, light |
 | Warhammer | Hammer | 1d8 | Versatile, Sharp 3 |
 | Longsword | Blade | 1d8 | Versatile |
 | Battleaxe | Axe | 1d8 | Versatile, Devastating|
@@ -42,37 +41,56 @@ Thus it is a choice between different utilities and secondary effects and defens
 | Longspear | Polearm | 1d8 | 2H, Reach |
 | Greatsword | Blade | 1d12 | 2H |
 | Greataxe | Axe | 1d12 | 2H, Devastating |
-| Maul | Hammer | 1d12 | 2H  Sharp 5 |
+| Warhammer | Hammer | 1d12 | 2H  Sharp 5 |
 | Falchion | Blade, Axe | 1d10 | 2H |
 | Warbow | Bow | 1d10 | 2H |
 | Heavy Crossbow | Bow | 1d12 | 2H, Load |
+| Shield | | 1d4 | +2 AC |
 
 ## Armor
 
 ### Light Armor
-| Name | Defense | 
-|------|---------|
-| Cloth Armor | 10 + Dex |
-| Leather Armor | 12 + Dex |
-| Brigandine | 14 + Dex |
+| Name          | Defense  | Speed | Skills | 
+|---------------|----------|-------|--------|
+| Cloth Armor   | 10 + Dex | | |
+| Leather Armor | 12 + Dex | | |
+
+### Medium armor
+| Name          | Defense  | Speed | Skills | 
+| Brigandine    | 14 + Dex (max +2) | | Stealth |
+| Mail Armor | 15 | | Stealth |
 
 ### Heavy Armor
-| Name | Defense | 
+| Name | Defense | Speed | Disadvantage | 
 |------|---------|
-| Mail Armor | 14 |
-| Lamellar Armor | 16 |
-| Full Plate | 18 |
-
-### Shields
-| Name | Defense | |
-|------|---------|-|
-| Light Shield | +1 | An Item can be hold but not used in the same hand. |
-| Heavy Shield | +2 | |
+| Lamellar Armor | 16 | -5' | Stealth |
+| Full Plate | 18 | -5' | Stealth, Athletics |
 
 ### Comment
-Blade Weapons have the greatest utility but generally do one die type less damage.
+Blade Weapons have the greatest utility but generally do one die type less damage than Axes.
 Feats and Manouvers targetting blade Weapons are better than those for Axes and Hammers.
 Axes have the highest potential for damage having the *devastating* attribute and feats supporting conditionally damage boni.
 Hammers are have the highest average damage. Feats supporting hammers add debuffs that are useful for low damage builds.
 Crossbows do more damage than bows, but the `Load` Attribute limits them to one attack per round.
 Thrown Weapons do even less damage but provide versatility by being one handed and also usable as melee weapons.
+
+## Magic and Legendary Items
+### Comment
+Legendary Items are basically part of the characters. (As magic items tend to be in Dnd)
+They are highly relevant to balancing and often part of a character build.
+
+Legendary Items do not have prices attached.
+
+Magic Items are weaker, smaller etc.
+They can be bought and sold.
+
+If an item is powerful and specific enough to be part of a character build, it should be a legendary item.
+
+
+### Magic Items
+
+### Legendary Items
+To use a legendary item, you need to learn its secrets.
+Each Secret you uncover unlocks a new ability of the Legendary Item.
+
+
