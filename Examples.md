@@ -1,7 +1,7 @@
 # Example Characters
 
 ## Dwarven Fighter
-### Race: Dwarf
+### Ancestry: Dwarf
 
 Speed: 25
 Language: Common, Dwarven
