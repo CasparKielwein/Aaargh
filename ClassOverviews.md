@@ -1,6 +1,6 @@
 # Overview of Classes
 Each class has a theme of personal strength for the hero.
-Class abolities should reinforce this theme in their flavor and function.
+Class abilities should reinforce this theme in their flavor and function.
 
 ## Fighter
 Fighters become stronger by hard training, mastery of the self and pure physical strength.
@@ -10,10 +10,10 @@ Martial Discipline:
 * Rage
 
 ### Fighter Powers
-Many Fighter Manouvers, in particular the first level of a Discipline do not have power point costs.
-Instead they give a small additional effect to a standard attack.
+Many Fighter Maneuvers, in particular the first level of a Discipline do not have power point costs.
+Instead, they give a small additional effect to a standard attack.
 
-Many Manouvers have extra effects or do extra damage with specific weapon types.
+Many Maneuvers have extra effects or do extra damage with specific weapon types.
 This way the choice of weapon has a large effect on fighters.
 
 ## Rogue
@@ -28,7 +28,7 @@ Scum and Villainy:
 * Trickster
 
 ### Rogue Powers
-Unlike Fighters, Rogue Manouvers nearly always cost Power Points to perform.
+Unlike Fighters, Rogue Maneuvers nearly always cost Power Points to perform.
 Most do not deal additional damage.
 
 ## Sorcerer
@@ -61,12 +61,12 @@ Druidic Circle:
 * Healing Cove
 
 ### Druid Powers
-Damage caused by duidic spells is usually lightning or poison damage.
+Damage caused by druid spells is usually lightning or poison damage.
 
 Druid Spells require the spellcaster to have a free hand to cast them.
 
 ## Godsworn
-The power of a Godsworn comes from their devotion to a sprititual being or sacred cause.
+The power of a Godsworn comes from their devotion to a spiritual being or sacred cause.
 
 Oath:
 * Oath of the Protector

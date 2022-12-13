@@ -26,7 +26,7 @@ The Problem is a plot hook for adventures of ca the first ten levels.
     * Feature: Retainers or Holding
     * Problem: Enemy, Holding in Decline
 * On the run
-    * Feature: Survivors Instinct; Something about finding ressources out of nothing
+    * Feature: Survivors Instinct; Something about finding resources out of nothing
     * Had to flee something, lost nearly everything
     * Problem: Find a Safe place or clear your name
 * Soldier
@@ -62,7 +62,7 @@ being marked does not give any immediate effect but heroes have abilities which 
 Each class has an ability to mark opponents in a different way and each has different ways to react 
 
 ### Fighter
-Combat Challange:  
+Combat Challenge:  
 When the fighter attacks a target they can decide to mark all targets of the attack.
 If a marked creature is adjacent to the fighter and attacks ally or moves the fighter can make an attack as a reaction.
 If at the end of the fighters turn, a marked creature is not in attack range of the fighter, the creature is not marked anymore.
@@ -88,7 +88,7 @@ Rogues mark targets but don't really defend, they don't stop or weaken the attac
 * Give marked enemies disadvantage on attack
 * Allow attack against marked enemy (fighter combat challange)
 * Cause immediate damage against the target
-* Make marked target vulnerable to attacks (gain advanage or target gains vulnerability to damage)
+* Make marked target vulnerable to attacks (gain advantage or target gains vulnerability to damage)
 * Forced movement on target
 
 ## How-To Archetypes
@@ -113,5 +113,5 @@ Each class should have a option which is straight forward to play.
 Fighter: "Strength and Training"
 Rogue:
 Sorcerer: Wizard
-Oathsworn: Choose a simple domain
+Godsworn: Choose a simple domain
 Druid: Form of the warden, or beast companion, Which Circle?

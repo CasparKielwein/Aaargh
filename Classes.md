@@ -6,11 +6,11 @@ Each *Class* provides several *Disciplines* to choose from.
 ## Fighter
 
 ### Comment
-The fighter is intended to have a very "in your face" kind of playstyle.
+The fighter is intended to have a very "in your face" kind of play-style.
 Get into the thick of it and dish it out left, right, and center.
 Power Points are (re-)gained during the fight. The Fighter does not start with many and thus does not have the alpha strike of a sorcerer.
 The Fighters different fighting styles cover the Fighter, Barbarian, and Ranger from dnd.
-If a player just wants to kill stuff they should build a fighter, focus on damage abilites and enjoy the carnage.
+If a player just wants to kill stuff they should build a fighter, focus on damage abilities and enjoy the carnage.
 
 The fighter has multiple ways of diversification. Two are the main class features:
 
@@ -47,7 +47,7 @@ Gain proficiency with heavy armor
 ### Martial Discipline
 Choose a martial discipline for your fighter.
 This discipline will determine the way you fight.
-It serves as your main source of Manouver Points.
+It serves as your main source of Maneuver Points.
 
 #### Rage
 ##### Comment
@@ -56,7 +56,7 @@ It rewards the player for acting recklessly and taking risks.
 
 ##### Lvl 1: Rage
 The first time you are bloodied during a fight, you enter a terrible rage.
-When you enter the rage you gain one Manouver Point.
+When you enter the rage you gain one Maneuver Point.
 
 #### Focus
 ##### TODO
@@ -71,9 +71,9 @@ lasts until the end of your next turn.
 Whenever a marked enemy that is adjacent to you shifts or makes an attack that does not 
 include you, you can make a melee basic attack against that enemy as an opportunity reaction.
 #### Lvl 2: Vigilance
-Your watchfull Strike becomes an opportunity interrupt.
-#### Lvl 2: Manouvering Watch
-When you hit an enemy with your watchfull Strike you may push that enemy 1 square.
+Your watchfully Strike becomes an opportunity interrupt.
+#### Lvl 2: Maneuvering Watch
+When you hit an enemy with your watchfully Strike you may push that enemy 1 square.
 #### Lvl 3: Eternal Watch
 When you mark an enemy you can spend one focus point to have the mark last until the end of the encounter.
 
@@ -82,7 +82,7 @@ Throwing all caution into the wind you attack your chosen foe disregarding your 
 
 #### Lvl 1: Brash Strike
 Melee Attack: 1[W] + Tough + Tough Damage.  
-Until the beginning of your next turn enemie attacks against you gain advantage.
+Until the beginning of your next turn attacks against you gain advantage.
 #### Lvl 2: Inspiring Recklessness
 Inspired by your charge, your allies find new Strength. When hitting with Brash Strike you can give an Ally of your choice Wit temporary hit points.
 #### Lv2: Acrobatic Charge
@@ -99,7 +99,7 @@ A target hit by your sure strike is slowed.
 #### Lvl 2: Bloodying thrust
 The target hit by your sure strike takes 10 ongoing damage until save.
 #### Lvl 3: Hindering Strike: 
-When you hit a target with Sure Strike you can spend a Manouver Point. If you do so the target is knocked prone.
+When you hit a target with Sure Strike you can spend a Maneuver Point. If you do so the target is knocked prone.
 
 ### Twin Strike
 Requirement: You must be wielding two melee weapons or a ranged weapon.
@@ -107,9 +107,9 @@ Requirement: You must be wielding two melee weapons or a ranged weapon.
 #### Lvl 1: Twin Strike
 Perform Two attacks
 #### Lvl 2: Leg Cutter
-When you hit with both attacks of your Twin Strike you can spend a Manouver Point to knock the target prone.
+When you hit with both attacks of your Twin Strike you can spend a Maneuver Point to knock the target prone.
 #### Lvl 3: Third Strike
-When you hit with both attacks of your Twin Strike, you can spend a Manouver Point to perform a third attack.
+When you hit with both attacks of your Twin Strike, you can spend a Maneuver Point to perform a third attack.
 
 ## Sorcerer
 
@@ -124,7 +124,7 @@ They are very much focussed on their spell abilities and lack the defining abili
 of godsworn and druids which are not active spells.
 
 Higher level Abilities of Sorcerers are often new powerfull spells.
-This differantiates them from Godsworn Disciplines which mostly add effects and options to a base Manouver.
+This differantiates them from Godsworn Disciplines which mostly add effects and options to a base Maneuver.
 
 ### Proficiencies
 __Skill Proficiency:__ Choose three skills from the following: Arcane, History, Heal, Streetwise  
@@ -139,14 +139,14 @@ __Heals:__ 4
 Every Sorcerer obtained their magical powers through a different source, from ancient tomes to pacts with otherworldly beings.
 
 #### Ancient Lore
-You aquired your knowledge of the arcane by studying ancient books and scrolls. Maybe you formally enrolled in a magic academy or found them in decript ruines.
+You acquired your knowledge of the arcane by studying ancient books and scrolls. Maybe you formally enrolled in a magic academy or found them in decript ruines.
 You gain an additional two power points after a rest.
 
-When gaining a new Discipline Level you can choose to gain an additional Manouver from the same Level of a Discipline you already own.
+When gaining a new Discipline Level you can choose to gain an additional Maneuver from the same Level of a Discipline you already own.
 
-#### Eldrich Pact
+#### Eldritch Pact
 You forged a terrible pact with a powerful being. It gave you fantastic powers, but they come with a price which could be horrible indeed.
-You gain the Warlocks Curce discipline.
+You gain the Warlocks Curse discipline.
 
 #### Warlocks Curse
 ##### Lvl 1: Curse
@@ -166,10 +166,10 @@ Close blast 5
 ####  Lvl 1: Touch of Cold
 * Melee attack with Mind using bare Hands.
 * 1d4 + Mind damage
-* Target is imobilized
+* Target is immobilized
 
 #### Lvl 2: 
-Target is restrained instead of imobilized
+Target is restrained instead of immobilized
 
 #### lvl 3:
 Ice Grip is a close burst 1 instead of melee 1
@@ -250,15 +250,14 @@ Squares within the target area become difficult terrain.
 ## Druid
 
 ### Comment
-A druid first choses the Call of the Wild discipline which has the largest influence on its playstyle.
-It determines its role as striker, tank, healer, or controler.
+A druid first chooses the Call of the Wild discipline which has the largest influence on its play-style.
+It determines its role as striker, tank, healer, or controller.
 The circle then sets the relationship to the other heroes.
 Does the druid better fight alone, next to the others and does he help them, or benefit from them?
 
 Druids have less raw spell power than sorcerers but their Call of the Wild sets them apart.
 Their higher level spell abilities tend to be modifications of a common spell.
 
-Unlike Godsworn, duids don't have access to heavy armor proficiency.
 Druid have the strongest force movement disciplines of all caster classes.
 They focus on poison and storm damage, while Godsworn focus on fire damage-
 Druid spells do less damage than Godsworn spells on average.
@@ -363,18 +362,18 @@ The attack becomes close blast 3, Damage increases to 1d10.
 Swarm call causes 10 ongoing poison damage.
 
 #### Lvl 3: Itching Bites
-The malus also applys to attacks of the targets.
+The malus also applies to attacks of the targets.
 
 #### lvl 4: Feeding
 You can repeat the attack next turn to targets in the same squares.
 
-#### Lvl 4: Aggresive swarm
-The maslus also applys to saves.
+#### Lvl 4: Aggressive swarm
+The malus also applies to saves.
 The malus stays as long as the ongoing damage.
 
 ### Pounce (Beast Form)
 #### Lvl 1: Pounce
-Melee Atack  
+Melee Attack  
 The target grants advantage to the next creature that attacks it before the end of the round.
 
 #### Lvl 2: Bite
@@ -383,7 +382,7 @@ Pounce causes additional an 1d8 damage.
 ### Rending Claws (Beast Form)
 
 #### Lvl 1:
-Melee Atack  
+Melee Attack  
 Hit: The target is slowed
 
 #### Lvl2: Savage Rend
@@ -399,21 +398,21 @@ The bonus of *Barkskin* also applies to the targets reflex resistance.
 ## Rogue
 
 Rogues specialize on exploiting every weakness they find in their enemies.
-On face value, they don't appear very threatening, haveing a low number of hit points and wielding small weapons.
+On face value, they don't appear very threatening, having a low number of hit points and wielding small weapons.
 But once a rogue inevitably finds a weakness in their target, they show their true power using their *sneak attacks* for devastating effect.
 
 ### Comment
-The playstyle of the rogue is focues on exploiting opportunities.
-Without advantage they do less damage than Fighters and have a smaller selection of abilities than Sorcerers or Druids.
+The play-style of the rogue is focuses on exploiting opportunities.
+Without advantage, they do less damage than Fighters and have a smaller selection of abilities than Sorcerers or Druids.
 Their combat abilities are built around the Sneak Attack discipline.
 They only have one static "dimension" of diversification in their Scum and Villainy feature
 but the Sneak Attack discipline has many more branching points where choices influence the character than disciplines of other classes.
 
 Most Rogue Discipline cost power point.
-Unlike the Fighter (or Wizard Cantrips) there are very few free manouvers.
+Unlike the Fighter (or Wizard Cantrips) there are very few free Maneuvers.
 
-Manouvers give mostly buffs and movement effects.
-Sneak Attack supports Debuffs on Enemies and additional damage.
+Maneuvers give mostly buffs and movement effects.
+Sneak Attack supports debuffs on Enemies and additional damage.
 
 ### Proficiencies
 __Skill Proficiency:__ Choose two skills from the following: Stealth, Streetwise, Athletics, Charm, Thievery
@@ -473,15 +472,15 @@ Your movement does not trigger Opportunity attacks and you can move through enem
 As a Godsworn you have bound your service to a higher cause or a God from the spiritual realm.
 
 ### Comment
-Godsworn are basically Clerics, Paladins and Dnd 4e Avangers rolled together.
-Their oath determines what they are good at and the domains of their gods specify how they regain power points and thus greatly influence playstyle.
+Godsworn are basically Clerics, Paladins and Dnd 4e Avengers rolled together.
+Their oath determines what they are good at and the domains of their gods specify how they regain power points and thus greatly influence play-style.
 The domain has a smaller effect than the Oath. Some domains give access to abilities of other classes.
 These domains are intended for players who like to spend time tinkering.
 
 Weapon abilities of Godsworn are less straight forward than those of fighters.
 A damage dealer Godsworn depends more on secondary damage effects than the high damage dice of a Fighter or the large damage dice count of a Rogue.
 
-Abilities of Godsworn and Druids are similiar.
+Abilities of Godsworn and Druids are similar.
 Druids do more "nature" related damage like Poison and Lightning.
 Godsworn do more fire damage.
 The main difference between Godsworn and Druids are in their class features.
@@ -498,7 +497,7 @@ __Heals:__ 6
 
 ### Equipment
 
-* Two weapons or or a weapon and a shields of your choice.
+* Two weapons or a weapon and a shields of your choice.
 * An armor you are proficient with.
 * A holy symbol of your religion
 

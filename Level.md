@@ -10,7 +10,7 @@ At Level up choose one:
 Each Only once per Tier
 * Feat 
 * Feat 
-* Preficiency Bonus +1
+* Proficiency Bonus +1
 * 2 Attributes +1
 * Discover Secret of a Legendary Item
 * Discover Secret of a Legendary Item
@@ -68,9 +68,9 @@ Bonus scaling of Heroies; The level when a bonus increases is not prcesice
 | 21    | 6 | +5 | +2 | 
 
 
-HP and Damage scaling of Heroies; The level when a bonus increases is not prcesice.
+HP and Damage scaling of Heroes; The level when a bonus increases is not precise.
 The example is an average character with Hit dice D10
-Damage is also average for a Hero who is capable of doing damage but not a focuesed striker
+Damage is also average for a Hero who is capable of doing damage but not a focused striker
 
 | Level | HP | Hero Damage |
 | 1     | 10 | 3d6 +3 | +0 | 

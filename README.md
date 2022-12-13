@@ -6,7 +6,7 @@ Aaargh another Action RPG!
 Aaargh is a free and open pen and paper RPG in the vein of Dungeons and Dragons.
 
 ## Mission Statement
-Aaargh continues where Dnd4 and 5 left off. It offers fast yet tactical combat with a lot of options to customize your characters and let them fight their way through any imagainable adventure. It offers a wide range of character options without geting lost in minute detail together with a streamlined gameplay. The characters are heroes who leave their mark on the world.
+Aaargh continues where Dnd4 and 5 left off. It offers fast yet tactical combat with a lot of options to customize your characters and let them fight their way through any imaginable adventure. It offers a wide range of character options without geting lost in minute detail together with a streamlined gameplay. The characters are heroes who leave their mark on the world.
 
 ## Design Goals
 * Heroes kick ass! The characters are larger than life heroes and should feel like that.
@@ -17,15 +17,15 @@ Aaargh continues where Dnd4 and 5 left off. It offers fast yet tactical combat w
 * Consistent Core Rules. Once a player gets a grasp how the rules work, it should be easy to guess how they apply to a specific situation.
 Never should anybody but the player of a character need to know the specific rules of that character.
 
-## What Aargh is not
-* A Simulation, Aargh is focused on action and dangerous adventures in a fanstatic world. It does not simulate the reality.
+## What Aaargh is not
+* A Simulation, Aaargh is focused on action and dangerous adventures in a fantastic world. It does not simulate the reality.
 * Balanced for player versus player fights.
 
-## whats with the name?
-aaargh is a working title, it might or might not get a serius name later.
+## what's with the name?
+aaargh is a working title, it might or might not get a serious name later.
 
 ## Comment Blocks
 Scattered throughout the documents are blocks marked with *Comment*.
 These contain commentary and thoughts of the developers behind design decisions etc.
 They are not meant to be contained within compiled books etc.
-These thoughts might be somewhat unfiltered are not necessarily aggreed upon by all writers.
+These thoughts might be somewhat unfiltered are not necessarily agreed upon by all writers.

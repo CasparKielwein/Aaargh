@@ -57,7 +57,7 @@ Lowest value: 6
 Highest Value: 12
 
 Increase per level are automatic.
-Heros gain additional HP every level.
+Heroes gain additional HP every level.
 
 Lowest Increase: 3  
 Highest Increase: 6
@@ -70,19 +70,19 @@ The number of Endurance Points is determined by your class.
 When a Hero spends an Endurance Point they regain a number of Hit points equal to 1/4 of their maximum number of Hit Points.
 
 #### Comment
-Hits Points increase every level to give Players a constant feeling of getting stronger by simply having "larger numbers".
+Hitpoints increase every level to give Players a constant feeling of getting stronger by simply having "larger numbers".
 HP per level are not dependent on Toughness, as this would make the attribute an automatic choice for every tank character.
 Consider that Attribute values range from zero to six.
 
 
-### Disciplines and Manouvers
+### Disciplines and Maneuvers
 
 TODO: Find a nice visual representation of the skill tree
-TODO: Find a good representation of when a Manouver supports an existing power or introduces a new one.
+TODO: Find a good representation of when a Maneuver supports an existing power or introduces a new one.
 
 ### Combat and Order of Turns
 
-Before a combat encounter starts, the DM tells the players what the surroundings are and what they can immediatly see about the other combatants.
+Before a combat encounter starts, the DM tells the players what the surroundings are and what they can immediately see about the other combatants.
 If one side tries to ambush the other side, those setting up the ambush roll stealth against the victims passive perception.
 Players can also roll knowledge checks to see if their heroes have additional knowledge about their enemies.
 
@@ -160,19 +160,19 @@ They are meant to make characters well rounded and give everyone abilities outsi
 #### Class
 The class has the largest direct effect on a heroes abilities.
 
-#### Attribtues
+#### Attributes
 #### Skills
 #### Disciplines
 How different do disciplines need to be?  
 Disciplines of a single class should be very different.
-It should be clear immediately how two disciplines are different and why a player should chose one over the other.
+It should be clear immediately how two disciplines are different and why a player should choose one over the other.
 
 It is ok if disciplines of two classes are similar.
 Two classes should either have different direct and attack abilities or different support abilities and secondary effects.
 
 #### Talents / Feats
 Talents are mostly static buffs and passive abilities which influence the way a hero is played.
-They can provide active abilities and but should be rare and there should be a good reason why that abilitiy is not Discipline Rank.
+They can provide active abilities but that should be rare and there should be a good reason why that ability is not Discipline Rank.
 A Talent is slightly stronger than a single rank in a Discipline.
 A Hero has a low number of Talents (3-4).
 
@@ -186,18 +186,18 @@ Examples are bonus to damage types, Bonus to Healing.
 * Modify the effects of a subset of discipline abilities.
 They could change the damage type of abilities.
 * Give a Hero access to abilities of another class.
-This should be limitied in some way. 
+This should be limited in some way. 
 An example is the Furymancer Talent which gives a fighter access to Sorcerer spells but only in combination with their Rage feature.
 * Put a twist on a concept. Make a class or ancestry feature work in a surprising way.
 * Make an exotic combination viable. Some combinations of class and equipment are weaker than others. A talent might give the equipment a bonus to make it a viable alternative to the obvious equipment options.
-* Make an Archetype viable. Generally archetypical Heroes should work without Talents.
-If it is not possible to enable that without breaking balancing, it is acceptable if a archetypical combination of ancestry, class, and equipment requires a Talent.
+* Make an Archetype viable. Generally archetypal Heroes should work without Talents.
+If it is not possible to enable that without breaking balancing, it is acceptable if a archetypal combination of ancestry, class, and equipment requires a Talent.
 
 What Talents should not do:
 * Be necessary to make a core feature viable.
 Every Weapon, Ancestry and Class feature should be a viable option without a Talent.
 * Make a combination of Ancestry and Class viable.
-Heroes of all Ancestries should be able to chose all classes.
+Heroes of all Ancestries should be able to choose all classes.
 
 Questions:
 * Are general boni a good idea?

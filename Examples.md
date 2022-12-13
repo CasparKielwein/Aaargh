@@ -1,6 +1,6 @@
 # Example Characters
 
-## Dwarven Figher
+## Dwarven Fighter
 ### Race: Dwarf
 
 Speed: 25
@@ -28,10 +28,10 @@ __Fighting Style:__ Rage
 * Lvl 1: Sure Strike
 
 ### Feats: 
-* Heavy Wepon Master
+* Heavy Weapon Master
 
 ### Attributes:
-__Touchness:__ 4
+__Touchiness:__ 4
 __Dexterity:__ 0
 __Mind:__ 0
 
@@ -82,7 +82,7 @@ __Heals:__ 4
 * Staff
 
 ## Halfling Rogue
-### Ancetry: Halfling
+### Ancestry: Halfling
 Speed: 30'  
 Language: Common, Goblin  
 Skills: Stealth
@@ -108,7 +108,7 @@ The Shadow: When you start a fight while being hidden from all enemies, you gain
 * Lvl 1: Artful Dodge
 
 ### Attributes:
-__Touchness:__ 2
+__Touchiness:__ 2
 __Dexterity:__ 3
 __Mind:__ 0
 
@@ -120,7 +120,7 @@ __Heals:__ 4
 * Dagger
 
 ## Human Godsworn
-### Ancetry: Human
+### Ancestry: Human
 Speed: 30'  
 Language: Common, Goblin  
 Skills: Charm
@@ -161,7 +161,7 @@ __Heals:__ 6
 
 
 ## Human Druid
-### Ancetry: Human
+### Ancestry: Human
 Speed: 30'  
 Language: Common, Goblin  
 Skills: Charm
@@ -187,7 +187,7 @@ __Domains__ TODO
 * Lvl 1: Healing Word
 
 ### Attributes:
-__Touchness:__ 3
+__Touchiness:__ 3
 __Dexterity:__ 0
 __Mind:__ 2
 

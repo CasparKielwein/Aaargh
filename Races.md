@@ -75,7 +75,7 @@ Skills: Nature or Intimidate
 * Ongoing Damage on hit
 
 #### Terrifying Charge
-* on hit: scondary attack
+* on hit: secondary attack
 * Psychic attack (what debuff?)
 * close burst 3
 

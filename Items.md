@@ -4,12 +4,12 @@
 The Equipment rules are not realistic.
 They are designed to be fun and enable strong visuals and action scenes.
 
-For Weapon focused Heros the choice of weapon is a choice of damage potential vs secondary effects and utility vs defense.
+For Weapon focused Heroes the choice of weapon is a choice of damage potential vs secondary effects and utility vs defense.
 The damage of spellcasters does not depend as much on the weapon.
-Thus it is a choice between different utilities and secondary effects and defense.
+Thus, it is a choice between different utilities and secondary effects and defense.
 
 ## Weapon Properties
-* Versatile: The weapon can be used one handed or two handed. If used two-handed the damage die increases by one type.
+* Versatile: The weapon can be used one-handed or two-handed. If used two-handed the damage die increases by one type.
 * Reach: The weapon can be used to attack enemies up to 10ft away.
 * 2H: The weapon can only be used with two hands.
 * Devastating: Critical hits with this weapon deal extra damage. A critical hit deals an extra 1[W] damage at levels 1-10, 2[W] at levels 11-20 and 3[W] at levels 21 to 25.
@@ -67,14 +67,14 @@ Thus it is a choice between different utilities and secondary effects and defens
 
 ### Comment
 Blade Weapons have the greatest utility but generally do one die type less damage than Axes.
-Feats and Manouvers targetting blade Weapons are better than those for Axes and Hammers.
+Feats and Maneuvers targeting blade Weapons are better than those for Axes and Hammers.
 Axes have the highest potential for damage having the *devastating* attribute and feats supporting conditionally damage boni.
 Hammers are have the highest average damage. Feats supporting hammers add debuffs that are useful for low damage builds.
 Crossbows do more damage than bows, but the `Load` Attribute limits them to one attack per round.
-Thrown Weapons do even less damage but provide versatility by being one handed and also usable as melee weapons.
+Thrown Weapons do even less damage but provide versatility by being one-handed and also usable as melee weapons.
 
 Everyone can wear every armor, there are no restriction for class or attribute values.
-Feats and Magic Items encourage using lighter armor to advance certain playstiles.
+Feats and Magic Items encourage using lighter armor to advance certain play-styles.
 
 ## Magic and Legendary Items
 ### Comment
@@ -102,4 +102,4 @@ Each Secret you uncover unlocks a new ability of the Legendary Item.
 #### Robes of the Archmage
 Cloth robes, no real amor.
 
-* You start each ancounter with one additional Power Point
+* You start each encounter with one additional Power Point

@@ -22,9 +22,9 @@ They will help you in your quests, possibly hide you and your group from authori
 #### Birth of a Hero
 An Event that transformed your life from the ordinary.
 * 1: Hero of the Rebellion
-Your people rose up against unjust rule and you became their unlikely leader.
+Your people rose up against unjust rule, and you became their unlikely leader.
 You are now a hero to the oppressed and an enemy of the powers that were.  
-Enemy: You freed the people from a tyrant but he still holds a grudge. A powerful and cruel man wants to see you suffer.
+Enemy: You freed the people from a tyrant, but he still holds a grudge. A powerful and cruel man wants to see you suffer.
 * 2: Last Survivor
 A terrible catastrophe; war, disease, or natural disaster claimed every life in your community but yours.
 * 3: Child of another world
