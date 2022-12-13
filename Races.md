@@ -1,7 +1,7 @@
-# Races
+# Ancestry
 ## Dwarf
 
-Stout and stubborn, warriors and craftsmen, Kings and Queens of Mountain Halls.
+Stout and stubborn, Warriors and Craftsmen, Kings and Queens of the Mountain Halls.
 
 ### Traits
 Speed: 25'  
@@ -15,10 +15,6 @@ On your turn: As an opportunity action you can chose to spend one *Heal* to rega
 When you use your Dwarven Resilience, you gain *Damage Resistance* until the end of your next turn.
 #### Lvl 2: Strength of the Earth
 When you use your Dwarven Resilience, you can save against all conditions you currently suffer.
-
-### Feats:
-#### Dwarven Weapon Training
-Gain Proficiency with all Hammers and Axes.
 
 ## Draken
 
@@ -57,10 +53,6 @@ Skills: Intimidate or Religion
 
 #### Lvl 4: Burning Breath
 * Targets hit by Dragonbreath suffer 10 Ongoing Damage of the chosen elemental type.
-
-### Feats:
-#### Arcane breath
-* Dragonbreath counts as a magic attack.
 
 ## Minotaur
 
@@ -104,8 +96,9 @@ Speed: 30'
 Language: Common, Elven
 Skills: Arcane, Charm, or Nature
 
-### Elven Grace
-TODO
+### Elven Accuracy
+#### Lvl 1: Accuracy
+After making a attack role, you can spend a power point to reroll a single die or both dice when rolling with advantage or disadvantage.
 
 ## Halfling
 
@@ -116,3 +109,5 @@ Skills: Streetwise or Stealth
 
 ### Halfling Luck
 #### Lvl 1: Luck
+After an enemy hits you with an attack, but before damage is rolled, you can spend a Power Point
+to force the DM to reroll the attack against you.

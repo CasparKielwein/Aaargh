@@ -18,19 +18,28 @@ This is enough to create an example character of each class.
 * Bless
   * Bonus to Skill checks and attacks 
 * Healing Word
+  * Heal Ally
 
 ### Druid
 * Pounce
   * Melee Attack, move before attack
 * Call Swarm
   * Area attack with debuffs to defense and movement
+* Barkskin
+  * Ally gains bonus to defense
   
 ### Sorcerer
 * Pyromancy
+  * damage + Damage over time
 * Lightning
+  * damage
+* Ice
+  * hinder and slow enemies down
 
 ### Rogue
 * Nimble Attack
   * Move before/after attack
 * Hobbling Strike
   * Debuff to Defense and Movement
+* Artful Dodge
+  * Move through enemies, without opportunity Attacks

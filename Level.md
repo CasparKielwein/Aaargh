@@ -8,12 +8,13 @@ Advances per Tier
 
 At Level up choose one:
 Each Only once per Tier
-* Feat
+* Feat 
+* Feat 
+* Preficiency Bonus +1
 * 2 Attributes +1
-* Group Bond
 * Discover Secret of a Legendary Item
 * Discover Secret of a Legendary Item
-* Additional Class Feature
+
 
 
 | Level | Disciplines         | Ranks | Advances |
@@ -39,3 +40,57 @@ Each Only once per Tier
 | 20    |                        | 24 | any
 | 21    |                        | 25 | any
 
+
+## Level Scaling
+Bonus scaling of Heroies; The level when a bonus increases is not prcesice
+
+| Level | Max Attribute | Prof Bonus |Item Bonus |
+| 1     | 3 | +2 | +0 | 
+| 2     | 3 | +2 | +0 | 
+| 3     | 3 | +2 | +0 | 
+| 4     | 4 | +3 | +0 | 
+| 5     | 4 | +3 | +1 | 
+| 6     | 4 | +3 | +1 | 
+| 7     | 4 | +3 | +1 | 
+| 8     | 4 | +3 | +1 | 
+| 9     | 4 | +3 | +1 | 
+| 10    | 5 | +3 | +1 | 
+| 11    | 5 | +4 | +1 | 
+| 12    | 5 | +4 | +2 | 
+| 13    | 5 | +4 | +2 | 
+| 14    | 5 | +4 | +2 | 
+| 15    | 5 | +4 | +2 | 
+| 16    | 5 | +4 | +2 | 
+| 17    | 6 | +4 | +2 | 
+| 18    | 6 | +5 | +2 | 
+| 19    | 6 | +5 | +2 | 
+| 20    | 6 | +5 | +2 | 
+| 21    | 6 | +5 | +2 | 
+
+
+HP and Damage scaling of Heroies; The level when a bonus increases is not prcesice.
+The example is an average character with Hit dice D10
+Damage is also average for a Hero who is capable of doing damage but not a focuesed striker
+
+| Level | HP | Hero Damage |
+| 1     | 10 | 3d6 +3 | +0 | 
+| 2     | 16 | 3d6 +3 | +0 | 
+| 3     | 22 | 3d6 +3 | +0 | 
+| 4     | 28 | 3d6 +4 | +0 | 
+| 5     | 34 | 3d6 +4 | +1 | 
+| 6     | 40 | 3d6 +4 +1 | +1 | 
+| 7     | 46 | 4d6 +4 +1 | +1 | 
+| 8     | 52 | 4d6 +4 +1 | +1 | 
+| 9     | 58 | 4d6 +4 +1 | +1 | 
+| 10    | 64 | 4d6 +4 +1 | +1 | 
+| 11    | 70 | 4d6 +5 +1 | +1 | 
+| 12    | 76 | 4d6 +5 +1 | +2 | 
+| 13    | 82 | 4d6 +5 +1 | +2 | 
+| 14    | 88 | 5d6 +5 +2 | +2 | 
+| 15    | 94 | 5d6 +5 +2 | +2 | 
+| 16    | 100 | 5d6 +5 +2 | +2 | 
+| 17    | 106 | 5d6 +6 +2 | +2 | 
+| 18    | 112 | 5d6 +6 +2 | +2 | 
+| 19    | 118 | 5d6 +6 +2 | +2 | 
+| 20    | 124 | 5d6 +6 +2 | +2 | 
+| 21    | 130 | 5d6 +6 +2 | +2 | 

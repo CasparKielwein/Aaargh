@@ -2,6 +2,7 @@
 Each Hero has one *Class*, which determines the majority of his playing options.
 Each *Class* provides several *Disciplines* to choose from.
 
+
 ## Fighter
 
 ### Comment
@@ -17,8 +18,7 @@ The fighting style lets the player chose a combat situation the Fighter excels i
 Fighting Style and Equipment determine if the Fighter is a Tank or a Striker.
 
 The Martial Discipline is a discipline tree which defines how the Fighter regains power points.
-Depending on the chosen discipline the fighter needs to act very differently
-during combat to maximise power points.
+Depending on the chosen discipline the fighter needs to act very differently during combat to maximise power points.
 The martial discipline does not make the fighter more or less able to take damage.
 
 Equipment, in particular choice of weapons and armor has a large influence on the combat style of the fighter. More so than for any other class.
@@ -38,8 +38,8 @@ __Heals:__ 6
 * Two weapons or or a Weapon and a shield of your choice.
 * An armor you are proficient with.
 
-### Fighting Style
-Choose a fighting style for your fighter:
+### Weapon Focus
+Choose a weapon focus for your fighter:
 
 #### Armored Fighter
 Gain proficiency with heavy armor
@@ -51,7 +51,7 @@ It serves as your main source of Manouver Points.
 
 #### Rage
 ##### Comment
-The Rage discipline basically makes the fighter into a DnD Barbarian.
+The Rage discipline basically turns the fighter into a DnD Barbarian.
 It rewards the player for acting recklessly and taking risks.
 
 ##### Lvl 1: Rage
@@ -343,7 +343,7 @@ TODO: Power Source, some interaction with HP
 #### lvl3:
 * Attack is area burst 1
 
-#### Lvl 3: Crusing Grasp
+#### Lvl 3: Crushing Grasp
 * Attack becomes ranged 3
 * Damage becomes 1d10 + Wis
 
@@ -416,7 +416,7 @@ Manouvers give mostly buffs and movement effects.
 Sneak Attack supports Debuffs on Enemies and additional damage.
 
 ### Proficiencies
-__Skill Proficiency:__ Choose two skills from the following: Religion, Athletics, Heal, Charm
+__Skill Proficiency:__ Choose two skills from the following: Stealth, Streetwise, Athletics, Charm, Thievery
 __Armor Proficiency:__ You are proficient with all Light and Medium Armor.
 
 __Starting Hit Points:__ 4 + Tough  
@@ -440,8 +440,8 @@ Knock enemy prone, Stun enemy, slow enemy
 
 ### Scum and Villainy
 
-#### Scoundrel
-If you start a fight while being hidden from all enemies, you gain a Power Point.
+#### Shadow
+When you start a fight while being hidden from all enemies, you gain a Power Point.
 
 #### Daredevil
 TODO: Gain Power Points for risky and dangerous actions
@@ -462,6 +462,13 @@ You make a standard Ranged or Melee Attack.
 If the attack hits, you can spent 1 Power Point.
 If you do so, you gain advantage with your next attack against the target.
 
+### Artful Dodge
+
+#### Lvl1: Unhindered Movement
+Spend a move Action and a Power Point.
+Move your speed.
+Your movement does not trigger Opportunity attacks and you can move through enemies.
+
 ## Godsworn
 As a Godsworn you have bound your service to a higher cause or a God from the spiritual realm.
 
@@ -480,7 +487,7 @@ Godsworn do more fire damage.
 The main difference between Godsworn and Druids are in their class features.
 
 ### Proficiencies
-__Skill Proficiency:__ Choose three skills from the following: Stealth, Thievery, Athletics, Streetwise  
+__Skill Proficiency:__ Choose three skills from the following: Religion, Athletics, Heal, Charm
 __Armor Proficiency:__ You are proficient with Light and Medium Armor.
 
 __Starting Hit Points:__ 8 + Tough  

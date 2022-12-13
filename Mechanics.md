@@ -47,15 +47,33 @@ To save against a condition, roll a single d20. on a Roll of 11 or higher, you p
 ### Comment
 Why four defenses and a single save (like dnd 4) and not AC + 3 saves like other editions?
 Based on the assumption, that player characters will cast more spells on more targets than NPCs, 
-binding spells to rolls made by the player gives them more todo instead of having the DM roll a lot of saves for a player action.
+binding spells to rolls made by the player gives them more to do instead of having the DM roll a lot of saves for a player action.
 This should increase the feeling of having the initiative for the players and makes larger numbers of enemies more manageable.
 
 ### Hitpoints and Heals
 
-TODO: How do hitpoints and heals increase with levels?
-TODO: How much impact should Toughness have on hitpoints?
+Hitpoints at level 1 are determined by your class and the *Toughness* attribute.  
+Lowest value: 6  
+Highest Value: 12
 
-Hitpoints at level 1 are determined by your class and the *Toughness* attribute.
+Increase per level are automatic.
+Heros gain additional HP every level.
+
+Lowest Increase: 3  
+Highest Increase: 6
+
+#### Endurance
+
+Each Hero has a number of Endurance Points which they use to regain Hit Points.
+The number of Endurance Points is determined by your class.
+
+When a Hero spends an Endurance Point they regain a number of Hit points equal to 1/4 of their maximum number of Hit Points.
+
+#### Comment
+Hits Points increase every level to give Players a constant feeling of getting stronger by simply having "larger numbers".
+HP per level are not dependent on Toughness, as this would make the attribute an automatic choice for every tank character.
+Consider that Attribute values range from zero to six.
+
 
 ### Disciplines and Manouvers
 
@@ -121,6 +139,7 @@ Standing up requires a move action.
 #### Immobilized
 #### Shaken
 #### Stunned
+A hero or monster who is stunned, cannot take any actions until the condition ends.
 #### Bloodied
 A hero or monster is bloodied if their hitpoints fall below one half of their starting hit points.
 

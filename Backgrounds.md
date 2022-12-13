@@ -49,3 +49,13 @@ __Equipment:__
 #### Feature: Underworld Contact
 You have a trusted contact within the criminal underworld.
 You know how to get messages to and from your contact, even over great distances.
+
+### Noble
+
+### Rough Childhood
+
+### On the Run
+
+### Acolyte
+
+### Soldier
