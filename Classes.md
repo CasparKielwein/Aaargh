@@ -8,7 +8,7 @@ Each *Class* provides several *Disciplines* to choose from.
 ### Comment
 The fighter is intended to have a very "in your face" kind of play-style.
 Get into the thick of it and dish it out left, right, and center.
-Power Points are (re-)gained during the fight. The Fighter does not start with many and thus does not have the alpha strike of a sorcerer.
+Power-Points are (re-)gained during the fight. The Fighter does not start with many and thus does not have the alpha strike of a sorcerer.
 The Fighters different fighting styles cover the Fighter, Barbarian, and Ranger from dnd.
 If a player just wants to kill stuff they should build a fighter, focus on damage abilities and enjoy the carnage.
 
@@ -17,8 +17,8 @@ The fighter has multiple ways of diversification. Two are the main class feature
 The fighting style lets the player chose a combat situation the Fighter excels in.
 Fighting Style and Equipment determine if the Fighter is a Tank or a Striker.
 
-The Martial Discipline is a discipline tree which defines how the Fighter regains power points.
-Depending on the chosen discipline the fighter needs to act very differently during combat to maximise power points.
+The Martial Discipline is a discipline tree which defines how the Fighter regains Power-Points.
+Depending on the chosen discipline the fighter needs to act very differently during combat to maximise Power-Points.
 The martial discipline does not make the fighter more or less able to take damage.
 
 Equipment, in particular choice of weapons and armor has a large influence on the combat style of the fighter. More so than for any other class.
@@ -26,7 +26,6 @@ Equipment, in particular choice of weapons and armor has a large influence on th
 ### Proficiencies
 
 __Skill Proficiency:__ Choose three skills from the following: Athletics, Endurance, Intimidate, Heal, Streetwise  
-__Armor Proficiency:__ Fighters are proficient with all Light and Medium Armor.
 
 __Starting Hit Points:__ 10 + Tough  
 __Hit Points per Level:__ 4
@@ -35,14 +34,13 @@ __Heals:__ 6
 
 ### Equipment
 
-* Two weapons or or a Weapon and a shield of your choice.
+* Two weapons or a Weapon and a shield of your choice.
 * An armor you are proficient with.
 
 ### Weapon Focus
 Choose a weapon focus for your fighter:
 
-#### Armored Fighter
-Gain proficiency with heavy armor
+#### 
 
 ### Martial Discipline
 Choose a martial discipline for your fighter.
@@ -59,7 +57,8 @@ The first time you are bloodied during a fight, you enter a terrible rage.
 When you enter the rage you gain one Maneuver Point.
 
 #### Focus
-##### TODO
+##### Lvl 1: Focus Strike
+If you spend a move action to focus, the next action this turn will cost one Power-Point less.
 
 ## Disciplines:
 
@@ -115,20 +114,18 @@ When you hit with both attacks of your Twin Strike, you can spend a Maneuver Poi
 
 ### Comment
 Sorcerers are the catchall spellcaster class.
-Of all classes, they have the largest number of active abilities available
-as many of their disciplines add new powers with higher ranks.
+Of all classes, they have the largest number of active abilities available as many of their disciplines add new powers with higher ranks.
 Wizards have more utility, Warlocks deal more damage.
 
 Sorcerers have more diversity and utilities in their abilities than godsworn or druids.
 They are very much focussed on their spell abilities and lack the defining abilities
 of godsworn and druids which are not active spells.
 
-Higher level Abilities of Sorcerers are often new powerfull spells.
-This differantiates them from Godsworn Disciplines which mostly add effects and options to a base Maneuver.
+Higher level Abilities of Sorcerers are often new powerful spells.
+This differentiates them from Godsworn Disciplines which mostly add effects and options to a base Maneuver.
 
 ### Proficiencies
 __Skill Proficiency:__ Choose three skills from the following: Arcane, History, Heal, Streetwise  
-__Armor Proficiency:__ Sorcerers are proficient with Light Armor.
 
 __Starting Hit Points:__ 4 + Tough  
 __Hit Points per Level:__ 2
@@ -139,8 +136,8 @@ __Heals:__ 4
 Every Sorcerer obtained their magical powers through a different source, from ancient tomes to pacts with otherworldly beings.
 
 #### Ancient Lore
-You acquired your knowledge of the arcane by studying ancient books and scrolls. Maybe you formally enrolled in a magic academy or found them in decript ruines.
-You gain an additional two power points after a rest.
+You acquired your knowledge of the arcane by studying ancient books and scrolls. Maybe you formally enrolled in a magic academy or found them in decrypt ruins.
+You gain an additional two Power-Points after a long rest.
 
 When gaining a new Discipline Level you can choose to gain an additional Maneuver from the same Level of a Discipline you already own.
 
@@ -150,10 +147,10 @@ You gain the Warlocks Curse discipline.
 
 #### Warlocks Curse
 ##### Lvl 1: Curse
-Cost: 1 Power Point  
+Cost: 1 Power-Point  
 As a full action you can put your curse on an enemy.
 The curse lasts until the end of the encounter.
-Whenever you cast a spell to target the cursed enemy, the power point cost of that spell is reduced by one.
+Whenever you cast a spell to target the cursed enemy, the Power-Point cost of that spell is reduced by one.
 
 ## Disciplines:
 ### Fire
@@ -259,12 +256,11 @@ Druids have less raw spell power than sorcerers but their Call of the Wild sets 
 Their higher level spell abilities tend to be modifications of a common spell.
 
 Druid have the strongest force movement disciplines of all caster classes.
-They focus on poison and storm damage, while Godsworn focus on fire damage-
+They focus on poison and storm damage, while Godsworn focus on fire damage,
 Druid spells do less damage than Godsworn spells on average.
 
 ### Proficiencies
 __Skill Proficiency:__ Choose three skills from the following: Stealth, Nature, Heal, Perception
-__Armor Proficiency:__ Druids are proficient with Light Armor.
 
 __Starting Hit Points:__ 6 + Tough  
 __Hit Points per Level:__ 3
@@ -315,22 +311,25 @@ Todo: combat oriented
 
 
 ### Druidic Circle
-Druids sometimes meet in druidic circles. The members of a circle share an idiology or common goal.
+Druids sometimes meet in druidic circles. The members of a circle share an ideology or common goal.
 
 #### Lone Rangers
 Lone Rangers are not a true circle, but druids which prefer to work alone.
 
-TODO: Power Point Regeneration mechanism
+If during combat you start your turn with no ally within 10` you gain a Power-Point.
+
+#### Circle of Natures Communion
+At the start of your turn, if you are adjacent to two or more allies, you gain a Power-Point
 
 #### Healing Cove
-Druids of the healing cove focus on healing nature and life itself.
+Druids of the healing cove focus on the healing aspect of nature and life itself.
 Their meetings are usually peaceful and serene affairs.
 
 TODO: Power Source, some interaction with HP
 
 ## Disciplines:
 
-### Grapsing Vines
+### Grasping Vines
 #### Lvl1:
 * Ranged 20
 * 1d4 + Mind Damage
@@ -408,7 +407,7 @@ Their combat abilities are built around the Sneak Attack discipline.
 They only have one static "dimension" of diversification in their Scum and Villainy feature
 but the Sneak Attack discipline has many more branching points where choices influence the character than disciplines of other classes.
 
-Most Rogue Discipline cost power point.
+Most Rogue Discipline cost Power-Point.
 Unlike the Fighter (or Wizard Cantrips) there are very few free Maneuvers.
 
 Maneuvers give mostly buffs and movement effects.
@@ -416,7 +415,6 @@ Sneak Attack supports debuffs on Enemies and additional damage.
 
 ### Proficiencies
 __Skill Proficiency:__ Choose two skills from the following: Stealth, Streetwise, Athletics, Charm, Thievery
-__Armor Proficiency:__ You are proficient with all Light and Medium Armor.
 
 __Starting Hit Points:__ 4 + Tough  
 __Hit Points per Level:__ 2
@@ -440,17 +438,16 @@ Knock enemy prone, Stun enemy, slow enemy
 ### Scum and Villainy
 
 #### Shadow
-When you start a fight while being hidden from all enemies, you gain a Power Point.
+When you start a fight while being hidden from all enemies, you gain a Power-Point.
 
 #### Daredevil
-TODO: Gain Power Points for risky and dangerous actions
-
+Once per turn, when you provoke an opportunity attack from an enemy, you gain a Power-Point.
 
 ### Nimble Attack
 Swiftly moving around your enemies, you leave them no chance for attack.
 
 #### Lvl 1: Nimble Attack
-Cost: 1 Power Point
+Cost: 1 Power-Point
 You make a standard Ranged or Melee Attack. After the attack has been resolved you can shift 5'.
 
 ### Hobbling Strike
@@ -458,13 +455,13 @@ Your strike weakens the enemy setting them up for further attack.
 
 #### Lvl1: Hobbling Strike
 You make a standard Ranged or Melee Attack.
-If the attack hits, you can spent 1 Power Point.
+If the attack hits, you can spend 1 Power-Point.
 If you do so, you gain advantage with your next attack against the target.
 
 ### Artful Dodge
 
 #### Lvl1: Unhindered Movement
-Spend a move Action and a Power Point.
+Spend a move Action and a Power-Point.
 Move your speed.
 Your movement does not trigger Opportunity attacks and you can move through enemies.
 
@@ -473,7 +470,7 @@ As a Godsworn you have bound your service to a higher cause or a God from the sp
 
 ### Comment
 Godsworn are basically Clerics, Paladins and Dnd 4e Avengers rolled together.
-Their oath determines what they are good at and the domains of their gods specify how they regain power points and thus greatly influence play-style.
+Their oath determines what they are good at and the domains of their gods specify how they regain Power-Points and thus greatly influence play-style.
 The domain has a smaller effect than the Oath. Some domains give access to abilities of other classes.
 These domains are intended for players who like to spend time tinkering.
 
@@ -487,7 +484,6 @@ The main difference between Godsworn and Druids are in their class features.
 
 ### Proficiencies
 __Skill Proficiency:__ Choose three skills from the following: Religion, Athletics, Heal, Charm
-__Armor Proficiency:__ You are proficient with Light and Medium Armor.
 
 __Starting Hit Points:__ 8 + Tough  
 __Hit Points per Level:__ 3
@@ -503,28 +499,30 @@ __Heals:__ 6
 
 ### Domain
 #### Luck
-Every time you coll a critical hit, you gain a Power Point
+Every time you coll a critical hit, you gain a Power-Point
 #### Nature
-TODO
+You gain access to one druid discipline of your choice.
+You do not gain a free discipline rank.
 #### War
-TODO
+If at the start of your turn, you are adjacent to three or more enemies, you gain a Power-Point.
 #### Arcana
-TODO
+After a long rest, you gain one additional Power-Point.
+You gain access to one sorcerer discipline of your choice.
+You do not gain a free discipline rank.
 #### Death
-You can sacrifice 1/4 of your full Hit Points to gain a Power Point as a free action.
+You can sacrifice 1/4 of your full Hit Points to gain a Power-Point as a free action.
 
 ### Oath
 
 #### Oath of the Protector
-You gain Proficiency with all Heavy Armor.
-
-TODO: Paladin
+You gain additional two Hit Points per level.
+You gain additional four levels of Exhaustion.
 
 #### Oath of the Avenger
-TODO: Damage abilities
+When you hit a target marked by you with an attack, the attack deals an extra 2d6 damage.
 
 #### Oath of the Shepherd
-TODO: Healer "Cleric", Spellcaster
+When you heal someone using a Discipline, the target regains additional hit points equal to your Mind value.
 
 ### Disciplines
 

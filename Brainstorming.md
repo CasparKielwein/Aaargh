@@ -35,9 +35,9 @@ The Problem is a plot hook for adventures of ca the first ten levels.
 * Acolyte
 * Outcast
 
-## Non-Combat abilitites
+## Non-Combat abilities
 Every class should have a choice of at least two non-combat abilities.
-They emphasis how the character acts and solves problems.
+They emphasize how the character acts and solves problems.
 
 ### Fighter
 * Die Axt im Haus erspaart den Zimmermann
@@ -72,10 +72,13 @@ Fighters don't have to spend extra actions to maintain a mark, but they have to 
 
 ### Godsworn
 
-Divine Sanction:  
-
+Divine Challange:  
+Free Action: Mark an enemy within in 25'.
+If an enemy marked by your divine sanction makes an attack which does not include you as a target it takes X damage.
 
 ### Druid
+
+Primal Challange:
 
 ### Rogue
 
@@ -101,6 +104,7 @@ Rogues mark targets but don't really defend, they don't stop or weaken the attac
 * Dwarf with Axe / Hammer
   * Dwarf, Fighter, Any Discipline, Heavy Armor, Axe / Hammer
 * Elven Archer
+  * Elf, Fighter, Focus Discipline, Longbow, Light Armor 
 * Fire Wizard
 * Bard
 * Dagger Rogue
@@ -109,9 +113,38 @@ Rogues mark targets but don't really defend, they don't stop or weaken the attac
 
 ## Class Simple Options
 Each class should have a option which is straight forward to play.
+This is for players who really don't want to bother with complex mechanics.
 
 Fighter: "Strength and Training"
 Rogue:
 Sorcerer: Wizard
 Godsworn: Choose a simple domain
 Druid: Form of the warden, or beast companion, Which Circle?
+
+
+## Trigger events
+These can be used for disciplines and regaining power points.
+
+### Very Common (expected at least once per turn)
+* Attack an enemy (you / ally)
+* enemy attacks an ally
+* enemy attacks you
+* you / ally / enemy move
+* start your turn
+* end your turn
+
+
+### Common (expected at least once per round)
+* hit for each possible attack
+* miss for each possible attack
+
+### Rare (multiple times per encounter)
+* kill an enemy
+* bloody an enemy
+* you / enemy / ally rolls a critical hit
+* roll initiative
+* you drop to 0 hit points
+* you are bloodied
+* an ally drops to 0 hit points
+* an enemy triggers an opportunity attack
+

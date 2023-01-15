@@ -5,7 +5,7 @@ Very basic draft to give an idea how it is supposed to work.
 
 #### Design Principles:
 Prefer simple operations! We want to minimize the cognitive burden put on players. 
-Thus both the number of and the strength of calculations necessary during play should be low.
+Thus, both the number of and the strength of calculations necessary during play should be low.
 Comparing to numbers is simpler than calculation. Addition is simpler than subtraction.
 Multiplication with and division by any other number than 10 and 2 is to be avoided.
 
@@ -110,15 +110,13 @@ You can generally draw and ready weapons and equipment for both hands with a sin
 Movement through difficult terrain requires the character to spend two feet of speed to move one foot of distance.
 This means that shifting out of combat is usually not possible in difficult terrain.
 
-When using your Move you can spent your Standard Action instad.
+When using your Move you can spent your Standard Action instead.
 
 #### Reactions
 * Opportunity Attack:
 If an enemy moves out of an area within your melee reach, you can make a melee Attack against that enemy.
 
-When using your Reaction you can spent your Standard Action or Move instad.
-
-
+When using your Reaction you can spend your Standard Action or Move instead.
 
 ### Damage and Damage types
 
@@ -155,7 +153,7 @@ Ancestry does not have Attribute modifiers. These tend to limit class and ancest
 
 #### Background
 Backgrounds generally do not directly influence combat abilities.
-They are meant to make characters well rounded and give everyone abilities outside of combat.
+They are meant to make characters well-rounded and give everyone abilities outside of combat.
 
 #### Class
 The class has the largest direct effect on a heroes abilities.
@@ -180,7 +178,7 @@ What should a Talent provide:
 * Put Emphasis on a specific part of the game mechanics
 Examples are Two Weapon Fighting, Grappling.
 * Give a bonus to specific equipment.
-There should be multiple competing Talents for each group of Equipment to avoid making one Talent a must have choice for a given Weapon.
+There should be multiple competing Talents for each group of Equipment to avoid making one Talent a must-have choice for a given Weapon.
 * Give a bonus to a subset of discipline abilities.
 Examples are bonus to damage types, Bonus to Healing.
 * Modify the effects of a subset of discipline abilities.
@@ -204,4 +202,39 @@ Questions:
 For example extra HP to make the Character more robust independent of class.
 
 #### Equipment and Proficiencies
+All Heroes are proficient in all equipment.
 
+Why doesn't everyone use the heaviest armor and weapons possible?
+* Heavy armor gives a malus to speed and disadvantage to stealth and possibly athletics checks.
+* Legendary armor and weapons are often restricted to certain types.
+* Some disciplines can only be used with certain types of weapons.
+
+### Resource Mechanics
+All resources are reset to their starting values after a long rest.
+
+#### Hit-Points
+An abstract measure of the heroes health and the amount of damage their body has taken.
+The player of a hero is free to role-play the amount of hit points lost as they like.
+
+Heroes lose hit points when they take damage.
+Hit points can be regained through healing abilities, spells and potions.
+Healing can never increase hit points beyond their original maximum.
+
+#### Endurance
+A hero might lose endurance when they fail a skill check in exhausting conditions.
+This allows the DM to assign some stakes to skill checks even where eventual success is necessary for the story to progress.
+
+Most if not all methods to regain hit-points require the Hero to spend a point of endurance.
+
+Endurance as a resource only ever decreases between long rests.
+In particular, it is not possible to regain endurance by spending power points.  
+While Hit-points decrease when heroes suffer damage and go up again quickly, endurance steadily goes down.
+
+#### Power-Points
+Heroes spend power-points to use powerful abilities of their disciplines.
+They start each day with a fixed amount but can gain more through class specific features.
+
+Thus, Power-Points are a very fluid resource.
+
+#### Power-Point Economy
+* After a long rest a hero has 3 - 5 power-points

@@ -16,7 +16,7 @@ __Equipment:__
 * A memento of your past
 
 #### Feature: One of the Smallfolk
-You still consider yourself to be one of the common people and they consider you to be one of them. You can expect simple help, food, and a place to rest for a night.
+You still consider yourself to be one of the common people, and they consider you to be one of them. You can expect simple help, food, and a place to rest for a night.
 They will help you in your quests, possibly hide you and your group from authorities but not risk their live.
 
 #### Birth of a Hero
@@ -43,7 +43,7 @@ __Skill Proficiencies:__ Thievery, Stealth
 __Tool Proficiencies:__ Thieves' tools  
 __Equipment:__ 
 * Inconspicuous clothing
-* Thieves Tools
+* Thieves tools
 * Trophy from a heist
 
 #### Feature: Underworld Contact
@@ -59,3 +59,22 @@ You know how to get messages to and from your contact, even over great distances
 ### Acolyte
 
 ### Soldier
+#### Feature: 
+You still are a member of your military unit.
+Your superiors might issue you tasks and your old comrades will be ready to help you.
+
+#### Specialty
+1. Officer 
+2. Specialist: Your position was in the logistics and baggage train instead of fighting at the line.
+3. Sergeant
+4. Footman
+5. Siege Engineer
+6. Cavalry
+
+#### Campaign
+1. Glorious Last Stand
+2. Crushing Defeat
+3. Conqueror
+4. Lonely Outpost
+5. City Guard
+6. TODO
