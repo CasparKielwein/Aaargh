@@ -27,7 +27,7 @@ __Fighting Style:__ Rage
 * Lvl 1: Brash Strike
 * Lvl 1: Sure Strike
 
-### Feats: 
+### Talents: 
 * Heavy Weapon Master
 
 ### Attributes:

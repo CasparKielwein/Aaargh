@@ -4,17 +4,16 @@ In a first version, each class should have a choice of three disciplines.
 This is enough to create an example character of each class.
 
 ### Fighter
-* Relentless Attack
+* Brash Strike
   * Enemies gain bonus to attack you, but you deal more damage
-* Twin Strike
-  * Two Weapons or Ranged Only
-  * Make Two Attacks in a single action.
 * Combat Challange
   * Mark Enemy targeted by attack
+* Reaping Strike
+  * Cause damage to additional adjacent enemies
   
 ### Godsworn
 * Smite
-  * Turn Power Points into damage
+  * Turn Power Points into damage after a hit
 * Bless
   * Bonus to Skill checks and attacks 
 * Healing Word

@@ -2,7 +2,6 @@
 Each Hero has one *Class*, which determines the majority of his playing options.
 Each *Class* provides several *Disciplines* to choose from.
 
-
 ## Fighter
 
 ### Comment
@@ -74,7 +73,7 @@ Your watchfully Strike becomes an opportunity interrupt.
 #### Lvl 2: Maneuvering Watch
 When you hit an enemy with your watchfully Strike you may push that enemy 1 square.
 #### Lvl 3: Eternal Watch
-When you mark an enemy you can spend one focus point to have the mark last until the end of the encounter.
+When you mark an enemy you can spend one power-point to have the mark last until the end of the encounter.
 
 ### Brash Strike
 Throwing all caution into the wind you attack your chosen foe disregarding your own safety.
@@ -83,32 +82,57 @@ Throwing all caution into the wind you attack your chosen foe disregarding your 
 Melee Attack: 1[W] + Tough + Tough Damage.  
 Until the beginning of your next turn attacks against you gain advantage.
 #### Lvl 2: Inspiring Recklessness
-Inspired by your charge, your allies find new Strength. When hitting with Brash Strike you can give an Ally of your choice Wit temporary hit points.
-#### Lv2: Acrobatic Charge
-Your Brash Strike deals an additional Dex damage.
-#### Lvl 3: Brash Charge
-You can use your Brash Strike in place of a melee basic attack during a charge.
+Inspired by your charge, your allies find new Strength. When hitting with Brash Strike you can give an Ally of your choice Wil temporary hit points.
+#### Lv2: Crushing Blow
+Cost: 1 Power-Point  
+When you hit with your brash strike you deal an additional [W] damage.
 
 ### Sure Strike
 
 #### Lvl 1: Sure Strike: 
 Melee Attack against Dex: 1[W] + Tough Damage
 #### Lvl 2: Hobbling Strike
-A target hit by your sure strike is slowed.
+Cost: 1 Power-Point  
+A target hit by your sure strike is slowed (save ends)
 #### Lvl 2: Bloodying thrust
+Cost: 1 Power-Point
 The target hit by your sure strike takes 10 ongoing damage until save.
 #### Lvl 3: Hindering Strike: 
-When you hit a target with Sure Strike you can spend a Maneuver Point. If you do so the target is knocked prone.
+Cost: 1 Power-Point
+A target hit by our Sure Strike is knocked prone
 
-### Twin Strike
-Requirement: You must be wielding two melee weapons or a ranged weapon.
+### Reaping Strike
 
-#### Lvl 1: Twin Strike
-Perform Two attacks
-#### Lvl 2: Leg Cutter
-When you hit with both attacks of your Twin Strike you can spend a Maneuver Point to knock the target prone.
-#### Lvl 3: Third Strike
-When you hit with both attacks of your Twin Strike, you can spend a Maneuver Point to perform a third attack.
+#### Lvl 1: Reaping Strike:
+Cost: 1 Power-Point
+You make a melee attack against every enemy adjacent to you.
+
+#### Lvl 2: Drive them back
+When you hit a target with your reaping strike you push it 5'.
+
+### Lunge
+#### Lvl 1: Lunge
+Cost: 1 Power-Point  
+You make a melee attack. You increase your reach for the attack by 5'.
+
+#### Lvl 2:
+The attack deals an additional [W] damage.
+
+#### Lvl 2: Get over here!
+You pull the target of the attack to a square adjacent to you.
+
+#### Lvl 3: Lead the charge
+One ally within your `Mind` * 5' state can make a charge attack. 
+
+### Maneuvering Strike
+
+#### Lvl 1: Maneuvering Strike
+Make a melee or ranged weapon attack.  
+Before or after the attack you can move 5'.
+This movement does not trigger opportunity attacks.
+
+#### Lvl 2: 
+
 
 ## Sorcerer
 
@@ -148,7 +172,7 @@ You gain the Warlocks Curse discipline.
 #### Warlocks Curse
 ##### Lvl 1: Curse
 Cost: 1 Power-Point  
-As a full action you can put your curse on an enemy.
+As a combat action you can put your curse on an enemy.
 The curse lasts until the end of the encounter.
 Whenever you cast a spell to target the cursed enemy, the Power-Point cost of that spell is reduced by one.
 
@@ -370,7 +394,7 @@ You can repeat the attack next turn to targets in the same squares.
 The malus also applies to saves.
 The malus stays as long as the ongoing damage.
 
-### Pounce (Beast Form)
+### Pounce
 #### Lvl 1: Pounce
 Melee Attack  
 The target grants advantage to the next creature that attacks it before the end of the round.
@@ -393,6 +417,24 @@ A target of your choice gains your *Mind* as a Bonus to their AC until the end o
 
 #### Lvl 2: Flexible Rind
 The bonus of *Barkskin* also applies to the targets reflex resistance.
+
+### Threatening Roar
+#### Lvl 1: Roar
+Bonus Action  
+You mark every Enemy within 25'
+
+### Ground Slam
+You hit the ground in front of you with a powerful slam.
+
+### Lvl 1: Ground Slam
+Combat Action  
+1 Power-Point
+
+The ground in a circle with diameter of 10' around you becomes
+
+### Lvl 2: Powerful Slam
+The area of your Ground Slam increases ta diameter of 20'.
+
 
 ## Rogue
 
@@ -490,7 +532,6 @@ __Hit Points per Level:__ 3
 
 __Heals:__ 6
 
-
 ### Equipment
 
 * Two weapons or a weapon and a shields of your choice.
@@ -527,7 +568,21 @@ When you heal someone using a Discipline, the target regains additional hit poin
 ### Disciplines
 
 #### Smite
+##### Rank 1: Smite
+Free Action  
+X Power-Point
+When you hit an enemy with an attack. The attack deals XD6 additional Damage.
 
 #### Healing Word
+##### Rank 1: Healing Word
+Reaction   
+Yourself or one Ally within 25'  
+1 Power-Point
+The target spends a point of Endurance and regains HP accordingly.
 
 #### Bless
+##### Rank 1: Bless
+Reaction
+Yourself or one Ally within 25'
+1 Power-Point
+The target has advantage on a Roll of their choice until the end of your next turn.

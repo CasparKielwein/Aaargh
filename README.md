@@ -21,7 +21,7 @@ Never should anybody but the player of a character need to know the specific rul
 * A Simulation, Aaargh is focused on action and dangerous adventures in a fantastic world. It does not simulate the reality.
 * Balanced for player versus player fights.
 
-## what's with the name?
+## What's with the name?
 aaargh is a working title, it might or might not get a serious name later.
 
 ## Comment Blocks

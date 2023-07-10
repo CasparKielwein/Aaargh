@@ -67,14 +67,14 @@ Thus, it is a choice between different utilities and secondary effects and defen
 
 ### Comment
 Blade Weapons have the greatest utility but generally do one die type less damage than Axes.
-Feats and Maneuvers targeting blade Weapons are better than those for Axes and Hammers.
-Axes have the highest potential for damage having the *devastating* attribute and feats supporting conditionally damage boni.
-Hammers are have the highest average damage. Feats supporting hammers add debuffs that are useful for low damage builds.
+Talents and Maneuvers targeting blade Weapons are better than those for Axes and Hammers.
+Axes have the highest potential for damage having the *devastating* attribute and talents supporting conditionally damage boni.
+Hammers are have the highest average damage. Talents supporting hammers add debuffs that are useful for low damage builds.
 Crossbows do more damage than bows, but the `Load` Attribute limits them to one attack per round.
 Thrown Weapons do even less damage but provide versatility by being one-handed and also usable as melee weapons.
 
 Everyone can wear every armor, there are no restriction for class or attribute values.
-Feats and Magic Items encourage using lighter armor to advance certain play-styles.
+Talents and Magic Items encourage using lighter armor to advance certain play-styles.
 
 ## Magic and Legendary Items
 ### Comment
@@ -106,4 +106,21 @@ All damage caused by attacks and spells using it is fire damage.
 #### Robes of the Archmage
 Cloth robes, no real amor.
 
-* You start each encounter with one additional Power Point
+* You start each encounter with one additional Power-Point
+
+#### Conduit Armor
+
+You gain resistance to lightning damage.
+Whenever you take lightning damage ou deal half of that damage to each creature adjacent to you.
+
+#### Hammer of the Thundergod
+
+#### Songblade
+Any blade weapon  
+The songblade emits unnatural sounds and music when you fight with it.
+It counts as a muiscal instrument and you are automatically proficient with it.
+
+### Berserker Armor
+Barely any armor, mostly the hide of bears.
+
+Light Armor suited for melee fighters

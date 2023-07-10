@@ -18,7 +18,7 @@ Jump, swim, climb, run long distances, etc.
 
 ### Perception (Mind)
 ### Insight (Mind)
-The *Insight* skill represents the characters ability to identify potential allies and threats in an urban enviroment.
+The *Insight* skill represents the characters ability to identify potential allies and threats in an urban environment.
 
 ### Stealth (Dex)
 
@@ -55,18 +55,60 @@ This way one can build a forest ranger type character who supports their allies 
 
 ### "Jump Very High" (Athletics)
 While heroes with a high bonus in *Athletics* can already jump considerable distances and heights this discipline takes them to a superhuman level.
+#### Leap
+Cost: 1 Power-Point
+No Action
+For the next thirty minutes the distance and height you clear when you jump is multiplied by 5.
+You still cannot jump a longer distance than your speed.
 
-### Discover Weakness (Perception)
+#### Sprint
+Your speed increases by 5'.
 
+### Keen Eyes (Perception)
+#### Rank 1: Night Sight
+Cost: 1 Power-Point  
+No Action  
+You gain Dark Sight for a thirty-minute duration.
+
+#### Rank 2: TODO
+#### Rank 3: Blind Fighting
+You have honed your senses to super human levels and you can attack adjacent enemies without suffering any malus or disadvantage.
+
+### Find Weakness (Insight)
+#### Rank 1:
+Cost: 1 Power-Point
+On your turn, use your reaction to choose a target you can see.
+Roll an *Insight* check against the targets will defence.
+If you succeed, the target has vulnerability against damage from your next attack against it.
 
 ### Stealth
+#### Rank 1: Move in the shadows
+Cost: 1 Power-Point
+Move Action
+You disappear into the shadows and reappear in a position of your choice within 30'.
+Both your current position and the target position must be in total darkness.
+
+#### Rank 2:
+You can move up to 50' through the shadows.
 
 ### Disarming Presence (Charm)
-Target enemies which gain disadvantage when attacking you.
-If you have marked the target, the mark is removed. If you mark a target effected by *Disarming Presence*, the disarming presence is lost emmediately.
+#### Rank 1:
+Cost: None
+On your turn, use your reaction to choose a target you can see and who can see you. 
+Roll a *Charm* check against will defense of target.
+If you succeed te target has disadvantage on all attacks against you until the end of your next turn.
+If you have marked the target, the mark is removed. If you mark a target effected by *Disarming Presence*, the disarming presence is lost immediately.
+On your turn you can spend your reaction to extend the duration of the effect until the end of the next turn.
+You do not need to roll again.
 
-### Distract (Streetwise)
-For people who like to play heroes who don't focus on armed fighting.
+#### Rank 2:
+You can choose to target each enemy within 25' with your disarming presence instead of a single enemy.
+You still have to see all targets, and they have to be able to see you,
+
+#### Rank 3:
+Cost: 1 Power-Point
+Targets affected by your disarming presence suffer a malus to all checks and attacks not only those that target you.
+If you decide to extend the duration of the effect, you need to spend another Power-Point.
 
 ### Frighten (Intimidate)
 Use Intimidate as attacks to hinder enemies and possibly cause them to flee.

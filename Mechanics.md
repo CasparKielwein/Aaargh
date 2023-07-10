@@ -4,15 +4,20 @@
 Very basic draft to give an idea how it is supposed to work.
 
 #### Design Principles:
-Prefer simple operations! We want to minimize the cognitive burden put on players. 
+* Prefer simple operations!  
+We want to minimize the cognitive burden put on players. 
 Thus, both the number of and the strength of calculations necessary during play should be low.
 Comparing to numbers is simpler than calculation. Addition is simpler than subtraction.
 Multiplication with and division by any other number than 10 and 2 is to be avoided.
-
-As a consequence we avoid bookkeeping as it usually requires more calculations. Hit Points might be an exception.
-
-We try to avoid bonus stacking. Players should not be required to add more than 3 to 4 numbers to calculate the result of a roll.
+* Avoid Bookkeeping!  
+We avoid resources with large numbers as they usually requires more calculations. 
+Numbers should be kept in a range, where they can be easily represented by small physical tokens.
+7 is often a good maximum for numbers which a human is to keep in their mind.  
+Hit Points might be an exception.
+* Avoid bonus stacking!  
+Players should not be required to add more than 3 to 4 numbers to calculate the result of a roll.
 Having a lot of different manipulators in play makes it hard to estimate the effect of a given choice or action.
+In particular avoid dynamic and situational modifiers; use advantage and disadvantage instead.
 
 ### Rolling the Dice
 
@@ -28,9 +33,9 @@ If you have an *advantage* you roll one more die and chose the higher roll.
 If you have a *disadvantage* you roll one more die and chose the lower result.
 
 ### Actions
-On their turn a character can perform a Move and a Full Action.
-Each character can also perform one opportunity Action per Round.
-This opportunity Action can be taken on any turn, but only once per round.
+On their turn a character can perform a *Move Action* and a *Combat Action*.
+Each character can also perform one *Reaction* per turn.
+A *Reaction* can be taken on any turn even on their own turn, but only once per turn.
 
 ### Attacks and Defenses
 
@@ -46,11 +51,11 @@ To save against a condition, roll a single d20. on a Roll of 11 or higher, you p
 
 ### Comment
 Why four defenses and a single save (like dnd 4) and not AC + 3 saves like other editions?
-Based on the assumption, that player characters will cast more spells on more targets than NPCs, 
+Based on the assumption that player characters will cast more spells on more targets than NPCs, 
 binding spells to rolls made by the player gives them more to do instead of having the DM roll a lot of saves for a player action.
 This should increase the feeling of having the initiative for the players and makes larger numbers of enemies more manageable.
 
-### Hitpoints and Heals
+### Hitpoints and Healing
 
 Hitpoints at level 1 are determined by your class and the *Toughness* attribute.  
 Lowest value: 6  
@@ -74,7 +79,6 @@ Hitpoints increase every level to give Players a constant feeling of getting str
 HP per level are not dependent on Toughness, as this would make the attribute an automatic choice for every tank character.
 Consider that Attribute values range from zero to six.
 
-
 ### Disciplines and Maneuvers
 
 TODO: Find a nice visual representation of the skill tree
@@ -91,11 +95,15 @@ A combat encounter is separated into rounds. Each round is again split into turn
 Each combatant has the same set of actions available per round: One *Action*, one *Move*, and one *Reaction*.
 
 #### Actions
-* Attack
-* Charge
-* Shove
-* Grapple
-* Use Item
+* Attack: Strike an enemy with a weapon or cast a spell
+* Charge:
+Move up to your speed in a straight line and make a melee attack against an enemy.
+* Shove: Make an attack Toughness against Fortitude. On success, you push the target 5'.
+* Grapple: Make an unarmed attack against Reflex. On success, the target is grappled and you control the grapple.
+While you grapple a target, you have the following options:
+  * Throw: Throw the target to the ground
+  * Move: Move up to your speed and pull the target behind you.
+* Use an Item
 * Assist
 
 #### Move Actions
@@ -118,6 +126,31 @@ If an enemy moves out of an area within your melee reach, you can make a melee A
 
 When using your Reaction you can spend your Standard Action or Move instead.
 
+### Grappling
+To initiate a grapple you have to have one free hand.
+You can only grapple enemies which are the same size or smaller than you.
+Make an unarmed Attack against Reflex of the target.
+When you hit the target, you don't deal damage but you have the target in a grapple.
+
+While Grappling:
+* All attacks from the outside against both participants of the grapple are rolled with advantage.
+
+If you are being grappled:
+* All attacks you make are rolled with disadvantage except grappling actions.
+* You can try to break the grapple by rolling an unarmed attack against the opponents *Fortitude*.
+This can be done as a *Move Action*.
+* You can try to control the grapple by making an unarmed Attack against Reflex of the opponent.
+If you succeed you control the grapple.
+* You cannot move or stand up from being prone. You can still teleport if you have the ability.
+
+If you control the grapple:
+* Release your opponent, this is a free action and can be done at any time.
+* Throw the target to the ground: Make another grappling attack against the target of your grapple.
+If you succeed you cause 1d6 + Toughness damage and the target is knocked prone.
+This ends the grapple.
+* Drag the target. Use a combat action to move up to your speed and drag the target of your grapple with you.
+* Attack the target of your grapple, you roll the attack with advantage.
+
 ### Damage and Damage types
 
 The different types of damage are:
@@ -134,7 +167,9 @@ If an effect does not specify its damage type, it is assumed that it causes *phy
 #### Prone
 Standing up requires a move action.
 #### Slowed
+A slowed creature can only move half their usual speed.
 #### Immobilized
+An immobilized creature has a speed of zero.
 #### Shaken
 #### Stunned
 A hero or monster who is stunned, cannot take any actions until the condition ends.
@@ -159,6 +194,10 @@ They are meant to make characters well-rounded and give everyone abilities outsi
 The class has the largest direct effect on a heroes abilities.
 
 #### Attributes
+Heroes have three attributes:
++ Toughness
++ Agility
++ Mind
 #### Skills
 #### Disciplines
 How different do disciplines need to be?  
@@ -168,7 +207,7 @@ It should be clear immediately how two disciplines are different and why a playe
 It is ok if disciplines of two classes are similar.
 Two classes should either have different direct and attack abilities or different support abilities and secondary effects.
 
-#### Talents / Feats
+#### Talents
 Talents are mostly static buffs and passive abilities which influence the way a hero is played.
 They can provide active abilities but that should be rare and there should be a good reason why that ability is not Discipline Rank.
 A Talent is slightly stronger than a single rank in a Discipline.
@@ -191,15 +230,11 @@ An example is the Furymancer Talent which gives a fighter access to Sorcerer spe
 * Make an Archetype viable. Generally archetypal Heroes should work without Talents.
 If it is not possible to enable that without breaking balancing, it is acceptable if a archetypal combination of ancestry, class, and equipment requires a Talent.
 
-What Talents should not do:
-* Be necessary to make a core feature viable.
-Every Weapon, Ancestry and Class feature should be a viable option without a Talent.
-* Make a combination of Ancestry and Class viable.
-Heroes of all Ancestries should be able to choose all classes.
-
-Questions:
-* Are general boni a good idea?
-For example extra HP to make the Character more robust independent of class.
+What Talents should not do:  
+* Be necessary to make a core feature viable.   
+  Every Weapon, Ancestry and Class feature should be a viable option without a Talent.
+* Make a combination of Ancestry and Class viable.  
+  Heroes of all Ancestries should be able to choose all classes.
 
 #### Equipment and Proficiencies
 All Heroes are proficient in all equipment.
