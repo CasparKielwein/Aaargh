@@ -19,6 +19,7 @@ Aaargh continues where Dnd4 and 5 left off. It offers fast yet tactical combat w
 * The intuitive option has to work. When a total beginner builds a straight forward character and makes his choices based on what seems right, it should not be wrong. Less apparent ideas might require more consideration and insight into the system but everyone should be able to build a "Kill Stuff with a giant Axe" type of character that kicks ass.
 * Consistent Core Rules. Once a player gets a grasp how the rules work, it should be easy to guess how they apply to a specific situation.
 Never should anybody but the player of a character need to know the specific rules of that character.
+* Good Balancing, try to always make different options well balanced. This is a continous process.
 
 ## What Aaargh is not
 * A Simulation, Aaargh is focused on action and dangerous adventures in a fantastic world. It does not simulate the reality.
@@ -29,6 +30,9 @@ Never should anybody but the player of a character need to know the specific rul
 * As much as necessary as little as possible!
 Every rule and every character option has to justified and improve the game.
 Prefer a chain of options instead of one large pool.
+* Rules work together!
+We try to make sure all parts of the rule system interact with one another.
+They should never feel like a set of parallel or tacked-on parts.
 * Prefer simple operations!  
 We want to minimize the cognitive burden put on players. 
 Thus, both the number of and the strength of calculations necessary during play should be low.
