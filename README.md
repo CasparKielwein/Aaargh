@@ -12,13 +12,13 @@ Aaargh continues where Dnd4 and 5 left off. It offers fast yet tactical combat w
 * Heroes kick ass! The characters are larger than life heroes and should feel like that.
 * Tactical combat, combat is dangerous and requires good decision making and flexibility. It must never be a case of just going through an optimal skill rotation.
 * Accessable, the rules should be easy to understand and allow people to quickly start playing.
-    * No noob traps. There shall be now bad options during character creation. If any option is never taken because its alternatives are plain better, we will fix it.
-    * The intuitive option has to work. When a total beginner builds a straight forward character and makes his choices based on what seems right, it should not be wrong. Less apparent ideas might require more consideration and insight into the system but everyone should be able to build a "Kill Stuff with a giant Axe" type of character that kicks ass.
-    * Consistent Core Rules. Once a player gets a grasp how the rules work, it should be easy to guess how they apply to a specific situation.
-Never should anybody but the player of a character need to know the specific rules of that character.
 
 ## Secondary Goals
 * Decisions are important, every decision during character creation and play should feel significant. There shall be no must haves
+* No noob traps. There shall be now bad options during character creation. If any option is never taken because its alternatives are plain better, we will fix it.
+* The intuitive option has to work. When a total beginner builds a straight forward character and makes his choices based on what seems right, it should not be wrong. Less apparent ideas might require more consideration and insight into the system but everyone should be able to build a "Kill Stuff with a giant Axe" type of character that kicks ass.
+* Consistent Core Rules. Once a player gets a grasp how the rules work, it should be easy to guess how they apply to a specific situation.
+Never should anybody but the player of a character need to know the specific rules of that character.
 
 ## What Aaargh is not
 * A Simulation, Aaargh is focused on action and dangerous adventures in a fantastic world. It does not simulate the reality.
