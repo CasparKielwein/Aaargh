@@ -1,25 +1,6 @@
 # Rule Engine
 
-### Comment: 
-Very basic draft to give an idea how it is supposed to work.
-
-#### Design Principles:
-* Prefer simple operations!  
-We want to minimize the cognitive burden put on players. 
-Thus, both the number of and the strength of calculations necessary during play should be low.
-Comparing to numbers is simpler than calculation. Addition is simpler than subtraction.
-Multiplication with and division by any other number than 10 and 2 is to be avoided.
-* Avoid Bookkeeping!  
-We avoid resources with large numbers as they usually requires more calculations. 
-Numbers should be kept in a range, where they can be easily represented by small physical tokens.
-7 is often a good maximum for numbers which a human is to keep in their mind.  
-Hit Points might be an exception.
-* Avoid bonus stacking!  
-Players should not be required to add more than 3 to 4 numbers to calculate the result of a roll.
-Having a lot of different manipulators in play makes it hard to estimate the effect of a given choice or action.
-In particular avoid dynamic and situational modifiers; use advantage and disadvantage instead.
-
-### Rolling the Dice
+## Rolling the Dice
 
 Die rolls all have the same format:
 * Roll 1d20 
@@ -32,12 +13,25 @@ If you reach or exceed the target number, your roll succeeds.
 If you have an *advantage* you roll one more die and chose the higher roll.  
 If you have a *disadvantage* you roll one more die and chose the lower result.
 
-### Actions
+## Disciplines, Maneuvers, and Power-Points
+
+Each Hero has special actions they can perform which are called *Maneuvers*.
+*Maneuvers* are organized in *Disciplines* where each rank of a *Disciplines* unlocks a new *Maneuver* or new options for existing ones.
+*Disciplnes* and their *Maneuvers* are made available to Heroes through their Ancestry and most importantly selected *Class*.
+
+### Regaining Power-Points
+TODO
+
+### Comment
+TODO: Find a nice visual representation of the skill tree
+TODO: Find a good representation of when a Maneuver supports an existing power or introduces a new one.
+
+## Actions
 On their turn a character can perform a *Move Action* and a *Combat Action*.
 Each character can also perform one *Reaction* per turn.
 A *Reaction* can be taken on any turn even on their own turn, but only once per turn.
 
-### Attacks and Defenses
+## Attacks and Defenses
 
 Each Attack is a die roll against one of four defenses.
 * Armor Class is determined by equipment the hero wears like armor and shields.
@@ -45,7 +39,7 @@ Each Attack is a die roll against one of four defenses.
 * Reflex is equal to 10 + *Dexterity* of the Hero.
 * Will is equal to 10 + *Mind* of the Hero.
 
-### Saves
+## Saves
 
 To save against a condition, roll a single d20. on a Roll of 11 or higher, you pass the saving throw.
 
@@ -55,7 +49,7 @@ Based on the assumption that player characters will cast more spells on more tar
 binding spells to rolls made by the player gives them more to do instead of having the DM roll a lot of saves for a player action.
 This should increase the feeling of having the initiative for the players and makes larger numbers of enemies more manageable.
 
-### Hitpoints and Healing
+## Hitpoints and Healing
 
 Hitpoints at level 1 are determined by your class and the *Toughness* attribute.  
 Lowest value: 6  
@@ -67,24 +61,19 @@ Heroes gain additional HP every level.
 Lowest Increase: 3  
 Highest Increase: 6
 
-#### Endurance
+## Endurance
 
 Each Hero has a number of Endurance Points which they use to regain Hit Points.
 The number of Endurance Points is determined by your class.
 
 When a Hero spends an Endurance Point they regain a number of Hit points equal to 1/4 of their maximum number of Hit Points.
 
-#### Comment
+### Comment
 Hitpoints increase every level to give Players a constant feeling of getting stronger by simply having "larger numbers".
 HP per level are not dependent on Toughness, as this would make the attribute an automatic choice for every tank character.
 Consider that Attribute values range from zero to six.
 
-### Disciplines and Maneuvers
-
-TODO: Find a nice visual representation of the skill tree
-TODO: Find a good representation of when a Maneuver supports an existing power or introduces a new one.
-
-### Combat and Order of Turns
+## Combat and Order of Turns
 
 Before a combat encounter starts, the DM tells the players what the surroundings are and what they can immediately see about the other combatants.
 If one side tries to ambush the other side, those setting up the ambush roll stealth against the victims passive perception.
@@ -94,7 +83,7 @@ A combat encounter is separated into rounds. Each round is again split into turn
 
 Each combatant has the same set of actions available per round: One *Action*, one *Move*, and one *Reaction*.
 
-#### Actions
+### Actions
 * Attack: Strike an enemy with a weapon or cast a spell
 * Charge:
 Move up to your speed in a straight line and make a melee attack against an enemy.
@@ -106,7 +95,7 @@ While you grapple a target, you have the following options:
 * Use an Item
 * Assist
 
-#### Move Actions
+### Move Actions
 * Move your speed
 * Shift 5'
 * Hide
@@ -120,13 +109,13 @@ This means that shifting out of combat is usually not possible in difficult terr
 
 When using your Move you can spent your Standard Action instead.
 
-#### Reactions
+### Reactions
 * Opportunity Attack:
 If an enemy moves out of an area within your melee reach, you can make a melee Attack against that enemy.
 
 When using your Reaction you can spend your Standard Action or Move instead.
 
-### Grappling
+## Grappling
 To initiate a grapple you have to have one free hand.
 You can only grapple enemies which are the same size or smaller than you.
 Make an unarmed Attack against Reflex of the target.
