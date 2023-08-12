@@ -1,20 +1,20 @@
 # Hero Levels
 
-Each Discipline has five ranks.
+Heroes rise in levels in Aaargh where each level makes the Hero more powerful.
+A Hero rises through 21 levels which are divided into three tiers.
 
-Advances per Tier
-* Class / Path
-    * At Levels 1, 8 and 15
-
-At Level up choose one:
-Each Only once per Tier
-* Talent 
-* Talent 
-* Proficiency Bonus +1
-* Attribute +1
-* Attribute +1
-* Discover Secret of a Legendary Item
-* Discover Secret of a Legendary Item
+Each time your Hero rises a level they gain:
+* One Rank in a discipline of your choice
+* Additional HP according to your class
+* Choose one from the following list of advances
+   Each Only once per Tier
+   * Talent 
+   * Talent 
+   * Proficiency Bonus +1
+   * Attribute +1
+   * Attribute +1
+   * Discover Secret of a Legendary Item
+   * Discover Secret of a Legendary Item
 
 
 | Level | Disciplines            | Ranks | Advances         |
