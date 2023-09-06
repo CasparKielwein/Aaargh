@@ -5,7 +5,7 @@
 
 Speed: 25
 Language: Common, Dwarven
-Skills: Endurance, Woodworking Tools
+Skills: Woodworking Tools
 
 ### Background: Commoner
 * Feature: One of the Smallfolk
@@ -31,12 +31,12 @@ __Fighting Style:__ Rage
 * Heavy Weapon Master
 
 ### Attributes:
-__Touchiness:__ 4
-__Dexterity:__ 0
-__Mind:__ 0
+__Toughness:__ 4
+__Dexterity:__ 1
+__Mind:__ 1
 
 __Hit Points:__ 14
-__Heals:__ 6
+__Endurance:__ 6
 
 ### Equipment:
 * Heavy Crossbow
@@ -59,9 +59,10 @@ Skills: Intimidate
 ** Enemy: Count Drago
 
 ### Class: Sorcerer
-Skill Proficiency: Arcane, History, Heal
+Skill Proficiency: Arcane, History
 
-__Ancient Lore__ Todo
+#### Power Source: Ancient Lore
+You gain an additional two Power-Points after a long rest.
 
 ### Maneuvers:
 * Lvl 1: Dragonbreath
@@ -70,12 +71,12 @@ __Ancient Lore__ Todo
 * Lvl 1: Lightning Bolt
 
 ### Attributes:
-__Touchness:__ 2
-__Dexterity:__ 0
-__Mind:__ 3
+__Touchness:__ 0
+__Dexterity:__ 2
+__Mind:__ 4
 
 __Hit Points:__ 6
-__Heals:__ 4
+__Endurance:__ 4
 
 ### Equipment:
 * Cloth Armor
@@ -96,10 +97,10 @@ Skills: Stealth
 ** Enemy: Count Drago
 
 ### Class: Rogue
-Skill Proficiency: Thievery, Athletics, Charm
+Skill Proficiency: Athletics, Charm
 
-__Scum and Villainy:__
-The Shadow: When you start a fight while being hidden from all enemies, you gain a Power Point.
+### Scum and Villainy: The Shadow
+When you start a fight while being hidden from all enemies, you gain a Power-Point.
 
 ### Maneuvers:
 * Lvl 1: Halfling Luck
@@ -108,12 +109,12 @@ The Shadow: When you start a fight while being hidden from all enemies, you gain
 * Lvl 1: Artful Dodge
 
 ### Attributes:
-__Touchiness:__ 2
-__Dexterity:__ 3
+__Toughness:__ 2
+__Dexterity:__ 4
 __Mind:__ 0
 
 __Hit Points:__ 6
-__Heals:__ 4
+__Endurance:__ 4
 
 ### Equipment:
 * Light Armor
@@ -134,7 +135,7 @@ Skills: Charm
 ** Enemy: Count Drago
 
 ### Class: Godsworn
-Skill Proficiency: Religion, Athletics, Heal
+Skill Proficiency: Religion, Heal ers Kit
 
 __Oath of Protection__ TODO
 __Domains__ TODO
@@ -148,10 +149,10 @@ __Domains__ TODO
 ### Attributes:
 __Touchness:__ 3
 __Dexterity:__ 0
-__Mind:__ 2
+__Mind:__ 3
 
 __Hit Points:__ 11
-__Heals:__ 6
+__Endurance:__ 6
 
 ### Equipment:
 * Plate Armor
@@ -160,10 +161,10 @@ __Heals:__ 6
 * Holy Symbol
 
 
-## Human Druid
-### Ancestry: Human
+## Elven Druid
+### Ancestry: Elf
 Speed: 30'  
-Language: Common, Goblin  
+Language: Common, Elven
 Skills: Charm
 
 ### Background: Commoner
@@ -171,31 +172,30 @@ Skills: Charm
 * Tool Proficiencies: Blacksmith Tools
 * Skill Proficiencies: Survival, Streetwise
 * Hero of the Rebellion
-** Ally: People of Arn upon Firth
-** Enemy: Count Drago
+    * Ally: People of Arn upon Firth
+    * Enemy: Count Drago
 
 ### Class: Druid
-Skill Proficiency: Religion, Athletics, Heal
+Skill Proficiency: Stealth, Nature
 
-__Oath of Protection__ TODO
-__Domains__ TODO
+### Call of the Wild: Beast Form
+
+### Druidic Circle: Lone Ranger
+If during combat you start your turn with no ally within 10` you gain a Power-Point.
 
 ### Maneuvers:
-* Lvl 1: Human Ambition
-* Lvl 1: Smite
-* Lvl 1: Bless
-* Lvl 1: Healing Word
+* Lvl 1: Elven Accuracy
+* Lvl 1: Grasping Vines
+* Lvl 1: Pounce
+* Lvl 1: Barkskin
 
 ### Attributes:
-__Touchiness:__ 3
-__Dexterity:__ 0
-__Mind:__ 2
+__Toughness:__ 3
+__Dexterity:__ 
+__Mind:__ 3
 
-__Hit Points:__ 11
-__Heals:__ 6
+__Hit Points:__ 8
+__Endurance:__ 5
 
 ### Equipment:
-* Plate Armor
-* Shield
-* Longsword
-* Holy Symbol
+TODO

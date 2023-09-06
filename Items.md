@@ -115,12 +115,15 @@ Whenever you take lightning damage ou deal half of that damage to each creature 
 
 #### Hammer of the Thundergod
 
+#### Ghost Blade
+When cause damage with a weapon attack or a spell, you gain one temporary hit point per enemy you damage.
+
 #### Songblade
 Any blade weapon  
 The songblade emits unnatural sounds and music when you fight with it.
 It counts as a muiscal instrument and you are automatically proficient with it.
 
-### Berserker Armor
+#### Berserker Armor
 Barely any armor, mostly the hide of bears.
 
 Light Armor suited for melee fighters

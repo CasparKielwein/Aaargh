@@ -10,7 +10,7 @@ Martial Discipline:
 * Rage
 
 ### Fighter Powers
-Many Fighter Maneuvers, in particular the first level of a Discipline do not have power point costs.
+Many Fighter Maneuvers, in particular the first level of a Discipline do not have Power-Point costs.
 Instead, they give a small additional effect to a standard attack.
 
 Many Maneuvers have extra effects or do extra damage with specific weapon types.
@@ -28,7 +28,7 @@ Scum and Villainy:
 * Trickster
 
 ### Rogue Powers
-Unlike Fighters, Rogue Maneuvers nearly always cost Power Points to perform.
+Unlike Fighters, Rogue Maneuvers nearly always cost Power-Points to perform.
 Most do not deal additional damage.
 
 ## Sorcerer

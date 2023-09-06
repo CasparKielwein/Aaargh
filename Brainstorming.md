@@ -2,10 +2,10 @@
 
 This file contains unsorted ideas.
 
-## Power Point Mechanisms.
-* Damage Self / Trade HP for Power Points
-* Damage Allies for Power Points
-* Gain Power Point on Kill
+## Power-Point Mechanisms.
+* Damage Self / Trade HP for Power-Points
+* Damage Allies for Power-Points
+* Gain Power-Point on Kill
 * Start the turn adjacent to a large number of enemies
 * End the turn adjacent to a large number of enemies
 
@@ -139,7 +139,7 @@ They are not suitable for use during combat.
 Power-Points spent to perform a ritual cannot be regained while the ritual is in effect.
 
 ## Trigger events
-These can be used for disciplines and regaining power points.
+These can be used for disciplines and regaining Power-Points.
 
 ### Very Common (expected at least once per turn)
 * Attack an enemy (you / ally)
@@ -242,15 +242,15 @@ you can place that circle anywhere within your throwing weapons range.
 * Life Stealer 
   When you kill an enemy, you drain their live force and gain a life spark.
   You can spend life sparks for additional effects on powers.
-* Build up charges when you use power points, when you reach the limit, bad things happen.
+* Build up charges when you use Power-Points, when you reach the limit, bad things happen.
 * Build up charges, when you reach a threshold you can expend them for additional power.
 
 ### Sustaining Effects
-Since all Powers are payed in Power Points when cast, the question is how to balance powers which have an enduring effect.
+Since all Powers are payed in Power-Points when cast, the question is how to balance powers which have an enduring effect.
 This is less of an issue in games where higher level spells with such effects can only be cast in low numbers.
 
 * The effect is very localized and can easily be avoided, like difficult terrain: No additional cost
-* Duration ~5min / one encounter, High Cost in Power Points
+* Duration ~5min / one encounter, High Cost in Power-Points
 * Duration until extended Rest: high cost, weak effect
 * Sustain with an action: combat action, move, reaction depending on strength of effect.
 * Pay Power-Points each round, 5min / encounter to sustain effect.

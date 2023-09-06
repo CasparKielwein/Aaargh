@@ -17,8 +17,11 @@ Heroes use the *Nature* skill to identify plants and beasts as well as navigate 
 Jump, swim, climb, run long distances, etc.
 
 ### Perception (Mind)
-### Insight (Mind)
-The *Insight* skill represents the characters ability to identify potential allies and threats in an urban environment.
+Roll *Perception* to find hidden threats, traps, and detect ambushes.
+
+### Streetwise (Mind)
+The *Streetwise* skill represents the characters ability to identify potential allies and threats in an urban environment.
+In particular roll *Streetwise* when you want to find out if someone is deceiving you.
 
 ### Stealth (Dex)
 
@@ -32,8 +35,8 @@ If you use *Intimidate* against someone, they will usually hold a grudge and wor
 
 ### Comment
 Nine Skills seems like a manageable number, which still covers the typical situations of a dungeon crawler.
-Since Backgrounds give one or two proficiencies and classes give three, a group of four heroes should be able to cover all skills.
-The Lore skills (Arcane, Religion, Nature) should allow nearly every character to be able to be the expert on a given eneemy type once in a while.
+Since Backgrounds give one or two proficiencies, Ancestries give one and classes give two, a group of four heroes should be able to cover all skills.
+The Lore skills (Arcane, Religion, Nature) should allow nearly every character to be able to be the expert on a given enemy type once in a while.
 Specialized knowledge is covered by tool/trade proficiencies.
 In particular medicine is covered by proficiency in healers kit.
 
@@ -74,11 +77,11 @@ You gain Dark Sight for a thirty-minute duration.
 #### Rank 3: Blind Fighting
 You have honed your senses to super human levels and you can attack adjacent enemies without suffering any malus or disadvantage.
 
-### Find Weakness (Insight)
+### Find Weakness (Streetwise)
 #### Rank 1:
 Cost: 1 Power-Point
 On your turn, use your reaction to choose a target you can see.
-Roll an *Insight* check against the targets will defence.
+Roll an *Streetwise* check against the targets will defence.
 If you succeed, the target has vulnerability against damage from your next attack against it.
 
 ### Stealth

@@ -251,7 +251,7 @@ This allows the DM to assign some stakes to skill checks even where eventual suc
 Most if not all methods to regain hit-points require the Hero to spend a point of endurance.
 
 Endurance as a resource only ever decreases between long rests.
-In particular, it is not possible to regain endurance by spending power points.  
+In particular, it is not possible to regain endurance by spending Power-Points.  
 While Hit-points decrease when heroes suffer damage and go up again quickly, endurance steadily goes down.
 
 #### Power-Points

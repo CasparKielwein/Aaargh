@@ -15,11 +15,12 @@ Stout and stubborn, Warriors and Craftsmen, Kings and Queens of the Mountain Hal
 ### Traits
 Speed: 25'  
 Language: Common, Dwarven  
-Skills: Endurance, One Tool of your choice
+Skills: One Tool of your choice
 
 ### Discipline: Dwarven Resilience
 #### Lvl 1: Dwarven Resilience
-On your turn: As an opportunity action you can choose to spend one *Heal* to regain hit points.
+Cost: 1 Power-Point  
+On your turn: As a reaction you can choose to spend one point of *Endurance* to regain hit points.
 #### Lvl 2: Tough as Nails
 When you use your Dwarven Resilience, you gain *Damage Resistance* until the end of your next turn.
 #### Lvl 2: Strength of the Earth
@@ -123,11 +124,11 @@ Skills: Nature or Intimidate
 ### Traits
 Speed: 30'  
 Language: Common, once of your choice  
-Skills: Streetwise
+Skills: Streetwise or Charm
 
 ### Human Ambition
 #### Lvl 1: Ambition
-The hero may spend a *Power Point* on their turn to gain an additional Combat Action.
+The hero may spend a *Power-Point* on their turn to gain an additional Combat Action.
 This ability may only be used once per turn.
 
 ## Elves
@@ -149,7 +150,7 @@ Skills: Arcane, Charm, or Nature
 
 ### Elven Accuracy
 #### Lvl 1: Accuracy
-After making a attack role, you can spend a power point to reroll a single die or both dice when rolling with advantage or disadvantage.
+After making a attack role, you can spend a Power-Point to reroll a single die or both dice when rolling with advantage or disadvantage.
 
 ## Halfling
 
@@ -168,5 +169,5 @@ Skills: Streetwise or Stealth
 
 ### Halfling Luck
 #### Lvl 1: Luck
-After an enemy hits you with an attack, but before damage is rolled, you can spend a Power Point
+After an enemy hits you with an attack, but before damage is rolled, you can spend a Power-Point
 to force the DM to reroll the attack against you.

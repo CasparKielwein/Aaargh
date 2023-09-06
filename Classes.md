@@ -24,12 +24,12 @@ Equipment, in particular choice of weapons and armor has a large influence on th
 
 ### Proficiencies
 
-__Skill Proficiency:__ Choose three skills from the following: Athletics, Endurance, Intimidate, Heal, Streetwise  
+__Skill Proficiency:__ Choose two skills from the following: Athletics, Intimidate, Streetwise  
 
 __Starting Hit Points:__ 10 + Tough  
 __Hit Points per Level:__ 4
 
-__Heals:__ 6
+__Endurance:__ 6
 
 ### Equipment
 
@@ -149,12 +149,12 @@ Higher level Abilities of Sorcerers are often new powerful spells.
 This differentiates them from Godsworn Disciplines which mostly add effects and options to a base Maneuver.
 
 ### Proficiencies
-__Skill Proficiency:__ Choose three skills from the following: Arcane, History, Heal, Streetwise  
+__Skill Proficiency:__ Choose two skills from the following: Arcane, History, Heal, Streetwise  
 
 __Starting Hit Points:__ 4 + Tough  
 __Hit Points per Level:__ 2
 
-__Heals:__ 4
+__Endurance:__ 4
 
 ### Power Source
 Every Sorcerer obtained their magical powers through a different source, from ancient tomes to pacts with otherworldly beings.
@@ -284,12 +284,12 @@ They focus on poison and storm damage, while Godsworn focus on fire damage,
 Druid spells do less damage than Godsworn spells on average.
 
 ### Proficiencies
-__Skill Proficiency:__ Choose three skills from the following: Stealth, Nature, Heal, Perception
+__Skill Proficiency:__ Choose two skills from the following: Stealth, Nature, Heal, Perception
 
 __Starting Hit Points:__ 6 + Tough  
 __Hit Points per Level:__ 3
 
-__Heals:__ 5
+__Endurance:__ 5
 
 
 ### Call of the Wild
@@ -456,12 +456,12 @@ Maneuvers give mostly buffs and movement effects.
 Sneak Attack supports debuffs on Enemies and additional damage.
 
 ### Proficiencies
-__Skill Proficiency:__ Choose two skills from the following: Stealth, Streetwise, Athletics, Charm, Thievery
+__Skill Proficiency:__ Choose two skills from the following: Stealth, Streetwise, Athletics, Charm
 
 __Starting Hit Points:__ 4 + Tough  
 __Hit Points per Level:__ 2
 
-__Heals:__ 4
+__Endurance:__ 4
 
 ### Sneak Attack
 Rogues specialize in dealing devastating attacks from the shadows.
@@ -525,12 +525,12 @@ Godsworn do more fire damage.
 The main difference between Godsworn and Druids are in their class features.
 
 ### Proficiencies
-__Skill Proficiency:__ Choose three skills from the following: Religion, Athletics, Heal, Charm
+__Skill Proficiency:__ Choose two skills from the following: Religion, Athletics, Charm, Proficiency with Healers Kit.
 
 __Starting Hit Points:__ 8 + Tough  
 __Hit Points per Level:__ 3
 
-__Heals:__ 6
+__Endurance:__ 6
 
 ### Equipment
 
