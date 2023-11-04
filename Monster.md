@@ -1,6 +1,6 @@
 # Monster
 
-## Thread
+## Threat
 ### Troop
 Troops are regular opponents without any modifiers
 
@@ -180,8 +180,88 @@ __HP:_ 10
 __Longsword:__ +6
 1d8+2 Damage
 
-###
+## Ganak
+Ganak are humans or members of other civilized ancestries that have become corrupted by the power of the titans. This can be contagious, leading to ganak outbreaks. They are somewhat mutated and their mind is twisted and savage. As such they resemble tolkiens orcs from the films or darkspawn from the dragon age series. While they can cooperate somewhat and also work with other servants of the titans to a degree, they are invariably savage and violent, favouring strong leaders like titanblooded. 
+Ganak breed true and can multiply a fair bit faster than humans or most ancestries. It's not uncommon for them to have breeding camps where both female ganak and captives are used to make more ganak in an almost industrial fashion. 
+Ganak don't mature much faster than humans though, still requiring 8 or 9 months of pregnancy and maybe 10 years after that until they approach combat readiness. 
+Infected people that transform usually get a serious fever (which kills quite some infected) and emerge as ganak after maybe a week. Onset is typically a few days. Usually this happens when captives are force fed ganak blood, or when food and water supplies are tainted, often by sorcerous means. 
+Ganak aren't very good farmers or craftsmen though, so wise leaders avoid converting their entire population and just keep some ganak on hand for times of war or when violence is otherwise needed, like supressing uprisings. 
 
+### Ganak Thrall
+These are badly equipped and trained ganak, often the result of mass transformations. Sometimes ganak keep their weak spawn as a seperate caste resembling slaves and still use them in war, they can also use these stats. 
+
+__Attributes:__ Tough: 1	Agil: 1		Mind: 0  
+__Defenses:__  	AC 14 Fort 13 Dex 13	Will 12  
+__HP:__ 1 (minion)
+
+#### Attacks: 
+Spiked club, spear or similar cheap/primitve weapon	+3	1d6+1 damage
+Thrown Rocks or similar primitive ranged weapon  	+3	1d4+1 damage
+
+#### Gear:
+Dirty armor made of leather and cloth  
+simple wooden shield  
+primitive weapons
+
+#### Ganak Rager
+These are brutal shock troops that charge into the enemy ranks without regard for their own life. Using two axes is fairly typical, as is using the toughest armor they can get. This is a prestigious profession among ganak, but they rarely live for long due to their aggressive behavior in battle. 
+
+__Attributes:__ Tough: 3	Agil: 1		Mind: 0  
+__Defenses:__  	AC 15 Fort 15 Dex 13	Will 12  
+__HP:__ 10
+
+#### Attacks
+Twin axes	+5, 1d8+3	can attack twice
+
+Ragers are utterly immune to fear and usually attack relentlessly until they win or are killed
+
+#### Gear
+Low quality medium metal armor, often made from various bits and pieces, similar to scale armor overall  
+two battleaxes  
+trophies taken from their previous victims
+ 
+### Ganak Veteran Rager
+These ragers have been tempered by battle, surviving multiple confrontations and likely having killed a great number of adversaries. They are a force to be reconned with. They often command groups of other ganak, which might be unwise. After all their tactics concentrate on charging the enemy and they are even more prone to violence than other ganak or even other ragers. All in all they lack most of the qualities that make a good officer and leader, but their sheer ferocity still allows them to be somewhat effective. 
+
+__Attributes:__ Tough:5 	Agil: 3		Mind: 1  
+__Defenses:__  	AC 18 Fort 17 Dex 15	Will 13  
+__HP:__ 58 (Elite)
+
+#### Attacks 
+either attack in melee, bellow a war cry or close the distance to the enemy
+
+Twin Greataxes		+7, 1d12+5	two attacks
+
+__War Cry__  
+This buffs allies with advantage against fear and advantage on attack roles until the end of the Veterans next turn.
+The war cry ends all fear effects on allies.
+
+Enemies within 30ft are attacked with +3 vs Mind
+On a hit they take 3d4 psychic damage and are frightened
+On a miss they aren't frightened but still take half psychic damage
+
+#### Gear
+Two greataxes, possibly of good quality or even magical
+A full plate
+Trophies taken from their previous victims
+
+### Ganak Bowmen
+While they are armed with bows, they are general purpose soldiers most of the time, also carrying serviceable melee weapons and wearing decent armor. They often have small shields strapped to their offhand underarm that add some protection while still allowing them to use a bow.
+
+__Attributes:__ Tough: 2	Agil: 2		Mind: 0  
+__Defenses:__  	AC 14 Fort 14 Dex 14	Will 12  
+__HP:__ 8
+
+#### Attacks
+Bow	+4, 1d6+2  
+Scimitar +4, 1d6+2
+
+#### Gear
+at least 40 arrows  
+shortbow  
+scimitar  
+small shield  
+"affordable" armor, most often reinforced cloth
 
 ## Undead
 ### Zombie
