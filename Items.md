@@ -24,7 +24,7 @@ Thus, it is a choice between different utilities and secondary effects and defen
 | Improvised       |                | 1d6    |                          |
 | Large Improvised |                | 1d8    | 2H                       |
 | Spear            | Polearm        | 1d6    | light, Versatile, Thrown |
-| Quarterstaff     | Polearm        | 1d6    | 2H, light                |
+| Quarterstaff      | Polearm        | 1d6    | 2H, light                |
 | Club             | Hammer         | 1d6    | light                    |
 | Hatchet          | Axe            | 1d6    | light                    |
 | Dagger           | Blade          | 1d4    | Thrown, light            |
@@ -57,9 +57,10 @@ Thus, it is a choice between different utilities and secondary effects and defen
 
 | Name              | Defense    | Speed   | Disadvantage       | 
 |-------------------|------------|---------|--------------------|
-| No Armor, Cloth   | 10 + Dex   |         |                    |
-| ----------------- | ---------- | ------- | --------------     |
-| Brigandine        | 13 + Dex   |         |                    |
+| No Armor          | 10 + Dex, Reflex + 2  |         |          |
+| Arcane / Holy Robes    | 10 + Dex, Will + 2 | |               |
+| ----------------- | ---------- | ------- | ------------------ |
+| Brigandine        | 12 + Dex   |         |                    |
 | Mail Armor        | 15         |         | Stealth            |
 | ----------------- | ---------- | ------- | --------------     |
 | Lamellar Armor    | 16         | -5'     | Stealth            |
@@ -104,7 +105,7 @@ When you speak a command word as a free action, the weapon of Surtur will burst 
 All damage caused by attacks and spells using it is fire damage.
 
 #### Robes of the Archmage
-Cloth robes, no real amor.
+Arcane Robes
 
 * You start each encounter with one additional Power-Point
 

@@ -304,12 +304,12 @@ Many druids have learned to morph their form to an avatar of natures might.
 
 *Form of the Hunter*
 * Attack: Dex, Melee, 1d8 damage
-* Speed 8
+* Speed 35'
 
 *Form of the Guardian*
 * Attack: Tough, Melee, 1d8 damage
 * After you make a melee attack in your beast form you can choose to mark the target
-* Speed 6
+* Speed 30'
 
 *Form of the Warden*
 * You can use your weapons and shields in beast form.
@@ -557,7 +557,7 @@ You can sacrifice 1/4 of your full Hit Points to gain a Power-Point as a free ac
 
 #### Oath of the Protector
 You gain additional two Hit Points per level.
-You gain additional four levels of Exhaustion.
+You gain additional four levels of Endurance.
 
 #### Oath of the Avenger
 When you hit a target marked by you with an attack, the attack deals an extra 2d6 damage.

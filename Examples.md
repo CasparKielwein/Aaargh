@@ -18,8 +18,13 @@ Skills: Woodworking Tools
 ### Class: Fighter
 Skill Proficiency: Athletics, Heal, Intimidate
 
-__Armored Fighter__ Gain proficiency with plate armor  
-__Fighting Style:__ Rage
+__Weapon Focus__ TODO
+__Martial Discipline:__ Rage
+
+### Rage
+The first time you are bloodied during a fight, you enter a terrible rage.
+When you enter the rage you gain one Power-Point.
+
 
 ### Maneuvers:
 * Lvl 1: Dwarven Resilience
@@ -42,6 +47,10 @@ __Endurance:__ 6
 * Heavy Crossbow
 * Greataxe
 * Full Plate
+
+__Defenses:__  	AC 18 Fort 11 Dex 11	Will 11  
+__Attacks:__ Greataxe +6 1d12 + 4 (Devastating)
+
 
 ## Draken Sorcerer
 ### Ancestry: Draken
@@ -82,6 +91,8 @@ __Endurance:__ 4
 * Cloth Armor
 * Staff
 
+__Defenses:__  	AC 12 Fort 10 Dex 12	Will 14  
+
 ## Halfling Rogue
 ### Ancestry: Halfling
 Speed: 30'  
@@ -117,8 +128,12 @@ __Hit Points:__ 6
 __Endurance:__ 4
 
 ### Equipment:
-* Light Armor
+* Brigandine
 * Dagger
+
+__Defenses:__  	AC 16 Fort 12 Dex 14	Will 10  
+__Attacks:__ Dagger +6 1d4 + 4
+
 
 ## Human Godsworn
 ### Ancestry: Human
@@ -135,10 +150,14 @@ Skills: Charm
 ** Enemy: Count Drago
 
 ### Class: Godsworn
-Skill Proficiency: Religion, Heal ers Kit
+Skill Proficiency: Religion, Healers Kit
 
-__Oath of Protection__ TODO
-__Domains__ TODO
+__Oath of Protection__  
+You gain additional two Hit Points per level.  
+You gain additional four levels of Endurance.
+
+__Domains:__  
+If at the start of your turn, you are adjacent to three or more enemies, you gain a Power-Point.
 
 ### Maneuvers:
 * Lvl 1: Human Ambition
@@ -160,6 +179,9 @@ __Endurance:__ 6
 * Longsword
 * Holy Symbol
 
+__Defenses:__  	AC 20 Fort 13 Dex 10 Will 13  
+__Attacks:__ Longsword +5 1d8 + 3
+
 
 ## Elven Druid
 ### Ancestry: Elf
@@ -179,9 +201,12 @@ Skills: Charm
 Skill Proficiency: Stealth, Nature
 
 ### Call of the Wild: Beast Form
+Form of the Hunter
+* Attack: Dex, Melee, 1d8 damage
+* Speed 35'
 
 ### Druidic Circle: Lone Ranger
-If during combat you start your turn with no ally within 10` you gain a Power-Point.
+When you start a fight with no ally within 10` you gain a Power-Point.
 
 ### Maneuvers:
 * Lvl 1: Elven Accuracy
@@ -198,4 +223,8 @@ __Hit Points:__ 8
 __Endurance:__ 5
 
 ### Equipment:
-TODO
+* Longspear
+* Brigandine
+
+__Defenses:__  	AC 13 Fort 13 Dex 10 Will 13  
+__Attacks:__ Longspear +5 1d8 + 3 (Reach9

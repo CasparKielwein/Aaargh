@@ -214,6 +214,16 @@ This includes Claws, Teeth, Spiked Tails, etc.
 #### Light Blade (Short Sword, Dagger)
 Sneak Attack: once per turn when you make an attack roll with advantage and you hit, you deal 1/2/3 d6 additional damage.
 
+#### Bow
+Todo
+
+#### Thrown Weapons
+TODO
+
+#### Fencing Weapon
+* Riposte
+If a melee attack misses you, you can strike back at the attacker with a fencing weapon as a reaction.
+
 ### Damage Types and secondary effects.
 * Physical Damage is the most common type of damage caused by most weapons and several spells.
     * push back, pull, knock prone,
