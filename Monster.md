@@ -16,6 +16,42 @@ An Elite monster has the strength of roughly four troops.
 ### Nemesis
 A Nemesis has the strength of roughly ten regular troops.
 
+## Level
+Monsters have a proficiency bonus, just like the Heroes.
+The proficiency bonus is a rough estimate of a monsters level.
+A bonus of zero indicates, that the monster really isn't a fighter, and probably only ever attacks in very large numbers.
+A bonux of six, the maximum, indicates a true master.
+
+Add the proficiency bonus to all Attack and skill roles and secondary defenses.
+
+A troop Threat monster has roughly the same HP, Attacks, and Defenses as a Hero with the same proficiency bonus but it lakes the powerful abilities of the Hero disciplines.
+
+A proficiency bonus of +2 is the baseline for an average soldier without any special training.
+
+## Hit Points
+TODO: How to calculate monster hit points
+In particular, how to calculate their increase per level.
+
+### Base HP
+Similar to lvl 1 heroes:
+* 6 + Toughness for squishy types
+* 8 + Toughness for hardy types and most beasts
+* 10 + Toughness for warriors and soldiers
+
+## Modifiers
+Use Modifier templates to increase the level of a monster and give them new abilities.
+These templates represent better trained, armed, motivated etc. representations of their kind.
+
+### Well equiped
+Better equiped than most
+* Proficiency Bonus +1 representing not increased skill, but quality of equipment
+* Damage +2 for one-handed or +4 for two-handed weapons
+
+### Veteran
+Have seen combat and know how to fight
+* Proficiency Bouus +1
+* Base HP x2 resembling increased fitness and morale.
+
 ## Type
 ### Undead
 * Resistance to Poison
@@ -34,11 +70,16 @@ Otherwise, they will usually retreat when half their group has been defeated.
 * Webs
 #### Wolf
 * Pounce (knock targets prone)
-* Sneak Attack
+* Go for the throat: Extra damage against prone enemies
 ### Orc
 ### Goblin
+* Shifty bastards: Goblins can disengage using a reaction on their turn instead of a move action.
+* sneaky, universally trained in stealth, usually decent
+* small
+* quick, Speed of 30' even though they are small
 ### Gnoll
 ### Dwarf
+* slow, speed of 25'
 ### Elf
 * Quick and Elegant
 #### Wood Elf
@@ -50,6 +91,7 @@ Otherwise, they will usually retreat when half their group has been defeated.
 * Poisoned Weapons
 ### Human
 * No innate attacks, only weapons and magic
+* Human Ambition, human elite and Nemeis monster can use an extra action like the Human Ambition discipline of the human ancestry.
 ### Minotaur
 Horn Attacks, large Weapons
 ### Troll
@@ -94,19 +136,6 @@ Horn Attacks, large Weapons
 * Variable resistance, can chose resistance to to elemental damage
 ### Devil
 
-## Role
-The role of a monster determines its main attacks.
-
-### Artillery
-### Sharpshooter
-High Damage, use move action to load / aim
-
-### Skirmisher
-Move 10' before or after attack
-
-### Guard
-
-### Berserker
 
 ## Generic
 
@@ -116,39 +145,76 @@ __Attributes:__
 Tough: 2  Agil: 1  Mind: 0  
 
 __Defenses:__
-AC: 16
-Fort: 14
-Dex: 13
-Wil: 12
+AC: 15 / 17 with shield
+Fort: 14    Dex: 13 Wil: 12
 
-__Attacks:__
-__Longsword:__ +4
-1d8+2 Damage
+__HP:__ 12
+
+__Attacks:__  
+__Longsword:__ +4 1d8+2 Damage  
+__Halbert:__ +4 1d8 +2 (Reach)  
+Brace Polearm: Opportunity Attack against enemy which moves adjacent to the soldier.
+
+__Crossbow:__ +4 1d12+2 Damage  
+Range 100'  load: Move-Action
 
 __Gear:__
-Mail Armor
-Shield
-Longsword
+Mail Armor  
+Shield + Longsword / Axe
+or Halberd
+or Crossbow
+
+__Skils:__  
+Streewise +2
 
 ### Human Hunter
 __Troop__  
 __Attributes:__
 Tough: 1  Agil: 2  Mind: 0  
 
-__Defenses:__
-AC: 14
-Fort: 13
-Dex: 14
-Wil: 12
+__HP:__ 9
 
-__Attacks:__
-Lonbow:__ +4
-1d10+2 Damage
+__Defenses:__
+AC: 14  Fort: 13    Dex: 14 Wil: 12
+
+__Attacks:__  
+__Lognbow:__ +4 1d10+2 Damage  
+__Logspear:__ +4 1d8+2 Damage (Reach)
 
 __Gear:__
-Light Armor
-Longbow
+Light Armor  
+Longbow or Longspear
 
+__Skils:__  
+Nature +2  
+Perception +2
+Stealth +4
+
+### Royal Guard
+Human Soldier with Veteran and Well Equiped template.  
+__Troop__  
+__Attributes:__
+Tough: 4  Agil: 1  Mind: 2  
+
+__Defenses:__
+AC: 18  Fort: 18    Dex: 15 Wil: 16
+
+__HP:__ 28
+
+__Attacks:__  
+__Zweihander:__ +8 1d10+8 Damage  
+Reaping Strike: When the monster deals damage with an attack, a second target adjacent to it takes half the original damage as well.
+
+__Glaive:__ +8 1d8 +8 (Reach)  
+Brace Polearm: Opportunity Attack against enemy which moves adjacent to the soldier.
+
+__Gear:__
+Plate Armor  
+Gleive or Zweihander
+
+__Skils:__  
+Perception +5
+Athletics +8
 
 ## Undead
 
@@ -183,7 +249,6 @@ __Longsword:__ +6
 ## Ganak
 Ganak are humans or members of other civilized ancestries that have become corrupted by the power of the titans. This can be contagious, leading to ganak outbreaks. They are somewhat mutated and their mind is twisted and savage. As such they resemble tolkiens orcs from the films or darkspawn from the dragon age series. While they can cooperate somewhat and also work with other servants of the titans to a degree, they are invariably savage and violent, favouring strong leaders like titanblooded. 
 Ganak breed true and can multiply a fair bit faster than humans or most ancestries. It's not uncommon for them to have breeding camps where both female ganak and captives are used to make more ganak in an almost industrial fashion. 
-Ganak don't mature much faster than humans though, still requiring 8 or 9 months of pregnancy and maybe 10 years after that until they approach combat readiness. 
 Infected people that transform usually get a serious fever (which kills quite some infected) and emerge as ganak after maybe a week. Onset is typically a few days. Usually this happens when captives are force fed ganak blood, or when food and water supplies are tainted, often by sorcerous means. 
 Ganak aren't very good farmers or craftsmen though, so wise leaders avoid converting their entire population and just keep some ganak on hand for times of war or when violence is otherwise needed, like supressing uprisings. 
 
@@ -254,12 +319,12 @@ __HP:__ 8
 
 #### Attacks
 Bow	+4, 1d6+2  
-Scimitar +4, 1d6+2
+Vicious Blade +4, 1d6+2
 
 #### Gear
 at least 40 arrows  
 shortbow  
-scimitar  
+Vicious looking blade  
 small shield  
 "affordable" armor, most often reinforced cloth
 
@@ -275,7 +340,7 @@ __Minion__
 ## Weapon Attacks
 
 ### Light One-Handed
-* 1d8 Damage
+* 1d6 Damage
 
 ### Light Ranged
 * Range 50''
@@ -296,8 +361,9 @@ __Minion__
 ### Polearm
 * Reach 10'
 * 1d8 Damage
+* Brace Polearm: Opportunity Attack against enemy which moves adjacent to the soldier.
 
-### Warbow
+### Warbow / Longbow
 * Range 100''
 * 1d10 Damage
 

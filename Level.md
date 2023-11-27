@@ -95,3 +95,8 @@ Damage is also average for a Hero who is capable of doing damage but not a focus
 | 19    | 60  | 80  | 100 | 120 | 5d6 +6 +2   | +2  | 
 | 20    | 63  | 84  | 105 | 126 | 5d6 +6 +2   | +2  | 
 | 21    | 66  | 88  | 110 | 132 | 5d6 +6 +2   | +2  | 
+
+### Comment
+HP increases are a bit lower than Dnd5, where they increase very rapidly, since the Constitution modifier is added every level.
+We let them increase slower, to allow low-level enemies to still have an impact in higher level games.
+Players who want to have a lot of HP for their character can chose dedicated talents in addition to high HP classes.

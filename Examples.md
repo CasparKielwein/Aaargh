@@ -36,11 +36,11 @@ When you enter the rage you gain one Power-Point.
 * Heavy Weapon Master
 
 ### Attributes:
-__Toughness:__ 4
+__Toughness:__ 3
 __Dexterity:__ 1
 __Mind:__ 1
 
-__Hit Points:__ 14
+__Hit Points:__ 13
 __Endurance:__ 6
 
 ### Equipment:
@@ -48,8 +48,8 @@ __Endurance:__ 6
 * Greataxe
 * Full Plate
 
-__Defenses:__  	AC 18 Fort 11 Dex 11	Will 11  
-__Attacks:__ Greataxe +6 1d12 + 4 (Devastating)
+__Defenses:__  	AC 18 Fort 13 Dex 11	Will 11  
+__Attacks:__ Greataxe +5 1d12 + 3 (Devastating)
 
 
 ## Draken Sorcerer
@@ -82,7 +82,7 @@ You gain an additional two Power-Points after a long rest.
 ### Attributes:
 __Touchness:__ 0
 __Dexterity:__ 2
-__Mind:__ 4
+__Mind:__ 3
 
 __Hit Points:__ 6
 __Endurance:__ 4
@@ -91,7 +91,7 @@ __Endurance:__ 4
 * Cloth Armor
 * Staff
 
-__Defenses:__  	AC 12 Fort 10 Dex 12	Will 14  
+__Defenses:__  	AC 12 Fort 10 Dex 12	Will 13  
 
 ## Halfling Rogue
 ### Ancestry: Halfling
@@ -121,7 +121,7 @@ When you start a fight while being hidden from all enemies, you gain a Power-Poi
 
 ### Attributes:
 __Toughness:__ 2
-__Dexterity:__ 4
+__Dexterity:__ 3
 __Mind:__ 0
 
 __Hit Points:__ 6
@@ -131,8 +131,8 @@ __Endurance:__ 4
 * Brigandine
 * Dagger
 
-__Defenses:__  	AC 16 Fort 12 Dex 14	Will 10  
-__Attacks:__ Dagger +6 1d4 + 4
+__Defenses:__  	AC 15 Fort 12 Dex 13	Will 10  
+__Attacks:__ Dagger +5 1d4 + 3
 
 
 ## Human Godsworn
@@ -168,7 +168,7 @@ If at the start of your turn, you are adjacent to three or more enemies, you gai
 ### Attributes:
 __Touchness:__ 3
 __Dexterity:__ 0
-__Mind:__ 3
+__Mind:__ 2
 
 __Hit Points:__ 11
 __Endurance:__ 6
@@ -179,7 +179,7 @@ __Endurance:__ 6
 * Longsword
 * Holy Symbol
 
-__Defenses:__  	AC 20 Fort 13 Dex 10 Will 13  
+__Defenses:__  	AC 20 Fort 13 Dex 10 Will 12  
 __Attacks:__ Longsword +5 1d8 + 3
 
 
@@ -215,16 +215,16 @@ When you start a fight with no ally within 10` you gain a Power-Point.
 * Lvl 1: Barkskin
 
 ### Attributes:
-__Toughness:__ 3
+__Toughness:__ 2
 __Dexterity:__ 
 __Mind:__ 3
 
-__Hit Points:__ 8
+__Hit Points:__ 7
 __Endurance:__ 5
 
 ### Equipment:
 * Longspear
 * Brigandine
 
-__Defenses:__  	AC 13 Fort 13 Dex 10 Will 13  
-__Attacks:__ Longspear +5 1d8 + 3 (Reach9
+__Defenses:__  	AC 13 Fort 12 Dex 10 Will 13  
+__Attacks:__ Longspear +4 1d8 + 2 (Reach)
