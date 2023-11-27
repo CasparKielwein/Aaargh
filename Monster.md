@@ -167,6 +167,43 @@ or Crossbow
 __Skils:__  
 Streewise +2
 
+### Guard Captain
+__Elite__
+
+__Troop__  
+__Attributes:__
+Tough: 2  Agil: 1  Mind: 0  
+
+__Defenses:__
+AC: 15 / 17 with shield
+Fort: 14    Dex: 13 Wil: 12
+
+__HP:__ 48
+
+__Attacks:__  
+__Longsword:__ +4 1d8+2 Damage  
+__Halbert:__ +4 1d8 +2 (Reach)  
+Brace Polearm: Opportunity Attack against enemy which moves adjacent to the soldier.
+
+__Crossbow:__ +4 1d12+2 Damage  
+Range 100'  load: Move-Action
+
+__Gear:__
+Mail Armor  
+Shield + Longsword / Axe
+or Halberd
+or Crossbow
+
+__Skils:__  
+Streewise +2
+
+__Human Ambition:__
+Free action on the guard captains turn:
+The Guard Captain immediately takes a second full action.
+This ability cannot be used again until the captain takes a short rest.
+
+TODO add another ability, something which represents the leader ability
+
 ### Human Hunter
 __Troop__  
 __Attributes:__
