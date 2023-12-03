@@ -3,12 +3,20 @@ Every Hero has a history. Your heroes background describes what they did before 
 Each background provides a set of skills and tool proficiencies. 
 Your hero also has made some allies and enemies.
 
+1. Commoner
+2. Criminal
+3. Noble
+4. Rough Childhood
+5. Acolyte
+6. Soldier
+7. Guild Artisan
+8. Outlander
+
 ### Commoner
-Your character lived a simple life among the countless farmers that populate rural areas of the known world
-until they became an unlikely hero.
+Your character lived a simple life among the countless farmers that populate rural areas of the known world until they became an unlikely hero.
 
 __Tool Proficiencies:__ One Tool of your choice  
-__Skill Proficiencies:__ Survival, and Athletics or Streetwise  
+__Skill Proficiencies:__ Survival, Athletics, or Streetwise  
 __Equipment:__ 
 * Simple clothes
 * A riding horse or a cart and a mule
@@ -39,7 +47,7 @@ A lord recruited you into his army. You rose through the ranks and were recommen
 You have lived a life of vice and breaking the law. You have spent a lot of time among
 other criminals and still have contacts within the criminal underworld. 
 
-__Skill Proficiencies:__ Thievery, Stealth  
+__Skill Proficiencies:__ Stealth or Intimidate  
 __Tool Proficiencies:__ Thieves' tools  
 __Equipment:__ 
 * Inconspicuous clothing
@@ -52,21 +60,27 @@ __Equipment:__
 3. Smuggler
 4. Con Artist
 5. Burglar
-6. Thug
+6. Enforcer
+7. Gild Thief
+8. Bandit
 
 #### Feature: Underworld Contact
 You have a trusted contact within the criminal underworld.
 You know how to get messages to and from your contact, even over great distances.
 
 ### Noble
-#### Feature:
+#### Feature: Etiquette
+You will always be recognized as a member of the ruling classes; and they watch out for their own.
+Provifing shelter and assistance is a matter of honor for other nobles.
+People will also generally assume you are in command.
+
 #### Highborn
 1. Landed Gentry, your family is a smaller noble house administrating a section of rich farm land.
 2. Kings Court, you grew up in the court of powerful king or empress. The sheltered life of a royal court, obscure etiquette and rituals as well as intrigue and backstabbing are second nature to you.
 3. Warrior Noble
-4. TODO
-5. TODO
-6. TODO
+4. Bastard Child, you are the illegimitate child and always kept at an arms length
+5. One of the Great Houses
+6. Squire, you spend most of your youth as a squire to a knight who taught you etiquette, how to fight and knightly virtues.
 
 #### Problem
 1. House in decline. Your families riches are gone and debts are rising. The noble house is in significant debt, and must take drastic measures to pay it off, such as allying with rivals or engaging in illicit activities.
@@ -75,6 +89,13 @@ You know how to get messages to and from your contact, even over great distances
 4. Blood Curse: A powerful curse is placed upon the noble house, causing members to slowly descend into madness and bloodlust.
 5. A hostile army invades the noble house's lands, leading to battles, siege warfare, and desperate attempts to repel the invaders.
 6. Throne of Skulls: The noble house's leader is overthrown and replaced by a tyrant who rules with an iron fist, causing the people to live in fear and despair.
+
+__Skill Proficiencies:__ Charm, and Religion, Arcane, or Intimidate  
+__Equipment:__ 
+* A set of fine robes
+* A noble riding horse or a servant
+* An elegant family heirloom
+
 
 ### Rough Childhood
 #### Childhood
@@ -85,31 +106,47 @@ You know how to get messages to and from your contact, even over great distances
 5. Criminal: The character grew up on the wrong side of the law, surrounded by crime and violence, forced to commit acts they are not proud of to survive.
 6. Outcast: The character was shunned by their community or tribe for some reason, whether it be due to a physical deformity or some other perceived flaw, leaving them with a deep sense of isolation and loneliness.
 
+#### Lessons
+1. It's either you or me!
+2. Down with the opressors!
+3. Keep few and close friends
+4. I have seen so much suffering, I will not let oter suffer.
+5. TODO
+6. TODO
+
 #### Feature: School of hard knocks
+
+__Skill Proficiencies:__ Survival, and Charm, Stealth, or Intimidate  
+__Equipment:__ 
+* Simple Clothes, possibly stolen
+* A simple and well-used toy.
+
 
 ### Acolyte
 #### Cults and Temples
 1. Monastery of the Mountain's Heart - a remote monastery that is home to a secretive order of mystics who seek enlightenment through the study of nature and the elements.
-2. Metropolitan Church
+2. Metropolitan Church - You know your way around the cut-throat world of clerical politics.
 3. Silent Monks - You spend your youth in a monastery with a vow of silence copying and contemplating divine texts.
-4. TODO
-5. TODO
-6. TODO
+4. Heretical Sect
+5. Village Temple
+6. Apokalyptic Cult
 
 #### Feature:
 
 ### Soldier
-#### Feature: 
+#### Feature: Comrades in Arms
 You still are a member of your military unit.
 Your superiors might issue you tasks and your old comrades will be ready to help you.
 
 #### Specialty
 1. Officer 
-2. Specialist: Your position was in the logistics and baggage train instead of fighting at the line.
+2. Logistics: Your position was in the logistics and baggage train instead of fighting at the line.
 3. Scout
 4. Footman
 5. Siege Engineer
 6. Cavalry
+7. Archer
+8. Alhemical or Arcane Specialist
 
 #### Campaign
 1. Glorious Last Stand
@@ -118,6 +155,14 @@ Your superiors might issue you tasks and your old comrades will be ready to help
 4. Lonely Outpost
 5. City Guard
 6. The long war
+7. Mercenary
+
+__Tool Proficiencies:__ A Tool or board game fitting your specialty
+__Skill Proficiencies:__ Streetwise or Athletics
+__Equipment:__ 
+* Uniform
+* A weaon or set of tools fitting your specialty 
+* A half-empty flask
 
 ### Guild Artisan
 
@@ -145,15 +190,23 @@ Your superiors might issue you tasks and your old comrades will be ready to help
 
 #### Feature:
 
+__Tool Proficiencies:__ The tools required by your chosen guild
+__Skill Proficiencies:__ Streetwise or Athletics
+__Equipment:__ 
+* Traditional clothes of your profression
+* A ring with the seal of your guild
+* The tools reqreuid to work as an artisan, possibly at a small local workshop
+
+
 ### Outlander
 You grew up far from civilization, in the wilds beyond the borders of settled lands. You are self-sufficient and have a deep understanding of nature.
 
-####
+#### Wild Upbringing
 1. Barbarian Tribes
 2. Hermit: A solitary person who lives in isolation, seeking spiritual enlightenment or refuge from the world.
 3. Trapper
-4. TODO
-5. TODO
+4. Druid Aprentice
+5. Raised by wild animals
 6. TODO
 
 ### Nature
@@ -163,11 +216,12 @@ You grew up far from civilization, in the wilds beyond the borders of settled la
 4. Icy Mountains
 5. Endless Steppe
 6. Fiery Volcanoes
+7. Fetid Swamps
+8. Underground
 
 #### Feature:
 
-### Mercenary
-You've worked as a hired sword for various employers, using your combat skills to protect or harm as directed.
 
-####
-#### Feature
+__Tool Proficiencies:__
+__Skill Proficiencies:__ Nature  
+__Equipment:__ 

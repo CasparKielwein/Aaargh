@@ -32,12 +32,13 @@ Background traits can be used outside of combat and give each hero a unique abil
 
 Available Backgrounds are:
 1. Commoner
-2. Soldier
+2. Criminal
 3. Noble
 4. Rough Childhood
 5. Acolyte
-6. Guild Artisan
-7. Outlander
+6. Soldier
+7. Guild Artisan
+8. Outlander
 
 ### Heroes Path
 After having chosen a background you chose your heroes path.
