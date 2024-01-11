@@ -51,7 +51,7 @@ Skills: Intimidate or Religion
 ### Dragonbreath
 #### Lvl 1: Dragonbreath
 Cost: 1 Power-Point
-* Close blast 3
+* Cone of 15' length, 45° wide
 * Attack +Tough
 * 1d6 + Tough <element> damage
 

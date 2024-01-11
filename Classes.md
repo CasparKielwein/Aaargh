@@ -211,14 +211,15 @@ Ice Grip is a close burst 1 instead of melee 1
 
 ### Magic Missile
 #### Lvl 1:Magic Missile
-* Range 10
+* Range 50'
+* Ranged Attack + Mind
 * 1d8 + Mind Damage
 
 #### Lvl 2: Stronger Missile
 2d8 + Mind Damage
 
 #### Lvl 3: Combustion
-* If Target is killed by magic missile, you can perform a secondary attack:
+* If Target is reduced to zero hit poitns by magic missile, you can perform a secondary attack:
   * close burst 1 centered on target
   *  2d8 + Mind Damage
 
@@ -239,7 +240,7 @@ Attack becomes Close Blast 5
 ### Lightning Bolt
 #### Lvl 1:
 * Ranged 15
-* 1d8 + Wis damage
+* 1d8 + Mind damage
 * target takes -2 to AC and REF
 
 #### Lvl 2: Lightning strikes twice
