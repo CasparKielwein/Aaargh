@@ -164,8 +164,8 @@ After an enemy hits you with an attack, but before damage is rolled, you can spe
 to force the DM to reroll the attack against you.
 
 ### Sneak Attack
-Whenever a marked enemy that is adjacent to you shifts or makes an attack that does not 
-include you, you can make a melee basic attack against that enemy as an opportunity reaction.
+Rogues specialize in dealing devastating attacks from the shadows. 
+Once per round, when you hit a target with advantage you can chose do a Sneak Attack. If you do so, the attack deals an additional 2d6 damage.
 
 ### Nimble Attack
 Melee Attack: 1[W] + Tough + Tough Damage.  
