@@ -159,7 +159,8 @@ Standing up requires a move action.
 A slowed creature can only move half their usual speed.
 #### Immobilized
 An immobilized creature has a speed of zero.
-#### Shaken
+#### Terrified
+You make all attribute rolls (skill, attacks, initiative, etc) with disadvantage.
 #### Stunned
 A hero or monster who is stunned, cannot take any actions until the condition ends.
 #### Bloodied

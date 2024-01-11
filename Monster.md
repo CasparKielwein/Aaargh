@@ -52,6 +52,24 @@ Have seen combat and know how to fight
 * Proficiency Bouus +1
 * Base HP x2 resembling increased fitness and morale.
 
+### Elite
+requires and replaces Veteran
+* Proficiency Bouus +2
+* Base HP x3 resembling increased fitness and morale.
+
+### Ganak Transformation
+* Tough + 1
+* HP + 5
+
+#### Ability: Unnerving Howl
+The Ganak emits a terrible howl, putting fear into their victims heart.
+
+Attack +4 against will
+The target is terrified; save ends.
+
+When the Ganak attack, they will start with their howl before making contact.
+Thus terrified enemies will often roll initiative with disadvantage.
+
 ## Type
 ### Undead
 * Resistance to Poison
@@ -78,6 +96,10 @@ Otherwise, they will usually retreat when half their group has been defeated.
 * small
 * quick, Speed of 30' even though they are small
 ### Gnoll
+### Ganak
+* Mutated horror versions of other species
+* Aggressive, violent, cruel
+* Howl
 ### Dwarf
 * slow, speed of 25'
 ### Elf
