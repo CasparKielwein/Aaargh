@@ -27,7 +27,7 @@ Equipment, in particular choice of weapons and armor has a large influence on th
 __Skill Proficiency:__ Choose two skills from the following: Athletics, Intimidate, Streetwise  
 
 __Starting Hit Points:__ 10 + Tough  
-__Hit Points per Level:__ 4
+__Hit Points per Level:__ 5
 
 __Endurance:__ 6
 
@@ -71,7 +71,7 @@ include you, you can make a melee basic attack against that enemy as an opportun
 #### Lvl 2: Vigilance
 Your watchfully Strike becomes an opportunity interrupt.
 #### Lvl 2: Maneuvering Watch
-When you hit an enemy with your watchfully Strike you may push that enemy 1 square.
+When you hit an enemy with your watchfully Strike you may push that enemy 5'.
 #### Lvl 3: Eternal Watch
 When you mark an enemy you can spend one power-point to have the mark last until the end of the encounter.
 
@@ -151,8 +151,8 @@ This differentiates them from Godsworn Disciplines which mostly add effects and 
 ### Proficiencies
 __Skill Proficiency:__ Choose two skills from the following: Arcane, History, Heal, Streetwise  
 
-__Starting Hit Points:__ 4 + Tough  
-__Hit Points per Level:__ 2
+__Starting Hit Points:__ 6 + Tough  
+__Hit Points per Level:__ 3
 
 __Endurance:__ 4
 
@@ -287,8 +287,8 @@ Druid spells do less damage than Godsworn spells on average.
 ### Proficiencies
 __Skill Proficiency:__ Choose two skills from the following: Stealth, Nature, Heal, Perception
 
-__Starting Hit Points:__ 6 + Tough  
-__Hit Points per Level:__ 3
+__Starting Hit Points:__ 8 + Tough  
+__Hit Points per Level:__ 4
 
 __Endurance:__ 5
 
@@ -356,7 +356,7 @@ TODO: Power Source, some interaction with HP
 
 ### Grasping Vines
 #### Lvl1:
-* Ranged 20
+* Ranged 10
 * 1d4 + Mind Damage
 * Target is slowed
 
@@ -431,14 +431,13 @@ You hit the ground in front of you with a powerful slam.
 Combat Action  
 1 Power-Point
 
-The ground in a circle with diameter of 10' around you becomes
+The ground in a circle with diameter of 10' around you becomes difficult terrain.
 
 ### Lvl 2: Powerful Slam
-The area of your Ground Slam increases ta diameter of 20'.
+The area of your Ground Slam increases to a diameter of 20'.
 
 
 ## Rogue
-
 Rogues specialize on exploiting every weakness they find in their enemies.
 On face value, they don't appear very threatening, having a low number of hit points and wielding small weapons.
 But once a rogue inevitably finds a weakness in their target, they show their true power using their *sneak attacks* for devastating effect.
@@ -459,20 +458,22 @@ Sneak Attack supports debuffs on Enemies and additional damage.
 ### Proficiencies
 __Skill Proficiency:__ Choose two skills from the following: Stealth, Streetwise, Athletics, Charm
 
-__Starting Hit Points:__ 4 + Tough  
-__Hit Points per Level:__ 2
+__Starting Hit Points:__ 6 + Tough  
+__Hit Points per Level:__ 3
 
 __Endurance:__ 4
 
 ### Sneak Attack
 Rogues specialize in dealing devastating attacks from the shadows.
-Once per round, when you hit a target with advantage you can chose do a `Sneak Attack`.
-If you do so, the attack deals an additional `1d6` damage.
 
-#### Lvl 1: Assassin
+#### Lvl 1: Sneak Attack
+Once per round, when you hit a target with advantage you can chose do a `Sneak Attack`.
+If you do so, the attack deals an additional `2d6` damage.
+
+#### Lvl 2: Assassin
 Your Sneak Attack deals `d8` instead of `d6` damage.
 
-#### Lvl 1: Thief
+#### Lvl 2: Thief
 TODO: Ideas:
 Swap dice of sneak attack damage for effects.
 Knock enemy prone, Stun enemy, slow enemy
@@ -496,14 +497,14 @@ You make a standard Ranged or Melee Attack. After the attack has been resolved y
 ### Hobbling Strike
 Your strike weakens the enemy setting them up for further attack.
 
-#### Lvl1: Hobbling Strike
+#### Lvl 1: Hobbling Strike
+Cost: 1 Power-Point
 You make a standard Ranged or Melee Attack.
-If the attack hits, you can spend 1 Power-Point.
-If you do so, you gain advantage with your next attack against the target.
+If the attack hits, you gain advantage with attacks against the target util the end of your next turn.
 
 ### Artful Dodge
 
-#### Lvl1: Unhindered Movement
+#### Lvl 1: Unhindered Movement
 Spend a move Action and a Power-Point.
 Move your speed.
 Your movement does not trigger Opportunity attacks and you can move through enemies.
@@ -529,7 +530,7 @@ The main difference between Godsworn and Druids are in their class features.
 __Skill Proficiency:__ Choose two skills from the following: Religion, Athletics, Charm, Proficiency with Healers Kit.
 
 __Starting Hit Points:__ 8 + Tough  
-__Hit Points per Level:__ 3
+__Hit Points per Level:__ 4
 
 __Endurance:__ 6
 
@@ -572,7 +573,7 @@ When you heal someone using a Discipline, the target regains additional hit poin
 ##### Rank 1: Smite
 Free Action  
 X Power-Point
-When you hit an enemy with an attack. The attack deals XD6 additional Damage.
+When you hit an enemy with an attack. Spend X power-points; The attack deals XD6 additional Damage.
 
 #### Healing Word
 ##### Rank 1: Healing Word
