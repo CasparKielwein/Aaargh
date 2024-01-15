@@ -24,6 +24,7 @@ The *Streetwise* skill represents the characters ability to identify potential a
 In particular roll *Streetwise* when you want to find out if someone is deceiving you.
 
 ### Stealth (Dex)
+After you finish movement in a position where you are concealed, you can make a strealth check to become hidden from your enemies.
 
 ### Charm (Mind)
 Use the *charm* skill to persuade people of your point of view.
@@ -31,7 +32,6 @@ Use the *charm* skill to persuade people of your point of view.
 ### Intimidate (Mind)
 Use *Intimidate* to make people do what you want them to against their will.
 If you use *Intimidate* against someone, they will usually hold a grudge and work against you in the future.
-
 
 ### Comment
 Nine Skills seems like a manageable number, which still covers the typical situations of a dungeon crawler.
@@ -59,8 +59,8 @@ This way one can build a forest ranger type character who supports their allies 
 ### "Jump Very High" (Athletics)
 While heroes with a high bonus in *Athletics* can already jump considerable distances and heights this discipline takes them to a superhuman level.
 #### Leap
-Cost: 1 Power-Point
-No Action
+Cost: 1 Power-Point  
+No Action  
 For the next thirty minutes the distance and height you clear when you jump is multiplied by 5.
 You still cannot jump a longer distance than your speed.
 
@@ -79,24 +79,24 @@ You have honed your senses to super human levels and you can attack adjacent ene
 
 ### Find Weakness (Streetwise)
 #### Rank 1:
-Cost: 1 Power-Point
+Cost: 1 Power-Point  
 On your turn, use your reaction to choose a target you can see.
 Roll an *Streetwise* check against the targets will defence.
 If you succeed, the target has vulnerability against damage from your next attack against it.
 
 ### Stealth
 #### Rank 1: Move in the shadows
-Cost: 1 Power-Point
-Move Action
+Cost: 1 Power-Point  
+Move Action  
 You disappear into the shadows and reappear in a position of your choice within 30'.
 Both your current position and the target position must be in total darkness.
 
 #### Rank 2:
-You can move up to 50' through the shadows.
+You can move up to 60' through the shadows.
 
 ### Disarming Presence (Charm)
 #### Rank 1:
-Cost: None
+Cost: None  
 On your turn, use your reaction to choose a target you can see and who can see you. 
 Roll a *Charm* check against will defense of target.
 If you succeed te target has disadvantage on all attacks against you until the end of your next turn.
@@ -109,7 +109,7 @@ You can choose to target each enemy within 25' with your disarming presence inst
 You still have to see all targets, and they have to be able to see you,
 
 #### Rank 3:
-Cost: 1 Power-Point
+Cost: 1 Power-Point  
 Targets affected by your disarming presence suffer a malus to all checks and attacks not only those that target you.
 If you decide to extend the duration of the effect, you need to spend another Power-Point.
 
@@ -123,3 +123,9 @@ Improve equipment during rests, spend maneuver points for small bonuses.
 Put buffs and other spells into alchemical concoctions.
 Maneuver points have to be spent when the concoction is brewed.
 Drinking an elixir will trigger the effect, even if the person drinking it does not possess the skill and is not in range of the alchemist.
+
+### Treat Woulds (Healers Kit)
+#### Lvl 1: First Aid
+Cost 1 Power-Point  
+Full Action  
+Targets ally adjacent to you or yourself, the target may spend one point of endurance to regain hit points equal to their endurance heal value plus your proficiency bonus.
