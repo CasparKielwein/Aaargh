@@ -19,7 +19,6 @@ Skills: One Tool of your choice
 
 ### Discipline: Dwarven Resilience
 #### Lvl 1: Dwarven Resilience
-Cost: 1 Power-Point  
 On your turn: As a reaction you can choose to spend one point of *Endurance* to regain hit points.
 #### Lvl 2: Tough as Nails
 When you use your Dwarven Resilience, you gain *Damage Resistance* until the end of your next turn.
@@ -137,10 +136,10 @@ This ability may only be used once per turn.
 1. Hair that changes color based on mood or the time of day, ranging from pale silver to deep green.
 2. Thin, almost translucent skin that has an ethereal quality and is prone to showing veins and blood vessels.
 3. Impossibly beautiful
-4. Silver Hair, not just the color, it's literally silver
+4. Silver Hair; not just the color - it's literally silver
 5. A tendency to sway or dance to music only you can hear or even to the rhythm of the wind in the trees.
-6. You eyes are just black orbs
-7. A delicate, almost imperceptible shimmer to their skin that makes them seem like they are always surrounded by a faint aura of magic. 
+6. Your eyes are just black orbs
+7. A delicate, almost imperceptible shimmer to your skin that makes you seem like you are always surrounded by a faint aura of magic. 
 8. A natural, floral scent that emanates from their skin and hair.
 
 ### Traits

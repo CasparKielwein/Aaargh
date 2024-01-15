@@ -10,13 +10,13 @@ Skills: Woodworking Tools
 ### Background: Commoner
 * Feature: One of the Smallfolk
 * Tool Proficiencies: Blacksmith Tools
-* Skill Proficiencies: Survival, Streetwise
+* Skill Proficiencies: Survival
 * Hero of the Rebellion
 ** Ally: People of Arn upon Firth
 ** Enemy: Count Drago
 
 ### Class: Fighter
-Skill Proficiency: Athletics, Heal, Intimidate
+Skill Proficiency: Athletics, Intimidate
 
 __Weapon Focus__ TODO
 __Martial Discipline:__ Rage
@@ -78,7 +78,7 @@ Skills: Intimidate
 ### Background: Commoner
 * Feature: One of the Smallfolk
 * Tool Proficiencies: Blacksmith Tools
-* Skill Proficiencies: Survival, Streetwise
+* Skill Proficiencies: Streetwise
 * Hero of the Rebellion
 ** Ally: People of Arn upon Firth
 ** Enemy: Count Drago
@@ -141,7 +141,7 @@ Skills: Stealth
 ### Background: Commoner
 * Feature: One of the Smallfolk
 * Tool Proficiencies: Blacksmith Tools
-* Skill Proficiencies: Survival, Streetwise
+* Skill Proficiencies: Nature, Streetwise
 * Hero of the Rebellion
 ** Ally: People of Arn upon Firth
 ** Enemy: Count Drago
@@ -201,7 +201,7 @@ Skills: Charm
 ### Background: Commoner
 * Feature: One of the Smallfolk
 * Tool Proficiencies: Blacksmith Tools
-* Skill Proficiencies: Survival, Streetwise
+* Skill Proficiencies: Streetwise
 * Hero of the Rebellion
 ** Ally: People of Arn upon Firth
 ** Enemy: Count Drago
@@ -270,7 +270,7 @@ Skills: Charm
 ### Background: Commoner
 * Feature: One of the Smallfolk
 * Tool Proficiencies: Blacksmith Tools
-* Skill Proficiencies: Survival, Streetwise
+* Skill Proficiencies: Athletics
 * Hero of the Rebellion
     * Ally: People of Arn upon Firth
     * Enemy: Count Drago
@@ -300,7 +300,6 @@ Many druids have learned to morph their form to an avatar of natures might.
 * Attack: Dex, Melee, 1d8 damage
 * Speed 35'
 
-
 ### Elven Accuracy
 Cost: 1 Power-Point  
 After making a attack role, you can spend a Power-Point to reroll a single die or both dice when rolling with advantage or disadvantage.
@@ -311,6 +310,7 @@ After making a attack role, you can spend a Power-Point to reroll a single die o
 * Target is slowed
 
 ### Pounce
+Cost: 1 Power-Point  
 Melee Attack  
 On hit: The target grants advantage to the next creature that attacks it before the end of the round.
 

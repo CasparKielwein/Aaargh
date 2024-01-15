@@ -57,7 +57,7 @@ When you enter the rage you gain one Maneuver Point.
 
 #### Focus
 ##### Lvl 1: Focus Strike
-If you spend a move action to focus, the next action this turn will cost one Power-Point less.
+If you spend a move action to focus, the next action this round will cost one Power-Point less.
 
 ## Disciplines:
 
@@ -341,10 +341,10 @@ Druids sometimes meet in druidic circles. The members of a circle share an ideol
 #### Lone Rangers
 Lone Rangers are not a true circle, but druids which prefer to work alone.
 
-If during combat you start your turn with no ally within 10` you gain a Power-Point.
+If you start a combat encounter with no ally within 10` you gain a Power-Point.
 
 #### Circle of Natures Communion
-At the start of your turn, if you are adjacent to two or more allies, you gain a Power-Point
+If you start a combat encounter adjacent to two or more allies, you gain a Power-Point
 
 #### Healing Cove
 Druids of the healing cove focus on the healing aspect of nature and life itself.
@@ -397,6 +397,7 @@ The malus stays as long as the ongoing damage.
 
 ### Pounce
 #### Lvl 1: Pounce
+Cost: 1 Power-Point  
 Melee Attack  
 The target grants advantage to the next creature that attacks it before the end of the round.
 
@@ -537,7 +538,7 @@ __Endurance:__ 6
 ### Equipment
 
 * Two weapons or a weapon and a shields of your choice.
-* An armor you are proficient with.
+* A suite of armor
 * A holy symbol of your religion
 
 ### Domain
@@ -562,7 +563,7 @@ You gain additional two Hit Points per level.
 You gain additional four levels of Endurance.
 
 #### Oath of the Avenger
-When you hit a target marked by you with an attack, the attack deals an extra 2d6 damage.
+When you hit a target marked by you with an attack, the attack deals an extra 1d6 damage.
 
 #### Oath of the Shepherd
 When you heal someone using a Discipline, the target regains additional hit points equal to your Mind value.
@@ -588,3 +589,13 @@ Reaction
 Yourself or one Ally within 25'
 1 Power-Point
 The target has advantage on a Roll of their choice until the end of your next turn.
+
+#### Divine Challange
+You challange a foe to face you or suffer holy wrath
+
+##### Lvl 1: Divine Challange
+Cost: 0  
+* Reaction on your turn
+* Range 50'
+You mark the target until the end of your next turn.
+If the target makes an attack which does not include, it takes damage equal to your `Will` + 3.
