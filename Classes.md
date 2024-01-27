@@ -172,16 +172,64 @@ You gain the Warlocks Curse discipline.
 #### Warlocks Curse
 ##### Lvl 1: Curse
 Cost: 1 Power-Point  
-As a combat action you can put your curse on an enemy.
+As a combat action you can put your curse on an enemy you can see.
 The curse lasts until the end of the encounter.
 Whenever you cast a spell to target the cursed enemy, the Power-Point cost of that spell is reduced by one.
 
 ## Disciplines:
-### Fire
 
-#### Lvl 3: Fire Blast
-Close blast 5  
-2d8 fire damage
+### Destruction
+Spells of pure mayhem and destruction
+
+#### Lvl 1: Bolt
+* Ranged attack 50' + Mind
+* 1d8 + Mind damage
+
+#### Lvl 3: Fire Blas
+* Cost 1 Power-Point
+* Close blast 5  
+* 2d8 fire damage
+
+#### Lvl 3: Lightning Bolt
+* modifies `Bolt`
+
+#### Lvl 3: Fire Bolt
+* modifies `Bolt`
+* Bolt deals fire damage
+
+#### Lvl 4: Fire Ball
+* modifies `Fire Blast`
+
+#### Lvl 5: Maelstrom of Destruction
+* Cost 3 Power-Points
+* Affects all targets in a circle with radius of 10' within 50' of you.
+* 3d8 + Mind Fire and Physical Damage
+
+On each following turn you can move the Mealstrom by 5' and repeat the attack against each target for the cost of 1 power point.
+If you don't the storm ends.
+
+### Domination
+Telepathy and Mind Control spells
+
+#### Lvl 1: Cloud Mind
+* Cost 1 Power-Point
+
+#### Lvl 3: Command
+* Cost 2 Power-Points
+* targets a single enemy in 30` who can hear you
+* Attack + Mind against target `Will`
+On hit you can give the target a simple command which it will immmediately execute for a single action.
+If the command can not be executed within a single combat action, the target will spend one combat action following it and then stop.
+
+#### Lvl 5: Master of Puppets
+* modifies `Command`
+* You can cast command against a number of targets up to your proficiency modifier.
+* The cost is 1 Power-Point per target.
+
+### Arcane Force
+Telecinetics and magical force projection
+
+#### Lvl 1: Thunder Wave
 
 ### Ice Grip
 ####  Lvl 1: Touch of Cold
