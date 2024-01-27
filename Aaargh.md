@@ -55,7 +55,7 @@ Available Paths are:
 
 ### Attributes
 After you have chosen a path you should have a good idea which attributes your hero is going to use the most.
-You now have to put five points into the three Attributes Toughness, Dexterity, Mind.
+You now have to put five points into the three Attributes `Toughness`, `Dexterity`, `Mind`.
 No Attribute can have an initial value below zero or higher than three.
 
 ### Equipment

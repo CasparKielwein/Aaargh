@@ -20,7 +20,7 @@ When using a hammer to Knock an enemy prone or stun an enemy, you gain advantage
 ### Heavy Weapon Master
 When wielding a two-handed melee weapon:
 After you roll a critical hit on an attack or reduce an enemy to 0 HP with an attack,
-you can use your Reaction to make another attack.
+you can use your Minor Action to make another attack.
 
 ### Stand and Shoot
 After you attack an enemy with your standard action, you can use your move action to make another ranged attack against a target, which was not a target of your first attack action.
@@ -30,7 +30,7 @@ When you attack an enemy with a ranged weapon or ranged attack spell and no ally
 
 ### Two Weapon Master
 When you wield two weapons, one in each hand you have the following option.
-After making an attack with one weapon you can use your reaction to make another attack with your other weapon.
+After making an attack with one weapon you can use your Minor Action to make another attack with your other weapon.
 
 ### Riposte
 When you are the target of a melee attack and the attack misses you can make an attack against the enemy which missed you as a reaction.

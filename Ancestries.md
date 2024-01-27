@@ -19,7 +19,7 @@ Skills: One Tool of your choice
 
 ### Discipline: Dwarven Resilience
 #### Lvl 1: Dwarven Resilience
-On your turn: As a reaction you can choose to spend one point of *Endurance* to regain hit points.
+On your turn: As a `Minnor Action` you can choose to spend one point of *Endurance* to regain hit points.
 #### Lvl 2: Tough as Nails
 When you use your Dwarven Resilience, you gain *Damage Resistance* until the end of your next turn.
 #### Lvl 2: Strength of the Earth
@@ -50,6 +50,7 @@ Skills: Intimidate or Religion
 ### Dragonbreath
 #### Lvl 1: Dragonbreath
 Cost: 1 Power-Point
+* Minor Action
 * Cone of 15' length, 45° wide
 * Attack +Tough
 * 1d6 + Tough <element> damage
@@ -107,8 +108,9 @@ Skills: Nature or Intimidate
 
 #### Terrifying Charge
 * on hit: secondary attack
-* Psychic attack (what debuff?)
-* close burst 3
+* Attack +Mind against `Ẁill`
+* target is terrified until the end of your next turn.
+* targets evey enemy within 15'
 
 ## Human
 

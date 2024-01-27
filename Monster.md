@@ -91,7 +91,7 @@ Otherwise, they will usually retreat when half their group has been defeated.
 * Go for the throat: Extra damage against prone enemies
 ### Orc
 ### Goblin
-* Shifty bastards: Goblins can disengage using a reaction on their turn instead of a move action.
+* Shifty bastards: Goblins can disengage using a Minor Action instead of a move action.
 * sneaky, universally trained in stealth, usually decent
 * small
 * quick, Speed of 30' even though they are small

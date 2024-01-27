@@ -27,9 +27,8 @@ TODO: Find a nice visual representation of the skill tree
 TODO: Find a good representation of when a Maneuver supports an existing power or introduces a new one.
 
 ## Actions
-On their turn a character can perform a *Move Action* and a *Combat Action*.
-Each character can also perform one *Reaction* per turn.
-A *Reaction* can be taken on any turn even on their own turn, but only once per turn.
+On their turn a character can perform a *Combat Action*, a *Move Action* and a *Minor Action**
+Each character can also perform one *Reaction* per round.
 
 ## Attacks and Defenses
 
@@ -81,9 +80,12 @@ Players can also roll knowledge checks to see if their heroes have additional kn
 
 A combat encounter is separated into rounds. Each round is again split into turns, with one turn per combatant.
 
-Each combatant has the same set of actions available per round: One *Action*, one *Move*, and one *Reaction*.
+Each combatant has the same set of actions available per round: One *Action*, one *Move*, and one *Minor*.
 
-### Actions
+You can take actions in arbitrary order but each action has to be completed before you can start the next one.
+In particular this means you cannot make your attack in the middle of a move without special abilities.
+
+### Combat Actions
 * Attack: Strike an enemy with a weapon or cast a spell
 * Charge:
 Move up to your speed in a straight line and make a melee attack against an enemy.
@@ -94,6 +96,8 @@ While you grapple a target, you have the following options:
   * Move: Move up to your speed and pull the target behind you.
 * Use an Item
 * Assist
+* Attempt to `stabilize` a dying creature. Roll Heal against 10.
+* Take a second move action
 
 ### Move Actions
 * Move your speed
@@ -101,19 +105,27 @@ While you grapple a target, you have the following options:
 * Hide
 You need to be concealed.
 Make a stealth check to become hidden.
-* Draw and ready items.
-You can generally draw and ready weapons and equipment for both hands with a single Move action.
+* Take a minor action instead
 
 Movement through difficult terrain requires the character to spend two feet of speed to move one foot of distance.
 This means that shifting out of combat is usually not possible in difficult terrain.
 
-When using your Move you can spent your Standard Action instead.
+### Minor Actions
+* Draw and ready a single item you have on you.
+
+### Free Actions
+* Speak a few words
+* Drop prone
+* Drop an item you hold in your hands
 
 ### Reactions
 * Opportunity Attack:
-If an enemy moves out of an area within your melee reach, you can make a melee Attack against that enemy.
+If target moves out of an area within an enemies melee reach, that enemy can make a melee Attack against the target.
+Resolve the Opportunity attack before the enemy finishes their movement.
 
-When using your Reaction you can spend your Standard Action or Move instead.
+If a target makes a ranged attack, casts a ranged spell or performs any other action, which leaves them particularly vulnerable,
+adjcacent enemies can make an opportunity attack just if they moved.
+
 
 ## Grappling
 To initiate a grapple you have to have one free hand.

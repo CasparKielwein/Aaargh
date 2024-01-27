@@ -34,7 +34,8 @@ When you enter the rage you gain one Power-Point.
 
 ### Dwarven Resilience
 Cost: 1 Power-Point  
-On your turn: As a reaction you can choose to spend one point of *Endurance* to regain hit points.
+Minor Action  
+Yyou can choose to spend one point of *Endurance* to regain hit points.
 
 ### Watchful Strike
 Whenever a marked enemy that is adjacent to you shifts or makes an attack that does not 
@@ -232,13 +233,13 @@ X Power-Point
 When you hit an enemy with an attack. Spend X power-points; The attack deals XD6 additional Damage.
 
 ### Healing Word
-Reaction   
+Minor Action   
 Yourself or one Ally within 25'  
 1 Power-Point
 The target spends a point of Endurance and regains HP accordingly.
 
 ### Bless
-Reaction
+Minor Action
 Yourself or one Ally within 25'
 1 Power-Point
 The target has advantage on a Roll of their choice until the end of your next turn.
@@ -294,7 +295,7 @@ When you start a fight with no ally within 10` you gain a Power-Point.
 
 #### Beast form
 Many druids have learned to morph their form to an avatar of natures might.
-* Reaction Action, shift to chosen Beast Form
+* Minor Action, shift to chosen Beast Form
 
 *Form of the Hunter*
 * Attack: Dex, Melee, 1d8 damage

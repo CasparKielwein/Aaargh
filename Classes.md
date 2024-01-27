@@ -67,7 +67,7 @@ lasts until the end of your next turn.
 
 #### Lvl 1: Watchful Strike:
 Whenever a marked enemy that is adjacent to you shifts or makes an attack that does not 
-include you, you can make a melee basic attack against that enemy as an opportunity reaction.
+include you, you can make a melee basic attack against that enemy as an reaction.
 #### Lvl 2: Vigilance
 Your watchfully Strike becomes an opportunity interrupt.
 #### Lvl 2: Maneuvering Watch
@@ -626,14 +626,14 @@ When you hit an enemy with an attack. Spend X power-points; The attack deals XD6
 
 #### Healing Word
 ##### Rank 1: Healing Word
-Reaction   
+Minor Action   
 Yourself or one Ally within 25'  
 1 Power-Point
 The target spends a point of Endurance and regains HP accordingly.
 
 #### Bless
 ##### Rank 1: Bless
-Reaction
+Minor Action  
 Yourself or one Ally within 25'
 1 Power-Point
 The target has advantage on a Roll of their choice until the end of your next turn.
@@ -643,7 +643,7 @@ You challange a foe to face you or suffer holy wrath
 
 ##### Lvl 1: Divine Challange
 Cost: 0  
-* Reaction on your turn
+* Minor Action
 * Range 50'
 You mark the target until the end of your next turn.
 If the target makes an attack which does not include, it takes damage equal to your `Will` + 3.
