@@ -14,31 +14,60 @@ Each time your Hero rises a level they gain:
     * Attribute +1
     * Discover Secret of a Legendary Item
     * Discover Secret of a Legendary Item
+    
+### Comment
+There are six leves to spend these advances on.
+With seven advances, players have to decide which one to skip.
+
+| Level | Disciplines        | Ranks | Advances         |
+|-------|--------------------|-------|------------------|
+| 1     | 5 (Origin + Class) | 5     | Ancestry + Class |
+| 2     |                    | 6     | any              | 
+| 3     |                    | 7     | any              |
+| 4     |                    | 8     | any              |
+| 5     |                    | 9     | any              |
+| 6     |                    | 10    | any              |
+| 7     |                    | 11    | any              |
+| 8     | +1 = 6             | 12    | Paragon Path     |
+| 9     |                    | 13    | any              |
+| 10    |                    | 14    | any              |
+| 11    |                    | 15    | any              | 
+| 12    |                    | 16    | any              |
+| 13    |                    | 17    | any              |
+| 14    |                    | 18    | any              |
+| 15    | +1 = 7             | 19    | Epic Path        |
+| 16    |                    | 20    | any              |
+| 17    |                    | 21    | any              |
+| 18    |                    | 22    | any              |
+| 19    |                    | 23    | any              |
+| 20    |                    | 24    | any              |
+| 21    |                    | 25    | any              |
 
 
-| Level | Disciplines            | Ranks | Advances         |
-|-------|------------------------|-------|------------------|
-| 1     | 1 (Origin) + 4 (Class) | 5     | Ancestry + Class |
-| 2     |                        | 6     | any              | 
-| 3     |                        | 7     | any              |
-| 4     |                        | 8     | any              |
-| 5     |                        | 9     | any              |
-| 6     |                        | 10    | any              |
-| 7     |                        | 11    | any              |
-| 8     | +1 = 6                 | 12    | Paragon Path     |
-| 9     |                        | 13    | any              |
-| 10    |                        | 14    | any              |
-| 11    |                        | 15    | any              | 
-| 12    |                        | 16    | any              |
-| 13    |                        | 17    | any              |
-| 14    |                        | 18    | any              |
-| 15    | +1 = 7                 | 19    | Epic Path        |
-| 16    |                        | 20    | any              |
-| 17    |                        | 21    | any              |
-| 18    |                        | 22    | any              |
-| 19    |                        | 23    | any              |
-| 20    |                        | 24    | any              |
-| 21    |                        | 25    | any              |
+## Discipline Selection
+| Level | Disciplines | Ranks | Max Dscipline Lvl | available | 
+|-------|-------------|-------|-------------------|-----------|
+| 1     | 5           | 5     | 1                 | 5         |
+| 2     |             | 6     | 2                 | 10        |
+| 3     |             | 7     | 2                 | 10        |
+| 4     |             | 8     | 2                 | 10        |
+| 5     |             | 9     | 2                 | 10        |
+| 6     |             | 10    | 2                 | 10        | Problem!
+| 7     |             | 11    | 2                 | 10        | Problem!
+| 8     | +1 = 6      | 12    | 4                 | 24        |
+| 9     |             | 13    | 4                 | 24        |
+| 10    |             | 14    | 4                 | 24        |
+| 11    |             | 15    | 4                 | 24        |
+| 12    |             | 16    | 4                 | 24        |
+| 13    |             | 17    | 4                 | 24        |
+| 14    |             | 18    | 4                 | 24        |
+| 15    | +1 = 7      | 19    | 5                 | 35        |
+| 16    |             | 20    | 5                 | 35        |
+| 17    |             | 21    | 5                 | 35        |
+| 18    |             | 22    | 5                 | 35        |
+| 19    |             | 23    | 5                 | 35        |
+| 20    |             | 24    | 5                 | 35        |
+| 21    |             | 25    | 5                 | 35        |
 
 ## Level Scaling
 Bonus scaling of Heroes; The level when a bonus increases is not precise
