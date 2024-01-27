@@ -15,7 +15,7 @@ Thus, it is a choice between different utilities and secondary effects and defen
 * Devastating: Critical hits with this weapon deal extra damage. A critical hit deals an extra 1[W] damage at levels 1-10, 2[W] at levels 11-20 and 3[W] at levels 21 to 25.
 * Sharp(x): When rolling the weapon’s damage results in a roll lower than the sharp value of the weapon for any die, the damage of that roll is considered the sharp value of the weapon instead.
 * Load: After making an attack with the weapon, the user needs to spend an opportunity action to reload the weapon, before they can attack with it again.
-* Light: Attacks with this Weapon can be made with *Dexterity* or *Toughness*.
+* Light: Melee Attacks with this Weapon can be made with *Dexterity* or *Toughness*.
 
 ### Melee Weapons
 | Name             | Type           | Damage | Properties               |
@@ -55,16 +55,20 @@ Thus, it is a choice between different utilities and secondary effects and defen
 
 ## Armor
 
-| Name              | Defense    | Speed   | Disadvantage       | 
-|-------------------|------------|---------|--------------------|
-| No Armor          | 10 + Dex, Reflex + 2  |         |          |
-| Arcane / Holy Robes    | 10 + Dex, Will + 2 | |               |
-| ----------------- | ---------- | ------- | ------------------ |
-| Brigandine        | 12 + Dex   |         |                    |
-| Mail Armor        | 15         |         | Stealth            |
-| ----------------- | ---------- | ------- | --------------     |
-| Lamellar Armor    | 16         | -5'     | Stealth            |
-| Full Plate        | 18         | -5'     | Stealth, Athletics |
+### Simple Armor
+| Name              | AC       |         | Min Tough | Speed   | Disadvantage | 
+|-------------------|----------|---------|-----------|---------|--------------|
+| Assassins Armor   | 11 + Dex | Ref +2  |           |         |              |
+| Reinforced Robes  | 12       | Will +3 |           |         |              |
+| Feral Hides       | 13       | Fort +3 | 1         |         |              |
+| Mail Armor        | 15       |         | 1         |         | Stealth      |
+| ----------------- | -------- |-------- | --------- | ------- | ------------ |
+| Lamellar Armor    | 16       |         | 2         | -5'     | Stealth      |
+
+### Advanced and Magic Amor
+| Full Plate        | 18       |         | 3         | -5'     | Stealth      |
+| Bone Armor        | 16       | Fort +2 | 3         |         | Stealth      |
+
 
 ### Comment
 Blade Weapons have the greatest utility but generally do one die type less damage than Axes.
@@ -93,6 +97,14 @@ If an item is powerful and specific enough to be part of a character build, it s
 ### Magic Items
 
 #### Endless Quiver
+A quiver containing arrows and bolts for your weapon which never runs out.
+
+### Amulet of Protection
+Will +1, Ref +1, Fort +1
+
+### Weapon of Light
+Any Weapon  
+Speak a command word and the weapon sheds light like a torch.
 
 ### Legendary Items
 To use a legendary item, you need to learn its secrets.
@@ -112,9 +124,10 @@ Arcane Robes
 #### Conduit Armor
 
 You gain resistance to lightning damage.
-Whenever you take lightning damage ou deal half of that damage to each creature adjacent to you.
+Whenever you take lightning damage, you deal half of that damage to each creature adjacent to you.
 
 #### Hammer of the Thundergod
+TODO
 
 #### Ghost Blade
 When cause damage with a weapon attack or a spell, you gain one temporary hit point per enemy you damage.
@@ -123,6 +136,10 @@ When cause damage with a weapon attack or a spell, you gain one temporary hit po
 Any blade weapon  
 The songblade emits unnatural sounds and music when you fight with it.
 It counts as a muiscal instrument and you are automatically proficient with it.
+
+#### Spellslingers Wand
+A well balanced Magic Wand  
+You can cast spells which manifest as ranged attacks against a single target as a minor action instead of a full action.
 
 #### Berserker Armor
 Barely any armor, mostly the hide of bears.
