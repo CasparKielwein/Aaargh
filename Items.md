@@ -81,6 +81,20 @@ Thrown Weapons do even less damage but provide versatility by being one-handed a
 Everyone can wear every armor, there are no restriction for class or attribute values.
 Talents and Magic Items encourage using lighter armor to advance certain play-styles.
 
+## Adventurers Equipment
+
+### Dungeoneering
+* 50' of Rope, strong enough to hold a person and their equipment.
+* Ten foot pole, a long pole of wood to poke around dangerous places
+* Torch, to fight the darkness underground, can be used as an Improvised weaponn
+* Storm lantern, fancier than a torch, breaks easily
+
+### Traveling
+* Tatami mat, to insulate a sleeping place against against wet and cold ground
+* Small tent, cramped when two people sleep in it
+* Flint and Steel, to start campfires
+* Rations; Jerky and other dried food. feeds a person for a few days.
+
 ## Magic and Legendary Items
 ### Comment
 Legendary Items are basically part of the characters.
@@ -145,3 +159,4 @@ You can cast spells which manifest as ranged attacks against a single target as 
 Barely any armor, mostly the hide of bears.
 
 Light Armor suited for melee fighters
+

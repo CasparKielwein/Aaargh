@@ -5,9 +5,18 @@ Your Character is a Hero. You are going to save the world or die trying.
 In terms of rules your Hero has the following core abilities:
 
 #### Attributes:
+The three attributes `Toughness`, `Dexterity`, and `Mind` form the base for most Die rolls.
+You add one of them to Skill, Attack, and damage rolls.
+
 #### Disciplines
+Disciplines are the active abilities of your Hero.
+They give your Hero a lot of options to fight their enemies.
+
 #### Skills:
+Skills represent competency outside of combat.
+
 #### Talents:
+Talents are passive abilities which give your Hero new options and modify existing abilities.
 
 ## Create Your Hero
 To create your hero you have to make some choices.

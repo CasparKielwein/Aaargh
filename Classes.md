@@ -29,7 +29,8 @@ __Skill Proficiency:__ Choose two skills from the following: Athletics, Intimida
 __Starting Hit Points:__ 10 + Tough  
 __Hit Points per Level:__ 5
 
-__Endurance:__ 6
+__Endurance:__ 6  
+__Power-Points:__ 3
 
 ### Equipment
 
@@ -154,7 +155,8 @@ __Skill Proficiency:__ Choose two skills from the following: Arcane, History, He
 __Starting Hit Points:__ 6 + Tough  
 __Hit Points per Level:__ 3
 
-__Endurance:__ 4
+__Endurance:__ 6  
+__Power-Points:__ 3
 
 ### Power Source
 Every Sorcerer obtained their magical powers through a different source, from ancient tomes to pacts with otherworldly beings.
@@ -338,8 +340,8 @@ __Skill Proficiency:__ Choose two skills from the following: Stealth, Nature, He
 __Starting Hit Points:__ 8 + Tough  
 __Hit Points per Level:__ 4
 
-__Endurance:__ 5
-
+__Endurance:__ 6  
+__Power-Points:__ 3
 
 ### Call of the Wild
 All druids share an intimate connection to nature.
@@ -510,7 +512,8 @@ __Skill Proficiency:__ Choose two skills from the following: Stealth, Streetwise
 __Starting Hit Points:__ 6 + Tough  
 __Hit Points per Level:__ 3
 
-__Endurance:__ 4
+__Endurance:__ 6  
+__Power-Points:__ 3
 
 ### Sneak Attack
 Rogues specialize in dealing devastating attacks from the shadows.
@@ -581,7 +584,8 @@ __Skill Proficiency:__ Choose two skills from the following: Religion, Athletics
 __Starting Hit Points:__ 8 + Tough  
 __Hit Points per Level:__ 4
 
-__Endurance:__ 6
+__Endurance:__ 6  
+__Power-Points:__ 3
 
 ### Equipment
 
@@ -626,7 +630,7 @@ When you hit an enemy with an attack. Spend X power-points; The attack deals XD6
 
 #### Healing Word
 ##### Rank 1: Healing Word
-Minor Action   
+Minor Action  
 Yourself or one Ally within 25'  
 1 Power-Point
 The target spends a point of Endurance and regains HP accordingly.

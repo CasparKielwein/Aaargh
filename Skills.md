@@ -58,9 +58,9 @@ This way one can build a forest ranger type character who supports their allies 
 
 ### "Jump Very High" (Athletics)
 While heroes with a high bonus in *Athletics* can already jump considerable distances and heights this discipline takes them to a superhuman level.
-#### Leap
+#### Lvl 1: Leap
 Cost: 1 Power-Point  
-No Action  
+Free Action  
 For the next thirty minutes the distance and height you clear when you jump is multiplied by 5.
 You still cannot jump a longer distance than your speed.
 
@@ -70,7 +70,7 @@ Your speed increases by 5'.
 ### Keen Eyes (Perception)
 #### Rank 1: Night Sight
 Cost: 1 Power-Point  
-No Action  
+Free Action  
 You gain Dark Sight for a thirty-minute duration.
 
 #### Rank 2: TODO
@@ -121,8 +121,30 @@ Improve equipment during rests, spend maneuver points for small bonuses.
 
 ### Alchemist (Alchemy Kit)
 Put buffs and other spells into alchemical concoctions.
-Maneuver points have to be spent when the concoction is brewed.
+Power-Points have to be spent when the concoction is brewed.
 Drinking an elixir will trigger the effect, even if the person drinking it does not possess the skill and is not in range of the alchemist.
+
+You can keep a number of elixisers up to your proficiency modifier.
+
+#### Lvl 1: Arcane Alchemy
+* Takes 30 minutes
+Chose a power you can currently use. You infuse a magic elixiser with this power.
+Pay the Power-Point cost of that power when you brew the elixier.
+
+Anyone who drinks the exlisier immediately trigers the power centered on them.
+
+#### Lvl 2: Offensive Alchemy
+The effect of your elixiers can also be triggered by breaking the bottle which contains them.
+
+Throwing the bottle onto a specific target is a ranged attack against the target.
+The bottle counts as an improvised throwing weaponn but does no direct damage itself.
+On hit it triggers the effect on the target.
+
+#### Lvl 3: Alchemical Explosion
+You have learned to put offensive area of effect spells into your elixiers.
+
+When the bottle is opened or broken, roll Alchemy tests with `Mind` as attack rolls.
+You are considered to be under no tempory effects which would influence the attack, damage rolls or attack effects.
 
 ### Treat Woulds (Healers Kit)
 #### Lvl 1: First Aid

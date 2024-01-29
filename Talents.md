@@ -35,6 +35,13 @@ After making an attack with one weapon you can use your Minor Action to make ano
 ### Riposte
 When you are the target of a melee attack and the attack misses you can make an attack against the enemy which missed you as a reaction.
 
+### The Sentinel
+Attacks of Opportunity are free actions instead of `reactions`.
+
+### Brace Polearm
+You must wield a polearm with the `reach` property to benefit from this talent.
+Enemies within 10' trigger attacks of opportunity instead of only adjacent enemies.
+
 ### Armed Wrestling
 You have trained in the art of armed and armored wrestling.
 You can initiate and control a grapple even why using both hands to hold weapons.

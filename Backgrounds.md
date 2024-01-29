@@ -58,6 +58,7 @@ __Equipment:__
 
 #### Feature: Underworld Contact
 You have a trusted contact within the criminal underworld.
+They will help you but usually expect a favor in return.
 You know how to get messages to and from your contact, even over great distances.
 
 #### Criminal Career
@@ -184,7 +185,10 @@ __Equipment:__
 * A ring with the seal of your guild
 * The tools required to work as an artisan, possibly at a small local workshop
 
-#### Feature:
+#### Feature: Guild Member
+You are a registered member of your guild. 
+You have permission to practice your craft and take on an apprentive even in the restrictive feudal society.
+The guild will offer legal assistance in case you are ever accused of a crime.
 
 #### Guild
 1. Blacksmiths Guild - specializes in metalworking, including weapons, armor, and tools.
