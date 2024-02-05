@@ -10,8 +10,11 @@ Die rolls all have the same format:
 If you reach or exceed the target number, your roll succeeds.
 
 ### Advantage and Disadvantage
-If you have an *advantage* you roll one more die and chose the higher roll.  
-If you have a *disadvantage* you roll one more die and chose the lower result.
+If you have an *advantage* you roll one more die and choose the higher roll.  
+If you have a *disadvantage* you roll one more die and choose the lower result.
+
+Advantage and Disadvantage don't stack, but cancel out each other.
+For example if a roll benefits from three distinct Advantages and one Disadvantage you roll two d20 and thoose the higher roll.
 
 ## Disciplines, Maneuvers, and Power-Points
 
@@ -88,27 +91,32 @@ In particular this means you cannot make your attack in the middle of a move wit
 ### Combat Actions
 * Attack: Strike an enemy with a weapon or cast a spell
 * Charge:
-Move up to your speed in a straight line and make a melee attack against an enemy.
+Move up to your speed in a straight line towards an enemy and make a melee attack against an enemy.
+Immediately end your turn after the attack.
 * Shove: Make an attack Toughness against Fortitude. On success, you push the target 5'.
 * Grapple: Make an unarmed attack against Reflex. On success, the target is grappled and you control the grapple.
 While you grapple a target, you have the following options:
   * Throw: Throw the target to the ground
   * Move: Move up to your speed and pull the target behind you.
 * Use an Item
-* Assist
+* Assist; An adjacent ally gains advantage on one roll until the start of your next turn.
 * Attempt to `stabilize` a dying creature. Roll Heal against 10.
 * Take a second move action
+* Administer a potion to someone else
 
 ### Move Actions
 * Move your speed
-* Shift 5'
-* Hide
-You need to be concealed.
-Make a stealth check to become hidden.
+* Shift 5'; Move carefully accross the battlefield and don't trigger attacks of opportunity
+* Stand up
+* Crawl: Move while prone, you are slowed while crawling
+* Squeeze: Move through a space you normmally wouldn't fit through; you are slowd while squeezing
+* Run: move your speed +10'; enemies roll all attacks against you with advantage until the start of your next turn.
 * Take a minor action instead
+* Drink a potion
 
-Movement through difficult terrain requires the character to spend two feet of speed to move one foot of distance.
+Movement through `difficult terrain` requires the character to spend two feet of speed to move one foot of distance.
 This means that shifting out of combat is usually not possible in difficult terrain.
+
 
 ### Minor Actions
 * Draw and ready a single item you have on you.
@@ -167,16 +175,20 @@ If an effect does not specify its damage type, it is assumed that it causes *phy
 
 #### Prone
 Standing up requires a move action.
+Attacks from adjacaent enemies are rolled with advantage.
+Ranged attacks from further away are rolled with disadvantage.
 #### Slowed
 A slowed creature can only move half their usual speed.
 #### Immobilized
 An immobilized creature has a speed of zero.
 #### Terrified
 You make all attribute rolls (skill, attacks, initiative, etc) with disadvantage.
+#### Dazed
+A dazed creature can only take one action per round.
 #### Stunned
 A hero or monster who is stunned, cannot take any actions until the condition ends.
 #### Bloodied
-A hero or monster is bloodied if their hitpoints fall below one half of their starting hit points.
+A hero or monster is bloodied if their hitpoints fall to one half of their starting hit points or lower.
 
 ### Player Characters
 
@@ -200,6 +212,7 @@ Heroes have three attributes:
 + Toughness
 + Agility
 + Mind
+
 #### Skills
 #### Disciplines
 How different do disciplines need to be?  
@@ -256,6 +269,12 @@ The player of a hero is free to role-play the amount of hit points lost as they 
 Heroes lose hit points when they take damage.
 Hit points can be regained through healing abilities, spells and potions.
 Healing can never increase hit points beyond their original maximum.
+
+#### Temporary Hit points
+Temporary hit points can be gained through some powers.
+They are reset to zero after a long rest.
+
+Temporary hit points don't stack.
 
 #### Endurance
 A hero might lose endurance when they fail a skill check in exhausting conditions.

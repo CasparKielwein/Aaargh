@@ -14,7 +14,7 @@ Thus, it is a choice between different utilities and secondary effects and defen
 * 2H: The weapon can only be used with two hands.
 * Devastating: Critical hits with this weapon deal extra damage. A critical hit deals an extra 1[W] damage at levels 1-10, 2[W] at levels 11-20 and 3[W] at levels 21 to 25.
 * Sharp(x): When rolling the weapon’s damage results in a roll lower than the sharp value of the weapon for any die, the damage of that roll is considered the sharp value of the weapon instead.
-* Load: After making an attack with the weapon, the user needs to spend an opportunity action to reload the weapon, before they can attack with it again.
+* Load: After making an attack with the weapon, the user needs to spend an action to reload the weapon, before they can attack with it again.
 * Light: Melee Attacks with this Weapon can be made with *Dexterity* or *Toughness*.
 
 ### Melee Weapons
@@ -47,11 +47,12 @@ Thus, it is a choice between different utilities and secondary effects and defen
 |----------------|---------|--------|--------------------------|
 | Hunting Bow    | Bow     | 1d6    | 2H, light                |
 | Sling          | Bow     | 1d4    | 2H, light                |
-| Light Crossbow | Bow     | 1d6    | Load, light              |
+| Light Crossbow | Bow     | 1d6    | Load (minor), light      |
 | Warbow         | Bow     | 1d10   | 2H                       |
-| Heavy Crossbow | Bow     | 1d12   | 2H, Load                 |
+| Heavy Crossbow | Bow     | 1d12   | 2H, Load (move)          |
 | Spear          | Polearm | 1d6    | light, Versatile, Thrown |
 | Dagger         | Blade   | 1d4    | Thrown, light            |
+| Throwing Axe   | Axe     | 1d6    | Thrown                   |
 
 ## Armor
 
@@ -120,20 +121,46 @@ Will +1, Ref +1, Fort +1
 Any Weapon  
 Speak a command word and the weapon sheds light like a torch.
 
+### Silvered Weapon
+Any Melee Weapon__
+The Weapon has been alchemically silvered.
+
+### Silver Stakes
+A set of 20 bolts or arrows
+
 ### Legendary Items
 To use a legendary item, you need to learn its secrets.
 Each Secret you uncover unlocks a new ability of the Legendary Item.
 
 #### Weapon of Surtur
-Any Weapon or spellcaster implement
+Any Weapon or spellcaster focus
 
-When you speak a command word as a free action, the weapon of Surtur will burst in flames.
+While you wield the weapon of Surtur you gain the following Power:
+
+#### Releasing Surtur's Fire
+Minor Action  
+Cost: 2 Power-Points
+When you speak a command word, the weapon of Surtur will burst in flames.
 All damage caused by attacks and spells using it is fire damage.
+All Attacks using the Weapon of Surtur do an additional 1d6 fire damage.
+
+### Frost Weapon
+Any Weapon or spellcaster focus
+
+While you wield the frost weapon you gain the following Power:
+
+#### Everfrost
+Minor Action  
+Cost: 2 Power-Points
+When you speak a command word, the weapon will be covered in hoarfrost.
+All damage caused by attacks and spells using it is cold damage.
+Any target hit by attacks and spells is slowed until the end of your next turn.
+
 
 #### Robes of the Archmage
 Arcane Robes
 
-* You start each encounter with one additional Power-Point
+You start each encounter with one additional Power-Point
 
 #### Conduit Armor
 
@@ -160,3 +187,57 @@ Barely any armor, mostly the hide of bears.
 
 Light Armor suited for melee fighters
 
+
+#### Eagle of the Lost Legion
+The banner of a long perished imperial Legion.
+Can be carried in one hand.
+
+You protect the banner and it is your duty to hold the Banner up high and never let it touch the dirt.
+
+While you do so `fear` based attacks against you and every ally who can see the banner are rolled with disadvantage.
+
+
+## New and Improved Gear System
+
+You can carry two large items
+One Large item in your hand
+One on your body / back
+
+You can choose to carry one additional large item.
+If do you are `encumbered`.
+While encombered you loose one point of `Endurance` at the start off all challanges and combat encounters.
+
+You can carry five small items in pouches where you can quickly reach them.
+
+## Large Items
+* All Two handed melee Weapons
+* Longbow
+* Heavy Crossbow
+* Heavy Armor (Lamellar, Plate)
+* Heavy or Large Equipment like sledgehammers, etc.
+* Large Backpack stores 10 items but they are hard to reach
+* Large Shield
+* Complex or heavy tool sets (Alchemists tools, blacksmiths tools)
+* A proper tent, cramped when two people sleep in it
+* A larget pot to cook decent meals for six people
+* Thick fur coats to protect against extreme cold
+
+## Normal Sized Items
+* Quiver, store arrows and bolts in an easy to reach place
+* All One handed weapons and light ranged weapons
+* Small backpack, stores another 5 items but they are hard to reach
+* Small toolsets, thieves tools, healers kit
+* A Torch
+* A Lamp
+* 50' of Rope
+* A Book
+* Most Music Instruments
+* Sleeping mat, to insulate a sleeping place against against wet and cold ground
+* Rations to feed you for a week
+* A small cooking set
+* Three potions or vials
+* A set of spare cloths
+* A leather coat and a wide brimmed hat
+
+## Small items
+Some items like gems are so small they don't need to be taken into account

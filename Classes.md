@@ -174,7 +174,8 @@ You gain the Warlocks Curse discipline.
 #### Warlocks Curse
 ##### Lvl 1: Curse
 Cost: 1 Power-Point  
-As a combat action you can put your curse on an enemy you can see.
+Minor action  
+You can put your curse on an enemy you can see.
 The curse lasts until the end of the encounter.
 Whenever you cast a spell to target the cursed enemy, the Power-Point cost of that spell is reduced by one.
 
@@ -232,6 +233,10 @@ If the command can not be executed within a single combat action, the target wil
 Telecinetics and magical force projection
 
 #### Lvl 1: Thunder Wave
+* Blast attack, 15' cone 90° wide
+* Attack +Mind
+* 1d6 + Mind damage.
+* Push all targets hit 5' away from you.
 
 ### Ice Grip
 ####  Lvl 1: Touch of Cold
@@ -366,7 +371,7 @@ Many druids have learned to morph their form to an avatar of natures might.
 * You can use your weapons and shields in beast form.
 
 ##### Lvl 2: Mobile Form:
-When shifting Back to humanoid form, you can shift as a free action.
+When changing back into humanoid form, you can shift as a free action.
 
 ##### Lvl 2: Skittering Form
 After A melee attack you can shift 1 square after the attack.
@@ -406,7 +411,8 @@ TODO: Power Source, some interaction with HP
 
 ### Grasping Vines
 #### Lvl1:
-* Ranged 10
+* Ranged 50'
+* Attack +Mind
 * 1d4 + Mind Damage
 * Target is slowed
 
@@ -419,6 +425,12 @@ TODO: Power Source, some interaction with HP
 #### Lvl 3: Crushing Grasp
 * Attack becomes ranged 3
 * Damage becomes 1d10 + Wis
+
+### Healing Wind
+#### Lvl 1: Healing Wind
+Cost: 1 Power-Point  
+Targets all allies in a cirly with 5' radius
+Each ally in the target regains 1d6 +Mind Hit points
 
 ### Call Swarm
 #### Lvl 1: Call Swarm
@@ -530,6 +542,12 @@ TODO: Ideas:
 Swap dice of sneak attack damage for effects.
 Knock enemy prone, Stun enemy, slow enemy
 
+#### Lvl 3: Devastating hit
+Your sneak attack damage increases by 1d6
+
+#### Lvl 3:
+You can deal sneak attack damage to every target you hit with advantage.
+You can still only deal neak attack damage to each target once per round.
 
 ### Scum and Villainy
 
@@ -543,16 +561,18 @@ Once per turn, when you provoke an opportunity attack from an enemy, you gain a 
 Swiftly moving around your enemies, you leave them no chance for attack.
 
 #### Lvl 1: Nimble Attack
-Cost: 1 Power-Point
-You make a standard Ranged or Melee Attack. After the attack has been resolved you can shift 5'.
+Cost: 1 Power-Point  
+Full Action  
+You make a Ranged or Melee Attack. After the attack has been resolved you can shift 5'.
 
 ### Hobbling Strike
 Your strike weakens the enemy setting them up for further attack.
 
 #### Lvl 1: Hobbling Strike
-Cost: 1 Power-Point
-You make a standard Ranged or Melee Attack.
-If the attack hits, you gain advantage with attacks against the target util the end of your next turn.
+Cost: 1 Power-Point  
+Full Action  
+You make a Ranged or Melee Attack.
+After the attack you gain advantage with attacks against the target util the end of your next turn.
 
 ### Artful Dodge
 
@@ -595,7 +615,7 @@ __Power-Points:__ 3
 
 ### Domain
 #### Luck
-Every time you coll a critical hit, you gain a Power-Point
+Every time you coll a natural 20, you gain a Power-Point
 #### Nature
 You gain access to one druid discipline of your choice.
 You do not gain a free discipline rank.

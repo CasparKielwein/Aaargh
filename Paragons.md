@@ -145,6 +145,11 @@ TODO Fire Wizard
 ### Trait:
 ### Discipline: Living Conflagration
 
+## Rune Smith
+### Prerequisite: Sorcerer or Godsworn
+### Trait:
+### Discipline:
+
 ## Blade Singer
 ### Prerequisite: Elf
 ### Trait:

@@ -168,29 +168,35 @@ to force the DM to reroll the attack against you.
 Rogues specialize in dealing devastating attacks from the shadows. 
 Once per round, when you hit a target with advantage you can chose do a Sneak Attack. If you do so, the attack deals an additional 2d6 damage.
 
+### Lvl 2: 
+Sneak attack is 2d8 damage
+
 ### Nimble Attack
-Melee Attack: 1[W] + Tough + Tough Damage.  
-Until the beginning of your next turn attacks against you gain advantage.
+Cost: 1 Power-Point  
+Full Action  
+You make a Ranged or Melee Attack. After the attack has been resolved you can shift 5'.
 
 #### Artful Dodge
-Cost: 1 Power-Point
-You make a melee attack against every enemy adjacent to you.
+#### Lvl 1: Unhindered Movement
+Spend a move Action and a Power-Point.
+Move your speed.
+Your movement does not trigger Opportunity attacks and you can move through enemies.
 
 
 ### Attributes:
 __Toughness:__ 2
-__Dexterity:__ 3
+__Dexterity:__ 4
 __Mind:__ 0
 
-__Hit Points:__ 6
-__Endurance:__ 4
+__Hit Points:__ 12
+__Endurance:__ 6
 
 ### Equipment:
-* Brigandine
+* Assasins Armor
 * Dagger
 
-__Defenses:__  	AC 15 Fort 12 Dex 13	Will 10  
-__Attacks:__ Dagger +5 1d4 + 3
+__Defenses:__  	AC 15 Fort 12 Dex 17	Will 10  
+__Attacks:__ Dagger +6 1d4 + 4
 
 
 ## Human Godsworn
@@ -320,7 +326,7 @@ __Toughness:__ 2
 __Dexterity:__ 
 __Mind:__ 3
 
-__Hit Points:__ 7
+__Hit Points:__ 15
 __Endurance:__ 5
 
 ### Equipment:
@@ -329,3 +335,88 @@ __Endurance:__ 5
 
 __Defenses:__  	AC 13 Fort 12 Dex 10 Will 13  
 __Attacks:__ Longspear +4 1d8 + 2 (Reach)
+
+
+
+
+
+
+Ancestry Halfling
+Speed: 30'  
+Language: Common, once of your choice  
+Skills: Streetwise or Stealth
+
+
+Background Noble
+__Skill Proficiencies:__ Charm, and Religion, Arcane, or Intimidate  
+__Equipment:__ 
+* A set of fine garments
+* A noble riding horse or a servant
+* An elegant family heirloom
+
+4. Bastard Child, you are the illegimitate child and always kept at an arms length
+1. House in decline. Your families riches are gone and debts are rising. The noble house is in significant debt, and must take drastic measures to pay it off, such as allying with rivals or engaging in illicit activities.
+1. Abnormally curly hair that never stays in place.
+
+ Godsworn
+
+__Starting Hit Points:__ 10
+__Hit Points per Level:__ 4
+
+__Endurance:__ 6  
+__Power-Points:__ 4
+
+## Attributes
+* Toughness 2    Dexterity 0    Mind 3
+
+## Skills:
+* Streetwise
+* Charm
+* Athletics
+* Healers Kit
+* Religion
+
+Equipment
+* Reinforced Robes AC 12 Wil +3
+* | Longsword        | Blade          | 1d8    | Versatile                |
+* Holy Symbol
+
+#### Oath of the Shepherd
+When you heal someone using a Discipline, the target regains additional hit points equal to your Mind value.
+
+#### Arcana
+After a long rest, you gain one additional Power-Point.
+You gain access to one sorcerer discipline of your choice.
+You do not gain a free discipline rank.
+
+#### Healing Word
+##### Rank 1: Healing Word
+Minor Action  
+Yourself or one Ally within 25'  
+1 Power-Point
+The target spends a point of Endurance and regains HP accordingly.
+
+### Halfling Luck
+#### Lvl 1: Luck
+After an enemy hits you with an attack, but before damage is rolled, you can spend a Power-Point
+to force the DM to reroll the attack against you.
+
+### Disarming Presence (Charm)
+#### Rank 1:
+Cost: None  
+Use your Minor Action to choose a target you can see and who can see you. 
+Roll a *Charm* check against will defense of target.
+If you succeed te target has disadvantage on all attacks against you until the end of your next turn.
+If you have marked the target, the mark is removed. If you mark a target effected by *Disarming Presence*, the disarming presence is lost immediately.
+On your turn you can spend your Minor Action to extend the duration of the effect until the end of the next turn.
+You do not need to roll again.
+
+#### Lvl 1: Leap
+Cost: 1 Power-Point  
+Free Action  
+For the next thirty minutes the distance and height you clear when you jump is multiplied by 5.
+You still cannot jump a longer distance than your speed.
+
+### Domination
+#### Lvl 1: Cloud Mind
+* Cost 1 Power-Point
