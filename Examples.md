@@ -196,8 +196,11 @@ __Endurance:__ 6
 * Dagger
 
 __Defenses:__  	AC 15 Fort 12 Dex 17	Will 10  
-__Attacks:__ Dagger +6 1d4 + 4
+__Attacks:__ Dagger +7 1d4 + 5
 
+Weapon of thousand shapes
++1
+can take the form of any weapon.
 
 ## Human Godsworn
 ### Ancestry: Human
