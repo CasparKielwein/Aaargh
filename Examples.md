@@ -307,6 +307,13 @@ Many druids have learned to morph their form to an avatar of natures might.
 * Attack: Dex, Melee, 1d8 damage
 * Speed 35'
 
+##### Lvl 2: Skittering Form
+After A melee attack you can shift 1 square after the attack.
+
+##### Lvl 3: Flying Form
+You can fly as your move action. You must land at the end of your move.
+
+
 ### Elven Accuracy
 Cost: 1 Power-Point  
 After making a attack role, you can spend a Power-Point to reroll a single die or both dice when rolling with advantage or disadvantage.
@@ -322,9 +329,9 @@ Melee Attack
 On hit: The target grants advantage to the next creature that attacks it before the end of the round.
 
 ### Attributes:
-__Toughness:__ 2
+__Toughness:__ 3
 __Dexterity:__ 
-__Mind:__ 3
+__Mind:__ 4
 
 __Hit Points:__ 15
 __Endurance:__ 5
@@ -333,8 +340,8 @@ __Endurance:__ 5
 * Longspear
 * Brigandine
 
-__Defenses:__  	AC 13 Fort 12 Dex 10 Will 13  
-__Attacks:__ Longspear +4 1d8 + 2 (Reach)
+__Defenses:__  	AC 13 Fort 16 Dex 10 Will 14  
+__Attacks:__ Longspear +5 1d8 + 3 (Reach)
 
 
 
