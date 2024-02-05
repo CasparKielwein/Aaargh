@@ -316,6 +316,12 @@ After A melee attack you can shift 1 square after the attack.
 ##### Lvl 3: Flying Form
 You can fly as your move action. You must land at the end of your move.
 
+## Grasping Vines
+* Ranged 50'
+* Attack +Mind
+* 1d4 + Mind Damage
+* Target is slowed
+
 
 ### Elven Accuracy
 Cost: 1 Power-Point  
@@ -430,3 +436,74 @@ You still cannot jump a longer distance than your speed.
 ### Domination
 #### Lvl 1: Cloud Mind
 * Cost 1 Power-Point
+
+
+
+## Human Fighter
+
+Name: Rainer
+
+__Toughness:__ 4
+__Dexterity:__ 2
+__Mind:__ 0
+
+__Hit Points:__ 24
+__Endurance:__ 6
+
+### Equipment:
+* Heavy Crossbow
+* Longspear
+* Lamellar Armor
+
+__Defenses:__  	AC 16 Fort 14 Dex 12	Will 10  
+__Attacks:__ Longspear +6 1d8 + 4
+
+Skills:
+* Athletics
+* Heal
+* Streetwise
+* Stealth
+
+## Background: Criminal
+Petty Thief
+
+#### Feature: Underworld Contact
+You have a trusted contact within the criminal underworld.
+They will help you but usually expect a favor in return.
+You know how to get messages to and from your contact, even over great distances.
+
+
+### Sure Strike
+#### Lvl 1: Sure Strike: 
+Melee Attack against Dex: 1[W] + Tough Damage
+#### Lvl 2: Hobbling Strike
+Cost: 1 Power-Point  
+A target hit by your sure strike is slowed (save ends)
+
+#### Lvl 1: Ambition
+The hero may spend a *Power-Point* on their turn to gain an additional Combat Action.
+This ability may only be used once per turn.
+
+#### Lvl 1: Watchful Strike:
+Whenever a marked enemy that is adjacent to you shifts or makes an attack that does not 
+include you, you can make a melee basic attack against that enemy as an reaction.
+#### Lvl 2: Vigilance
+Your watchfully Strike becomes an opportunity interrupt.
+
+### Heal
+#### Lvl 1: First Aid
+Cost 1 Power-Point  
+Full Action  
+Targets ally adjacent to you or yourself, the target may spend one point of endurance to regain hit points equal to their endurance heal value plus your proficiency bonus.
+
+
+Toughness 4
+Mind 0
+Dexterity 2
+
+## Feat:
+### Bracce Polearm
+You must wield a polearm with the `reach` property to benefit from this talent.
+Enemies within 10' trigger attacks of opportunity instead of only adjacent enemies.
+
+
