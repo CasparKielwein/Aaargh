@@ -37,10 +37,18 @@ __Power-Points:__ 3
 * Two weapons or a Weapon and a shield of your choice.
 * An armor you are proficient with.
 
-### Weapon Focus
-Choose a weapon focus for your fighter:
+### Fighting Style
+Choose a Fighting Style for your fighter:
 
-#### 
+#### Duelist
+When you make an attack and no other target is adjacent to either you or the enemy you gain adcantage on the attack.
+
+#### Marauder
+When you move 10' as part of your attack action you deal an additional 1d6 damage.
+
+#### Armored Fighter
+When you wear heavy armor you gain a +2 Bonus to all secondary defenses.
+
 
 ### Martial Discipline
 Choose a martial discipline for your fighter.
@@ -80,13 +88,39 @@ When you mark an enemy you can spend one power-point to have the mark last until
 Throwing all caution into the wind you attack your chosen foe disregarding your own safety.
 
 #### Lvl 1: Brash Strike
-Melee Attack: 1[W] + Tough + Tough Damage.  
-Until the beginning of your next turn attacks against you gain advantage.
-#### Lvl 2: Inspiring Recklessness
-Inspired by your charge, your allies find new Strength. When hitting with Brash Strike you can give an Ally of your choice Wil temporary hit points.
+Cost: 1 Power-Point  
+Full Action  
+Melee or Ranged Attack: 2[W] + `Tough` / `Dex` Damage  
+
 #### Lv2: Crushing Blow
 Cost: 1 Power-Point  
-When you hit with your brash strike you deal an additional [W] damage.
+When you hit with your brash strike the target is `dazed` until the end of your next turn.
+
+### Reaping Strike
+
+#### Lvl 1: Reaping Strike:
+Cost: 1 Power-Point
+You make a melee attack against every enemy adjacent to you.
+
+#### Lvl 2: Drive them back
+When you hit a target with your reaping strike you push it 5'.
+
+### Lead the Fight
+
+#### Lvl 1: Maneuvering Strike
+Cost: 0 Power-Points  
+Full Action  
+Make A Melee Atack
+If you hit the target you can push it 5' and move into its old position.
+This movement does not trigger opportunity attacks.
+
+#### Lvl 2: Lead the charge
+Cost: 1 Power-Point  
+After your attack one ally within your `Mind` * 5' state can make a charge attack. 
+
+### Lvl 2: Knock Back
+Cost. 1 Power-Point  
+On hit you knock the target back 5 time your `Tough` feet.
 
 ### Sure Strike
 
@@ -101,38 +135,6 @@ The target hit by your sure strike takes 10 ongoing damage until save.
 #### Lvl 3: Hindering Strike: 
 Cost: 1 Power-Point
 A target hit by our Sure Strike is knocked prone
-
-### Reaping Strike
-
-#### Lvl 1: Reaping Strike:
-Cost: 1 Power-Point
-You make a melee attack against every enemy adjacent to you.
-
-#### Lvl 2: Drive them back
-When you hit a target with your reaping strike you push it 5'.
-
-### Lunge
-#### Lvl 1: Lunge
-Cost: 1 Power-Point  
-You make a melee attack. You increase your reach for the attack by 5'.
-
-#### Lvl 2:
-The attack deals an additional [W] damage.
-
-#### Lvl 2: Get over here!
-You pull the target of the attack to a square adjacent to you.
-
-#### Lvl 3: Lead the charge
-One ally within your `Mind` * 5' state can make a charge attack. 
-
-### Maneuvering Strike
-
-#### Lvl 1: Maneuvering Strike
-Make a melee or ranged weapon attack.  
-Before or after the attack you can move 5'.
-This movement does not trigger opportunity attacks.
-
-#### Lvl 2: 
 
 
 ## Sorcerer
@@ -238,90 +240,48 @@ Telecinetics and magical force projection
 * 1d6 + Mind damage.
 * Push all targets hit 5' away from you.
 
-### Ice Grip
-####  Lvl 1: Touch of Cold
-* Melee attack with Mind using bare Hands.
-* 1d4 + Mind damage
-* Target is immobilized
+### Meta Magic
+Modify Effect of other spells to create surprising and powerful combinations
 
-#### Lvl 2: 
-Target is restrained instead of immobilized
+#### Lvl 1: Counter-spell
+Cost: 1 Power-Point  
+Full Action  
+Range 50'
+Choose an effect within range which can be reasonably considered a magical effect.
+The Effect immmediately ends.
 
-#### lvl 3:
-Ice Grip is a close burst 1 instead of melee 1
+#### Lvl 2: Duplicate
+When you cast any spell which affects a single target.
 
-#### Lvl 4: Blizzard
-* Area burst 1
-* Target is slowed
-* 2d4 + Mind Damage
+Cost increases by 1.  
+The spell affects a second target within the original range of the spell.
+Roll to hit separately for each target.
 
-#### Lvl 5: Ongoing Hale
-* As a minor action you can sustain the effect for another round
+#### Lvl 3: Counter-Spell
+Modifies Anti Magic  
+You can cast Anti-Magic as a reaction when you observe someone in range casting a spell.
+The spell of the target automaticaly fails. 
+All Attack rolls are considered misses.
 
-#### Lvl 5: Storm
-2d10 + wis damage instead of 2d4
+### Ilusions
 
-#### Lvl 6:
-* Area Bust 2
+#### Lvl 1: Apparation
+Cost: 1 Power-Point  
+Minor Action  
+Range 25'  
+You conjure the gostly apparation of a mighty warrior in a free position within range.
+The apparation disappears at the end of your next turn.
 
-### Magic Missile
-#### Lvl 1:Magic Missile
-* Range 50'
-* Ranged Attack + Mind
-* 1d8 + Mind Damage
+You `mark` every enemy within 25' of the apparation.
+While maked, each time an enemy makes an atack which does not incude the apparation they roll with disadvantage.
 
-#### Lvl 2: Stronger Missile
-2d8 + Mind Damage
-
-#### Lvl 3: Combustion
-* If Target is reduced to zero hit poitns by magic missile, you can perform a secondary attack:
-  * close burst 1 centered on target
-  *  2d8 + Mind Damage
-
-#### Lvl 4: Arcane Blast
-* close blast 3
-* 2d8 + Mind Damage
-
-#### Lvl 5: Stronger Blast
-4d8 + Mind Damage
-
-#### Lvl 6: Wider Blast
-Attack becomes Close Blast 5
-
-#### Lvl6: Concentrated Blast
-* Close blast 1
-* 6d8 + Mind Damage 
-
-### Lightning Bolt
-#### Lvl 1:
-* Ranged 15
-* 1d8 + Mind damage
-* target takes -2 to AC and REF
-
-#### Lvl 2: Lightning strikes twice
-Attack an additional target
-
-#### Lvl 2: Thunderclap
-On Hit: The target is knocked prone
-
-#### Lvl 3: Lightning strikes thrice
-Add a third target
-
-#### Lvl 3: Thunder burst:
-* On Hit you can perform a secondary attack
-* burst 1 centered on the target
-* 1d6 + Mind Damage
-* The target is knocked prone
-
-#### Lvl 4: Lightning Storm
-* Range Burst 2 in 10
-* 2d10 + Mind Damage
-
-#### Lvl 5: Raging Storm:
-As a minor Action you can sustain the effect and attack 1 target in the area
-
-#### Lvl 6: Destruction
-Squares within the target area become difficult terrain.
+#### Lvl 2: Fake Wall
+Cost: 2 Power-Point  
+Major Action  
+Range 50'  
+Create an illusionary wall of length 25' within range.
+Make a `+Mind` attack against `Will` of every enemy within 50' who can see the wall.
+On Hit that enemy cannot willingly enter or cross the area of the wall (save ends).
 
 
 ## Druid
@@ -416,46 +376,28 @@ TODO: Power Source, some interaction with HP
 * 1d4 + Mind Damage
 * Target is slowed
 
-#### Lvl2:
+#### Lvl 2:
 * Target is immobilized instead of slowed
 
-#### lvl3:
+#### lvl 3:
 * Attack is area burst 1
 
 #### Lvl 3: Crushing Grasp
 * Attack becomes ranged 3
 * Damage becomes 1d10 + Wis
 
-### Healing Wind
-#### Lvl 1: Healing Wind
+### Master of the Wind
+#### Lvl 1: Healing Winds of Spring
 Cost: 1 Power-Point  
-Targets all allies in a cirly with 5' radius
+Minor Action  
+Targets all allies in a cirle with 5' radius
 Each ally in the target regains 1d6 +Mind Hit points
 
-### Call Swarm
-#### Lvl 1: Call Swarm
-* ranged 10
-* 1d6 damage
-* On Hit: The Target takes a -2 malus to Fort and Will Defense
+#### Lvl 2: Burning Winds of Summer
 
-#### Lvl 2: Ubiquitous Swarm
-The Attack changes to area burst 1 in 10.
+#### Lvl 3: Raging Storms of Fall
 
-#### Lvl 2: Thick Swarm
-The attack becomes close blast 3, Damage increases to 1d10.
-
-#### Lvl 3: Poisonous bites
-Swarm call causes 10 ongoing poison damage.
-
-#### Lvl 3: Itching Bites
-The malus also applies to attacks of the targets.
-
-#### lvl 4: Feeding
-You can repeat the attack next turn to targets in the same squares.
-
-#### Lvl 4: Aggressive swarm
-The malus also applies to saves.
-The malus stays as long as the ongoing damage.
+#### Lvl 3: Freezing Winds of Winter
 
 ### Pounce
 #### Lvl 1: Pounce
@@ -466,39 +408,24 @@ The target grants advantage to the next creature that attacks it before the end 
 #### Lvl 2: Bite
 Pounce causes additional an 1d8 damage.
 
-### Rending Claws (Beast Form)
+### Burst of Savagery
+#### Lvl 1: Burst of Savagery
+Cost: 2 Power-Points  
+Consumes all actions of your turn.
+Make one ranged or melee atack per Action against enemies in range.
+If you use all your actions - full action, move action, minor action - you can make three atacks.
+You must decide the targets of your attack before you roll.
 
-#### Lvl 1:
-Melee Attack  
-Hit: The target is slowed
+#### Lvl 2: Triumphant Roar
+Modifies Burst of Savagery  
+After the attacks are resolved you mark each enemy in 30'.
 
-#### Lvl2: Savage Rend
-Rending Claws target two enemies in melee range.
-
-### Barkskin
-#### Lvl 1: Barkskin
-A target of your choice gains your *Mind* as a Bonus to their AC until the end of the round.
-
-#### Lvl 2: Flexible Rind
-The bonus of *Barkskin* also applies to the targets reflex resistance.
-
-### Threatening Roar
-#### Lvl 1: Roar
-Bonus Action  
-You mark every Enemy within 25'
-
-### Ground Slam
-You hit the ground in front of you with a powerful slam.
-
-### Lvl 1: Ground Slam
-Combat Action  
-1 Power-Point
-
-The ground in a circle with diameter of 10' around you becomes difficult terrain.
-
-### Lvl 2: Powerful Slam
-The area of your Ground Slam increases to a diameter of 20'.
-
+### Woodland Strider
+### Lvl 1: Woodland Strider
+Cost: 1 Power-Point  
+Minor Action  
+The effect lasts until you complete a short rest.  
+You and allies within 25' ignore the effect of difficult terrain.
 
 ## Rogue
 Rogues specialize on exploiting every weakness they find in their enemies.
@@ -557,6 +484,8 @@ When you start a fight while being hidden from all enemies, you gain a Power-Poi
 #### Daredevil
 Once per turn, when you provoke an opportunity attack from an enemy, you gain a Power-Point.
 
+
+### Disciplines
 ### Nimble Attack
 Swiftly moving around your enemies, you leave them no chance for attack.
 
@@ -564,6 +493,12 @@ Swiftly moving around your enemies, you leave them no chance for attack.
 Cost: 1 Power-Point  
 Full Action  
 You make a Ranged or Melee Attack. After the attack has been resolved you can shift 5'.
+
+#### Lvl 2: Fleet Footed
+You can shift 10' instead of 5' as part of your nimble attack
+
+#### Lvl 2: Quick Movement
+You can shift either before or after the attack.
 
 ### Hobbling Strike
 Your strike weakens the enemy setting them up for further attack.
@@ -580,6 +515,13 @@ After the attack you gain advantage with attacks against the target util the end
 Spend a move Action and a Power-Point.
 Move your speed.
 Your movement does not trigger Opportunity attacks and you can move through enemies.
+
+### Smoke Grenate
+#### Lvl 1: Smoke Grenade
+Cost: 1 Power-Point
+Range 25'  
+Creates a cloud of smoke with radius of 5' within range.
+The smoke obscurs vision and all targets observed through the smoke are considered obscursd.
 
 ## Godsworn
 As a Godsworn you have bound your service to a higher cause or a God from the spiritual realm.
@@ -658,9 +600,15 @@ The target spends a point of Endurance and regains HP accordingly.
 #### Bless
 ##### Rank 1: Bless
 Minor Action  
-Yourself or one Ally within 25'
-1 Power-Point
+Yourself or one Ally within 25'  
+1 Power-Point  
 The target has advantage on a Roll of their choice until the end of your next turn.
+
+##### Rank 2: Protective Prayer
+Minor Action  
+Yourself or one Ally within 25'  
+1 Power-Point  
+Chose a secondary defense, all attacks against that defense are rolled with disadvantage until the end of your next turn
 
 #### Divine Challange
 You challange a foe to face you or suffer holy wrath
@@ -671,3 +619,193 @@ Cost: 0
 * Range 50'
 You mark the target until the end of your next turn.
 If the target makes an attack which does not include, it takes damage equal to your `Will` + 3.
+
+#### Annoint
+##### Lvl 1: Annoint Weapon
+Cost: 2 Power-Points  
+Range Touch  
+The effect lasts for 30 minutes.
+Touch a weapon, All attacks with that weapon deal an addtional 1d6 damage.
+
+#### Lvl 2: Annoint Armor
+TODO buff a suit of armor for a full fight
+
+#### Beacon of Hope
+##### Lvl 1: Beaon of Hope
+Cost 1 Powetr-Point  
+Minor Action  
+A bright light shines from inside your for a short moment.
+All Allies who can see the light can immmediately roll saves against fear based effects.
+
+## Unsorted Ideas for powers
+
+### Lunge
+#### Lvl 1: Lunge
+Cost: 1 Power-Point  
+You make a melee attack. You increase your reach for the attack by 5'.
+
+#### Lvl 2:
+The attack deals an additional [W] damage.
+
+#### Lvl 2: Get over here!
+You pull the target of the attack to a square adjacent to you.
+
+#### Lvl 3: Lead the charge
+One ally within your `Mind` * 5' state can make a charge attack. 
+
+### Brash Strike
+Throwing all caution into the wind you attack your chosen foe disregarding your own safety.
+#### Lvl 1: Brash Strike
+Melee Attack: 1[W] + Tough + Tough Damage.  
+Until the beginning of your next turn attacks against you gain advantage.
+#### Lvl 2: Inspiring Recklessness
+Inspired by your charge, your allies find new Strength. When hitting with Brash Strike you can give an Ally of your choice Wil temporary hit points.
+#### Lv2: Crushing Blow
+Cost: 1 Power-Point  
+When you hit with your brash strike you deal an additional [W] damage.
+
+### Ice Grip
+####  Lvl 1: Touch of Cold
+* Melee attack with Mind using bare Hands.
+* 1d4 + Mind damage
+* Target is immobilized
+
+#### Lvl 2: 
+Target is restrained instead of immobilized
+
+#### lvl 3:
+Ice Grip is a close burst 1 instead of melee 1
+
+#### Lvl 4: Blizzard
+* Area burst 1
+* Target is slowed
+* 2d4 + Mind Damage
+
+#### Lvl 5: Ongoing Hale
+* As a minor action you can sustain the effect for another round
+
+#### Lvl 5: Storm
+2d10 + wis damage instead of 2d4
+
+#### Lvl 6:
+* Area Bust 2
+
+### Magic Missile
+#### Lvl 1:Magic Missile
+* Range 50'
+* Ranged Attack + Mind
+* 1d8 + Mind Damage
+
+#### Lvl 2: Stronger Missile
+2d8 + Mind Damage
+
+#### Lvl 3: Combustion
+* If Target is reduced to zero hit poitns by magic missile, you can perform a secondary attack:
+  * close burst 1 centered on target
+  *  2d8 + Mind Damage
+
+#### Lvl 4: Arcane Blast
+* close blast 3
+* 2d8 + Mind Damage
+
+#### Lvl 5: Stronger Blast
+4d8 + Mind Damage
+
+#### Lvl 6: Wider Blast
+Attack becomes Close Blast 5
+
+#### Lvl6: Concentrated Blast
+* Close blast 1
+* 6d8 + Mind Damage 
+
+### Lightning Bolt
+#### Lvl 1:
+* Ranged 15
+* 1d8 + Mind damage
+* target takes -2 to AC and REF
+
+#### Lvl 2: Lightning strikes twice
+Attack an additional target
+
+#### Lvl 2: Thunderclap
+On Hit: The target is knocked prone
+
+#### Lvl 3: Lightning strikes thrice
+Add a third target
+
+#### Lvl 3: Thunder burst:
+* On Hit you can perform a secondary attack
+* burst 1 centered on the target
+* 1d6 + Mind Damage
+* The target is knocked prone
+
+#### Lvl 4: Lightning Storm
+* Range Burst 2 in 10
+* 2d10 + Mind Damage
+
+#### Lvl 5: Raging Storm:
+As a minor Action you can sustain the effect and attack 1 target in the area
+
+#### Lvl 6: Destruction
+Squares within the target area become difficult terrain.
+
+
+### Call Swarm
+#### Lvl 1: Call Swarm
+* ranged 10
+* 1d6 damage
+* On Hit: The Target takes a -2 malus to Fort and Will Defense
+
+#### Lvl 2: Ubiquitous Swarm
+The Attack changes to area burst 1 in 10.
+
+#### Lvl 2: Thick Swarm
+The attack becomes close blast 3, Damage increases to 1d10.
+
+#### Lvl 3: Poisonous bites
+Swarm call causes 10 ongoing poison damage.
+
+#### Lvl 3: Itching Bites
+The malus also applies to attacks of the targets.
+
+#### lvl 4: Feeding
+You can repeat the attack next turn to targets in the same squares.
+
+#### Lvl 4: Aggressive swarm
+The malus also applies to saves.
+The malus stays as long as the ongoing damage.
+
+
+### Rending Claws (Beast Form)
+
+#### Lvl 1:
+Melee Attack  
+Hit: The target is slowed
+
+#### Lvl2: Savage Rend
+Rending Claws target two enemies in melee range.
+
+### Barkskin
+#### Lvl 1: Barkskin
+A target of your choice gains your *Mind* as a Bonus to their AC until the end of the round.
+
+#### Lvl 2: Flexible Rind
+The bonus of *Barkskin* also applies to the targets reflex resistance.
+
+
+### Threatening Roar
+#### Lvl 1: Roar
+Bonus Action  
+You mark every Enemy within 25'
+
+### Ground Slam
+You hit the ground in front of you with a powerful slam.
+
+### Lvl 1: Ground Slam
+Combat Action  
+1 Power-Point
+
+The ground in a circle with diameter of 10' around you becomes difficult terrain.
+
+### Lvl 2: Powerful Slam
+The area of your Ground Slam increases to a diameter of 20'.

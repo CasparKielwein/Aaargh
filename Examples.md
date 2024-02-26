@@ -339,11 +339,11 @@ On hit: The target grants advantage to the next creature that attacks it before 
 
 ### Attributes:
 __Toughness:__ 3
-__Dexterity:__ 
+__Dexterity:__ 0
 __Mind:__ 4
 
 __Hit Points:__ 15
-__Endurance:__ 5
+__Endurance:__ 6
 
 ### Equipment:
 * Longspear
@@ -351,10 +351,6 @@ __Endurance:__ 5
 
 __Defenses:__  	AC 13 Fort 16 Dex 10 Will 14  
 __Attacks:__ Longspear +5 1d8 + 3 (Reach)
-
-
-
-
 
 
 Ancestry Halfling
@@ -450,6 +446,10 @@ __Mind:__ 0
 __Hit Points:__ 24
 __Endurance:__ 6
 
+Current Endurance: 5
+Current Power-Ponts 2
+Schaden: 3
+
 ### Equipment:
 * Heavy Crossbow
 * Longspear
@@ -507,3 +507,8 @@ You must wield a polearm with the `reach` property to benefit from this talent.
 Enemies within 10' trigger attacks of opportunity instead of only adjacent enemies.
 
 
+### Items
+ring of regeneration; this ring restores 1 hitpoint per turn (or per minute, out of combat) but it only works on injuries sustained while attuned to the ring
+
+the powerful magic can also cure diseases and poisons and even regrow limbs and organs, but this takes time and costs endurance (depending on severity, usually 1 to 5)
+the downside is that powerpoints after rest are reduced by one (to two, usually)
