@@ -1,5 +1,4 @@
-(chapter :title [Aaargh Core Rules]
-(section :title [Your Hero][
+(chapter :title [Creating Your Hero][
    
 Your Character is a Hero. You are going to save the world or die trying.
 In terms of rules your Hero has the following core abilities:])
@@ -79,5 +78,5 @@ But your hero should have all necessary basic equipment like a simple suit of ar
 (section :title [Finalize][
 Give you hero a name.
 ])
-)
+
 

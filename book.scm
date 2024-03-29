@@ -2,10 +2,13 @@
              (skribilo index))
 
 (make-index (default-index))
-(document :title [Aaargh!] 
+(document :title [Aaargh!]
+    (include "Mechanics.scm")
     (include "Aaargh.scm")
     (include "Ancestries.scm")
     (include "Classes.scm")
+    (include "Skills.scm")
+    (include "Talents.scm")
     
     (chapter :title [Index]
         (the-index (default-index))
