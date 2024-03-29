@@ -1,6 +1,7 @@
 (chapter :title [Ancestry]
+(index "Ancestry")
 (section :title [Dwarf][
-
+,(index "Dwarf")
 Stout and stubborn, Warriors and Craftsmen, Kings and Queens of the Mountain Halls.
 
 Quirks:
@@ -28,6 +29,7 @@ When you use your Dwarven Resilience, you can save against all conditions you cu
 
 ])])
 (section :title [Draken][
+,(index "Draken")
 
 Dragonborn, Half-Dragons, The ancient rulers of the skies.
 
@@ -81,6 +83,7 @@ Targets hit by Dragonbreath suffer 10 Ongoing Damage of the chosen elemental typ
 ])
 ])
 (section :title [Minotaur][
+,(index "Minotaur")
 
 Horned and Dangerous, Large and in Charge
 
@@ -121,6 +124,7 @@ Ongoing Damage on hit
 ])
 ])
 (section :title [Human][
+,(index "Human")
 
 Quirks
 ,(enumerate (item [A noticeable limp])
@@ -168,6 +172,7 @@ Quirks
 ])
 ])
 (section :title [Halfling][
+,(index "Halfling")
 
 Quirks
 ,(enumerate (item [Abnormally curly hair that never stays in place.])
