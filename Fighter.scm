@@ -21,7 +21,7 @@ You are a Fighter! You best foes with physical might and superior martial prowes
    Equipment, in particular choice of weapons and armor has a large influence on the combat style of the fighter. More so than for any other class.
 ])
 
-   ,(subsection :title [Proficiencies][
+,(subsection :title [Proficiencies][
 
    __Skill Proficiency:__ Choose two skills from the following: 
    Athletics, Intimidate, Streetwise
@@ -36,7 +36,7 @@ You are a Fighter! You best foes with physical might and superior martial prowes
 ,(subsection :title [Equipment][
    ,(itemize 
       (item [Two weapons or a Weapon and a shield of your choice.])
-      (item [An armor you are proficient with.])
+      (item [A suite of armor])
    )
 ])
 

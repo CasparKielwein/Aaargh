@@ -10,4 +10,9 @@ Each ,(bold [Class]) provides several ,(bold [Disciplines]) to choose from.
             (item [Godsworn]))
             
 ,(include "Fighter.scm")
+,(include "Rogue.scm")
+,(include "Sorcerer.scm")
+,(include "Druid.scm")
+,(include "Godsworn.scm")
+
 ])
