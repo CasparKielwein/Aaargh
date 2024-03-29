@@ -99,6 +99,22 @@ Active Godsworn spells require the hero to wield a holy symbol in one hand.
 * Druid: 
   * Healing Wind: Group Heal which heals Allies in Area. Higher levels give boni to defense, attack, and remove poison effects
 * Fighter:
-  * Inspiration: 
+  * Very limited healing powers, better at giving temporary hit points to allies, give regneration to self
 * Sorcerer: 
-* Rogue: ?
+  * No Healing spells in basic disciplines
+* Rogue:
+  * No healing spells in basic disciplines, live-steal in paragon path
+
+## Dealing damage
+
+* Godsworn: 
+  * extra damage against single targets with divine challange
+  * extra damage after attack role with smite
+* Druid: 
+  * fairly easy access to multiple attacks
+* Fighter:
+  * Easy access to multiple weapon damage dice, some low +1d6 boni.
+* Sorcerer: 
+  * Spells with high damage, mostly area attacks
+* Rogue:
+  * sneak attack, extra damage with weak weapon once per round

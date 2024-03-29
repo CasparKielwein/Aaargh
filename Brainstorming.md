@@ -17,24 +17,6 @@ Single Powers, aka Discipline Ranks
 
 ## Class Features
 
-## Backgrounds
-Each Background has a table of *Features* and a *Problem*
-The Feature is not related to combat abilities.
-The Problem is a plot hook for adventures of ca the first ten levels.
-
-* Noble
-    * Feature: Retainers or Holding
-    * Problem: Enemy, Holding in Decline
-* On the run
-    * Feature: Survivors Instinct; Something about finding resources out of nothing
-    * Had to flee something, lost nearly everything
-    * Problem: Find a Safe place or clear your name
-* Soldier
-    * Feature, Solders etc. will generally be friendly and help
-    * Problem:
-* Acolyte
-* Outcast
-
 ## Non-Combat abilities
 Every class should have a choice of at least two non-combat abilities.
 They emphasize how the character acts and solves problems.
@@ -62,7 +44,25 @@ Appropriate use of these in a challange gives advantage on skill checks
 * Pickpocket
 * Lockpick
 You gain advantage on rolls to pick locks or manipulate delicate mechanisms.
-* Charlatan, you gain advantage when you roll to convince someone, you are someone or something other than you really are.
+* Charlatan, 
+you gain advantage when you roll to convince someone, you are someone or something other than you really are.
+
+Sage: 
+When you have the chance to do ressearch as preparation before you embark on a quest, you gain advantage on all monster-knowledge checks during that quest.
+
+Polyglot:
+You can communicate in basically every spoken language.
+While you might not speak every language, you always know enough adjacent ideoms to make yourself understood.
+
+Perfekt Memory:
+You remember astonashing details about past events.
+
+Trick Archery:
+You can perform amazing feats of archery.
+Cut ropes, split one arrow with the next etc.
+
+Everything has a Price
+After spending a short time to observer somone you know how they can be bought or bribed to do what you want from them.
 
 ## Defender abilities
 Defenders *mark* opponents. Any Creature can only ever be marked by one opponent.
@@ -267,3 +267,27 @@ This is less of an issue in games where higher level spells with such effects ca
 * Take damage each round, 5min / encounter to sustain effect.
 * Suffer Malus while effect is active
 * Only one effect of a type can be active at the same time.
+
+# Game-master Guide
+
+These guidelines are never hundred percent.
+
+### The players are the hoeries of the Story
+Put the player Characters in the centre of your stories.
+Where more powerful Non-player-characers appear they should stay at the sidelines and not interfere much with the heroes.
+In particular avoid having powerful NPCs solve core elements of the plot.
+
+### Avoid taking the heroes prisoner
+Players usually hate it if their Characters are taken prisoner.
+It takes away their agency and contradicts the fantasy of being a hero who might be beaten down but never surrenders.
+
+### Employ heavy Foreshadowing
+When the heroes enter a new area, or a new threat enters their current area of operation, let them know what problems they should expect.
+Put the players on the edge and maybe give them some chance to prepare before introducing a thread in a combat encounter.
+This gives you more leeway to create the encounter fitting for the story without the risk of killing all your players in a surprise encounter with an unknown enemy.
+Examples
+* Smoke columns and the smell of smoouldering ruins indicate violant warbands
+* Rebels hanging from gallows or branches of a tree with written signs from a brutal tyrant.
+* A dragon or other flying beast flies over them in the distance
+
+### Be Careful with Ambushes
