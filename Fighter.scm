@@ -22,15 +22,11 @@ You are a Fighter! You best foes with physical might and superior martial prowes
 ])
 
 ,(subsection :title [Proficiencies][
-
-   __Skill Proficiency:__ Choose two skills from the following: 
-   Athletics, Intimidate, Streetwise
-
-   __Starting Hit Points:__ 10 + `Tough`  
-   __Hit Points per Level:__ 5
-
-   __Endurance:__ 6  
-   __Power-Points:__ 3
+   ,(itemize (item [Skill Proficiency: Choose two skills from the following: Athletics, Intimidate, Streetwise])
+             (item [Starting Hit Points: 10 + ,(it [Tough])])  
+             (item [Hit Points per Level: 5])
+             (item [Endurance: 6])
+             (item [Power-Points: 3]))
 ])
 
 ,(subsection :title [Equipment][
@@ -63,19 +59,21 @@ You are a Fighter! You best foes with physical might and superior martial prowes
    1. Rage
    2. Focus
 
-   ,(subsubsection :title [Rage][
-      #### Comment
-      The Rage discipline basically turns the fighter into a DnD Barbarian.
-      It rewards the player for acting recklessly and taking risks.
-
-      #### Lvl 1: Rage
-      The first time you are bloodied during a fight, you enter a terrible rage.
-      When you enter the rage you gain one Maneuver Point.
-   ])
-   ,(subsubsection :title [Focus
-      #### Lvl 1: Focus Strike
+,(subsection :title [Rage][
+      ,(subsubsection :title [Comment][
+         The Rage discipline basically turns the fighter into a DnD Barbarian.
+         It rewards the player for acting recklessly and taking risks.
+      ])
+      ,(subsubsection :title [Lvl 1: Rage][
+         The first time you are bloodied during a fight, you enter a terrible rage.
+         When you enter the rage you gain one Maneuver Point.
+      ])
+])
+,(subsection :title [Focus
+   ,(subsubsection :title [Lvl 1: Focus Strike][
       If you spend a move action to focus, the next action this round will cost one Power-Point less.
    ])
+])
 ])
 
 ,(subsection :title [Disciplines][
