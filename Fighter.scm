@@ -1,3 +1,11 @@
+; Create a discipline rank in table format
+(define (disipline-rank lvl name cost action range description)
+   (table :border 1 :width 50.
+            (tr :bg "#cccccc" (th :colspan 3 [Lvl ,(bold lvl): ,(bold name)]))
+            (tr (th [,(it cost)]) (th [,(it action)]) (th [,(it range)]))
+            (tr (td [,(roman description)])))
+)
+
 (section :title [Fighter][
 ,(index "Fighter")
 You are a Fighter! You best foes with physical might and superior martial prowess.
@@ -59,21 +67,21 @@ You are a Fighter! You best foes with physical might and superior martial prowes
    1. Rage
    2. Focus
 
-,(subsection :title [Rage][
-      ,(subsubsection :title [Comment][
-         The Rage discipline basically turns the fighter into a DnD Barbarian.
-         It rewards the player for acting recklessly and taking risks.
-      ])
-      ,(subsubsection :title [Lvl 1: Rage][
-         The first time you are bloodied during a fight, you enter a terrible rage.
-         When you enter the rage you gain one Maneuver Point.
-      ])
-])
-,(subsection :title [Focus
-   ,(subsubsection :title [Lvl 1: Focus Strike][
-      If you spend a move action to focus, the next action this round will cost one Power-Point less.
+   ,(subsubsection :title [Rage][
+         ,(subsubsection :title [Comment][
+            The Rage discipline basically turns the fighter into a DnD Barbarian.
+            It rewards the player for acting recklessly and taking risks.
+         ])
+         
+         ,(disipline-rank 1 "Rage"
+               "" "" "" 
+               "The first time you are bloodied during a fight, you enter a terrible rage. When you enter the rage you gain one Maneuver Point.")
    ])
-])
+   ,(subsubsection :title [Focus][
+      ,(disipline-rank 1 "Focus"
+         "-" "Move Action" "-" 
+         "If you spend a move action to focus, the next action this round will cost one Power-Point less.")
+   ])
 ])
 
 ,(subsection :title [Disciplines][
@@ -97,73 +105,80 @@ You are a Fighter! You best foes with physical might and superior martial prowes
    ,(subsubsection :title [Combat Challange][
       Every time you attack an enemy, you can choose to mark that target. The mark 
       lasts until the end of your next turn.
+      
+      ,(disipline-rank 1 "Watchful Strike"
+         "0 PP" "-" "Adjacent" 
+         "Whenever a marked enemy that is adjacent to you shifts or makes an attack that does not include you, you can make a melee basic attack against that enemy as an reaction.")
 
-      #### Lvl 1: Watchful Strike:
-      Whenever a marked enemy that is adjacent to you shifts or makes an attack that does not 
-      include you, you can make a melee basic attack against that enemy as an reaction.
+      ,(disipline-rank 2 "Vigilance"
+         "-" "-" "-" 
+         "Your watchfully Strike becomes an opportunity interrupt.")
 
-      #### Lvl 2: Vigilance
-      Your watchfully Strike becomes an opportunity interrupt.
+      ,(disipline-rank 2 "Maneuvering Watch"
+         "-" "-" "-" 
+         "When you hit an enemy with your watchfully Strike you may push that enemy 5'.")
 
-      #### Lvl 2: Maneuvering Watch
-      When you hit an enemy with your watchfully Strike you may push that enemy 5'.
-
-      #### Lvl 3: Eternal Watch
-      When you mark an enemy you can spend one power-point to have the mark last until the end of the encounter.
+      ,(disipline-rank 3 "Eternal Watch"
+         "+1 PP" "-" "-" 
+         "When you mark an enemy you can spend one power-point to have the mark last until the end of the encounter.")
    ])
+   
    ,(subsubsection :title [Brash Strike][
       Throwing all caution into the wind you attack your chosen foe disregarding your own safety.
+      
+      ,(disipline-rank 1 "Brash Strike"
+         "1 PP" "Full Action" "Melee or Ranged Weapon" 
+         "On hit: Deal 2W + Tough / Dex Damage")
 
-      #### Lvl 1: Brash Strike
-      Cost: 1 Power-Point  
-      Full Action  
-      Melee or Ranged Attack: 2W + `Tough` / `Dex` Damage  
-
-      #### Lv2: Crushing Blow
-      Cost: 1 Power-Point  
-      When you hit with your brash strike the target is `dazed` until the end of your next turn.
+      ,(disipline-rank 2 "Crushing Blow"
+         "+1 PP" "-" "-" 
+         "When you hit with your brash strike the target is dazed until the end of your next turn.")
    ])
+   
    ,(subsubsection :title [Reaping Strike][
+      Striking enemies surrounding you, you reap a bloody harvest
+      
+      ,(disipline-rank 1 "Reaping Strike"
+         "1 PP" "Full Action" "All enemies in melee Range" 
+         "On hit: Deal 1W + Tough / Dex Damage")
 
-      #### Lvl 1: Reaping Strike:
-      Cost: 1 Power-Point
-      You make a melee attack against every enemy adjacent to you.
-
-      #### Lvl 2: Drive them back
-      When you hit a target with your reaping strike you push it 5'.
+      ,(disipline-rank 2 "Drive them back"
+         "-" "-" "-" 
+         "When you hit a target with your reaping strike you push it 5'.")
    ])
+   
    ,(subsubsection :title [Lead the Fight][
+   
 
-      #### Lvl 1: Maneuvering Strike
-      Cost: 0 Power-Points  
-      Full Action  
-      Make A Melee Atack
-      If you hit the target you can push it 5' and move into its old position.
-      This movement does not trigger opportunity attacks.
+      ,(disipline-rank 1 "Maneuvering Strike"
+         "0 PP" "Full Action" "Melee" 
+         "On hit: Push target 5' and shift into its old position. Your movement does not trigger opportunity attacks.")
 
-      #### Lvl 2: Lead the charge
-      Cost: 1 Power-Point  
-      After your attack one ally within your `Mind` * 5' state can make a charge attack. 
-
-      #### Lvl 2: Knock Back
-      Cost. 1 Power-Point  
-      On hit you knock the target back 5 time your `Tough` feet.
+      ,(disipline-rank 2 "Lead the charge"
+         "+1 PP" "-" "-" 
+         "After your attack one ally within your `Mind` * 5' state can make a charge attack.")
+                  
+      ,(disipline-rank 2 "Knock Back"
+         "+1 PP" "" "" 
+         "On hit you knock the target back 5 time your `Tough` feet.")
    ])
    ,(subsubsection :title [Sure Strike][
-      #### Lvl 1: Sure Strike: 
-      Melee Attack against Dex: 1W + Tough Damage
+  
+      ,(disipline-rank 1 "Sure Strike"
+         "0 PP" "Full Action" "Melee" 
+         "Melee Attack against Dex: 1W + Tough / Dex Damage")
 
-      #### Lvl 2: Hobbling Strike
-      Cost: 1 Power-Point  
-      A target hit by your sure strike is slowed (save ends)
-
-      #### Lvl 2: Bloodying thrust
-      Cost: 1 Power-Point
-      The target hit by your sure strike takes 10 ongoing damage until save.
-
-      #### Lvl 3: Hindering Strike: 
-      Cost: 1 Power-Point
-      A target hit by our Sure Strike is knocked prone
+      ,(disipline-rank 2 "Hobbling Strike"
+         "+1 PP" "-" "-" 
+         "A target hit by your sure strike is slowed (save ends)")
+                  
+      ,(disipline-rank 2 "Bloodying Thrust"
+         "+1 PP" "" "" 
+         "The target hit by your sure strike takes 10 ongoing damage until save.")
+         
+      ,(disipline-rank 3 "Hindering Strike"
+         "+1 PP" "" "" 
+         "On hit you knock the target prone")
    ])
 ])
 ])
