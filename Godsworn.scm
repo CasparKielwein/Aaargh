@@ -37,19 +37,24 @@ Four powers are fueled by your face and unbreakable conviction.
 ])
 
 ,(subsection :title [Domain][
-    ### Luck
-    Every time you coll a natural 20, you gain a Power-Point
-    ### Nature
-    You gain access to one druid discipline of your choice.
-    You do not gain a free discipline rank.
-    ### War
-    If at the start of your turn, you are adjacent to three or more enemies, you gain a Power-Point.
-    ### Arcana
-    After a long rest, you gain one additional Power-Point.
-    You gain access to one sorcerer discipline of your choice.
-    You do not gain a free discipline rank.
-    ### Death
-    You can sacrifice 1/4 of your full Hit Points to gain a Power-Point as a free action.
+    ,(subsubsection :title [Luck][
+        Every time you coll a natural 20, you gain a Power-Point
+    ])
+    ,(subsubsection :title [Nature][
+        You gain access to one druid discipline of your choice.
+        You do not gain a free discipline rank.
+    ])
+    ,(subsubsection :title [War][
+        If at the start of your turn, you are adjacent to three or more enemies, you gain a Power-Point.
+    ])
+    ,(subsubsection :title [Arcana][
+        After a long rest, you gain one additional Power-Point.
+        You gain access to one sorcerer discipline of your choice.
+        You do not gain a free discipline rank.
+    ])
+    ,(subsubsection :title [Death][
+        You can sacrifice 1/4 of your full Hit Points to gain a Power-Point as a free action.
+    ])
 ])
 
 ,(subsection :title [Sacred Oath][
@@ -66,59 +71,43 @@ Four powers are fueled by your face and unbreakable conviction.
 ])
 
 ,(subsection :title [Disciplines][
-
-,(subsubsection :title [Smite][
-    #### Rank 1: Smite
-    Free Action  
-    X Power-Point
-    When you hit an enemy with an attack. Spend X power-points; The attack deals XD6 additional Damage.
-])
-,(subsubsection :title [Healing Word][
-    #### Rank 1: Healing Word
-    Minor Action  
-    Yourself or one Ally within 25'  
-    1 Power-Point
-    The target spends a point of Endurance and regains HP accordingly.
-])
-,(subsubsection :title [Bless][
-    #### Rank 1: Bless
-    Minor Action  
-    Yourself or one Ally within 25'  
-    1 Power-Point  
-    The target has advantage on a Roll of their choice until the end of your next turn.
-
-    #### Rank 2: Protective Prayer
-    Minor Action  
-    Yourself or one Ally within 25'  
-    1 Power-Point  
-    Chose a secondary defense, all attacks against that defense are rolled with disadvantage until the end of your next turn
-])
-,(subsubsection :title [Divine Challange][
-    You challange a foe to face you or suffer holy wrath
-
-    #### Lvl 1: Divine Challange
-    Cost: 0  
-    * Minor Action
-    * Range 50'
-    You mark the target until the end of your next turn.
-    If the target makes an attack which does not include, it takes damage equal to your `Will` + 3.
-])
-,(subsubsection :title [Annoint][
-    #### Lvl 1: Annoint Weapon
-    Cost: 2 Power-Points  
-    Range Touch  
-    The effect lasts for 30 minutes.
-    Touch a weapon, All attacks with that weapon deal an addtional 1d6 damage.
-
-    #### Lvl 2: Annoint Armor
-    TODO buff a suit of armor for a full fight
-
-    ### Beacon of Hope
-    #### Lvl 1: Beaon of Hope
-    Cost 1 Powetr-Point  
-    Minor Action  
-    A bright light shines from inside your for a short moment.
-    All Allies who can see the light can immmediately roll saves against fear based effects.
-])
+    ,(subsubsection :title [Smite][
+        ,(disipline-rank 1 "Smite"
+                "2 PP" "Free Action" "Self" 
+                "When you hit an enemy with an attack. The attack deals 2d6 additional Damage")
+    ])
+    ,(subsubsection :title [Healing Word][
+        ,(disipline-rank 1 "Healing Word"
+                "1 PP" "Quick Action" "Yourself or one Ally within 25'" 
+                "The target spends a point of Endurance and regains HP accordingly.")    
+    ])
+    ,(subsubsection :title [Bless][
+        ,(disipline-rank 1 "Bless"
+            "1 PP" "Quick Action" "Allies within 25'" 
+            "The target has advantage on a Roll of their choice until the end of your next turn.")
+        ,(disipline-rank 2 "Protective Prayer"
+            "1 PP" "Quick Action" "Allies within 25'" 
+            "Chose a secondary defense, all attacks against that defense are rolled with disadvantage until the end of your next turn")
+    ])
+    ,(subsubsection :title [Divine Challange][
+        You challange a foe to face you or suffer holy wrath.
+        
+        ,(disipline-rank 1 "Divine Challange"
+            "0 PP" "Quick Action" "Range 50'" 
+            "You mark the target until the end of your next turn. If the target makes an attack which does not include, it takes damage equal to your Mind + 3.")
+    ])
+    ,(subsubsection :title [Annoint][
+        ,(disipline-rank 1 "Annoint Weapon"
+            "2 PP" "Quick Action" "Touch" 
+        "The effect lasts for 30 minutes. Touch a weapon, All attacks with that weapon deal an addtional 1d6 damage.")
+        ,(disipline-rank 2 "Annoint Armor"
+            "1 PP" "Quick Action" "Touch" 
+            "TODO buff a suit of armor for a full fight")
+    ])
+    ,(subsubsection :title [Beacon of Hope][
+        ,(disipline-rank 1 "Beacon of Hope"
+            "1 PP" "Quick Action" "Allies in Sight" 
+            "A bright light shines from inside your for a short moment. All Allies who can see the light can immmediately roll saves against fear based effects.")
+    ])
 ])
 ])

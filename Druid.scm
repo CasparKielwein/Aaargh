@@ -33,123 +33,124 @@ __Power-Points:__ 3
 All druids share an intimate connection to nature.
 You can choose between the Beast Form and the Natures Companion Disciplines.
 
-### Beast form
-Many druids have learned to morph their form to an avatar of natures might.
+,(subsubsection :title [Beast Form][
+  Many druids have learned to morph their form to an avatar of natures might.
 
-#### Lvl 1:
-* Minor Action, shift to chosen Beast Form
-* Unless specified otherwise all stats remain unchanged while you are in beast form.
-* You cannot use any of your equipment.
-  This includes your spellcasting focus.
+  ,(disipline-rank 1 "Beast Form"
+        "0 PP" "Quick Action" "Self" 
+        "Change into your chosen beast form. Unless specified otherwise all stats remain unchanged while you are in beast form. You cannot use any of your equipment. This includes your spellcasting focus.")
 
-*Form of the Hunter*
-* Attack: Dex, Melee, 1d8 damage
-* Speed 35'
+  *Form of the Hunter*
+  * Attack: Dex, Melee, 1d8 damage
+  * Speed 35'
 
-*Form of the Guardian*
-* Attack: Tough, Melee, 1d8 damage
-* After you make a melee attack in your beast form you can choose to mark the target
-* Speed 30'
+  *Form of the Guardian*
+  * Attack: Tough, Melee, 1d8 damage
+  * After you make a melee attack in your beast form you can choose to mark the target
+  * Speed 30'
 
-*Form of the Warden*
-* You can use your weapons and shields in beast form.
+  *Form of the Warden*
+  * You can use your weapons and shields in beast form.
 
-#### Lvl 2: Mobile Form:
-When changing back into humanoid form, you can shift 5' as a free action.
+    ,(disipline-rank 2 "Mobile Form"
+        "-" "-" "-" 
+        "When changing back into humanoid form, you can shift 5' as a free action.")
 
-#### Lvl 2: Skittering Form
-After A melee attack you can shift 5' square after the attack.
+    ,(disipline-rank 2 "Skittering Form"
+        "-" "Free Action" "-" 
+        "After making a melee attack in beast form you can shift 5'.")
+  
+    ,(disipline-rank 3 "Skittering Form"
+        "-" "Move Action" "-" 
+        "In beast form you can fly as your move action. You must land at the end of your move..")
 
-#### Lvl 3: Flying Form
-You can fly as your move action. You must land at the end of your move.
-
-#### Lvl 3: Form of the swarm
-In your beast Form you gain Resistance against Melee and Ranged Attacks.
-
-## Natures Companion
-
-### Spirit Companion
-Todo: support, control oriented
-### Beast Companion
-Todo: combat oriented
+    ,(disipline-rank 3 "Skittering Form"
+        "+1 PP" "Quick Action" "-" 
+        "In your beast Form you gain Resistance against Melee and Ranged Attacks.")
+  ])
+,(subsubsection :title [Natures Companion][
+  ### Spirit Companion
+  Todo: support, control oriented
+  ### Beast Companion
+  Todo: combat oriented
+  ])
 ])
 
 ,(subsection :title [Druidic Circle][
 Druids sometimes meet in druidic circles. The members of a circle share an ideology or common goal.
 
-### Lone Rangers
-Lone Rangers are not a true circle, but druids which prefer to work alone.
+,(subsubsection :title [Lone Rangers][
+  Lone Rangers are not a true circle, but druids which prefer to work alone.
 
-If you start a combat encounter with no ally within 10` you gain a Power-Point.
+  If you start a combat encounter with no ally within 10` you gain a Power-Point.
+])
+,(subsubsection :title [Circle of Natures Communion][
+  If you start a combat encounter adjacent to two or more allies, you gain a Power-Point
+])
+,(subsubsection :title [Healing Cove][
+  Druids of the healing cove focus on the healing aspect of nature and life itself.
+  Their meetings are usually peaceful and serene affairs.
 
-### Circle of Natures Communion
-If you start a combat encounter adjacent to two or more allies, you gain a Power-Point
-
-### Healing Cove
-Druids of the healing cove focus on the healing aspect of nature and life itself.
-Their meetings are usually peaceful and serene affairs.
-
-TODO: Power Source, some interaction with HP
+  TODO: Power Source, some interaction with HP
+])
 ])
 
 ,(subsection :title [Disciplines:][
 
-### Grasping Vines
-#### Lvl1:
-* Ranged 50'
-* Attack +Mind
-* 1d4 + Mind Damage
-* Target is slowed
+,(subsubsection :title [Grasping Vines][
+  Summon thorny vines grasping and strangling your enemies.
 
-#### Lvl 2:
-* Target is immobilized instead of slowed
+    ,(disipline-rank 1 "Grasping Vines"
+        "0 PP" "Full Action" "Ranged 50'" 
+        "Attack +Mind. On hit 1d4 + Mind Damage, target is slowed until end of your next turn")
 
-#### lvl 3:
-* Attack is area burst 1
+    ,(disipline-rank 2 "Strangling Vines"
+        "-" "-" "-" 
+        "Target is immobilized instead of slowed")
 
-#### Lvl 3: Crushing Grasp
-* Attack becomes ranged 3
-* Damage becomes 1d10 + Wis
+    ,(disipline-rank 3 "Mobile Form"
+        "+1 PP" "-" "Burst with diameter 10' within 50'" 
+        "Grasping vinees is an area of effect spell now")
 
-### Master of the Wind
-#### Lvl 1: Healing Winds of Spring
-Cost: 1 Power-Point  
-Minor Action  
-Targets all allies in a cirle with 5' radius
-Each ally in the target regains 1d6 +Mind Hit points
+    ,(disipline-rank 3 "Crushing Grasp"
+        "-" "-" "Ranged 15'" 
+        "Grasping Vines deal 1d10 + Mind Damage")
+])
+,(subsubsection :title [Master of the Wind][
 
-#### Lvl 2: Burning Winds of Summer
-
-#### Lvl 3: Raging Storms of Fall
-
-#### Lvl 3: Freezing Winds of Winter
-
-### Pounce
-#### Lvl 1: Pounce
-Cost: 1 Power-Point  
-Melee Attack  
-The target grants advantage to the next creature that attacks it before the end of the round.
-
-#### Lvl 2: Bite
-Pounce causes additional an 1d8 damage.
-
-### Burst of Savagery
-#### Lvl 1: Burst of Savagery
-Cost: 2 Power-Points  
-Consumes all actions of your turn.
-Make one ranged or melee atack per Action against enemies in range.
-If you use all your actions - full action, move action, minor action - you can make three atacks.
-You must decide the targets of your attack before you roll.
-
-#### Lvl 2: Triumphant Roar
-Modifies Burst of Savagery  
-After the attacks are resolved you mark each enemy in 30'.
-
-### Woodland Strider
-### Lvl 1: Woodland Strider
-Cost: 1 Power-Point  
-Minor Action  
-The effect lasts until you complete a short rest.  
-You and allies within 25' ignore the effect of difficult terrain.
+    ,(disipline-rank 1 "Healing Winds of Spring"
+        "1 PP" "Quick Actioon " "All allies in a cirle with 5' radius within 50'" 
+        "Each ally in the target regains 1d6 +Mind Hit points.")
+    ,(disipline-rank 2 "Burning Winds of Summer"
+        "-" "-" "-" 
+        "TODO")
+    ,(disipline-rank 3 "Raging Storms of Fall"
+        "-" "-" "-" 
+        "TODO")
+    ,(disipline-rank 3 "Freezing Winds of Winter"
+        "-" "-" "-" 
+        "TODO")
+])
+,(subsubsection :title [Pounce][
+    ,(disipline-rank 1 "Pounce"
+        "1 PP" "Full Action" "Melee" 
+        "The target grants advantage to the next creature that attacks it before the end of the round.")
+    ,(disipline-rank 2 "Bite"
+        "-" "-" "-" 
+        "Pounce causes additional an 1d8 damage.")
+])
+,(subsubsection :title [Burst of Savagery][
+    ,(disipline-rank 1 "Burst of Savagery"
+        "2 PP" "Consumes all actions of your turn." "Melee" 
+        "Make one ranged or melee atack per Action against enemies in range. If you use all your actions - full action, move action, minor action - you can make three atacks. You must decide the targets of your attack before you roll.")
+    ,(disipline-rank 2 "Triumphant Roar"
+        "-" "-" "Enemies within 30'"
+        "After the attacks are resolved you mark each enemy in 30'")
+])
+,(subsubsection :title [Woodland Strider][
+    ,(disipline-rank 1 "Woodland Strider"
+        "1 PP" "Quick Action" "Allies within 25'" 
+        "The effect lasts until you complete a short rest. You and allies within 25' ignore the effect of difficult terrain.")
+])
 ])
 ])
