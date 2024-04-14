@@ -20,14 +20,17 @@ Quirks:
 ])
 
 ,(subsection :title [Discipline: Dwarven Resilience][
-,(subsubsection :title [Lvl 1 Dwarven Resilience][
-On your turn: As a `Minnor Action` you can choose to spend one point of *Endurance* to regain hit points. ])
-,(subsubsection :title [ Lvl 2: Tough as Nails][
-When you use your Dwarven Resilience, you gain *Damage Resistance* until the end of your next turn.])
-,(subsubsection :title [ Lvl 2: Strength of the Earth][
-When you use your Dwarven Resilience, you can save against all conditions you currently suffer.])
-
+    ,(disipline-rank 1 "Dwarven Resilience"
+        "1 PP" "Quick Action" "Self" 
+        "On your turn: As a `Minnor Action` you can choose to spend one point of *Endurance* to regain hit points.")
+    ,(disipline-rank 2 "Dwarven Resilience"
+            "-" "-" "-" 
+            "When you use your Dwarven Resilience, you gain *Damage Resistance* until the end of your next turn.")
+    ,(disipline-rank 2 "Dwarven Resilience"
+            "-" "-" "-" 
+            "When you use your Dwarven Resilience, you can save against all conditions you currently suffer.")
 ])])
+
 (section :title [Draken][
 ,(index "Draken")
 
@@ -42,44 +45,37 @@ Quirks
 (item [Back Ridge: A spiny ridge on your back]))
 
 ,(subsection :title [Traits][
-,(itemize (item [Speed: 30'])
-          (item [Language: Common, Draconic])
-          (item [Skills: Intimidate or Religion]))
+    ,(itemize (item [Speed: 30'])
+            (item [Language: Common, Draconic])
+            (item [Skills: Intimidate or Religion]))
 ])
 
 ,(subsection :title [Draconic Heritage][
-Choose dragon and an ascociated element. Gain ,(it [resistance]) to that element.
+    Choose dragon and an ascociated element. Gain ,(it [resistance]) to that element.
 ])
 
 ,(subsection :title [Discipline: Dragonbreath][
-,(subsubsection :title [Lvl 1: Dragonbreath][
-,(itemize
-            (item [Cost: 1 Power-Point])
-            (item [Minor Action})
-            (item [Cone of 15' length, 45° wide])
-            (item [Attack +Tough])
-            (item [1d6 + Tough <element> damage]))
-])
-,(subsubsection :title [Lvl 2: wide breath][
-Dragonbreath becomes a close blast 5
-])
-,(subsubsection :title [Lvl 2: Focused breath][
-Dragonbreath becomes ranged 10.
-Damage becomes d10
-])
-,(subsubsection :title [Lvl 3: Healing breath][
-Allies in blast heal (how much?)
-])
-,(subsubsection :title [Lvl 3: explosive breath][
-Dragonbreath becomes range burst 1.
-Requires focused breath
-])
-,(subsubsection :title [Lvl 4: Powerful breath][
-Add one die to the damage dealt by Dragonbreath
-])
-,(subsubsection :title [Lvl 4: Burning Breath][
-Targets hit by Dragonbreath suffer 10 Ongoing Damage of the chosen elemental type.
-])
+    ,(disipline-rank 1 "Dragonbreath"
+        "1 PP" "Quick Action" "Cone of 15' length, 45° wide" 
+        "Attack roll with +Tough. 1d6 + Tough <element> damage")
+    ,(disipline-rank 2 "Wide Breath"
+            "-" "-" "-" 
+            "Dragonbreath becomes a close blast 5")
+    ,(disipline-rank 2 "Focused Breath"
+            "-" "-" "-" 
+            "Dragonbreath becomes ranged 10. Damage becomes d10")
+    ,(disipline-rank 3 "Healing Breath"
+        "1 PP" "Quick Action" "Self" 
+        "Allies in blast heal (how much?)")
+    ,(disipline-rank 3 "Explosive Breath"
+            "+1 PP" "-" "-" 
+            "Dragonbreath becomes range burst 1. Requires focused breath")
+    ,(disipline-rank 4 "Powerful Breath"
+            "-" "-" "-" 
+            "Add one die to the damage dealt by Dragonbreath")
+    ,(disipline-rank 4 "Burning Breath"
+            "-" "-" "-" 
+            "Targets hit by Dragonbreath suffer 10 Ongoing Damage of the chosen elemental type.")
 ])
 ])
 (section :title [Minotaur][
@@ -102,25 +98,29 @@ Quirks
 ])
 
 ,(subsection :title [Discipline:  Horns][
-,(subsubsection :title [Lvl 1: Gorge][
-* Tough Melee Attack
-* 1d8 + Tough
-])
-,(subsubsection :title [Lvl 2: Trampling Charge][
-Tough Damage to passed enemies on charge
-])
-,(subsubsection :title [Lvl 3: Piercing Charge][
-Target is grappled on hit
-])
-,(subsubsection :title [Lvl 3: Bleeding Wound][
-Ongoing Damage on hit
-])
-,(subsubsection :title [Terrifying Charge][
-* on hit: secondary attack
-* Attack +Mind against `Will`
-* target is terrified until the end of your next turn.
-* targets evey enemy within 15'
-])
+    You can use your horns for unarmed melee attacks.
+    Roll attack rolls with +Tough and deal 1d8 + Tough damage on hit.
+
+    ,(disipline-rank 1 "Gorge"
+        "1 PP" "Quick Action" "Melee" 
+        "On hit deal 1d8 + Tough damage.")
+
+    ,(disipline-rank 2 "Trampling Charge"
+        "2 PP" "Full Action" "Melee" 
+        "1Make A charge and use your horns as weapons.
+        Deal Tough Damage to each enemies you move adjacent to during the charge")
+
+    ,(disipline-rank 3 "Piercing Charge"
+        "-" "-" "-" 
+        "When you hit a target with your horns you can decide to graple the target.")
+
+    ,(disipline-rank 3 "Bleeding Wound"
+        "+1 PP" "-" "-" 
+        "When you hit a creature with your horns it takes 10 ongoing damage (save ends)")
+        
+    ,(disipline-rank 4 "Terrifying Charge"
+        "1 PP" "Free Action" "enemies within 15'" 
+        "After you hit with a melee attack. On hit target is terrified until the end of your next turn.")
 ])
 ])
 (section :title [Human][
@@ -135,16 +135,16 @@ Quirks
             (item [Overweight, but not necessarily slow or weak]))
 
 ,(subsection :title [Traits][
-,(itemize (item [Speed: 30'])
-          (item [Language: Common, once of your choice])
-          (item [Skills: Streetwise or Charm]))
+    ,(itemize (item [Speed: 30'])
+            (item [Language: Common, once of your choice])
+            (item [Skills: Streetwise or Charm]))
 ])
 
 ,(subsection :title [Discipline: Human Ambition][
-    ,(subsubsection :title [Lvl 1: Ambition][
-        The hero may spend a *Power-Point* on their turn to gain an additional Combat Action.
-        This ability may only be used once per turn.
-    ])
+        
+    ,(disipline-rank 1 "Ambition"
+        "1 PP" "Free Action" "Self" 
+        "You may spend a *Power-Point* on their turn to gain an additional Combat Action. This ability may only be used once per turn.")
 ])
 ])
 (section :title [Elves][
@@ -160,15 +160,15 @@ Quirks
             (item [A natural, floral scent that emanates from their skin and hair.]))
 
 ,(subsection :title [Traits][
-,(itemize (item [Speed: 30'])
-          (item [Language: Elven])
-          (item [Skills: Arcane, Charm, or Nature]))
+    ,(itemize (item [Speed: 30'])
+            (item [Language: Elven])
+            (item [Skills: Arcane, Charm, or Nature]))
 ])
 
 ,(subsection :title [Accuracy][
-    ,(subsubsection :title [Lvl 1: Accuracy][
-        After making a attack role, you can spend a Power-Point to reroll a single die or both dice when rolling with advantage or disadvantage.
-    ])
+    ,(disipline-rank 1 "Accuracy"
+        "1 PP" "Free Action" "Self" 
+        "After making a attack roll, you can spend a Power-Point to reroll a single die or both dice when rolling with advantage or disadvantage.")
 ])
 ])
 (section :title [Halfling][
@@ -184,16 +184,15 @@ Quirks
 
 
 ,(subsection :title [Traits][
-,(itemize (item [Speed: 30'])
-          (item [Language: once of your choice])
-          (item [Skills: Streetwise or Stealth]))
+    ,(itemize (item [Speed: 30'])
+            (item [Language: once of your choice])
+            (item [Skills: Streetwise or Stealth]))
 ])
 
 ,(subsection :title [Discipline: Halfling Luck][
-    ,(subsubsection :title [Lvl 1: Luck][
-        After an enemy hits you with an attack, but before damage is rolled, you can spend a Power-Point
-        to force the DM to reroll the attack against you.
-    ])
+    ,(disipline-rank 1 "Luck"
+            "1 PP" "Free Action" "Self" 
+            "After an enemy hits you with an attack, but before damage is rolled, you can spend a Power-Point to force the DM to reroll the attack against you.")
 ])
 ])
 )
