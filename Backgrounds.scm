@@ -14,22 +14,25 @@ Your hero also has made some allies and enemies.
     (item [Guild Artisan])
     (item [Outlander]))
 
-,(subsection :title[Commoner][
+,(subsection :title [Commoner][
+,(index "Commoner")
 Your character lived a simple life among the countless farmers that populate rural areas of the known world until they became an unlikely hero.
 
-__Tool Proficiencies:__ One Tool of your choice  
-__Skill Proficiencies:__ Nature, Athletics, or Streetwise  
-__Equipment:__ 
-* Simple clothes
-* A riding horse or a cart and a mule
-* A set of tools you are proficient with
-* A memento of your past
+,(subsubsection :title [Proficiencies][
+   ,(itemize (item [Tool Proficiency: One Tool of your choice])
+             (item [Skill Proficiency: Nature, Athletics, or Streetwise  ]))
+    Starting Equipment:
+    ,(itemize (item [Simple clothes])
+             (item [A riding horse or a cart and a mule])
+             (item [A set of tools you are proficient with])
+             (item [A memento from your village]))
+])
 
-,(subsubsection :title[Feature: One of the Smallfolk][
+,(subsubsection :title [Feature: One of the Smallfolk][
     You still consider yourself to be one of the common people and they consider you to be one of them. You can expect simple help, food, and a place to rest for a night.
     They will help you in your quests, possibly hide you and your group from authorities, but not risk their live.
 ])
-,(subsubsection :title[Birth of a Hero][
+,(subsubsection :title [Birth of a Hero][
     An Event that transformed your life from the ordinary.
     ,(enumerate
         (item [Hero of the Rebellion:
@@ -49,23 +52,26 @@ __Equipment:__
             You grew up at the edge of the civilzed world.]))
 ])
 ])
-,(subsection :title[Criminal][
+,(subsection :title [Criminal][
+,(index "Criminal")
 You have lived a life of vice and breaking the law. You have spent a lot of time among
 other criminals and still have contacts within the criminal underworld. 
 
-__Skill Proficiencies:__ Stealth or Intimidate  
-__Tool Proficiencies:__ Thieves' tools  
-__Equipment:__ 
-* Inconspicuous clothing
-* Thieves tools
-* Trophy from a heist
+,(subsubsection :title [Proficiencies][
+   ,(itemize (item [Tool Proficiency: Thieves' tools])
+             (item [Skill Proficiency: Stealth or Intimidate]))
+    Starting Equipment:
+    ,(itemize (item [Inconspicuous clothes])
+             (item [Thieves tools])
+             (item [Trophy from a heist]))
+])
 
-,(subsubsection :title[Feature: Underworld Contact][
+,(subsubsection :title [Feature: Underworld Contact][
     You have a trusted contact within the criminal underworld.
     They will help you but usually expect a favor in return.
     You know how to get messages to and from your contact, even over great distances.
 ])
-,(subsubsection :title[Criminal Career][
+,(subsubsection :title [Criminal Career][
     ,(enumerate
         (item [Pickpocket])
         (item [Pirate])
@@ -77,20 +83,22 @@ __Equipment:__
         (item [Bandit]))
 ])
 ])
-,(subsection :title[Noble][
+,(subsection :title [Noble][
+,(index "Noble")
+,(subsubsection :title [Proficiencies][
+   ,(itemize (item [Charm and Religion, Arcane, or Intimidate]))
+    Starting Equipment:
+    ,(itemize (item [A set of fine garments])
+             (item [A noble riding horse or a servant])
+             (item [An elegant family heirloom]))
+])
 
-__Skill Proficiencies:__ Charm, and Religion, Arcane, or Intimidate  
-__Equipment:__ 
-* A set of fine garments
-* A noble riding horse or a servant
-* An elegant family heirloom
-
-,(subsubsection :title[Feature: Etiquette][
+,(subsubsection :title [Feature: Etiquette][
     You will always be recognized as a member of the ruling classes - and they watch out for their own.
     Providing shelter and assistance is a matter of honor to other nobles.
     People will also generally assume you are in command.
 ])
-,(subsubsection :title[Highborn][
+,(subsubsection :title [Highborn][
     ,(enumerate
         (item [Landed Gentry, your family is a smaller noble house administrating a section of rich farm land.])
         (item [Kings Court, you grew up in the court of powerful king or empress. The sheltered life of a royal court, obscure etiquette and rituals as well as intrigue and backstabbing are second nature to you.])
@@ -99,7 +107,7 @@ __Equipment:__
         (item [One of the Great Houses])
         (item [Squire, you spend most of your youth as a squire to a knight who taught you etiquette, how to fight and knightly virtues.]))
 ])
-,(subsubsection :title[Problem][
+,(subsubsection :title [Problem][
     ,(enumerate
         (item [House in decline. Your families riches are gone and debts are rising. The noble house is in significant debt, and must take drastic measures to pay it off, such as allying with rivals or engaging in illicit activities.])
         (item [Vendetta: High status brings powerful enemies.])
@@ -109,18 +117,20 @@ __Equipment:__
         (item [Throne of Skulls: The noble house's leader is overthrown and replaced by a tyrant who rules with an iron fist, causing the people to live in fear and despair.]))
 ])
 ])
-,(subsection :title[Rough Childhood][
+,(subsection :title [Rough Childhood][
+,(index "Rough Childhood")
+,(subsubsection :title [Proficiencies][
+   ,(itemize (item [Nature and Charm, Stealth, or Intimidate]))
+    Starting Equipment:
+    ,(itemize (item [Simple Clothes, possibly stolen])
+             (item [A simple and well-used toy.])
+             (item [A well hidden knife]))
+])
 
-__Skill Proficiencies:__ Nature and Charm, Stealth, or Intimidate  
-__Equipment:__ 
-* Simple Clothes, possibly stolen
-* A simple and well-used toy.
-* A well hidden knife
-
-,(subsubsection :title[Feature: School of hard knocks][
+,(subsubsection :title [Feature: School of hard knocks][
 TODO
 ])
-,(subsubsection :title[Childhood][
+,(subsubsection :title [Childhood][
     ,(enumerate
         (item [Orphan: You grew up as an orphan, alone and unwanted, forced to fend for themselves on the streets or in an orphanage.])
         (item [Poverty: You grew up in poverty, struggling to make ends meet and constantly facing the challenges of hunger and homelessness.])
@@ -129,7 +139,7 @@ TODO
         (item [Criminal: You grew up on the wrong side of the law, surrounded by crime and violence, forced to commit acts you are not proud of to survive.])
         (item [Outcast: You where shunned by your community or tribe for some reason, whether it be due to a physical deformity or some other perceived flaw, leaving you with a deep sense of isolation and loneliness.]))
 ])
-,(subsubsection :title[Lessons][
+,(subsubsection :title [Lessons][
     ,(enumerate
         (item [It's either you or me!])
         (item [Down with the opressors!])
@@ -139,17 +149,19 @@ TODO
         (item [TODO]))
 ])
 ])
-,(subsection :title[Acolyte][
+,(subsection :title [Acolyte][
+,(index "Acolyte")
+,(subsubsection :title [Proficiencies][
+   ,(itemize (item [ Religion and Charm or Intimidate]))
+    Starting Equipment:
+    ,(itemize (item [Cerimonal Robes])
+             (item [Talismans and Trinkets]))
+])
 
-__Skill Proficiencies:__ Religion and Charm or Intimidate  
-__Equipment:__ 
-* Cerimonal Robes
-* Talismans and Trinkets
-
-,(subsubsection :title[Feature:][
+,(subsubsection :title [Feature:][
 TODO
 ])
-,(subsubsection :title[Cults and Temples][
+,(subsubsection :title [Cults and Temples][
     ,(enumerate
         (item [Monastery of the Mountain's Heart - a remote monastery that is home to a secretive order of mystics who seek enlightenment through the study of nature and the elements.])
         (item [Metropolitan Church - You know your way around the cut-throat world of clerical politics.])
@@ -159,21 +171,23 @@ TODO
         (item [Apokalyptic Cult]))
 ])
 ])
-,(subsection :title[Soldier][
-
-__Tool Proficiencies:__ A Tool or board game fitting your specialty
-__Skill Proficiencies:__ Streetwise or Athletics
-__Equipment:__ 
-* Uniform
-* A weaon or set of tools fitting your specialty 
-* A half-empty flask
-* A set of dice
-
-,(subsubsection :title[Feature: Comrades in Arms][
-You are still a member of your military unit.
-Your superiors might issue you tasks and your old comrades will be ready to help you.
+,(subsection :title [Soldier][
+,(index "Soldier")
+,(subsubsection :title [Proficiencies][
+   ,(itemize (item [Tool Proficiency: A tool or board game fitting your specialty])
+             (item [Skill Proficiency: Streetwise or Athletics]))
+    Starting Equipment:
+    ,(itemize (item [Your old Uniform])
+             (item [A weaon or set of tools fitting your specialty ])
+             (item [A boardgame, set of playing cards or dice])
+             (item [A half-empty flask]))
 ])
-,(subsubsection :title[Specialty][
+
+,(subsubsection :title [Feature: Comrades in Arms][
+    You are still a member of your military unit.
+    Your superiors might issue you tasks and your old comrades will be ready to help you.
+])
+,(subsubsection :title [Specialty][
     ,(enumerate
         (item [Officer])
         (item [Logistics: Your position was in the logistics and baggage train instead of fighting at the line.])
@@ -184,7 +198,7 @@ Your superiors might issue you tasks and your old comrades will be ready to help
         (item [Archer])
         (item [Alchemical or Arcane Specialist]))
 ])
-,(subsubsection :title[Campaign][
+,(subsubsection :title [Campaign][
     ,(enumerate
         (item [Glorious Last Stand])
         (item [Crushing Defeat])
@@ -195,21 +209,23 @@ Your superiors might issue you tasks and your old comrades will be ready to help
         (item [Mercenary]))
 ])
 ])
-,(subsection :title[Guild Artisan][
-
-__Tool Proficiencies:__ The tools required by your chosen guild
-__Skill Proficiencies:__ Streetwise or Athletics
-__Equipment:__ 
-* Traditional clothes of your profression
-* A ring with the seal of your guild
-* The tools required to work as an artisan, possibly at a small local workshop
-
-,(subsubsection :title[Feature: Guild Member][
-You are a registered member of your guild. 
-You have permission to practice your craft and take on an apprentive even in the restrictive feudal society.
-The guild will offer legal assistance in case you are ever accused of a crime.
+,(subsection :title [Guild Artisan][
+,(index "Guild Artisan")
+,(subsubsection :title [Proficiencies][
+   ,(itemize (item [Tool Proficiency: The tools required by your chosen guild])
+             (item [Skill Proficiency: History or Streewise]))
+    Starting Equipment:
+    ,(itemize (item [Traditional clothes of your profression])
+             (item [A ring with the seal of your guild])
+             (item [The tools required to work as an artisan, possibly at a small local workshop]))
 ])
-,(subsubsection :title[Guild][
+
+,(subsubsection :title [Feature: Guild Member][
+    You are a registered member of your guild. 
+    You have permission to practice your craft and take on an apprentive even in the restrictive feudal society.
+    The guild will offer legal assistance in case you are ever accused of a crime.
+])
+,(subsubsection :title [Guild][
     ,(enumerate
         (item [Blacksmiths Guild - specializes in metalworking, including weapons, armor, and tools.])
         (item [Stonemasons Guild - works with stone to create buildings, monuments, and sculptures.])
@@ -224,7 +240,7 @@ The guild will offer legal assistance in case you are ever accused of a crime.
         (item [Calligraphers Guild - creates artistic writing, including scrolls, certificates, and invitations.])
         (item [ Perfumers Guild - creates perfumes and other scented products.]))
 ])
-,(subsubsection :title[Adventuring][
+,(subsubsection :title [Adventuring][
     ,(enumerate
         (item [Wanderlust: The artisan has a burning desire to explore the world and discover new cultures and traditions, which cannot be fulfilled within the confines of their guild.])
         (item [Accusation: The artisan has been accused of a crime they did not commit, and must flee the city to avoid arrest and clear their name.])
@@ -234,20 +250,22 @@ The guild will offer legal assistance in case you are ever accused of a crime.
         (item [Debt: The artisan has fallen into debt due to unexpected expenses or a failed investment, and is being threatened by loan sharks or other unsavory characters.]))
 ])
 ])
-,(subsection :title[Outlander][
+,(subsection :title [Outlander][
+,(index "Outlander")
 You grew up far from civilization, in the wilds beyond the borders of settled lands. You are self-sufficient and have a deep understanding of nature.
 
-__Tool Proficiencies:__
-__Skill Proficiencies:__ Nature and Athletics or Heal
-__Equipment:__ 
-* Survival Tools
-* A small animal companion
-* A wooden flute
+,(subsubsection :title [Proficiencies][
+   ,(itemize (item [Nature and Athletics or Heal]))
+    Starting Equipment:
+    ,(itemize (item [Wilderness Tools])
+             (item [A small animal companion])
+             (item [A wooden flute]))
+])
 
-,(subsubsection :title[Feature: Forage][
+,(subsubsection :title [Feature: Forage][
     While you are in the wildernis, when you spend a few hours daily foraging, you can find enough food and drink to support yourself and up to four other people.
 ])
-,(subsubsection :title[Wild Upbringing][
+,(subsubsection :title [Wild Upbringing][
     ,(enumerate
         (item [Barbarian Kingdoms])
         (item [Hermit: A solitary person who lives in isolation, seeking spiritual enlightenment or refuge from the world.])
@@ -256,7 +274,7 @@ __Equipment:__
         (item [Raised by wild animals])
         (item [Nomadic Tribes]))
 ])
-,(subsubsection :title[Nature][
+,(subsubsection :title [Nature][
     ,(enumerate
         (item [Deep Forest])
         (item [Arid Desert])
