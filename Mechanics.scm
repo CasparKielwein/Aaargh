@@ -8,8 +8,10 @@ Die rolls all have the same format:
             (item [Compare to target number. If you reach or exceed the target number, your roll succeeds.]))
 
 ,(subsection :title [Advantage and Disadvantage][
-  If you have an *advantage* you roll one more die and choose the higher roll.  
-  If you have a *disadvantage* you roll one more die and choose the lower result.
+  ,(index "Advantage")
+  ,(index "Disadvantage")
+  If you have an ,(bold "Advantage") you roll one more die and choose the higher roll.  
+  If you have a ,(bold "Disdvantage") you roll one more die and choose the lower result.
 
   Advantage and Disadvantage don't stack, but cancel out each other.
   For example if a roll benefits from three distinct Advantages and one Disadvantage you roll two d20 and thoose the higher roll.
@@ -17,26 +19,27 @@ Die rolls all have the same format:
 ])
 
 ,(section :title [Disciplines, Maneuvers, and Power-Points][
-  Each Hero has special actions they can perform which are called *Maneuvers*.
-  *Maneuvers* are organized in *Disciplines* where each rank of a *Disciplines* unlocks a new *Maneuver* or new options for existing ones.
-  *Disciplnes* and their *Maneuvers* are made available to Heroes through their Ancestry and most importantly selected *Class*.
+  ,(index "Discipline")
+  Each Hero has special actions they can perform which are called ,(bold [Maneuvers]).
+  ,(bold [Maneuvers]) are organized in ,(bold [Disciplines]) where each rank of a ,(bold [Disciplines]) unlocks a new ,(bold [Maneuver]) or new options for existing ones.
+  ,(bold [Discipline]) and their ,(bold [Maneuvers]) are made available to Heroes through their Ancestry and most importantly selected ,(bold [Class]).
 ])
 
 ,(section :title [Actions][
-  On their turn a character can perform a *Combat Action*, a *Move Action* and a *Minor Action**
-  Each character can also perform one *Reaction* per round.
+  On their turn a character can perform a ,(bold [Full Action]), a ,(bold [Move Action]) and a ,(bold [Quick Action]).
+  Each character can also perform one ,(bold [Reaction]) per round.
 ])
 ,(section :title [Attacks and Defenses][
 
 Each Attack is a die roll against one of four defenses.
 ,(itemize (item [Armor Class is determined by equipment the hero wears like armor and shields.])
-          (item [Fortitude is equal to 10 + *Toughness* of the Hero.])
-          (item [Reflex is equal to 10 + *Dexterity* of the Hero.])
-          (item [Will is equal to 10 + *Mind* of the Hero.]))
+          (item [Fortitude is equal to 10 + ,(bold [Toughness]) of the Hero.])
+          (item [Reflex is equal to 10 + ,(bold [Dexterity]) of the Hero.])
+          (item [Will is equal to 10 + ,(bold [Mind]) of the Hero.]))
 ])
 
 ,(section :title [Saves][
-
+,(index "Saves")
 To save against a condition, roll a single d20. on a Roll of 11 or higher, you pass the saving throw.
 
 ,(subsection :title [Comment][
@@ -48,8 +51,8 @@ To save against a condition, roll a single d20. on a Roll of 11 or higher, you p
 ])
 
 ,(section :title [Hitpoints and Healing][
-
-Hitpoints at level 1 are determined by your class and the *Toughness* attribute.  
+,(index "Hitpoint")
+Hitpoints at level 1 are determined by your class and the ,(bold [Toughness]) attribute.  
 Lowest value: 6  
 Highest Value: 12
 
@@ -60,7 +63,7 @@ Lowest Increase: 3
 Highest Increase: 6
 
 ,(subsection :title [Endurance][
-
+,(index "Endurance")
 Each Hero has a number of Endurance Points which they use to regain Hit Points.
 The number of Endurance Points is determined by your class.
 
@@ -149,6 +152,7 @@ You can take as many free actions as you like.
 
 ,(section :title [Special Actions][
 ,(subsection :title [Grappling][
+,(index "Grappling")
 To initiate a grapple you have to have one free hand.
 You can only grapple enemies which are the same size or smaller than you.
 Make an unarmed Attack against Reflex of the target.
@@ -171,7 +175,7 @@ If you control the grapple:
 ])
 ])
 ,(section :title [Damage and Damage types][
-
+,(index "Damage Types")
 The different types of damage are:
 ,(itemize (item [Physical Damage is the most common type of damage caused by most weapons and several spells. When an effect does not specify its damage type, it is assumed that it causes *physical damage*.])
           (item [Fire])
@@ -182,36 +186,44 @@ The different types of damage are:
 ])
 
 ,(section :title [Conditions][
-
+,(index "Condition")
 ,(subsection :title [Prone][
+  ,(index "Prone")
   Standing up requires a move action.
   Attacks from adjacaent enemies are rolled with advantage.
   Ranged attacks from further away are rolled with disadvantage.
 ])
 ,(subsection :title [Slowed][
+  ,(index "Slowed")
   A slowed creature can only move half their usual speed.
 ])
 ,(subsection :title [Immobilized][
+  ,(index "Immobilized")
   An immobilized creature has a speed of zero.
 ])
 ,(subsection :title [Terrified][
+  ,(index "Terrified")
   You make all attribute rolls (skill, attacks, initiative, etc) with disadvantage.
 ])
 ,(subsection :title [Dazed][
+  ,(index "Dazed")
   A dazed creature can only take one action per round.
 ])
 ,(subsection :title [Stunned][
+  ,(index "Stunned")
   A hero or monster who is stunned, cannot take any actions until the condition ends.
 ])
 ,(subsection :title [Bloodied][
+  ,(index "Bloodied")
   A hero or monster is bloodied if their hitpoints fall to one half of their starting hit points or lower.
 ])
 
 ,(section :title [Attributes][
+,(index "Attributes")
 Heroes have three attributes:
-+ Toughness
-+ Agility
-+ Mind
+,(itemize (item [Toughness])
+          (item [Agility])
+          (item [Mind]))
 ])
 ])
 ])

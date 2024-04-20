@@ -1,5 +1,5 @@
 (chapter :title [Classes][
-(index "Class")
+,(index "Class")
 Each Hero has one ,(bold [Class]), which determines the majority of his playing options.
 Each ,(bold [Class]) provides several ,(bold [Disciplines]) to choose from.
 

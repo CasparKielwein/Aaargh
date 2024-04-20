@@ -20,7 +20,6 @@ Four powers are fueled by your face and unbreakable conviction.
     The main difference between Godsworn and Druids are in their class features.
 ])
 
-
 ,(subsection :title [Proficiencies][
    ,(itemize (item [Skill Proficiency: Choose two skills from the following: Religion, Athletics, Charm, Proficiency with Healers Kit.])
              (item [Starting Hit Points: 8 + ,(it [Tough])])  

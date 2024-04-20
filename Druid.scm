@@ -20,14 +20,13 @@ Druid spells do less damage than Godsworn spells on average.
 ])
 
 ,(subsection :title [Proficiencies][
-__Skill Proficiency:__ Choose two skills from the following: Stealth, Nature, Heal, Perception
-
-__Starting Hit Points:__ 8 + Tough  
-__Hit Points per Level:__ 4
-
-__Endurance:__ 6  
-__Power-Points:__ 3
+   ,(itemize (item [Skill Proficiency: Choose two skills from the following: Stealth, Nature, Heal, Perception])
+             (item [Starting Hit Points: 8 + ,(it [Tough])])  
+             (item [Hit Points per Level: 4])
+             (item [Endurance: 6])
+             (item [Power-Points: 3]))
 ])
+
 
 ,(subsection :title [Call of the Wild][
 All druids share an intimate connection to nature.
@@ -40,17 +39,17 @@ You can choose between the Beast Form and the Natures Companion Disciplines.
         "0 PP" "Quick Action" "Self" 
         "Change into your chosen beast form. Unless specified otherwise all stats remain unchanged while you are in beast form. You cannot use any of your equipment. This includes your spellcasting focus.")
 
-  *Form of the Hunter*
-  * Attack: Dex, Melee, 1d8 damage
-  * Speed 35'
+    ,(bold "Form of the Hunter")
+    ,(itemize (item [Attack: Dex, Melee, 1d8 damage])
+              (item [Speed 35']))
+              
+    ,(bold "Form of the Guardian")
+    ,(itemize (item [Attack: Tough, Melee, 1d8 damage])
+              (item [Speed 35'])
+              (item [After you make a melee attack in your beast form you can choose to mark the target]))
 
-  *Form of the Guardian*
-  * Attack: Tough, Melee, 1d8 damage
-  * After you make a melee attack in your beast form you can choose to mark the target
-  * Speed 30'
-
-  *Form of the Warden*
-  * You can use your weapons and shields in beast form.
+  ,(bold "Form of the Warden")
+    ,(itemize (item [You can use your weapons and shields in beast form.]))
 
     ,(disipline-rank 2 "Mobile Form"
         "-" "-" "-" 
@@ -69,10 +68,8 @@ You can choose between the Beast Form and the Natures Companion Disciplines.
         "In your beast Form you gain Resistance against Melee and Ranged Attacks.")
   ])
 ,(subsubsection :title [Natures Companion][
-  ### Spirit Companion
-  Todo: support, control oriented
-  ### Beast Companion
-  Todo: combat oriented
+    ,(itemize (item [Spirit Companion-Todo: support, control oriented])
+              (item [Beast Companion: Todo: combat oriented]))
   ])
 ])
 

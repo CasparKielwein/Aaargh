@@ -16,13 +16,11 @@ You are a Sorcerer, as master of the arcane forces!
 ])
 
 ,(subsection :title [Proficiencies][
-    __Skill Proficiency:__ Choose two skills from the following: Arcane, History, Heal, Streetwise  
-
-    __Starting Hit Points:__ 6 + Tough  
-    __Hit Points per Level:__ 3
-
-    __Endurance:__ 6  
-    __Power-Points:__ 3
+   ,(itemize (item [Skill Proficiency: Choose two skills from the following: Arcane, History, Heal, Streetwise])
+             (item [Starting Hit Points: 6 + ,(it [Tough])])  
+             (item [Hit Points per Level: 3])
+             (item [Endurance: 6])
+             (item [Power-Points: 3]))
 ])
 
 ,(subsection :title [Power Source][

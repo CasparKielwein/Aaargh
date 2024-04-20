@@ -57,8 +57,10 @@ You are a Fighter! You best foes with physical might and superior martial prowes
    It serves as your main source of Maneuver Points.
 
    Chose between two Martial Disciplines:
-   1. Rage
-   2. Focus
+      ,(enumerate 
+      (item [Rage])
+      (item [Focus])
+   )
 
    ,(subsubsection :title [Rage][
          ,(subsubsection :title [Comment][
@@ -142,7 +144,6 @@ You are a Fighter! You best foes with physical might and superior martial prowes
    
    ,(subsubsection :title [Lead the Fight][
    
-
       ,(disipline-rank 1 "Maneuvering Strike"
          "0 PP" "Full Action" "Melee" 
          "On hit: Push target 5' and shift into its old position. Your movement does not trigger opportunity attacks.")
