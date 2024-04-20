@@ -53,21 +53,15 @@ To save against a condition, roll a single d20. on a Roll of 11 or higher, you p
 ,(section :title [Hitpoints and Healing][
 ,(index "Hitpoint")
 Hitpoints at level 1 are determined by your class and the ,(bold [Toughness]) attribute.  
-Lowest value: 6  
-Highest Value: 12
-
-Increase per level are automatic.
-Heroes gain additional HP every level.
-
-Lowest Increase: 3  
-Highest Increase: 6
+Each Level your hero gains they receive additional hitpoints. 
+The number of hitpoints gained it determined by the class you choose for your hero.
 
 ,(subsection :title [Endurance][
-,(index "Endurance")
-Each Hero has a number of Endurance Points which they use to regain Hit Points.
-The number of Endurance Points is determined by your class.
+  ,(index "Endurance")
+  Each Hero has a number of Endurance Points which they use to regain Hit Points.
+  The number of Endurance Points is determined by your class.
 
-When a Hero spends an Endurance Point they regain a number of Hit points equal to 1/4 of their maximum number of Hit Points.
+  When a Hero spends an Endurance Point they regain a number of Hit points equal to 1/4 of their maximum number of Hit Points.
 ])
 
 ,(subsection :title [Comment][
@@ -98,55 +92,55 @@ You can take actions in arbitrary order but each action has to be completed befo
 In particular this means you cannot make your attack in the middle of a move without special abilities.
 
 ,(subsection : title [Combat Actions][
-,(index "Combat Action")
-,(itemize (item [Attack: Strike an enemy with a weapon or cast a spell])
-          (item [Charge:
-          Move up to your speed in a straight line towards an enemy and make a melee attack against an enemy.
-          Immediately end your turn after the attack.])
-          (item [Shove: Make an attack Toughness against Fortitude. On success, you push the target 5'.])
-          (item [Grapple: Make an unarmed attack against Reflex. On success, the target is grappled and you control the grapple.
-          While you grapple a target, you have the following options:
-            * Throw: Throw the target to the ground
-            * Move: Move up to your speed and pull the target behind you.
-            ])
-          (item [Use an Item])
-          (item [Assist: An adjacent ally gains advantage on one roll until the start of your next turn.])
-          (item [Attempt to `stabilize` a dying creature. Roll Heal against 10.])
-          (item [Take a second move action])
-          (item [Administer a potion to someone else]))
+  ,(index "Combat Action")
+  ,(itemize (item [Attack: Strike an enemy with a weapon or cast a spell])
+            (item [Charge:
+            Move up to your speed in a straight line towards an enemy and make a melee attack against an enemy.
+            Immediately end your turn after the attack.])
+            (item [Shove: Make an attack Toughness against Fortitude. On success, you push the target 5'.])
+            (item [Grapple: Make an unarmed attack against Reflex. On success, the target is grappled and you control the grapple.
+            While you grapple a target, you have the following options:
+              * Throw: Throw the target to the ground
+              * Move: Move up to your speed and pull the target behind you.
+              ])
+            (item [Use an Item])
+            (item [Assist: An adjacent ally gains advantage on one roll until the start of your next turn.])
+            (item [Attempt to `stabilize` a dying creature. Roll Heal against 10.])
+            (item [Take a second move action])
+            (item [Administer a potion to someone else]))
 ])
 ,(subsection : title [Move Actions][
-,(index "Move")
-,(itemize (item [Move your speed])
-          (item [Shift 5: Move carefully accross the battlefield and don't trigger attacks of opportunity])
-          (item [Stand up])
-          (item [Crawl: Move while prone, you are slowed while crawling])
-          (item [Squeeze: Move through a space you normmally wouldn't fit through. You are slowd while squeezing])
-          (item [Run: move your speed +10'. enemies roll all attacks against you with advantage until the start of your next turn.])
-          (item [Take a minor action instead])
-          (item [Drink a potion]))
+  ,(index "Move")
+  ,(itemize (item [Move your speed])
+            (item [Shift 5: Move carefully accross the battlefield and don't trigger attacks of opportunity])
+            (item [Stand up])
+            (item [Crawl: Move while prone, you are slowed while crawling])
+            (item [Squeeze: Move through a space you normmally wouldn't fit through. You are slowd while squeezing])
+            (item [Run: move your speed +10'. enemies roll all attacks against you with advantage until the start of your next turn.])
+            (item [Take a minor action instead])
+            (item [Drink a potion]))
 
-Movement through `difficult terrain` requires the character to spend two feet of speed to move one foot of distance.
-This means that shifting out of combat is usually not possible in difficult terrain.
+  Movement through `difficult terrain` requires the character to spend two feet of speed to move one foot of distance.
+  This means that shifting out of combat is usually not possible in difficult terrain.
 ])
-,(subsection : title [Quick Actions][
-,(index "Quick Action")
-,(itemize (item [Draw and ready a single item you have on you.]))
+  ,(subsection : title [Quick Actions][
+  ,(index "Quick Action")
+  ,(itemize (item [Draw and ready a single item you have on you.]))
 ])
 ,(subsection : title [Free Actions][
-You can take as many free actions as you like.
-,(itemize (item [Speak a few words])
-          (item [Drop prone])
-          (item [Drop an item you hold in your hands]))
+  You can take as many free actions as you like.
+  ,(itemize (item [Speak a few words])
+            (item [Drop prone])
+            (item [Drop an item you hold in your hands]))
 ])
 ,(subsection : title [Reactions][
-,(index "Reaction")
-,(itemize (item [Opportunity Attack:
-  If target moves out of an area within an enemies melee reach, that enemy can make a melee Attack against the target.
-  Resolve the Opportunity attack before the enemy finishes their movement.
+  ,(index "Reaction")
+  ,(itemize (item [Opportunity Attack:
+    If target moves out of an area within an enemies melee reach, that enemy can make a melee Attack against the target.
+    Resolve the Opportunity attack before the enemy finishes their movement.
 
-  If a target makes a ranged attack, casts a ranged spell or performs any other action, which leaves them particularly vulnerable,
-  adjcacent enemies can make an opportunity attack just if they moved.]))
+    If a target makes a ranged attack, casts a ranged spell or performs any other action, which leaves them particularly vulnerable,
+    adjcacent enemies can make an opportunity attack just if they moved.]))
 ])
 ])
 
@@ -186,44 +180,69 @@ The different types of damage are:
 ])
 
 ,(section :title [Conditions][
-,(index "Condition")
-,(subsection :title [Prone][
-  ,(index "Prone")
-  Standing up requires a move action.
-  Attacks from adjacaent enemies are rolled with advantage.
-  Ranged attacks from further away are rolled with disadvantage.
+  ,(index "Condition")
+  ,(subsection :title [Prone][
+    ,(index "Prone")
+    Standing up requires a move action.
+    Attacks from adjacaent enemies are rolled with advantage.
+    Ranged attacks from further away are rolled with disadvantage.
+  ])
+  ,(subsection :title [Slowed][
+    ,(index "Slowed")
+    A slowed creature can only move half their usual speed.
+  ])
+  ,(subsection :title [Immobilized][
+    ,(index "Immobilized")
+    An immobilized creature has a speed of zero.
+  ])
+  ,(subsection :title [Terrified][
+    ,(index "Terrified")
+    You make all attribute rolls (skill, attacks, initiative, etc) with disadvantage.
+  ])
+  ,(subsection :title [Dazed][
+    ,(index "Dazed")
+    A dazed creature can only take one action per round.
+  ])
+  ,(subsection :title [Stunned][
+    ,(index "Stunned")
+    A hero or monster who is stunned, cannot take any actions until the condition ends.
+  ])
+  ,(subsection :title [Bloodied][
+    ,(index "Bloodied")
+    A hero or monster is bloodied if their hitpoints fall to one half of their starting hit points or lower.
+  ])
 ])
-,(subsection :title [Slowed][
-  ,(index "Slowed")
-  A slowed creature can only move half their usual speed.
-])
-,(subsection :title [Immobilized][
-  ,(index "Immobilized")
-  An immobilized creature has a speed of zero.
-])
-,(subsection :title [Terrified][
-  ,(index "Terrified")
-  You make all attribute rolls (skill, attacks, initiative, etc) with disadvantage.
-])
-,(subsection :title [Dazed][
-  ,(index "Dazed")
-  A dazed creature can only take one action per round.
-])
-,(subsection :title [Stunned][
-  ,(index "Stunned")
-  A hero or monster who is stunned, cannot take any actions until the condition ends.
-])
-,(subsection :title [Bloodied][
-  ,(index "Bloodied")
-  A hero or monster is bloodied if their hitpoints fall to one half of their starting hit points or lower.
+,(section :title [Attributes][
+  ,(index "Attributes")
+  Heroes have three attributes:
+  ,(itemize (item [Toughness])
+            (item [Agility])
+            (item [Mind]))
 ])
 
-,(section :title [Attributes][
-,(index "Attributes")
-Heroes have three attributes:
-,(itemize (item [Toughness])
-          (item [Agility])
-          (item [Mind]))
+
+,(section :title [Hero Levels][
+
+Heroes rise in levels in Aaargh where each level makes the Hero more powerful.
+A Hero rises through 21 levels which are divided into three tiers.
+
+Each time your Hero rises a level they gain:
+,(itemize 
+  (item [One Rank in a discipline of your choice])
+  (item [Additional HP according to your class])
+  (item [Choose one from the following list of advances. Each Only once per Tier
+    ,(itemize 
+      (item [Talent])
+      (item [Talent]) 
+      (item [Proficiency Bonus +1])
+      (item [Attribute +1])
+      (item [Attribute +1])
+      (item [Discover Secret of a Legendary Item])
+      (item [Discover Secret of a Legendary Item]))]))
+    
+,(subsection :title [Comment][
+  There are six levels to spend these advances on.
+  With seven advances, players have to decide which one to skip.
 ])
 ])
 ])

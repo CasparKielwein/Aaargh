@@ -16,7 +16,7 @@ Each time your Hero rises a level they gain:
     * Discover Secret of a Legendary Item
     
 ### Comment
-There are six leves to spend these advances on.
+There are six levels to spend these advances on.
 With seven advances, players have to decide which one to skip.
 
 | Level | Disciplines        | Ranks | Advances         |

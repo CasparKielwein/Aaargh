@@ -16,6 +16,7 @@
     (include "Mechanics.scm")
     (include "Aaargh.scm")
     (include "Ancestries.scm")
+    (include "Backgrounds.scm")
     (include "Classes.scm")
     (include "Skills.scm")
     (include "Talents.scm")
