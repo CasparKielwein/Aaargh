@@ -120,7 +120,7 @@ In particular this means you cannot make your attack in the middle of a move wit
             (item [Take a minor action instead])
             (item [Drink a potion]))
 
-  Movement through `difficult terrain` requires the character to spend two feet of speed to move one foot of distance.
+  Movement through ,(bold "Difficult Terrain") requires the character to spend two feet of speed to move one foot of distance.
   This means that shifting out of combat is usually not possible in difficult terrain.
 ])
   ,(subsection : title [Quick Actions][
