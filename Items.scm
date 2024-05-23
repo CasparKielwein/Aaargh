@@ -9,6 +9,17 @@
     Thus, it is a choice between different utilities and secondary effects and defense.
 ])
 
+,(section :title [Item Rules][
+You can carry two large items.
+One Large item in your hands and One on your body / back.
+
+You can choose to carry one additional large item.
+If do you are ,(bold "encumbered").
+While encombered you loose one point of ,(bold "Endurance") at the start off all challanges and combat encounters.
+
+You can carry five small items in pouches where you can quickly reach them.
+])
+
 ,(section :title [Weapon Properties][
     ,(itemize (item [Versatile: The weapon can be used one-handed or two-handed. If used two-handed the damage die increases by one type.])
               (item [Reach: The weapon can be used to attack enemies up to 10ft away.])
@@ -17,6 +28,7 @@
               (item [Sharp(x): When rolling the weapon’s damage results in a roll lower than the sharp value of the weapon for any die, the damage of that roll is considered the sharp value of the weapon instead.])
               (item [Load: After making an attack with the weapon, the user needs to spend an action to reload the weapon, before they can attack with it again.])
               (item [Light: Melee Attacks with this Weapon can be made with *Dexterity* or *Toughness*.])
+              (item [Large: You can carry two large itmes without being encumbered])
     )
 ])
 
@@ -27,25 +39,25 @@
     (tr (th "Name") (th "Type") (th "Damage") (th "Properties"))
     (tr (td "Unarmed") (td "") (td "1d4") (td "Light"))
     (tr (td "Improvised") (td "") (td "1d6") (td ""))
-    (tr (td "Large Improvised") (td "") (td "1d8") (td "2H "))
+    (tr (td "Large Improvised") (td "") (td "1d8") (td "2H, Large"))
     (tr (td "Spear") (td "Polearm") (td "1d6") (td "Light, Versatile, Thrown"))
-    (tr (td "Quarterstaff") (td "Polearm") (td "1d6") (td "2H, Light"))
+    (tr (td "Quarterstaff") (td "Polearm") (td "1d6") (td "2H, Light, Large"))
     (tr (td "Club") (td "Hammer") (td "1d6") (td "Light"))
     (tr (td "Hatchet") (td "Axe") (td "1d6") (td "Light"))
-    (tr (td "Dagger") (td "Blade") (td "1d4") (td "thrown Light"))
+    (tr (td "Dagger") (td "Blade") (td "1d4") (td "Thrown Light"))
     (tr (td "Shortsword") (td "Blade") (td "1d6") (td "Light"))
     (tr (td "Warhammer") (td "Hammer") (td "1d8") (td "Versatile, Sharp 3"))
     (tr (td "Longsword") (td "Blade") (td "1d8") (td "Versatile"))
     (tr (td "Battleaxe") (td "Axe") (td "1d8") (td "Versatile, Devastating"))
     (tr (td "Kopesh") (td "Blade, Axe") (td "1d8") (td ""))
-    (tr (td "Glaive") (td "Polearm") (td "1d8") (td "2H, Reach"))
-    (tr (td "Halbert") (td "Polearm") (td "1d8") (td "2H, Reach"))
-    (tr (td "Longspear") (td "Polearm") (td "1d8") (td "2H, Reach"))
-    (tr (td "Greatsword") (td "Blade") (td "1d12") (td "2H"))
-    (tr (td "Greataxe") (td "Axe") (td "1d12") (td "2H, Devastating"))
-    (tr (td "Warhammer") (td "Hammer") (td "1d12") (td "2H, Shartp 5"))
-    (tr (td "Falchion") (td "Blade, Axe") (td "1d10") (td "2H"))
-    (tr (td "Shield") (td "") (td "1d4") (td "+2 AC"))
+    (tr (td "Glaive") (td "Polearm") (td "1d8") (td "2H, Reach, Large"))
+    (tr (td "Halbert") (td "Polearm") (td "1d8") (td "2H, Reach, Large"))
+    (tr (td "Longspear") (td "Polearm") (td "1d8") (td "2H, Reach, Large"))
+    (tr (td "Greatsword") (td "Blade") (td "1d12") (td "2H, Large"))
+    (tr (td "Greataxe") (td "Axe") (td "1d12") (td "2H, Devastating, Large"))
+    (tr (td "Warhammer") (td "Hammer") (td "1d12") (td "2H, Shartp 5, Large"))
+    (tr (td "Falchion") (td "Blade, Axe") (td "1d10") (td "2H, Large"))
+    (tr (td "Shield") (td "") (td "1d4") (td "+2 AC, Large"))
 )
 
 ])
@@ -57,8 +69,8 @@
     (tr (td "Hunting Bow") (td "Bow") (td "1d6") (td "2H, Light"))
     (tr (td "Sling") (td "Bow") (td "1d4") (td "2H, Light"))
     (tr (td "Light Crossbow") (td "Bow") (td "1d8") (td "2H, Load (quick), Light"))
-    (tr (td "Warbow") (td "Bow") (td "1d10") (td "2H"))
-    (tr (td "Heavy Crossbowf") (td "Bow") (td "1d12") (td "2H, load (move)"))
+    (tr (td "Warbow") (td "Bow") (td "1d10") (td "2H, Large"))
+    (tr (td "Heavy Crossbowf") (td "Bow") (td "1d12") (td "2H, load (move), Large"))
     (tr (td "Spear") (td "Polearm") (td "1d6") (td "Light, Versatile, Thrown"))
     (tr (td "Dagger") (td "Blade") (td "1d4") (td "Thrown Light"))
     (tr (td "Throwing Axe") (td "Axe") (td "1d6") (td "Thrown"))
@@ -73,14 +85,14 @@
     (tr (td "Reinforced Robes") (td "12") (td "Will +2"))
     (tr (td "Feral Hides") (td "13") (td "Fort +2") (td "1"))
     (tr (td "Mail Armor") (td "15") (td "") (td "1") (td "1") (td "Stealth"))
-    (tr (td "Lamellar Armor") (td "16") (td "") (td "2") (td "-5'") (td "Stealth"))
+    (tr (td "Lamellar Armor") (td "16") (td "") (td "2") (td "-5'") (td "Stealth, Large"))
 )
 
 ,(table :border 1 :width 50.
     (tr :bg "#cccccc" (th :colspan 6 "Advanced and Magic Amor"))
     (tr (th "Name") (th "AC") (th "Secondary Def") (th "Min Toughness") (th "Speed Penalty") (th "Disadvantage"))
-    (tr (td "Full Plate") (td "18") (td "") (td "3") (td "-5'") (td "Stealth"))
-    (tr (td "Bone Armor") (td "16") (td "Fort +2") (td "3") (td "") (td "Stealth"))
+    (tr (td "Full Plate") (td "18") (td "") (td "3") (td "-5'") (td "Stealth, Large"))
+    (tr (td "Bone Armor") (td "16") (td "Fort +2") (td "3") (td "") (td "Stealth, Large"))
 )
 ])
 
@@ -99,17 +111,33 @@
 
 ,(subsection :title [Dungeoneering][
     ,(itemize (item [50' of Rope, strong enough to hold a person and their equipment.])
-              (item [Ten foot pole, a long pole of wood to poke around dangerous places])
+              (item [Ten foot pole, a long pole of wood to poke around dangerous places. ,(bold "Large")])
               (item [Torch, to fight the darkness underground, can be used as an Improvised weaponn])
               (item [Storm lantern, fancier than a torch, breaks easily])
+              (item [Quiver, store arrows and bolts in an easy to reach place])
     )
 ])
 
-,(subsection :title [Traveling][
-    ,(itemize (item [Tatami mat, to insulate a sleeping place against against wet and cold ground])
-              (item [Small tent, cramped when two people sleep in it])
+,(subsection :title [Traveling and Survival][
+    ,(itemize (item [Sleeping mat, to insulate a sleeping place against against wet and cold ground])
+              (item [Small tent, cramped when two people sleep in it. ,(bold "Large")])
               (item [Flint and Steel, to start campfires])
               (item [Rations: Jerky and other dried food. feeds a person for a few days.])
+              (item [Large Backpack stores 10 items but they are hard to reach. ,(bold "Large")])
+              (item [Small backpack, stores another 5 items but they are hard to reach])
+              (item [A larget pot to cook decent meals for six people. ,(bold "Large")])
+              (item [A small cooking set])
+              (item [Thick fur coats to protect against extreme cold. ,(bold "Large")])
+              (item [A leather coat and a wide brimmed hat])
+    )
+])
+
+,(subsection :title [Tools][
+    ,(itemize (item [Metalworking Tools. ,(bold "Large")])
+              (item [Portable Alchemy Laboratory. ,(bold "Large")])
+              (item [Dungeoneering Tools: Hammer, small Pickaxe, Crowbar. ,(bold "Large")])
+              (item [Thieves tools])
+              (item [Healers kit])
     )
 ])
 ])
@@ -179,7 +207,7 @@
         You start each encounter with one additional Power-Point
     ])
     ,(subsubsection :title [Conduit Armor][
-    You gain resistance to lightning damage.
+        You gain resistance to lightning damage.
         Whenever you take lightning damage, you deal half of that damage to each creature adjacent to you.
     ])
     ,(subsubsection :title [Hammer of the Thundergod][
@@ -209,7 +237,7 @@
 
         You protect the banner and it is your duty to hold the Banner up high and never let it touch the dirt.
 
-        While you do so `fear` based attacks against you and every ally who can see the banner are rolled with disadvantage.
+        While you do so ,(bold "fear") based attacks against you and every ally who can see the banner are rolled with disadvantage.
     ])
 ])
 ])
