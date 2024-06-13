@@ -23,7 +23,7 @@ __Skill Proficiency:__ Choose two skills from the following: Religion, Athletics
 __Starting Hit Points:__ 8 + Tough  
 __Hit Points per Level:__ 4
 
-__Endurance:__ 6  
+__Endurance:__ 6
 __Power-Points:__ 3
 
 ## Equipment

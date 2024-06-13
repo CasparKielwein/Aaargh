@@ -57,7 +57,7 @@ Every Sorcerer obtained their magical powers through a different source, from an
 
     ,(disipline-rank 3 "Lightning Bolt"
         "-" "-" "-" 
-        "TODO modifies Bolt")
+        "Bolt can deal Lightning Damage")
 
     ,(disipline-rank 3 "Fire Bolt"
         "-" "-" "-" 
@@ -104,6 +104,10 @@ Every Sorcerer obtained their magical powers through a different source, from an
             "1 PP" "Full Action" "Ranged Spell 50'" 
             "Choose an effect within range which can be reasonably considered a magical effect. The Effect immmediately ends.")
             
+    ,(disipline-rank 1 "Increase Damage"
+            "+1" "Free Action" "-"
+            "Before rolling on a spell which deals damage you can spend 1 Power-Point to increase the damage dealt to all targets by one die.")
+
     ,(disipline-rank 2 "Duplicate"
             "+1 PP" "-" "Self" 
             "When you cast any spell which affects a single target.

@@ -74,6 +74,10 @@ Four powers are fueled by your face and unbreakable conviction.
         ,(disipline-rank 1 "Smite"
                 "2 PP" "Free Action" "Self" 
                 "When you hit an enemy with an attack. The attack deals 2d6 additional Damage")
+        ,(disipline-rank 2 "Fiery Smite"
+            "-" "-" "-"
+            "You can choose to make your Smite deal fire damage")
+
     ])
     ,(subsubsection :title [Healing Word][
         ,(disipline-rank 1 "Healing Word"

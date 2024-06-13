@@ -3,6 +3,26 @@
 Heroes rise in levels in Aaargh where each level makes the Hero more powerful.
 A Hero rises through 21 levels which are divided into three tiers.
 
+The first tier is `Adventurer` with levels one to seven.
+Heroes do not have a lot of hit points and mundane threats are dangerous.
+Non magical abilities are still in generally human / natural range.
+The Heroes fight against local threats.
+In particular the first three or four levels have a fairly "old-school" feel.
+Ressources are scarce and even a few unlucky hits from a goblin can send a hero down.
+
+The second tier is `Niholim` with levels eight to 14.
+Niholim tier heroes chose a `Niholim` path with gives acces to a passive abilities and a discipline.
+Abilities of this tier are often distrinctly supernatural.
+Even heroes without magical abilities are clearly above human levels and are often able to shrug of even heavy injuries.
+The Heroes fight against foes threatening whole nations.
+
+The third tier is `Titan` with levels above 14.
+In this tier the heroes have largely transcended mortal enemies and fight against potentially world ening threats.
+
+### Comment
+The purpose of the leveling system is to support the narration of the Hero getting more powerful by struggling through adversity.
+Hit Points increase each level as few things support a power fantasy as easily as watching numbers going up.
+
 Each time your Hero rises a level they gain:
 * One Rank in a discipline of your choice
 * Additional HP according to your class

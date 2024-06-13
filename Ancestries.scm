@@ -107,7 +107,7 @@ Quirks
 
     ,(disipline-rank 2 "Trampling Charge"
         "2 PP" "Full Action" "Melee" 
-        "1Make A charge and use your horns as weapons.
+        "Make A charge and use your horns as weapons.
         Deal Tough Damage to each enemies you move adjacent to during the charge")
 
     ,(disipline-rank 3 "Piercing Charge"

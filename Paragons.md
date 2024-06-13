@@ -15,26 +15,9 @@ TODO: Optimized dagger rogue, ranged and melee attacks
 ### Trait:
 ### Discipline:
 
-## Trickster
-TODO: Utility rogue
-### Prerequisite: Rogue
-### Trait:
-### Discipline:
-
-## Poisoner
-### Prerequisite: Rogue
-### Trait:
-### Discipline:
-
-## Assassin
-TODO: Maximize Sneak Attack Damage
-### Prerequisite: Rogue
-### Trait:
-### Discipline:
-
-## Master Infiltrator
-TODO: maximum Sneakiness
-### Prerequisite: Rogue
+## Swashbuckler
+Fencing, Mobility and Tricks
+### Prerequisite: 
 ### Trait:
 ### Discipline:
 
@@ -71,45 +54,15 @@ Combat Action
 Make a melee attack.
 You gain *Toughness* temporary hit points.
 
-
 ## Knight Protector
 TODO: Protector with heavy armor and shield
 ### Prerequisite: Fighter or Godsworn
 ### Trait:
 ### Discipline:
 
-## Justiciar
-TODO: Punishing Paladin
-### Prerequisite: Godsworn
-### Trait:
-### Discipline:
-
-## Hospitaler
-TODO: Healing Cleric / Paladin
-### Prerequisite: Godsworn
-### Trait:
-### Discipline:
-
 ## Angelic Avenger
 TODO: Damage and flying
 ### Prerequisite: Godsworn
-### Trait:
-### Discipline:
-
-## Sniper
-TODO: Single Target high damage ranged
-### Trait:
-### Discipline: Mark of Death
-
-## Stinging Swarm Archer
-### Trait:
-### Discipline: Hail of Arrows
-#### Rank 1: Hail of Arrows
-Chose a circle with radius of 5'. Make a ranged attack against each enemy in the circle.
-
-## Pathfinder
-TODO: Weapon based, buff movement for you and allies
-### Prerequisite: Druid
 ### Trait:
 ### Discipline:
 
@@ -133,11 +86,6 @@ you can reduce the distance moved by up to by 5 times your Toughness feet.
 ### Discipline: Sorcerers Pledge
 You can see the doom of any individual when you concentrate on them and see through them into the void between the starts.
 When you speak their doom to someone, they will recognize the truth in what you say and despair
-
-## Battlemage
-### Prerequisite: Sorcerer
-### Trait:
-### Discipline:
 
 ## Living Flame
 TODO Fire Wizard

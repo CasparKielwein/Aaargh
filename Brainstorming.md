@@ -272,7 +272,7 @@ This is less of an issue in games where higher level spells with such effects ca
 
 These guidelines are never hundred percent.
 
-### The players are the hoeries of the Story
+### The players are the heroes of the Story
 Put the player Characters in the centre of your stories.
 Where more powerful Non-player-characers appear they should stay at the sidelines and not interfere much with the heroes.
 In particular avoid having powerful NPCs solve core elements of the plot.
@@ -291,3 +291,5 @@ Examples
 * A dragon or other flying beast flies over them in the distance
 
 ### Be Careful with Ambushes
+In an ambush, the attacker has a great advantage.
+If monsters ambush the SCs, an otherwise well balanced encounter can quickly turn into a total party kill.

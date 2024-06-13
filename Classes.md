@@ -172,11 +172,19 @@ You mark every Enemy within 25'
 ### Ground Slam
 You hit the ground in front of you with a powerful slam.
 
-### Lvl 1: Ground Slam
+#### Lvl 1: Ground Slam
 Combat Action  
 1 Power-Point
 
 The ground in a circle with diameter of 10' around you becomes difficult terrain.
 
-### Lvl 2: Powerful Slam
+#### Lvl 2: Powerful Slam
 The area of your Ground Slam increases to a diameter of 20'.
+
+### Dash
+#### Lvl 1: Dash
+Quick Action
+Move 10' in a straight line
+
+#### Lvl 5: Phase Shift
+WHen you dash, you can move through enemies and blocking terrain.
