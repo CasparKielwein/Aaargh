@@ -33,7 +33,7 @@ You can choose between the Beast Form and the Natures Companion Disciplines.
 Many druids have learned to morph their form to an avatar of natures might.
 
 #### Lvl 1:
-* Minor Action, shift to chosen Beast Form
+* Quick Action, shift to chosen Beast Form
 * Unless specified otherwise all stats remain unchanged while you are in beast form.
 * You cannot use any of your equipment.
   This includes your spellcasting focus.
@@ -109,7 +109,7 @@ TODO: Power Source, some interaction with HP
 ### Master of the Wind
 #### Lvl 1: Healing Winds of Spring
 Cost: 1 Power-Point  
-Minor Action  
+Quick Action  
 Targets all allies in a cirle with 5' radius
 Each ally in the target regains 1d6 +Mind Hit points
 
@@ -133,7 +133,7 @@ Pounce causes additional an 1d8 damage.
 Cost: 2 Power-Points  
 Consumes all actions of your turn.
 Make one ranged or melee atack per Action against enemies in range.
-If you use all your actions - full action, move action, minor action - you can make three atacks.
+If you use all your actions - full action, move action, Quick action - you can make three atacks.
 You must decide the targets of your attack before you roll.
 
 #### Lvl 2: Triumphant Roar
@@ -143,6 +143,6 @@ After the attacks are resolved you mark each enemy in 30'.
 ### Woodland Strider
 ### Lvl 1: Woodland Strider
 Cost: 1 Power-Point  
-Minor Action  
+Quick Action  
 The effect lasts until you complete a short rest.  
 You and allies within 25' ignore the effect of difficult terrain.

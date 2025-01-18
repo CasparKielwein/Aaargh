@@ -34,7 +34,7 @@ When you enter the rage you gain one Power-Point.
 
 ### Dwarven Resilience
 Cost: 1 Power-Point  
-Minor Action  
+Quick Action  
 Yyou can choose to spend one point of *Endurance* to regain hit points.
 
 Lvl 2: Dwarven Resilience
@@ -60,7 +60,7 @@ When you hit an enemy with your reaping strike you can push them 5'.
 * Heavy Weapon Master
 When wielding a two-handed melee weapon:
 After you roll a critical hit on an attack or reduce an enemy to 0 HP with an attack,
-you can use your Minor Action to make another attack.
+you can use your Quick Action to make another attack.
 
 ### Attributes:
 __Toughness:__ 4
@@ -285,7 +285,7 @@ If at the start of your turn, you are adjacent to three or more enemies, you gai
 * Lvl 1: Smite
 * Lvl 2: Bless - Protective Prayer
 * Lvl 1: Healing Word
-* Lvl 1: Divine Challange
+* Lvl 1: Divine Challenge
 
 ### Human Ambition
 The hero may spend a *Power-Point* on their turn to gain an additional Combat Action.
@@ -297,13 +297,13 @@ Free Action
 When you hit an enemy with an attack. Spend 2 power-points; The attack deals 2D6 additional Damage.
 
 ### Healing Word
-Minor Action   
+Quick Action   
 Yourself or one Ally within 25'  
 1 Power-Point
 The target spends a point of Endurance and regains HP accordingly.
 
 ### Bless
-Minor Action
+Quick Action
 Yourself or one Ally within 25'
 1 Power-Point
 The target has advantage on a Roll of their choice until the end of your next turn.
@@ -312,7 +312,7 @@ The target has advantage on a Roll of their choice until the end of your next tu
 "1 PP" "Quick Action" "Allies within 25'"
 "Chose a secondary defense, all attacks against that defense are rolled with disadvantage until the end of your next turn")
 
-### Divine Challange
+### Divine Challenge
 "0 PP" "Quick Action" "Range 50'"
 "You mark the target until the end of your next turn. If the target makes an attack which does not include, it takes damage equal to your Mind + 3.")
 
@@ -343,7 +343,7 @@ __Attacks:__ Longsword +6 1d8 + 3
 
 ### Advances
 Lvl 2: Mind +1          HP +6   Protective Prayer
-Lvl 3: Proficiency +1   HP +6   Divine Challange
+Lvl 3: Proficiency +1   HP +6   Divine Challenge
 
 ## Elven Druid
 ### Ancestry: Elf
@@ -377,7 +377,7 @@ When you start a fight with no ally within 10` you gain a Power-Point.
 
 #### Beast form
 Many druids have learned to morph their form to an avatar of natures might.
-* Minor Action, shift to chosen Beast Form
+* Quick Action, shift to chosen Beast Form
 
 *Form of the Hunter*
 * Attack: Dex, Melee, 1d8 damage
@@ -488,7 +488,7 @@ You do not gain a free discipline rank.
 
 #### Healing Word
 ##### Rank 1: Healing Word
-Minor Action  
+Quick Action  
 Yourself or one Ally within 25'  
 1 Power-Point
 The target spends a point of Endurance and regains HP accordingly.
@@ -501,11 +501,11 @@ to force the DM to reroll the attack against you.
 ### Disarming Presence (Charm)
 #### Rank 1:
 Cost: None  
-Use your Minor Action to choose a target you can see and who can see you. 
+Use your Quick Action to choose a target you can see and who can see you. 
 Roll a *Charm* check against will defense of target.
 If you succeed te target has disadvantage on all attacks against you until the end of your next turn.
 If you have marked the target, the mark is removed. If you mark a target effected by *Disarming Presence*, the disarming presence is lost immediately.
-On your turn you can spend your Minor Action to extend the duration of the effect until the end of the next turn.
+On your turn you can spend your Quick Action to extend the duration of the effect until the end of the next turn.
 You do not need to roll again.
 
 #### Lvl 1: Leap
@@ -632,7 +632,7 @@ If at the start of your turn, you are adjacent to three or more enemies, you gai
 * Lvl 2: Horms - Trampling Charge
 * Lvl 2: Smite - Fiery Smite
 * Lvl 1: Leap
-* Lvl 1: Divine Challange
+* Lvl 1: Divine Challenge
 
 ### Horns
 "Gorge"
@@ -659,7 +659,7 @@ Free Action
 For the next thirty minutes the distance and height you clear when you jump is multiplied by 5.
 You still cannot jump a longer distance than your speed.
 
-### Divine Challange
+### Divine Challenge
 "0 PP" "Quick Action" "Range 50'"
 "You mark the target until the end of your next turn. If the target makes an attack which does not include, it takes damage equal to your Mind + 3.")
 

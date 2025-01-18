@@ -82,14 +82,14 @@ Fighters don't have to spend extra actions to maintain a mark, but they have to 
 
 ### Godsworn
 
-Divine Challange:  
+Divine Challenge:  
 Free Action: Mark an enemy within in 25'.
 If an enemy marked by your divine sanction makes an attack which does not include you as a target it takes X damage.
 
 ### Druid
 
-Primal Challange:
-Minor Action: You mark every enemy within 10''
+Primal Challenge:
+Quick Action: You mark every enemy within 10''
 
 ### Rogue
 
@@ -207,7 +207,7 @@ Devastating Crit
 Ranged Attacks which target you have disadvantage.
 
 #### Two-Weapons
-When you make an attack with one weapon you can make an attack with you second weapon as a Minor Action.
+When you make an attack with one weapon you can make an attack with you second weapon as a Quick Action.
 Monsters with multiple weapons will generally do one Attack per Weapon.
 This includes Claws, Teeth, Spiked Tails, etc.
 
@@ -262,7 +262,7 @@ This is less of an issue in games where higher level spells with such effects ca
 * The effect is very localized and can easily be avoided, like difficult terrain: No additional cost
 * Duration ~5min / one encounter, High Cost in Power-Points
 * Duration until extended Rest: high cost, weak effect
-* Sustain with an action: combat action, move, minor depending on strength of effect.
+* Sustain with an action: combat action, move, Quick, depending on strength of effect.
 * Pay Power-Points each round, 5min / encounter to sustain effect.
 * Take damage each round, 5min / encounter to sustain effect.
 * Suffer Malus while effect is active

@@ -30,7 +30,7 @@ TODO: Find a nice visual representation of the skill tree
 TODO: Find a good representation of when a Maneuver supports an existing power or introduces a new one.
 
 ## Actions
-On their turn a character can perform a *Combat Action*, a *Move Action* and a *Minor Action**
+On their turn a character can perform a *Combat Action*, a *Move Action* and a *Quick Action**
 Each character can also perform one *Reaction* per round.
 
 ## Attacks and Defenses
@@ -83,7 +83,7 @@ Players can also roll knowledge checks to see if their heroes have additional kn
 
 A combat encounter is separated into rounds. Each round is again split into turns, with one turn per combatant.
 
-Each combatant has the same set of actions available per round: One *Action*, one *Move*, and one *Minor*.
+Each combatant has the same set of actions available per round: One *Action*, one *Move*, and one *Quick*.
 
 You can take actions in arbitrary order but each action has to be completed before you can start the next one.
 In particular this means you cannot make your attack in the middle of a move without special abilities.
@@ -111,14 +111,14 @@ While you grapple a target, you have the following options:
 * Crawl: Move while prone, you are slowed while crawling
 * Squeeze: Move through a space you normmally wouldn't fit through; you are slowd while squeezing
 * Run: move your speed +10'; enemies roll all attacks against you with advantage until the start of your next turn.
-* Take a minor action instead
+* Take a Quick action instead
 * Drink a potion
 
 Movement through `difficult terrain` requires the character to spend two feet of speed to move one foot of distance.
 This means that shifting out of combat is usually not possible in difficult terrain.
 
 
-### Minor Actions
+### Quick Actions
 * Draw and ready a single item you have on you.
 
 ### Free Actions

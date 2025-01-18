@@ -183,7 +183,7 @@ You can carry five small items in pouches where you can quickly reach them.
         While you wield the weapon of Surtur you gain the following Power:
 
         Releasing Surtur's Fire
-        Minor Action  
+        Quick Action
         Cost: 2 Power-Points
         When you speak a command word, the weapon of Surtur will burst in flames.
         All damage caused by attacks and spells using it is fire damage.
@@ -195,7 +195,7 @@ You can carry five small items in pouches where you can quickly reach them.
         While you wield the frost weapon you gain the following Power:
 
         Everfrost
-        Minor Action  
+        Quick Action
         Cost: 2 Power-Points
         When you speak a command word, the weapon will be covered in hoarfrost.
         All damage caused by attacks and spells using it is cold damage.
@@ -223,7 +223,7 @@ You can carry five small items in pouches where you can quickly reach them.
     ])
     ,(subsubsection :title [Spellslingers Wand][
         A well balanced Magic Wand  
-        You can cast spells which manifest as ranged attacks against a single target as a minor action instead of a full action.
+        You can cast spells which manifest as ranged attacks against a single target as a Quick action instead of a full action.
     ])
     ,(subsubsection :title [Berserker Armor][
         Barely any armor, mostly the hide of bears.

@@ -73,9 +73,9 @@ If you spend a move action to focus, the next action this round will cost one Po
 Choose the first rank in three starting disciplines.
 
 Fighter Disciplines are:
-1. Combat Challange  
+1. Combat Challenge  
    You are a defender of the weak, forcing enemies to face you in battle instead of your allies.
-   Choose Combat Challange if you want to be a protector and guardian.
+   Choose Combat Challenge if you want to be a protector and guardian.
 2. Brash Strike  
    Crush your enemies with a mighty blow
    Choose Brash Strike if you want to overwhelm your foes with pure force
@@ -87,7 +87,7 @@ Fighter Disciplines are:
 5. Sure Strike  
    A precise attack displaying your superior fighting skills.
 
-### Combat Challange
+### Combat Challenge
 Every time you attack an enemy, you can choose to mark that target. The mark 
 lasts until the end of your next turn.
 

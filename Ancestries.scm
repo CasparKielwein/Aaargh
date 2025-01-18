@@ -22,13 +22,16 @@ Quirks:
 ,(subsection :title [Discipline: Dwarven Resilience][
     ,(disipline-rank 1 "Dwarven Resilience"
         "1 PP" "Quick Action" "Self" 
-        "On your turn: As a `Minnor Action` you can choose to spend one point of *Endurance* to regain hit points.")
-    ,(disipline-rank 2 "Dwarven Resilience"
+        "On your turn: As a `Quick Action` you can choose to spend one point of *Endurance* to regain hit points.")
+    ,(disipline-rank 2 "Dwarven Resistance"
             "-" "-" "-" 
             "When you use your Dwarven Resilience, you gain *Damage Resistance* until the end of your next turn.")
-    ,(disipline-rank 2 "Dwarven Resilience"
+    ,(disipline-rank 2 "Recover"
             "-" "-" "-" 
             "When you use your Dwarven Resilience, you can save against all conditions you currently suffer.")
+    ,(disipline-rank 3 "Recover"
+            "-" "-" "-"
+            "When you regain hit points through your Dwarven Resilience you gain your Toughness additional hit points.")
 ])])
 
 (section :title [Draken][
@@ -38,11 +41,11 @@ Dragonborn, Half-Dragons, The ancient rulers of the skies.
 
 Quirks
 ,(enumerate (item [Multiple Tails: Unlike most Draken who have a single tail, this one has two or even three tails.])
-(item [Bioluminescent Eyes: This Draken's eyes glow with a faint bioluminescence.])
-(item [Horned Crest: Instead of a smooth, scaled head, this Draken has a prominent crest of horns.])
-(item [Vibrant Scales: Their scales are brighter and more colorful than most other Draken.])
-(item [Metallic Scales: This Draken's scales have a metallic sheen, making them almost look like they're made of precious metals.])
-(item [Back Ridge: A spiny ridge on your back]))
+            (item [Bioluminescent Eyes: This Draken's eyes glow with a faint bioluminescence.])
+            (item [Horned Crest: Instead of a smooth, scaled head, this Draken has a prominent crest of horns.])
+            (item [Vibrant Scales: Your scales are brighter and more colorful than most other Draken.])
+            (item [Metallic Scales: This Draken's scales have a metallic sheen, making them almost look like they're made of precious metals.])
+            (item [Back Ridge: A spiny ridge on your back]))
 
 ,(subsection :title [Traits][
     ,(itemize (item [Speed: 30'])
@@ -59,23 +62,23 @@ Quirks
         "1 PP" "Quick Action" "Cone of 15' length, 45° wide" 
         "Attack roll with +Tough. 1d6 + Tough <element> damage")
     ,(disipline-rank 2 "Wide Breath"
-            "-" "-" "-" 
-            "Dragonbreath becomes a close blast 5")
+        "-" "-" "-"
+        "Dragonbreath becomes a close blast 5")
     ,(disipline-rank 2 "Focused Breath"
-            "-" "-" "-" 
-            "Dragonbreath becomes ranged 10. Damage becomes d10")
+        "-" "-" "-"
+        "Dragonbreath becomes ranged 10. Damage becomes d10")
     ,(disipline-rank 3 "Healing Breath"
         "1 PP" "Quick Action" "Self" 
         "Allies in blast heal (how much?)")
     ,(disipline-rank 3 "Explosive Breath"
-            "+1 PP" "-" "-" 
-            "Dragonbreath becomes range burst 1. Requires focused breath")
+        "+1 PP" "-" "-"
+        "Dragonbreath becomes range burst 1. Requires focused breath")
     ,(disipline-rank 4 "Powerful Breath"
-            "-" "-" "-" 
-            "Add one die to the damage dealt by Dragonbreath")
+        "-" "-" "-"
+        "Add one die to the damage dealt by Dragonbreath")
     ,(disipline-rank 4 "Burning Breath"
-            "-" "-" "-" 
-            "Targets hit by Dragonbreath suffer 10 Ongoing Damage of the chosen elemental type.")
+        "-" "-" "-"
+        "Targets hit by Dragonbreath suffer 10 Ongoing Damage of the chosen elemental type.")
 ])
 ])
 (section :title [Minotaur][
@@ -144,7 +147,11 @@ Quirks
         
     ,(disipline-rank 1 "Ambition"
         "1 PP" "Free Action" "Self" 
-        "You may spend a *Power-Point* on their turn to gain an additional Combat Action. This ability may only be used once per turn.")
+        "You may spend a *Power-Point* on your turn to gain an additional Combat Action. This ability may only be used once per turn.")
+<
+    ,(disipline-rank 2 "Sidestep"
+        "-" "-" "-"
+        "Before you take the additional action you can shift 5'")
 ])
 ])
 (section :title [Elves][
@@ -157,7 +164,7 @@ Quirks
             (item [A tendency to sway or dance to music only you can hear or even to the rhythm of the wind in the trees.])
             (item [Your eyes are just black orbs])
             (item [A delicate, almost imperceptible shimmer to your skin that makes you seem like you are always surrounded by a faint aura of magic.])
-            (item [A natural, floral scent that emanates from their skin and hair.]))
+            (item [A natural, floral scent that emanates from your skin and hair.]))
 
 ,(subsection :title [Traits][
     ,(itemize (item [Speed: 30'])
@@ -165,10 +172,16 @@ Quirks
             (item [Skills: Arcane, Charm, or Nature]))
 ])
 
-,(subsection :title [Accuracy][
+,(subsection :title [Elven Accuracy][
     ,(disipline-rank 1 "Accuracy"
         "1 PP" "Free Action" "Self" 
         "After making a attack roll, you can spend a Power-Point to reroll a single die or both dice when rolling with advantage or disadvantage.")
+    ,(disipline-rank 2 "Fade Back"
+        "-" "-" "-"
+        "After you resolved your reroll and all effects you can move 10' as a free action")
+    ,(disipline-rank 3 "Eagle Eyes"
+        "-" "-" "-"
+        "If the initial roll was made with disadvantage your reroll is rolled with one die instead.")
 ])
 ])
 (section :title [Halfling][
@@ -191,8 +204,14 @@ Quirks
 
 ,(subsection :title [Discipline: Halfling Luck][
     ,(disipline-rank 1 "Luck"
-            "1 PP" "Free Action" "Self" 
-            "After an enemy hits you with an attack, but before damage is rolled, you can spend a Power-Point to force the DM to reroll the attack against you.")
+        "1 PP" "Free Action" "Self"
+        "After an enemy hits you with an attack, but before damage is rolled, you can spend a Power-Point to force the DM to reroll the attack against you.")
+    ,(disipline-rank 2 "Lucky Dodge"
+        "-" "-" "-"
+        "After the reroll and potentiall effects of the attack are resolved you can shift 5' as a free action.")
+    ,(disipline-rank 3 "A boon to your Friends"
+        "2 PP" "Reaction" "Ally within 25'"
+        "After an enemy hits an ally with an attack, but before damage is rolled, you can force the DM to reroll the attack against the ally.")
 ])
 ])
 )

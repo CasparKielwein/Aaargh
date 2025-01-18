@@ -127,6 +127,9 @@ Druids sometimes meet in druidic circles. The members of a circle share an ideol
     ,(disipline-rank 3 "Freezing Winds of Winter"
         "-" "-" "-" 
         "TODO")
+    ,(disipline-rank 4 "Expand"
+        "+1 PP" "-" "-"
+        "You can choose to spend an additional Power-Point when casting a Wind Spell and increase the radius by 5'")
 ])
 ,(subsubsection :title [Pounce][
     ,(disipline-rank 1 "Pounce"
@@ -139,15 +142,25 @@ Druids sometimes meet in druidic circles. The members of a circle share an ideol
 ,(subsubsection :title [Burst of Savagery][
     ,(disipline-rank 1 "Burst of Savagery"
         "2 PP" "Consumes all actions of your turn." "Melee" 
-        "Make one ranged or melee atack per Action against enemies in range. If you use all your actions - full action, move action, minor action - you can make three atacks. You must decide the targets of your attack before you roll.")
+        "Make one ranged or melee atack per Action against enemies in range. If you use all your actions - full action, move action, Quick action - you can make three atacks. You must decide the targets of your attack before you roll.")
     ,(disipline-rank 2 "Triumphant Roar"
         "-" "-" "Enemies within 30'"
         "After the attacks are resolved you mark each enemy in 30'")
+    ,(disipline-rank 3 "Rip and Tear"
+        "-" "-" "-"
+        "You must attack with a natural attack or one handed weapon. Each Burst of Savagery attack deals an addtiona die of damage.")
+    ,(disipline-rank 4 "Until it is done"
+        "+X" "-" "-"
+        "You can keep spending Power-Points and keep making attacks, one Power-Point pro additional attack")
+
 ])
 ,(subsubsection :title [Woodland Strider][
     ,(disipline-rank 1 "Woodland Strider"
         "1 PP" "Quick Action" "Allies within 25'" 
         "The effect lasts until you complete a short rest. You and allies within 25' ignore the effect of difficult terrain.")
+    ,(disipline-rank 2 "The Tall Grass"
+        "" "" "Self"
+        "While you are under the effect of Woodland Strider you gain concealment while you are in difficult terrain.")
 ])
 ])
 ])

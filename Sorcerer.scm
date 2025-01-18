@@ -39,7 +39,16 @@ Every Sorcerer obtained their magical powers through a different source, from an
     ,(disipline-rank 1 "Warlocks Cure"
         "1 PP" "Quick Action" "40'" 
         "You can put your curse on an enemy you can see. The curse lasts until the end of the encounter. Whenever you cast a spell to target the cursed enemy, the Power-Point cost of that spell is reduced by one..")
-    ])
+    ,(disipline-rank 2 "Curse Group"
+        "+1 PP" "" "Circle with 5' Radius within 40'"
+        "You can put your warlocks curse on each enemy in a circle.")
+    ,(disipline-rank 3 "Curse of Vulnerability"
+        "" "" ""
+        "Your attacks against a cursed target deal an additional 1d6 damage.")
+    ,(disipline-rank 4 "Stacking Curses"
+        "" "" ""
+        "You can put multiple curses on a single foe. When an enemy has 3 curses on them reduce power cost by 2, then they have 6 on them reduce cost by 3.")
+])
 ])
 
 ,(subsection :title [Disciplines][
@@ -64,13 +73,13 @@ Every Sorcerer obtained their magical powers through a different source, from an
         "TODO modifies Bolt")
 
     ,(disipline-rank 4 "Fire Ball"
-            "-" "-" "-" 
-        "TODO modifies Blast")
+        "2 PP" "Full Action" "Circle with diameter of 10' wthin 50'"
+        "On hit deal 3d8 + Mind Fire Damage.")
 
     ,(disipline-rank 5 "Maelstrom of Destruction"
         "3 PP" "Full Action" "Circle with diameter of 20' wthin 50'" 
         "Create an arcane storm which deals 3d8 + Mind Fire and Physical Damage
-        On each following turn you can move the Mealstrom by 5' and repeat the attack against each target for the cost of 1 power point.
+        On each following turn you can move the Mealstrom by 5' and repeat the attack against each target for the cost of 1 Power-Point.
         If you don't the storm ends.")
     ])
     ,(subsubsection :title [Domination][
@@ -78,7 +87,7 @@ Every Sorcerer obtained their magical powers through a different source, from an
     
     ,(disipline-rank 1 "Cloud Mind"
         "1" "Full Action" "Magic Ranged attack 40'" 
-        "TODO")
+        "On hit the target is dazed")
 
     ,(disipline-rank 3 "Command"
         "2" "Full Action" "Single creature within 30' who can hear you" 
@@ -96,6 +105,9 @@ Every Sorcerer obtained their magical powers through a different source, from an
     ,(disipline-rank 1 "Thunder Wave"
             "0 PP" "Full Action" "Blast attack, 15' cone 90° wide" 
             "On Hit: 1d6 + Mind damage. Push all targets hit 5' away from you.")
+    ,(disipline-rank 2 "Crashing Wave"
+            "+2 PP" "" "Blast attack, 25' cone 90° wide"
+            "Damage is increased to 2d6 + Mind damage and targets are pushed 15'")
     ])
     ,(subsubsection :title [Meta Magic][
         Modify Effect of other spells to create surprising and powerful combinations

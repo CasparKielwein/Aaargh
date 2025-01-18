@@ -102,7 +102,7 @@ They allow you to develop a character in a direction not dictated by the choice 
         "Roll a *Charm* check against will defense of target.
         If you succeed te target has disadvantage on all attacks against you until the end of your next turn.
         If you have marked the target, the mark is removed. If you mark a target effected by *Disarming Presence*, the disarming presence is lost immediately.
-        On your turn you can spend your Minor Action to extend the duration of the effect until the end of the next turn.
+        On your turn you can spend your Quick Action to extend the duration of the effect until the end of the next turn.
         You do not need to roll again.")
 
 ,(disipline-rank 2 "Overwhelming Presence"

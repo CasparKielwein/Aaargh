@@ -70,10 +70,11 @@ Four powers are fueled by your face and unbreakable conviction.
 ])
 
 ,(subsection :title [Disciplines][
+
     ,(subsubsection :title [Smite][
         ,(disipline-rank 1 "Smite"
-                "2 PP" "Free Action" "Self" 
-                "When you hit an enemy with an attack. The attack deals 2d6 additional Damage")
+            "2 PP" "Free Action" "Self"
+            "When you hit an enemy with an attack. The attack deals 2d6 additional Damage")
         ,(disipline-rank 2 "Fiery Smite"
             "-" "-" "-"
             "You can choose to make your Smite deal fire damage")
@@ -82,7 +83,13 @@ Four powers are fueled by your face and unbreakable conviction.
     ,(subsubsection :title [Healing Word][
         ,(disipline-rank 1 "Healing Word"
                 "1 PP" "Quick Action" "Yourself or one Ally within 25'" 
-                "The target spends a point of Endurance and regains HP accordingly.")    
+                "The target spends a point of Endurance and regains HP accordingly.")
+    ,(disipline-rank 2 "Cure"
+                "1 PP" "Quick Action" "Yourself or one Ally within 25'"
+                "The target immmediately saves against all adverse conditions")
+    ,(disipline-rank 3 "Healing Font"
+                "2 PP" "Quick Action" "All Allies within 25'"
+                "The target can spend a point of Endurance and regains HP accordingly.")
     ])
     ,(subsubsection :title [Bless][
         ,(disipline-rank 1 "Bless"
@@ -92,10 +99,10 @@ Four powers are fueled by your face and unbreakable conviction.
             "1 PP" "Quick Action" "Allies within 25'" 
             "Chose a secondary defense, all attacks against that defense are rolled with disadvantage until the end of your next turn")
     ])
-    ,(subsubsection :title [Divine Challange][
-        You challange a foe to face you or suffer holy wrath.
+    ,(subsubsection :title [Divine Challenge][
+        You challenge a foe to face you or suffer holy wrath.
         
-        ,(disipline-rank 1 "Divine Challange"
+        ,(disipline-rank 1 "Divine Challenge"
             "0 PP" "Quick Action" "Range 50'" 
             "You mark the target until the end of your next turn. If the target makes an attack which does not include, it takes damage equal to your Mind + 3.")
     ])

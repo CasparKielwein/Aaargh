@@ -71,11 +71,14 @@ You are a Fighter! You best foes with physical might and superior martial prowes
          ,(disipline-rank 1 "Rage"
                "" "" "" 
                "The first time you are bloodied during a fight, you enter a terrible rage. When you enter the rage you gain one Maneuver Point.")
+         ,(disipline-rank 2 "Escalation"
+               "" "" ""
+               "While you are bloodied all your attacks deal an additional die of damage.")
    ])
    ,(subsubsection :title [Focus][
       ,(disipline-rank 1 "Focus"
          "-" "Move Action" "-" 
-         "If you spend a move action to focus, the next action this round will cost one Power-Point less.")
+         "If you spend a move action to focus, the next attack this round will cost one Power-Point less.")
    ])
 ])
 
@@ -84,9 +87,9 @@ You are a Fighter! You best foes with physical might and superior martial prowes
 
    Fighter Disciplines are:
    ,(enumerate
-   (item [Combat Challange  
+   (item [Combat Challenge
       You are a defender of the weak, forcing enemies to face you in battle instead of your allies.
-      Choose Combat Challange if you want to be a protector and guardian.])
+      Choose Combat Challenge if you want to be a protector and guardian.])
    (item [Brash Strike  
       Crush your enemies with a mighty blow
       Choose Brash Strike if you want to overwhelm your foes with pure force])
@@ -97,7 +100,7 @@ You are a Fighter! You best foes with physical might and superior martial prowes
    (item [Sure Strike  
       A precise attack displaying your superior fighting skills.]))
 
-   ,(subsubsection :title [Combat Challange][
+   ,(subsubsection :title [Combat Challenge][
       Every time you attack an enemy, you can choose to mark that target. The mark 
       lasts until the end of your next turn.
       
@@ -138,7 +141,7 @@ You are a Fighter! You best foes with physical might and superior martial prowes
          "On hit: Deal 1W + Tough / Dex Damage")
 
       ,(disipline-rank 2 "Drive them back"
-         "-" "-" "-" 
+         "-" "-" "-"
          "When you hit a target with your reaping strike you push it 5'.")
    ])
    

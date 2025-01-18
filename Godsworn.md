@@ -69,30 +69,30 @@ When you hit an enemy with an attack. Spend X power-points; The attack deals XD6
 
 ### Healing Word
 #### Rank 1: Healing Word
-Minor Action  
+Quick Action  
 Yourself or one Ally within 25'  
 1 Power-Point
 The target spends a point of Endurance and regains HP accordingly.
 
 ### Bless
 #### Rank 1: Bless
-Minor Action  
+Quick Action  
 Yourself or one Ally within 25'  
 1 Power-Point  
 The target has advantage on a Roll of their choice until the end of your next turn.
 
 #### Rank 2: Protective Prayer
-Minor Action  
+Quick Action  
 Yourself or one Ally within 25'  
 1 Power-Point  
 Chose a secondary defense, all attacks against that defense are rolled with disadvantage until the end of your next turn
 
-### Divine Challange
+### Divine Challenge
 You challange a foe to face you or suffer holy wrath
 
-#### Lvl 1: Divine Challange
+#### Lvl 1: Divine Challenge
 Cost: 0  
-* Minor Action
+* Quick Action
 * Range 50'
 You mark the target until the end of your next turn.
 If the target makes an attack which does not include, it takes damage equal to your `Will` + 3.
@@ -110,6 +110,6 @@ TODO buff a suit of armor for a full fight
 ### Beacon of Hope
 #### Lvl 1: Beaon of Hope
 Cost 1 Powetr-Point  
-Minor Action  
+Quick Action  
 A bright light shines from inside your for a short moment.
 All Allies who can see the light can immmediately roll saves against fear based effects.

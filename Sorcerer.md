@@ -38,7 +38,7 @@ You gain the Warlocks Curse discipline.
 #### Warlocks Curse
 ##### Lvl 1: Curse
 Cost: 1 Power-Point  
-Minor action  
+Quick action  
 You can put your curse on an enemy you can see.
 The curse lasts until the end of the encounter.
 Whenever you cast a spell to target the cursed enemy, the Power-Point cost of that spell is reduced by one.
@@ -72,7 +72,7 @@ Spells of pure mayhem and destruction
 * Affects all targets in a circle with radius of 10' within 50' of you.
 * 3d8 + Mind Fire and Physical Damage
 
-On each following turn you can move the Mealstrom by 5' and repeat the attack against each target for the cost of 1 power point.
+On each following turn you can move the Mealstrom by 5' and repeat the attack against each target for the cost of 1 Power-Point.
 If you don't the storm ends.
 
 ### Domination
@@ -129,7 +129,7 @@ All Attack rolls are considered misses.
 
 #### Lvl 1: Apparation
 Cost: 1 Power-Point  
-Minor Action  
+Quick Action  
 Range 25'  
 You conjure the gostly apparation of a mighty warrior in a free position within range.
 The apparation disappears at the end of your next turn.

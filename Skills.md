@@ -80,7 +80,7 @@ You have honed your senses to super human levels and you can attack adjacent ene
 ### Find Weakness (Streetwise)
 #### Rank 1:
 Cost: 1 Power-Point  
-On your turn, Minor Action to choose a target you can see.
+On your turn, Quick Action to choose a target you can see.
 Roll an *Streetwise* check against the targets will defence.
 If you succeed, the target has vulnerability against damage from your next attack against it.
 
@@ -97,11 +97,11 @@ You can move up to 60' through the shadows.
 ### Disarming Presence (Charm)
 #### Rank 1:
 Cost: None  
-Use your Minor Action to choose a target you can see and who can see you. 
+Use your Quick Action to choose a target you can see and who can see you. 
 Roll a *Charm* check against will defense of target.
 If you succeed te target has disadvantage on all attacks against you until the end of your next turn.
 If you have marked the target, the mark is removed. If you mark a target effected by *Disarming Presence*, the disarming presence is lost immediately.
-On your turn you can spend your Minor Action to extend the duration of the effect until the end of the next turn.
+On your turn you can spend your Quick Action to extend the duration of the effect until the end of the next turn.
 You do not need to roll again.
 
 #### Rank 2:

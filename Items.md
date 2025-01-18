@@ -47,7 +47,7 @@ Thus, it is a choice between different utilities and secondary effects and defen
 |----------------|---------|--------|--------------------------|
 | Hunting Bow    | Bow     | 1d6    | 2H, light                |
 | Sling          | Bow     | 1d4    | 2H, light                |
-| Light Crossbow | Bow     | 1d6    | Load (minor), light      |
+| Light Crossbow | Bow     | 1d6    | Load (Quick), light      |
 | Warbow         | Bow     | 1d10   | 2H                       |
 | Heavy Crossbow | Bow     | 1d12   | 2H, Load (move)          |
 | Spear          | Polearm | 1d6    | light, Versatile, Thrown |
@@ -138,7 +138,7 @@ Any Weapon or spellcaster focus
 While you wield the weapon of Surtur you gain the following Power:
 
 #### Releasing Surtur's Fire
-Minor Action  
+Quick Action  
 Cost: 2 Power-Points
 When you speak a command word, the weapon of Surtur will burst in flames.
 All damage caused by attacks and spells using it is fire damage.
@@ -150,7 +150,7 @@ Any Weapon or spellcaster focus
 While you wield the frost weapon you gain the following Power:
 
 #### Everfrost
-Minor Action  
+Quick Action  
 Cost: 2 Power-Points
 When you speak a command word, the weapon will be covered in hoarfrost.
 All damage caused by attacks and spells using it is cold damage.
@@ -180,7 +180,7 @@ It counts as a muiscal instrument and you are automatically proficient with it.
 
 #### Spellslingers Wand
 A well balanced Magic Wand  
-You can cast spells which manifest as ranged attacks against a single target as a minor action instead of a full action.
+You can cast spells which manifest as ranged attacks against a single target as a Quick action instead of a full action.
 
 #### Berserker Armor
 Barely any armor, mostly the hide of bears.

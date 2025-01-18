@@ -53,7 +53,7 @@ Ice Grip is a close burst 1 instead of melee 1
 * 2d4 + Mind Damage
 
 #### Lvl 5: Ongoing Hale
-* As a minor action you can sustain the effect for another round
+* As a Quick action you can sustain the effect for another round
 
 #### Lvl 5: Storm
 2d10 + wis damage instead of 2d4
@@ -115,7 +115,7 @@ Add a third target
 * 2d10 + Mind Damage
 
 #### Lvl 5: Raging Storm:
-As a minor Action you can sustain the effect and attack 1 target in the area
+As a Quick Action you can sustain the effect and attack 1 target in the area
 
 #### Lvl 6: Destruction
 Squares within the target area become difficult terrain.

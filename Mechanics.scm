@@ -86,7 +86,7 @@ Players can also roll knowledge checks to see if their heroes have additional kn
 
 A combat encounter is separated into rounds. Each round is again split into turns, with one turn per combatant.
 
-Each combatant has the same set of actions available per round: One *Action*, one *Move*, and one *Minor*.
+Each combatant has the same set of actions available per round: One *Action*, one *Move*, and one *Quick*.
 
 You can take actions in arbitrary order but each action has to be completed before you can start the next one.
 In particular this means you cannot make your attack in the middle of a move without special abilities.
@@ -117,7 +117,7 @@ In particular this means you cannot make your attack in the middle of a move wit
             (item [Crawl: Move while prone, you are slowed while crawling])
             (item [Squeeze: Move through a space you normmally wouldn't fit through. You are slowd while squeezing])
             (item [Run: move your speed +10'. enemies roll all attacks against you with advantage until the start of your next turn.])
-            (item [Take a minor action instead])
+            (item [Take a Quick action instead])
             (item [Drink a potion]))
 
   Movement through ,(bold "Difficult Terrain") requires the character to spend two feet of speed to move one foot of distance.
