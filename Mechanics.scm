@@ -23,6 +23,14 @@ Die rolls all have the same format:
   Each Hero has special actions they can perform which are called ,(bold [Maneuvers]).
   ,(bold [Maneuvers]) are organized in ,(bold [Disciplines]) where each rank of a ,(bold [Disciplines]) unlocks a new ,(bold [Maneuver]) or new options for existing ones.
   ,(bold [Discipline]) and their ,(bold [Maneuvers]) are made available to Heroes through their Ancestry and most importantly selected ,(bold [Class]).
+
+  ,(subsection :title [Spending and Regaining Power-Points][
+    ,(index "Power-Points")
+    You start each day with a fixed number of Power-Points, typically three.
+    You spend Power-Points to fuel active abilities and Maneuvers of your Hero.
+    You regain spent Power-Points thru a special ability of your class.
+    You also regain one Power-Point when you take a short rest to recover after an encounter.
+  ])
 ])
 
 ,(section :title [Actions][

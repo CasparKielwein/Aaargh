@@ -21,7 +21,8 @@
     (include "Skills.scm")
     (include "Talents.scm")
     (include "Items.scm")
-    
+    (include "Optional.scm")
+
     (chapter :title [Index]
         (the-index (default-index))
     )

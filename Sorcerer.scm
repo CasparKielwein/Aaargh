@@ -84,20 +84,24 @@ Every Sorcerer obtained their magical powers through a different source, from an
     ])
     ,(subsubsection :title [Domination][
     Telepathy and Mind Control spells
-    
+
     ,(disipline-rank 1 "Cloud Mind"
-        "1" "Full Action" "Magic Ranged attack 40'" 
-        "On hit the target is dazed")
+        "0" "Full Action" "Magic Ranged attack 60'"
+        "Attack + Mind against target `Will`
+        On hit the target rolls with disadvantage on all actions and can't use reactions.
+        A successful save at the end of the targets turn ends the effect.")
 
     ,(disipline-rank 3 "Command"
-        "2" "Full Action" "Single creature within 30' who can hear you" 
+        "1" "Full Action" "Single creature within 60' who can hear you"
         "Attack + Mind against target `Will`
-        On hit you can give the target a simple command which it will immmediately execute for a single action.
+        On hit you can give the target a simple command which it will immediately execute for a single action.
+        Examples for commands are: attack an ally, drop a weapon, run away etc.
+        This command can cause the target to trigger attacks of opportunity.
         If the command can not be executed within a single combat action, the target will spend one combat action following it and then stop.")
 
     ,(disipline-rank 5 "Master of Puppets"
             "X" "Full Action" "-" 
-            "You can cast command against a number of targets up to your proficiency modifier.  The cost is 1 Power-Point per target.")
+            "You can cast command against a number of targets up to your proficiency modifier. The cost is 1 Power-Point per target.")
     ])
     ,(subsubsection :title [Arcane Force][
         Telecinetics and magical force projection

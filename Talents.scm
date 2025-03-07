@@ -48,9 +48,22 @@ You have trained in the art of armed and armored wrestling.
 You can initiate and control a grapple even why using both hands to hold weapons.
 You can still grab only one target at a time.
 ])
-## Multi-Class Talents
+,(section :title [Spell Conduit Robes][
+While wearing robes, your spells do an extra 1d6 damage
+])
+,(section :title [Striker Type Leathers][
+While wearing medium or heavy armor made from metal, you can ready yourself for impact with a quick action and gain 3 temp HP, allowing you to last longer in battle])
+
+,(section :title [Bulwark Style Srmor][
+You have trained in the art of armed and armored wrestling.
+You can initiate and control a grapple even why using both hands to hold weapons.
+You can still grab only one target at a time.
+])
+
+,(section :title [Multi-Class Talents][
 Multi-Class talents give Heroes access to abilities of a different class.
 When you take a multi-class talent, you are considered to be a member of the associated class as well as your original class.
+])
 
 ,(section :title [Furymancer][
 Multiclass Sorcerer  
