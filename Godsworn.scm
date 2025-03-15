@@ -5,15 +5,15 @@ As a Godsworn you have bound your service to a higher cause or a God from the sp
 
 Four powers are fueled by your face and unbreakable conviction.
 
-,(subsection :title [Comment][
+,(comment[
     Godsworn are basically Clerics, Paladins and Dnd 4e Avengers rolled together.
     Their oath determines what they are good at and the domains of their gods specify how they regain Power-Points and thus greatly influence play-style.
     The domain has a smaller effect than the Oath. Some domains give access to abilities of other classes.
     These domains are intended for players who like to spend time tinkering.
-
+   ,(linebreak)
     Weapon abilities of Godsworn are less straight forward than those of fighters.
     A damage dealer Godsworn depends more on secondary damage effects than the high damage dice of a Fighter or the large damage dice count of a Rogue.
-
+   ,(linebreak)
     Abilities of Godsworn and Druids are similar.
     Druids do more "nature" related damage like Poison and Lightning.
     Godsworn do more fire damage.

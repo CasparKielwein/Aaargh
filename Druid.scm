@@ -5,15 +5,15 @@ You are a Druid! A mystical warden of the wild and friend of beasts and nature.
 
 Your mystical powers come from your connection to the forces of nature itself.
 
-,(subsection :title [Comment][
+,(comment [
     A druid first chooses the Call of the Wild discipline which has the largest influence on its play-style.
     It determines its role as striker, tank, healer, or controller.
     The circle then sets the relationship to the other heroes.
     Does the druid better fight alone, next to the others and does he help them, or benefit from them?
-
+    ,(linebreak)
     Druids have less raw spell power than sorcerers but their Call of the Wild sets them apart.
     Their higher level spell abilities tend to be modifications of a common spell.
-
+    ,(linebreak)
     Druid have the strongest force movement disciplines of all caster classes.
     They focus on poison and storm damage, while Godsworn focus on fire damage,
     Druid spells do less damage than Godsworn spells on average.

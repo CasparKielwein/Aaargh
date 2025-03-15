@@ -3,22 +3,22 @@
 ,(index "Fighter")
 You are a Fighter! You best foes with physical might and superior martial prowess.
 
-,(subsection :title [Comment][
+,(comment [
    The fighter is intended to have a very "in your face" kind of play-style.
    Get into the thick of it and dish it out left, right, and center.
    Power-Points are (re-)gained during the fight. The Fighter does not start with many and thus does not have the alpha strike of a sorcerer.
    The Fighters different fighting styles cover the Fighter, Barbarian, and Ranger from dnd.
    If a player just wants to kill stuff they should build a fighter, focus on damage abilities and enjoy the carnage.
-
+   ,(linebreak)
    The fighter has multiple ways of diversification. Two are the main class features:
-
+   ,(linebreak)
    The fighting style lets the player chose a combat situation the Fighter excels in.
    Fighting Style and Equipment determine if the Fighter is a Tank or a Striker.
-
+   ,(linebreak)
    The Martial Discipline is a discipline tree which defines how the Fighter regains Power-Points.
    Depending on the chosen discipline the fighter needs to act very differently during combat to maximise Power-Points.
    The martial discipline does not make the fighter more or less able to take damage.
-
+   ,(linebreak)
    Equipment, in particular choice of weapons and armor has a large influence on the combat style of the fighter. More so than for any other class.
 ])
 
@@ -63,7 +63,7 @@ You are a Fighter! You best foes with physical might and superior martial prowes
    )
 
    ,(subsubsection :title [Rage][
-         ,(subsubsection :title [Comment][
+         ,(comment[
             The Rage discipline basically turns the fighter into a DnD Barbarian.
             It rewards the player for acting recklessly and taking risks.
          ])

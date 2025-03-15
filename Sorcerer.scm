@@ -2,15 +2,15 @@
 ,(index "Sorcerer")
 You are a Sorcerer, as master of the arcane forces!
 
-,(subsection :title [Comment][
+,(comment[
     Sorcerers are the catchall spellcaster class.
     Of all classes, they have the largest number of active abilities available as many of their disciplines add new powers with higher ranks.
     Wizards have more utility, Warlocks deal more damage.
-
+   ,(linebreak)
     Sorcerers have more diversity and utilities in their abilities than godsworn or druids.
     They are very much focussed on their spell abilities and lack the defining abilities
     of godsworn and druids which are not active spells.
-
+   ,(linebreak)
     Higher level Abilities of Sorcerers are often new powerful spells.
     This differentiates them from Godsworn Disciplines which mostly add effects and options to a base Maneuver.
 ])

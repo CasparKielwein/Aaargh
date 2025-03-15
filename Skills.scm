@@ -34,7 +34,7 @@
     Use *Intimidate* to make people do what you want them to against their will.
     If you use *Intimidate* against someone, they will usually hold a grudge and work against you in the future.
 ])
-,(subsection :title [Comment][
+,(comment[
     Nine Skills seems like a manageable number, which still covers the typical situations of a dungeon crawler.
     Since Backgrounds give one or two proficiencies, Ancestries give one and classes give two, a group of four heroes should be able to cover all skills.
     The Lore skills (Arcane, Religion, Nature) should allow nearly every character to be able to be the expert on a given enemy type once in a while.
@@ -54,7 +54,7 @@ They allow you to develop a character in a direction not dictated by the choice 
 ,(subsection :title [Herbalist (Nature)][
     You know how to collect and use herbs and other natural ingredients for their helpful effects.
 ])
-,(subsection :title [Comment][
+,(comment[
     The herbalist discipline allows characters who are not spellcasters and do not necessarily have a high *mind* stat to heal and buff their allies.
     This way one can build a forest ranger type character who supports their allies without resorting to magic.
 ])

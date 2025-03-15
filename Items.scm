@@ -1,9 +1,9 @@
 (chapter :title [Equipment][
 
-,(section :title [Comment][
+,(comment [
     The Equipment rules are not realistic.
     They are designed to be fun and enable strong visuals and action scenes.
-
+   ,(linebreak)
     For Weapon focused Heroes the choice of weapon is a choice of damage potential vs secondary effects and utility vs defense.
     The damage of spellcasters does not depend as much on the weapon.
     Thus, it is a choice between different utilities and secondary effects and defense.
@@ -96,14 +96,14 @@ You can carry five small items in pouches where you can quickly reach them.
 )
 ])
 
-,(section :title [Comment][
+,(comment[
     Blade Weapons have the greatest utility but generally do one die type less damage than Axes.
     Talents and Maneuvers targeting blade Weapons are better than those for Axes and Hammers.
     Axes have the highest potential for damage having the *devastating* attribute and talents supporting conditionally damage boni.
     Hammers are have the highest average damage. Talents supporting hammers add debuffs that are useful for low damage builds.
     Crossbows do more damage than bows, but the `Load` Attribute limits them to one attack per round.
     Thrown Weapons do even less damage but provide versatility by being one-handed and also usable as melee weapons.
-
+   ,(linebreak)
     Everyone can wear every armor, there are no restriction for class or attribute values.
     Talents and Magic Items encourage using lighter armor to advance certain play-styles.
 ])
@@ -142,15 +142,15 @@ You can carry five small items in pouches where you can quickly reach them.
 ])
 ])
 ,(section :title [Magic and Legendary Items][
-,(subsection :title [Comment][
+,(comment[
     Legendary Items are basically part of the characters.
     They are highly relevant to balancing and often part of a character build. (As magic items tend to be in Dnd)
-
+   ,(linebreak)
     Legendary Items do not have prices attached.
-
+   ,(linebreak)
     Magic Items are weaker, smaller etc.
     They can be bought and sold.
-
+   ,(linebreak)
     If an item is powerful and specific enough to be part of a character build, it should be a legendary item.
 ])
 

@@ -50,7 +50,7 @@ Each Attack is a die roll against one of four defenses.
 ,(index "Saves")
 To save against a condition, roll a single d20. on a Roll of 11 or higher, you pass the saving throw.
 
-,(subsection :title [Comment][
+,(comment [
   Why four defenses and a single save (like dnd 4) and not AC + 3 saves like other editions?
   Based on the assumption that player characters will cast more spells on more targets than NPCs, 
   binding spells to rolls made by the player gives them more to do instead of having the DM roll a lot of saves for a player action.
@@ -72,7 +72,7 @@ The number of hitpoints gained it determined by the class you choose for your he
   When a Hero spends an Endurance Point they regain a number of Hit points equal to 1/4 of their maximum number of Hit Points.
 ])
 
-,(subsection :title [Comment][
+,(comment [
   Hitpoints increase every level to give Players a constant feeling of getting stronger by simply having "larger numbers".
   HP per level are not dependent on Toughness, as this would make the attribute an automatic choice for every tank character.
   Consider that Attribute values range from zero to six.
@@ -248,7 +248,7 @@ Each time your Hero rises a level they gain:
       (item [Discover Secret of a Legendary Item])
       (item [Discover Secret of a Legendary Item]))]))
     
-,(subsection :title [Comment][
+,(comment [
   There are six levels to spend these advances on.
   With seven advances, players have to decide which one to skip.
 ])

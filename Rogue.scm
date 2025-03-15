@@ -7,16 +7,16 @@ Rogues specialize on exploiting every weakness they find in their enemies.
 On face value, they don't appear very threatening, having a low number of hit points and wielding small weapons.
 But once a rogue inevitably finds a weakness in their target, they show their true power using their *sneak attacks* for devastating effect.
 
-,(subsection :title [Comment][
+,(comment [
     The play-style of the rogue is focuses on exploiting opportunities.
     Without advantage, they do less damage than Fighters and have a smaller selection of abilities than Sorcerers or Druids.
     Their combat abilities are built around the Sneak Attack discipline.
     They only have one static "dimension" of diversification in their Scum and Villainy feature
     but the Sneak Attack discipline has many more branching points where choices influence the character than disciplines of other classes.
-
+   ,(linebreak)
     Most Rogue Discipline cost Power-Point.
     Unlike the Fighter (or Wizard Cantrips) there are very few free Maneuvers.
-
+   ,(linebreak)
     Maneuvers give mostly buffs and movement effects.
     Sneak Attack supports debuffs on Enemies and additional damage.
 ])
