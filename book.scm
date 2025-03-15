@@ -10,11 +10,16 @@
             (tr (td :colspan 3 [,(roman description)])))
 )
 
+(define (comment text)
+    (paragraph (color :bg [#ead8d2] text))
+)
+
 
 (make-index (default-index))
 (document :title [Aaargh!]
-    (include "Mechanics.scm")
     (include "Aaargh.scm")
+    (include "Mechanics.scm")
+    (include "CharacterCreation.scm")
     (include "Ancestries.scm")
     (include "Backgrounds.scm")
     (include "Classes.scm")
@@ -23,6 +28,9 @@
     (include "Items.scm")
     (include "Optional.scm")
 
+    (chapter :title [Table of Content][
+        ,(toc :chapter #t :section #t :subsection #f)
+    ])
     (chapter :title [Index]
         (the-index (default-index))
     )
