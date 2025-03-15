@@ -1,12 +1,15 @@
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
+[https://casparkielwein.github.io/Aaargh/Aaargh.html]
+
 # Aaargh
 Aaargh another Action RPG!
 
 Aaargh is a free and open pen and paper RPG in the vein of Dungeons and Dragons.
 
 ## Mission Statement
-Aaargh continues where Dnd4 and 5 left off. It offers fast yet tactical combat with a lot of options to customize your characters and let them fight their way through any imaginable adventure. It offers a wide range of character options without geting lost in minute detail together with a streamlined gameplay. The characters are heroes who leave their mark on the world.
+Aaargh continues where Dnd4 and 5 left off. It offers fast yet tactical combat with a lot of options to customize your characters and let them fight their way through any imaginable adventure. 
+Aaargh provides a wide range of character options without geting lost in minute detail together with a streamlined gameplay. The characters are heroes who leave their mark on the world.
 
 ## Design Goals
 * Heroes kick ass! The characters are larger than life heroes and should feel like that.
