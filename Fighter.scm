@@ -4,22 +4,22 @@
 You are a Fighter! You best foes with physical might and superior martial prowess.
 
 ,(comment [
-   The fighter is intended to have a very "in your face" kind of play-style.
+   The Fighter is intended to have a very "in your face" kind of play-style.
    Get into the thick of it and dish it out left, right, and center.
    Power-Points are (re-)gained during the fight. The Fighter does not start with many and thus does not have the alpha strike of a sorcerer.
    The Fighters different fighting styles cover the Fighter, Barbarian, and Ranger from dnd.
-   If a player just wants to kill stuff they should build a fighter, focus on damage abilities and enjoy the carnage.
+   If a player just wants to kill stuff they should build a Fighter, focus on damage abilities and enjoy the carnage.
    ,(linebreak)
-   The fighter has multiple ways of diversification. Two are the main class features:
+   The Fighter has multiple ways of diversification. Two are the main class features:
    ,(linebreak)
    The fighting style lets the player chose a combat situation the Fighter excels in.
    Fighting Style and Equipment determine if the Fighter is a Tank or a Striker.
    ,(linebreak)
    The Martial Discipline is a discipline tree which defines how the Fighter regains Power-Points.
-   Depending on the chosen discipline the fighter needs to act very differently during combat to maximise Power-Points.
-   The martial discipline does not make the fighter more or less able to take damage.
+   Depending on the chosen discipline the Fighter needs to act very differently during combat to maximise Power-Points.
+   The martial discipline does not make the Fighter more or less able to take damage.
    ,(linebreak)
-   Equipment, in particular choice of weapons and armor has a large influence on the combat style of the fighter. More so than for any other class.
+   Equipment, in particular choice of weapons and armor has a large influence on the combat style of the Fighter. More so than for any other class.
 ])
 
 ,(subsection :title [Proficiencies][
@@ -38,7 +38,7 @@ You are a Fighter! You best foes with physical might and superior martial prowes
 ])
 
 ,(subsection :title [Fighting Style][
-   Choose a Fighting Style for your fighter:
+   Choose a Fighting Style for your Fighter:
 
    ,(subsubsection :title [Duelist][
       When you make an attack and no other target is adjacent to either you or the enemy you gain adcantage on the attack.
@@ -52,9 +52,9 @@ You are a Fighter! You best foes with physical might and superior martial prowes
 ])
 
 ,(subsection :title [Martial Discipline][
-   Choose a martial discipline for your fighter.
+   Choose a martial discipline for your Fighter.
    This discipline will determine the way you fight.
-   It serves as your main source of Maneuver Points.
+   It serves as your main source of Power-Points.
 
    Chose between two Martial Disciplines:
       ,(enumerate 
@@ -64,7 +64,7 @@ You are a Fighter! You best foes with physical might and superior martial prowes
 
    ,(subsubsection :title [Rage][
          ,(comment[
-            The Rage discipline basically turns the fighter into a DnD Barbarian.
+            The Rage discipline basically turns the Fighter into a DnD Barbarian.
             It rewards the player for acting recklessly and taking risks.
          ])
          
@@ -76,6 +76,7 @@ You are a Fighter! You best foes with physical might and superior martial prowes
                "While you are bloodied all your attacks deal an additional die of damage.")
    ])
    ,(subsubsection :title [Focus][
+      ,(todo "Fighter Focus" "Find better balanced option for focus discipline")
       ,(disipline-rank 1 "Focus"
          "-" "Move Action" "-" 
          "If you spend a move action to focus, the next attack this round will cost one Power-Point less.")
@@ -131,6 +132,9 @@ You are a Fighter! You best foes with physical might and superior martial prowes
       ,(disipline-rank 2 "Crushing Blow"
          "+1 PP" "-" "-" 
          "When you hit with your brash strike the target is dazed until the end of your next turn.")
+
+      ,(todo "Brash Strike" "Add rank 3 and higher")
+
    ])
    
    ,(subsubsection :title [Reaping Strike][
@@ -143,6 +147,8 @@ You are a Fighter! You best foes with physical might and superior martial prowes
       ,(disipline-rank 2 "Drive them back"
          "-" "-" "-"
          "When you hit a target with your reaping strike you push it 5'.")
+
+      ,(todo "Reaping Strike" "Add rank 3 and higher")
    ])
    
    ,(subsubsection :title [Lead the Fight][
@@ -158,6 +164,8 @@ You are a Fighter! You best foes with physical might and superior martial prowes
       ,(disipline-rank 2 "Knock Back"
          "+1 PP" "" "" 
          "On hit you knock the target back 5 time your `Tough` feet.")
+
+      ,(todo "Lead the Fight" "Add rank 3 and higher")
    ])
    ,(subsubsection :title [Sure Strike][
   

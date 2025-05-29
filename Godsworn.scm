@@ -98,6 +98,7 @@ Four powers are fueled by your face and unbreakable conviction.
         ,(disipline-rank 2 "Protective Prayer"
             "1 PP" "Quick Action" "Allies within 25'" 
             "Chose a secondary defense, all attacks against that defense are rolled with disadvantage until the end of your next turn")
+        ,(todo "Bless" "Add ranks 3 for disciplie")
     ])
     ,(subsubsection :title [Divine Challenge][
         You challenge a foe to face you or suffer holy wrath.
@@ -105,6 +106,7 @@ Four powers are fueled by your face and unbreakable conviction.
         ,(disipline-rank 1 "Divine Challenge"
             "0 PP" "Quick Action" "Range 50'" 
             "You mark the target until the end of your next turn. If the target makes an attack which does not include, it takes damage equal to your Mind + 3.")
+        ,(todo "Divine Challange" "Add ranks 2 and 3 for disciplie")
     ])
     ,(subsubsection :title [Annoint][
         ,(disipline-rank 1 "Annoint Weapon"
@@ -113,11 +115,13 @@ Four powers are fueled by your face and unbreakable conviction.
         ,(disipline-rank 2 "Annoint Armor"
             "1 PP" "Quick Action" "Touch" 
             "TODO buff a suit of armor for a full fight")
+        ,(todo "Annoint" "Add ranks 2 and 3 for disciplie")
     ])
     ,(subsubsection :title [Beacon of Hope][
         ,(disipline-rank 1 "Beacon of Hope"
             "1 PP" "Quick Action" "Allies in Sight" 
             "A bright light shines from inside your for a short moment. All Allies who can see the light can immmediately roll saves against fear based effects.")
+        ,(todo "Beacon of Hope" "Add ranks 2 and 3 for disciplie")
     ])
 ])
 ])

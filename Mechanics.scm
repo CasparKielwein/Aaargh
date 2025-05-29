@@ -7,6 +7,12 @@ Die rolls all have the same format:
             (item [Add your Bonus])
             (item [Compare to target number. If you reach or exceed the target number, your roll succeeds.]))
 
+Typically you will add the following boni to the die:
+,(itemize (item [The value of the approriate attribute])
+            (item [Your Proficiency Bonus. It starts as a +2 bonus and can be increased when your hereo gains levels.  Add it to attack rolls and skill rolls when you are Proficient in the skill.])
+            (item [A bonus from Legendary Items if you have an approriate item with a bonus]))
+
+
 ,(subsection :title [Advantage and Disadvantage][
   ,(index "Advantage")
   ,(index "Disadvantage")
@@ -108,8 +114,10 @@ In particular this means you cannot make your attack in the middle of a move wit
             (item [Shove: Make an attack Toughness against Fortitude. On success, you push the target 5'.])
             (item [Grapple: Make an unarmed attack against Reflex. On success, the target is grappled and you control the grapple.
             While you grapple a target, you have the following options:
-              * Throw: Throw the target to the ground
-              * Move: Move up to your speed and pull the target behind you.
+              ,(linebreak)
+              Throw: Throw the target to the ground
+              ,(linebreak)
+              Move: Move up to your speed and pull the target behind you.
               ])
             (item [Use an Item])
             (item [Assist: An adjacent ally gains advantage on one roll until the start of your next turn.])
@@ -155,11 +163,12 @@ In particular this means you cannot make your attack in the middle of a move wit
 ,(section :title [Special Actions][
 ,(subsection :title [Grappling][
 ,(index "Grappling")
+,(p [
 To initiate a grapple you have to have one free hand.
 You can only grapple enemies which are the same size or smaller than you.
 Make an unarmed Attack against Reflex of the target.
 When you hit the target, you don't deal damage but you have the target in a grapple.
-
+])
 While Grappling:
 ,(itemize (item [All attacks from the outside against both participants of the grapple are rolled with advantage.]))
 

@@ -72,6 +72,8 @@ Every Sorcerer obtained their magical powers through a different source, from an
         "-" "-" "-" 
         "TODO modifies Bolt")
 
+    ,(todo "Fire Bolt" "Add rules")
+
     ,(disipline-rank 4 "Fire Ball"
         "2 PP" "Full Action" "Circle with diameter of 10' wthin 50'"
         "On hit deal 3d8 + Mind Fire Damage.")
@@ -102,6 +104,9 @@ Every Sorcerer obtained their magical powers through a different source, from an
     ,(disipline-rank 5 "Master of Puppets"
             "X" "Full Action" "-" 
             "You can cast command against a number of targets up to your proficiency modifier. The cost is 1 Power-Point per target.")
+
+    ,(todo "Domination" "Add ranks 2 and 4 for disciplie")
+
     ])
     ,(subsubsection :title [Arcane Force][
         Telecinetics and magical force projection
@@ -112,6 +117,8 @@ Every Sorcerer obtained their magical powers through a different source, from an
     ,(disipline-rank 2 "Crashing Wave"
             "+2 PP" "" "Blast attack, 25' cone 90° wide"
             "Damage is increased to 2d6 + Mind damage and targets are pushed 15'")
+    ,(todo "Arcane Force" "Add ranks  3 for discipline")
+
     ])
     ,(subsubsection :title [Meta Magic][
         Modify Effect of other spells to create surprising and powerful combinations
@@ -145,13 +152,14 @@ Every Sorcerer obtained their magical powers through a different source, from an
             The apparation disappears at the end of your next turn.
             You `mark` every enemy within 25' of the apparation.
             While maked, each time an enemy makes an atack which does not incude the apparation they roll with disadvantage.")
-            
         
     ,(disipline-rank 2 "Fake Wall"
             "2 PP" "Quick Action" "50'" 
             "Create an illusionary wall of length 25' within range.
             Make a `+Mind` attack against `Will` of every enemy within 50' who can see the wall.
             On Hit that enemy cannot willingly enter or cross the area of the wall (save ends).")
+
+    ,(todo "Illusion" "Add ranks 3 for discipline")
     ])
 ])
 ])

@@ -24,7 +24,7 @@ But once a rogue inevitably finds a weakness in their target, they show their tr
 ,(subsection :title [Proficiencies][
    ,(itemize (item [Skill Proficiency: Choose two skills from the following: Stealth, Streetwise, Athletics, Charm])
              (item [Starting Hit Points: 6 + ,(it [Tough])])  
-             (item [Hit Points per Level: 3])
+             (item [Hit Points per Levefl: 3])
              (item [Endurance: 6])
              (item [Power-Points: 3]))
 ])
@@ -86,6 +86,8 @@ But once a rogue inevitably finds a weakness in their target, they show their tr
         ,(disipline-rank 2 "Rapid Movement"
         "-" "-" "-" 
         "You can shift either before or after the attack.")
+
+        ,(todo "Nimble Attack" "Add ranks 3 for disciplie")
     ])
     
     ,(subsubsection :title [Hobbling Strike][
@@ -94,6 +96,7 @@ But once a rogue inevitably finds a weakness in their target, they show their tr
     ,(disipline-rank 1 "Hobbling Strike"
         "1 PP" "Full Action" "Melee or Ranged" 
         "After the attack you gain advantage with attacks against the target util the end of your next turn.")
+    ,(todo "Hobbling Strike" "Add ranks 2 and 3 for disciplie")
     ])
     
     ,(subsubsection :title [Artful Dodge][
@@ -101,12 +104,14 @@ But once a rogue inevitably finds a weakness in their target, they show their tr
     ,(disipline-rank 1 "Artful Dodge"
         "1 PP" "Move Action" "Self" 
         "Move up to your speed. Your movement does not trigger Opportunity attacks and you can move through enemies.")
+    ,(todo "Artful Dodge" "Add ranks 2 and 3 for disciplie")
     ])
     ,(subsubsection :title [Smoke Grenade][
     
     ,(disipline-rank 1 "Smoke Grenade"
         "1 PP" "Quick Action" "25'" 
         "Creates a cloud of smoke with radius of 5' within range. The smoke obscurs vision and all targets observed through the smoke are considered obscursd.")
+    ,(todo "Smoke Grenade" "Add ranks 2 and 3 for disciplie")
     ])
 ])
 ])

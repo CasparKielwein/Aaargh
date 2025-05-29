@@ -94,6 +94,9 @@ Quirks
             (item [TODO])
             (item [TODO]))
 
+,(todo "Minotauer" "Add two quirks")
+
+
 ,(subsection :title [Traits][
 ,(itemize (item [Speed: 30'])
           (item [Language: Common, Giant or Dwarven])
@@ -148,10 +151,13 @@ Quirks
     ,(disipline-rank 1 "Ambition"
         "1 PP" "Free Action" "Self" 
         "You may spend a *Power-Point* on your turn to gain an additional Combat Action. This ability may only be used once per turn.")
-<
+
     ,(disipline-rank 2 "Sidestep"
         "-" "-" "-"
         "Before you take the additional action you can shift 5'")
+
+    ,(todo "Human" "Add rank 3 in disipline")
+
 ])
 ])
 (section :title [Elves][

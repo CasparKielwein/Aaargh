@@ -11,6 +11,15 @@ Chose a discipline you have access to.
 You gain one rank in this discipline.
 All damage caused by spells of this discipline is now of the chosen damage type.
 ])
+
+,(todo "Talent Shield Mastery" "Add a talent supporting fighting with a shield")
+,(todo "Talent Light Weapons" "Add a talent supporting light weapons and throwing weapons")
+,(todo "Talent Pyromancy" "Add a talent supporting fire spells")
+,(todo "Talent Cryomancy" "Add a talent supporting ice spells")
+,(todo "Talent Poison Mastery" "Add a talent supporting poison and acid")
+,(todo "Talent Supporter" "Add a talent supporting buffs to allies")
+,(todo "Talent Forced Movement" "Add a talent supporting forced movement of foes")
+
 ,(section :title [Headman's Chop][
 When you hit a prone enemy with a *Blade* Weapon, you deal Dex extra Damage.
 When you it a prone enemy with an *Axe*, you deal Tough extra Damage.

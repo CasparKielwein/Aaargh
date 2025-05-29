@@ -2,7 +2,7 @@
 ,(index "Druid")
 
 You are a Druid! A mystical warden of the wild and friend of beasts and nature.
-
+,(linebreak)
 Your mystical powers come from your connection to the forces of nature itself.
 
 ,(comment [
@@ -67,9 +67,67 @@ You can choose between the Beast Form and the Natures Companion Disciplines.
         "+1 PP" "Quick Action" "-" 
         "In your beast Form you gain Resistance against Melee and Ranged Attacks.")
   ])
+
 ,(subsubsection :title [Natures Companion][
-    ,(itemize (item [Spirit Companion-Todo: support, control oriented])
-              (item [Beast Companion: Todo: combat oriented]))
+    Some druids lean to call upon a beast companion to assist them and further their bonds with nature.
+    The companion can be either a natural beast or a spirit companion.
+    ,(linebreak)
+    ,(p [
+        A companion is a medium sized creature.
+        They move in the same action as the druide but have their own speed value.
+        They have their own reaction and can make attacks of opportunity.
+        They do not(!) have their own Full Action.
+        You can spend one Full Action to let your beast companion use a Full Action instead.
+    ])
+
+    ,(p [
+    ,(bold "Beast Companion")
+    ,(linebreak)
+     Your companion is a natural beast with a physical body.
+     Chose either a predator or a guardian
+     ,(linebreak)
+
+    ,(itemize (item [Predator: ])
+             (item [Starting Hit Points: 4 + ,(it [Tough])])
+             (item [AC: 12 Fort: 12 Reflex 14 Will 12]))
+
+    ,(itemize (item [Guardian: ])
+              (item [Starting Hit Points: 6 + ,(it [Tough])])
+              (item [AC: 12 Fort: 14 Reflex 12 Will 12]))
+    ])
+
+    ,(p [
+    ,(bold "Spirit Companion")
+    ,(linebreak)
+    Your companion is a spirit of nature and only an ephemeral presence in the physical world.
+,(todo "Spirit Companion" "Add rules")
+
+
+    ])
+
+    ,(disipline-rank 1 "Call Spirit Compation"
+            "1 PP" "Quick Action" "40'"
+            "You call your spirit compantion to appear near to you
+            If your spirit compantion is already present, they will disappear and then reappear.")
+
+    ,(disipline-rank 1 "Summon Beast Compantion"
+            "0 PP" "1 hour" "Self"
+            "In a ritual of fertility, blood, and primordial powers you call forth your beast companion.
+            They will appear in a nearby forest or other suitable place and join you once more.")
+
+    ,(disipline-rank 2 "Beast Strike"
+            "1 PP" "Quick Action" "Companion"
+            "You direct your companion to strike nearby enemies.
+            Your beast companion makes one attack against a target of your choice.")
+
+    ,(disipline-rank 2 "Waring Cry"
+            "1 PP" "Quick Action" "Companion"
+            "The compation utters a warning cry, granting all allies within 100 feet an extra move action that won't trigger attacks of opportunity")
+
+    ,(disipline-rank 3 "Wolf Pack Tactics"
+            "-" "-" "-"
+            "When you are adjacent to yor beast compaion you and the companion gain advantage on attack rolls.")
+
   ])
 ])
 
@@ -130,6 +188,9 @@ Druids sometimes meet in druidic circles. The members of a circle share an ideol
     ,(disipline-rank 4 "Expand"
         "+1 PP" "-" "-"
         "You can choose to spend an additional Power-Point when casting a Wind Spell and increase the radius by 5'")
+
+        ,(todo "Master of the Wind" "Add ranks 2-3 for disciplie")
+        ,(todo "Healing Wind" "Bring in line with other healing powers")
 ])
 ,(subsubsection :title [Pounce][
     ,(disipline-rank 1 "Pounce"
@@ -138,6 +199,7 @@ Druids sometimes meet in druidic circles. The members of a circle share an ideol
     ,(disipline-rank 2 "Bite"
         "-" "-" "-" 
         "Pounce causes additional an 1d8 damage.")
+    ,(todo "Pounce" "Add ranks 3 for disciplie")
 ])
 ,(subsubsection :title [Burst of Savagery][
     ,(disipline-rank 1 "Burst of Savagery"
@@ -161,6 +223,7 @@ Druids sometimes meet in druidic circles. The members of a circle share an ideol
     ,(disipline-rank 2 "The Tall Grass"
         "" "" "Self"
         "While you are under the effect of Woodland Strider you gain concealment while you are in difficult terrain.")
+    ,(todo "Woodland Strider" "Add ranks 3 for disciplie")
 ])
 ])
 ])

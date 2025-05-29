@@ -177,6 +177,10 @@ You can carry five small items in pouches where you can quickly reach them.
     To use a legendary item, you need to learn its secrets.
     Each Secret you uncover unlocks a new ability of the Legendary Item.
 
+    ,(todo "Legendary Items format" "Add a proper format for legendary items and their three powers")
+    ,(todo "Legendary Items More Items" "Add five more items for a total of 15")
+    ,(todo "Legendary Items More levels" "Add levels two and three for all legendary items")
+
     ,(subsubsection :title [Weapon of Surtur][
         Any Weapon or spellcaster focus
 
@@ -202,16 +206,23 @@ You can carry five small items in pouches where you can quickly reach them.
         Any target hit by attacks and spells is slowed until the end of your next turn.
     ])
 
+    ,(subsubsection :title [Blade of Thousand Forms][
+        Any Weapon
+
+        With a Quick Action you can change the shape of the weapon of thousand forms to a different weapon type of your choice.
+    ])
+
     ,(subsubsection :title [Robes of the Archmage][
         Arcane Robes
         You start each encounter with one additional Power-Point
     ])
+
     ,(subsubsection :title [Conduit Armor][
         You gain resistance to lightning damage.
         Whenever you take lightning damage, you deal half of that damage to each creature adjacent to you.
     ])
     ,(subsubsection :title [Hammer of the Thundergod][
-        TODO
+        ,(todo "Hammer of the Thundergod" "Add three properties")
     ])
     ,(subsubsection :title [Ghost Blade][
         When cause damage with a weapon attack or a spell, you gain one temporary hit point per enemy you damage.
@@ -227,8 +238,9 @@ You can carry five small items in pouches where you can quickly reach them.
     ])
     ,(subsubsection :title [Berserker Armor][
         Barely any armor, mostly the hide of bears.
-
         Light Armor suited for melee fighters
+        ,(todo "Berserker Armor" "Add three properties")
+
     ])
 
     ,(subsubsection :title [Eagle of the Lost Legion][

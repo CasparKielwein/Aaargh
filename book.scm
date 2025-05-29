@@ -14,6 +14,10 @@
     (paragraph (color :bg [#ead8d2] text))
 )
 
+(define todo-index (make-index "TODOS"))
+(define (todo name txt)
+  (index :index todo-index name :note txt))
+
 
 (make-index (default-index))
 (document :title [Aaargh!]
@@ -33,5 +37,8 @@
     ])
     (chapter :title [Index]
         (the-index (default-index))
+    )
+    (chapter :title [TODO]
+        (the-index todo-index)
     )
 )

@@ -1,7 +1,7 @@
 (chapter :title [Aaargh another Action RPG!][
-,(paragraph [
+,(p [
 Aaargh is a free and open pen and paper Role Playing Game.
-,(linebreak)
+,(hrule)
 It offers fast yet tactical combat with a lot of options to customize your characters and let them fight their way through any imaginable adventure.
 Aaargh provides a wide range of character options without geting lost in minute detail together with a streamlined gameplay.
 ,(linebreak)
@@ -64,7 +64,5 @@ These contain commentary and thoughts of the developers behind design decisions 
 They are not meant to be contained within compiled books etc.
 These thoughts might be somewhat unfiltered are not necessarily agreed upon by all writers.
 ])])
-
-
 
 ])

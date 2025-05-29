@@ -128,7 +128,8 @@ other criminals and still have contacts within the criminal underworld.
 ])
 
 ,(subsubsection :title [Feature: School of hard knocks][
-TODO
+,(todo "Rough Childhood" "Add Discipline")
+
 ])
 ,(subsubsection :title [Childhood][
     ,(enumerate
@@ -159,7 +160,8 @@ TODO
 ])
 
 ,(subsubsection :title [Feature:][
-TODO
+,(todo "Acolyte" "Add Discipline")
+
 ])
 ,(subsubsection :title [Cults and Temples][
     ,(enumerate
