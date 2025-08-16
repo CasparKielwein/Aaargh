@@ -10,14 +10,21 @@
             (tr (td :colspan 3 [,(roman description)])))
 )
 
+
 (define (comment text)
     (paragraph (color :bg [#ead8d2] text))
 )
 
+(define (enumeration title . txt)
+  (paragraph [
+    ,(frame [
+      ,(bold title)
+      ,(hrule)
+      ,(enumerate (map item txt))])]))
+
 (define todo-index (make-index "TODOS"))
 (define (todo name txt)
   (index :index todo-index name :note txt))
-
 
 (make-index (default-index))
 (document :title [Aaargh!]

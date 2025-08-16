@@ -50,9 +50,13 @@ They allow you to develop a character in a direction not dictated by the choice 
 ,(subsection :title [Ritualist (Arcane, Religion)][
     You know how to perform powerful rituals.
     These take more time to cast than normal spells and might require exotic materials as paraphernalia.
+
+    ,(todo "Talent Skill: Arcane, Religion" "Ritualist")
 ])
 ,(subsection :title [Herbalist (Nature)][
     You know how to collect and use herbs and other natural ingredients for their helpful effects.
+
+    ,(todo "Talent Skill: Nature" "Herbalist")
 ])
 ,(comment[
     The herbalist discipline allows characters who are not spellcasters and do not necessarily have a high *mind* stat to heal and buff their allies.
@@ -111,9 +115,13 @@ They allow you to develop a character in a direction not dictated by the choice 
 ])
 ,(subsection :title [Frighten (Intimidate)][
     Use Intimidate as attacks to hinder enemies and possibly cause them to flee.
+
+    ,(todo "Talent Skill: Intimidate" "Use Intimidate as attacks to hinder enemies and possibly cause them to flee.")
 ])
 ,(subsection :title [Armor Monger (Trade Smith / Armorer)][
     Improve equipment during rests, spend maneuver points for small bonuses.
+
+    ,(todo "Talent Skill: Trade" "Improve equipment during rests.")
 ])
 ,(subsection :title [Alchemist (Alchemy Kit)][
     Put buffs and other spells into alchemical concoctions.

@@ -4,14 +4,14 @@
 ,(index "Dwarf")
 Stout and stubborn, Warriors and Craftsmen, Kings and Queens of the Mountain Halls.
 
-Quirks:
-,(enumerate (item [Epic Beard])
-            (item [Stone colored skin])
-            (item [A beard that is meticulously braided and adorned with small metal trinkets and beads.])
-            (item [A bald head with a tattooed pattern of runes and symbols.])
-            (item [Extremely bushy eyebrows that are constantly furrowed in a scowl.])
-            (item [One or more missing fingers, replaced with intricately crafted metal prosthetics.])
-            (item [A perpetually grumpy expression, with downturned lips and furrowed brows.]))
+,(enumeration [Dwarven Quirks]
+            [Epic Beard]
+            [Stone colored skin]
+            [A beard that is meticulously braided and adorned with small metal trinkets and beads.]
+            [A bald head with a tattooed pattern of runes and symbols.]
+            [Extremely bushy eyebrows that are constantly furrowed in a scowl.]
+            [One or more missing fingers, replaced with intricately crafted metal prosthetics.]
+            [A perpetually grumpy expression, with downturned lips and furrowed brows.])
 
 ,(subsection :title [Traits][
 ,(itemize (item [Speed: 25'])
@@ -39,13 +39,13 @@ Quirks:
 
 Dragonborn, Half-Dragons, The ancient rulers of the skies.
 
-Quirks
-,(enumerate (item [Multiple Tails: Unlike most Draken who have a single tail, this one has two or even three tails.])
-            (item [Bioluminescent Eyes: This Draken's eyes glow with a faint bioluminescence.])
-            (item [Horned Crest: Instead of a smooth, scaled head, this Draken has a prominent crest of horns.])
-            (item [Vibrant Scales: Your scales are brighter and more colorful than most other Draken.])
-            (item [Metallic Scales: This Draken's scales have a metallic sheen, making them almost look like they're made of precious metals.])
-            (item [Back Ridge: A spiny ridge on your back]))
+,(enumeration "Draken Oddities"
+    [Multiple Tails: Unlike most Draken who have a single tail, this one has two or even three tails.]
+    [Bioluminescent Eyes: This Draken's eyes glow with a faint bioluminescence.]
+    [Horned Crest: Instead of a smooth, scaled head, this Draken has a prominent crest of horns.]
+    [Vibrant Scales: Your scales are brighter and more colorful than most other Draken.]
+    [Metallic Scales: This Draken's scales have a metallic sheen, making them almost look like they're made of precious metals.]
+    [Back Ridge: A spiny ridge on your back])
 
 ,(subsection :title [Traits][
     ,(itemize (item [Speed: 30'])
@@ -86,16 +86,15 @@ Quirks
 
 Horned and Dangerous, Large and in Charge
 
-Quirks
-,(enumerate (item [A prominent nose ring or other facial jewelry])
-            (item [Unusually large horns that curve in a distinctive pattern])
-            (item [Black-striped fur])
-            (item [Horn adornments - Your horns are covered in intricate carvings])
-            (item [TODO])
-            (item [TODO]))
+,(enumeration "Minotauer Quirks"
+    [A prominent nose ring or other facial jewelry]
+    [Unusually large horns that curve in a distinctive pattern]
+    [Black-striped fur]
+    [Horn adornments - Your horns are covered in intricate carvings]
+    [TODO]
+    [TODO])
 
 ,(todo "Minotauer" "Add two quirks")
-
 
 ,(subsection :title [Traits][
 ,(itemize (item [Speed: 30'])
@@ -132,13 +131,13 @@ Quirks
 (section :title [Human][
 ,(index "Human")
 
-Quirks
-,(enumerate (item [A noticeable limp])
-            (item [Extravagant hair])
-            (item [Magnificent moustach])
-            (item [Physical prime - an extremely athletic build like a statue of a hero of old])
-            (item [Albino])
-            (item [Overweight, but not necessarily slow or weak]))
+,(enumeration "Human Quirks"
+    [A noticeable limp]
+    [Extravagant hair]
+    [Magnificent moustach]
+    [Physical prime - an extremely athletic build like a statue of a hero of old]
+    [Albino]
+    [Overweight, but not necessarily slow or weak])
 
 ,(subsection :title [Traits][
     ,(itemize (item [Speed: 30'])
@@ -162,15 +161,15 @@ Quirks
 ])
 (section :title [Elves][
 
-Quirks
-,(enumerate (item [Hair that changes color based on mood or the time of day, ranging from pale silver to deep green.])
-            (item [Thin, almost translucent skin that has an ethereal quality and is prone to showing veins and blood vessels.])
-            (item [Impossibly beautiful])
-            (item [Silver Hair, not just the color - it's literally silver])
-            (item [A tendency to sway or dance to music only you can hear or even to the rhythm of the wind in the trees.])
-            (item [Your eyes are just black orbs])
-            (item [A delicate, almost imperceptible shimmer to your skin that makes you seem like you are always surrounded by a faint aura of magic.])
-            (item [A natural, floral scent that emanates from your skin and hair.]))
+,(enumeration "Elven Quirks"
+    [Hair that changes color based on mood or the time of day, ranging from pale silver to deep green.]
+    [Thin, almost translucent skin that has an ethereal quality and is prone to showing veins and blood vessels.]
+    [Impossibly beautiful]
+    [Silver Hair, not just the color - it's literally silver]
+    [A tendency to sway or dance to music only you can hear or even to the rhythm of the wind in the trees.]
+    [Your eyes are just black orbs]
+    [A delicate, almost imperceptible shimmer to your skin that makes you seem like you are always surrounded by a faint aura of magic.]
+    [A natural, floral scent that emanates from your skin and hair.])
 
 ,(subsection :title [Traits][
     ,(itemize (item [Speed: 30'])
@@ -193,13 +192,14 @@ Quirks
 (section :title [Halfling][
 ,(index "Halfling")
 
-Quirks
-,(enumerate (item [Abnormally curly hair that never stays in place.])
-            (item [A perpetually cheerrful expression, even in the face of danger or adversity.])
-            (item [Large pointy ears])
-            (item [Hairy feet and a refusal to wear shoes.])
-            (item [Large eyes making you look cute or spooky])
-            (item [No body hair at all]))
+
+,(enumeration "Halfling Quirks"
+    [Abnormally curly hair that never stays in place.]
+    [A perpetually cheerrful expression, even in the face of danger or adversity.]
+    [Large pointy ears]
+    [Hairy feet and a refusal to wear shoes.]
+    [Large eyes making you look cute or spooky]
+    [No body hair at all])
 
 
 ,(subsection :title [Traits][

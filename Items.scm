@@ -186,24 +186,22 @@ You can carry five small items in pouches where you can quickly reach them.
 
         While you wield the weapon of Surtur you gain the following Power:
 
-        Releasing Surtur's Fire
-        Quick Action
-        Cost: 2 Power-Points
-        When you speak a command word, the weapon of Surtur will burst in flames.
+        ,(disipline-rank 1 "Releasing Surtur's Fire"
+         "2 PP" "Quick Action" "Weapon of Surtur"
+         "When you speak a command word, the weapon of Surtur will burst in flames.
         All damage caused by attacks and spells using it is fire damage.
-        All Attacks using the Weapon of Surtur do an additional 1d6 fire damage.
+        All Attacks using the Weapon of Surtur do an additional 1d6 fire damage.")
     ])
     ,(subsubsection :title [Frost Weapon][
         Any Weapon or spellcaster focus
 
         While you wield the frost weapon you gain the following Power:
 
-        Everfrost
-        Quick Action
-        Cost: 2 Power-Points
-        When you speak a command word, the weapon will be covered in hoarfrost.
+        ,(disipline-rank 1 "Everfrost"
+         "2 PP" "Quick Action" "Frost Weapon"
+         "When you speak a command word, the weapon will be covered in hoarfrost.
         All damage caused by attacks and spells using it is cold damage.
-        Any target hit by attacks and spells is slowed until the end of your next turn.
+        Any target hit by attacks and spells is slowed until the end of your next turn.")
     ])
 
     ,(subsubsection :title [Blade of Thousand Forms][
